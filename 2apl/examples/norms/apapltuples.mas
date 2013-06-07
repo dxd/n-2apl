@@ -1,0 +1,8 @@
+<apaplmas>
+  <environment name="space" file="SpaceEnv.jar"></environment>
+  <agent name="a1" file="pursuer.2apl"/>
+   <agent name="a2" file="pursuer1.2apl"/>
+    <agent name="a3" file="pursuer2.2apl"/>
+     <agent name="c1" file="controller.2apl"/>
+      <agent name="t1" file="truck.2apl"/>
+</apaplmas>

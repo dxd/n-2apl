@@ -1,0 +1,270 @@
+Facts:
+    
+%Truck:
+//norm(
+//    max_speed(Thing),
+//    Thing, // the subject agent
+//    ( truck(Thing)), // precondition
+//    prohibition([speedOver(Max_speed)],[reduce_500(Thing)]) // prohibition format
+//    ).
+
+//norm(
+//    load_drop_location(Thing),
+//    Thing, // the subject agent
+//    ( truck(Thing), cargo(X,Y, Time), time_since(NewTime)), // precondition
+//    prohibition([cargo(X,Y,NewTime)],[reduce_100(Thing)]) // prohibition format
+//    ).  
+      
+//norm(
+//    load_drop_time(Thing),
+//    Thing, // the subject agent
+//    ( truck(Thing), cargo(X,Y, Time), NewTime is Time + 15), // precondition
+//    prohibition([cargo(A,B,NewTime)],[reduce_100(Thing)]) // prohibition format
+//    ).  
+
+norm(
+    enter_water(Thing),
+    Thing, // the subject agent
+    ( truck(Thing), water(X,Y)), // precondition
+    prohibition([at(X,Y,Thing)],[reduce_300(Thing)]) // prohibition format
+    ). 
+    
+norm(
+    game_area(Thing),
+    Thing, // the subject agent
+    ( truck(Thing), not_area(X,Y)), // precondition
+    prohibition([at(X,Y,Thing)],[reduce_500(Thing)]) // prohibition format
+    ).  
+        
+norm(
+    drop_load(Thing),
+    Thing, // the subject agent
+    ( truck(Thing), cargo(X,Y, Time), clock(Now), Deadline is Now + 15, time_since(NewTime), NewTime > 5), // precondition
+    obligation([cargo(A,B,C)],Deadline,[reduce_100(Thing)]) // obligation format
+    ).
+    
+//norm(
+//    move_somewhere(Thing),
+//    Thing, // the subject agent
+//    ( truck(Thing),at(X,Y,Thing), clock(Now), Deadline is Now + 5), // precondition
+//    obligation([at(X,Y,Thing)],Deadline,[reduce_100(Thing)]) // obligation format
+//    ).
+
+%Controller:
+
+//norm(
+//    place_coin_often(Thing),
+//    Thing, // the subject agent
+//    ( controller(Thing), coin(Time), NewTime is Time + 15), // precondition
+//    prohibition([coin(A,B,NewTime,C)],[reduce_100(Thing)]) // prohibition format
+//    ). 
+
+norm(
+    place_coin_near(Thing),
+    Thing, // the subject agent
+    ( controller(Thing), coin(X,Y), NewX is X + 1, NewY is Y + 1, gameArea(X,Y)), // precondition
+    prohibition([coin(NewX,NewY)],[reduce_100(Thing)]) // prohibition format
+    ). 
+    
+//norm(
+//    place_coin_too_far(Thing),
+//    Thing, // the subject agent
+//    ( controller(Thing), agent(A1), at(AX, AY, A1), tooFar(AX, AY, X, Y)), // precondition
+//    prohibition([coin(X,Y,A1)],[reduce_300(Thing)]) // prohibition format
+//    ).   
+
+norm(
+    place_coin_water(Thing),
+    Thing, // the subject agent
+    ( controller(Thing), agent(A1), water(X,Y)), // precondition
+    prohibition([coin(X,Y,A1)],[reduce_300(Thing)]) // prohibition format
+    ).   
+      
+//norm(
+//    favour_agent(Thing),
+//    Thing, // the subject agent
+//    ( controller(Thing), agent(A1), coin(_,_, _, A1)), // precondition
+//    prohibition([coin(A,B,C,A1)],[reduce_100(Thing)]) // prohibition format
+//    ).
+
+norm(
+    place_coin(Thing),//place coin for an agent
+    Thing, // the subject agent
+    ( controller(Thing), clock(Now), Deadline is Now + 5, time_since(NewTime), int(NewTime),agent(A) ), // precondition
+    obligation([coin(A)],Deadline,[reduce_100(Thing)]) // obligation format
+    ).
+
+
+%Pursuer:
+//norm(
+//    make_false_reading(Thing),
+//    Thing, // the subject agent
+//    ( agent(Thing), at(X,Y,Thing), X1 \= X, Y1 \= Y, area(X1, Y1)), // precondition
+//    prohibition([reading(X1,Y1,A,B)],[reduce_500(Thing)]) // prohibition format
+//    ).
+  
+//norm(
+//    false_investigate(Thing),
+//    Thing, // the subject agent
+//    ( agent(Thing), at(X,Y,Thing), X1 \= X, Y1 \= Y, area(X1, Y1)), // precondition
+//    prohibition([investigate(X1,Y1,A,Thing,B)],[reduce_500(Thing)]) // prohibition format
+//    ).  
+    
+norm(
+    read_on_the_same_place(Thing),
+    Thing, // the subject agent
+    ( agent(Thing), reading(X,Y, Value,Thing,Time), NewTime is Time + 1), // precondition
+    prohibition([makeReading(X,Y,Thing)],[reduce_300(Thing)]) // prohibition format
+    ). 
+    
+//norm(
+//    max_speed(Thing),
+//    Thing, // the subject agent
+//    ( agent(Thing)), // precondition
+//    prohibition([speedOver(Max_speed)],[reduce_500(Thing)]) // prohibition format
+//    ).
+    
+norm(
+    enter_water(Thing),
+    Thing, // the subject agent
+    ( agent(Thing), water(X,Y)), // precondition
+    prohibition([at(X,Y,Thing)],[reduce_300(Thing)]) // prohibition format
+    ). 
+
+//norm(
+//    game_area(Thing),
+//    Thing, // the subject agent
+//    ( agent(Thing), not_area(X,Y)), // precondition
+//    prohibition([at(X,Y,Thing)],[reduce_500(Thing)]) // prohibition format
+//    ).  
+    
+norm(
+    collect_coin(Thing), //sending all agents
+    Thing, // the subject agent
+    ( agent(Thing), coin(X,Y,A,B), clock(Now), Deadline is Now + 50 ), // precondition
+    obligation([makeReading(X,Y)],Deadline,[reduce_400(Thing)]) // obligation format
+    ).
+
+//norm(
+//    make_reading(Thing),
+//    Thing, // the subject agent
+//    ( agent(Thing), reading(X,Y, Value,Thing,Time), clock(Now), Deadline is Now + 10, time_since(NewTime) ), // precondition
+//   obligation([makeReading(X,Y,NewTime)],Deadline,[reduce_100(Thing)]) // obligation format
+//   ).    
+    
+//norm(
+//    move_somewhere(Thing),
+//    Thing, // the subject agent
+//    ( agent(Thing), at(X,Y,Thing), clock(Now), Deadline is Now + 1 ), // precondition
+//   obligation([at(X,Y,Thing)],Deadline,[reduce_100(Thing)]) // obligation format
+//    ).   
+
+//norm(
+//    false_publish(Thing),
+//    Thing, // the subject agent
+//    ( agent(Thing), reading(X,Y, Value,Thing,Time), clock(Now), Deadline is Now + 1 ), // precondition
+//    obligation([reading(X,Y,Value,Time)],Deadline,[reduce_500(Thing)]) // obligation format
+//    ).  
+    
+agent(a1).
+agent(a2).
+agent(a3).
+
+truck(t1).
+
+movable(A) :- agent(A).
+movable(A) :- truck(A).
+
+controller(c1).
+
+at(X,Y,Object):-
+	movable(Object),
+//    @external(envJavaSpace,read(position(Object,cell(X,Y)),-1),_).
+      @external(envJavaSpace,read(position(Object,null),0),position(Object,cell(X,Y))).
+      
+reading(X, Y, Value, Object, Time):-
+	agent(Object),
+      @external(envJavaSpace,read(reading(null,null,Object,null),0),reading(cell(X,Y),Value,Object,Time)).
+
+investigate(X, Y, Value, Object, Time):-
+	agent(Object),
+      @external(envJavaSpace,read(investigate(null,null,Object,null),0),investigate(cell(X,Y),Value,Object,Time)).
+
+coin(X, Y, Time, Object):-
+	agent(Object),
+      @external(envJavaSpace,read(coin(null,null,Object),0),coin(cell(X,Y),Time,Object)).
+      
+coin(X, Y, Time):-
+      @external(envJavaSpace,read(coin(null,null,null),0),coin(cell(X,Y),Time,_)).
+      
+coin(X, Y):-
+      @external(envJavaSpace,read(coin(cell(X,Y),null,null),0),coin(cell(X,Y),_,_)).
+      
+coin(Time):-
+      @external(envJavaSpace,read(coin(null,Time,null),0),coin(cell(X,Y),_,_)).
+      
+cargo(X, Y, Time):-
+      @external(envJavaSpace,read(cargo(null,null),0),cargo(cell(X,Y), Time)).      
+
+time_past(Time):- clock(Now), Now > Time.
+time_since(Time):- clock(Now), Time > Now.
+
+not_area(X,Y):-
+	X is 20, int(Y), Y > 0, Y < 20;
+	
+not_area(X,Y):-
+	Y is 20, int(X), X > 0, X < 20;
+
+area(X,Y):-
+	int(X), int(Y), X > 0, Y > 0, X < 21, Y < 21.
+
+water(5,5).
+water(5,6).
+water(6,5).
+water(6,6).
+
+tooFar(AX, AY, X, Y) :- false.
+
+make_plastic(X,Y):-
+   @external(envJavaSpace,write(tuple(plastic,point(X,Y),100),-1),_).
+   //@external(envJavaSpace,write(position(agent,cell(X,Y)),-1),_).
+
+notifyAgent(Agent,Event):-
+   @external(envJavaSpace,notifyAgent(Agent,Event),_).
+
+do_sanction([not(H)|T]):- retract(H),do_sanction(T).
+do_sanction([H|T]):- uniqueassertz(H),do_sanction(T).
+do_sanction([]).
+
+do_reduce_health(Agent,P):- 
+   @external(envJavaSpace,read(points(Agent,null,Health),0),points(Agent,_,Health)),
+   NewHealth is Health - P,
+   clock(now),
+   @external(envJavaSpace,write(points(Agent,Now,NewHealth),-1),_).
+
+listTrue([H|T]):- H, listTrue(T).
+listTrue([]).
+
+Effects:
+{true} tuple_space_changed {true} // causes compliance checking
+
+Temporal norms:
+agent_directed(Label,Agent,obligation(ListA,Deadline,Sanction)): 
+	[norm(Label,Agent,Pre,obligation(ListA,Deadline,Sanction)) and Pre, 
+	O(listTrue(ListA)), 
+	time_past(Deadline)]
+
+agent_directed(Label,Agent,prohibition(ListA,Sanction)): 
+	[norm(Label,Agent,Pre,prohibition(ListA,Sanction)) and Pre, 
+	F(listTrue(ListA)), 
+	false]
+
+Sanction rules:
+reduce_100(Agent) and do_reduce_health(Agent,100) and notifyAgent(Agent,changed(status)) => not reduce_100(Agent).
+reduce_200(Agent) and do_reduce_health(Agent,200) and notifyAgent(Agent,changed(status)) => not reduce_200(Agent).
+reduce_300(Agent) and do_reduce_health(Agent,300) and notifyAgent(Agent,changed(status)) => not reduce_300(Agent).
+reduce_400(Agent) and do_reduce_health(Agent,400) and notifyAgent(Agent,changed(status)) => not reduce_400(Agent).
+reduce_500(Agent) and do_reduce_health(Agent,500) and notifyAgent(Agent,changed(status)) => not reduce_500(Agent).
+
+viol(agent_directed(Label,Agent,prohibition(State,Sanction))), do_sanction(Sanction)  => not viol(agent_directed(Label,Agent,prohibition(State,Sanction))).
+obey(agent_directed(Label,Agent,Deontic)) => not obey(agent_directed(Label,Agent,Deontic)).

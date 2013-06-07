@@ -1,0 +1,12 @@
+test2.
+Service Registrar: d60bfd33-aab3-48bb-82cc-13b8dba7e4ec
+Java Space found.
+TransactionManager found.
+register a1
+register a2
+register a3
+register c1
+register t1
+test.
+Lookup locator: jini://kafka.cs.nott.ac.uk/
+Service Registrar: d60bfd33-aab3-48bb-82cc-13b8dba7e4ec

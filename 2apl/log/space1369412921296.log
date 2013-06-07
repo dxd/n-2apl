@@ -1,0 +1,109 @@
+test2.
+Service Registrar: 9586234c-676f-49f7-8425-b268487ef927
+Java Space found.
+TransactionManager found.
+from/for agent c1  coin(position(8, 6), 0, a1)
+org notified 
+from/for agent t1  cargo(position(19, 19), 0)
+org notified 
+from/for agent t1  prohibition([at(5, 5, t1)], [reduce_300(t1)])
+from/for agent t1  prohibition([at(5, 6, t1)], [reduce_300(t1)])
+from/for agent t1  prohibition([at(6, 5, t1)], [reduce_300(t1)])
+from/for agent t1  prohibition([at(6, 6, t1)], [reduce_300(t1)])
+from/for agent c1  prohibition([coin(5, 5, _, a1)], [reduce_300(c1)])
+from/for agent c1  prohibition([coin(5, 6, _, a1)], [reduce_300(c1)])
+from/for agent c1  prohibition([coin(6, 5, _, a1)], [reduce_300(c1)])
+from/for agent c1  prohibition([coin(6, 6, _, a1)], [reduce_300(c1)])
+from/for agent c1  prohibition([coin(5, 5, _, a2)], [reduce_300(c1)])
+from/for agent c1  prohibition([coin(5, 6, _, a2)], [reduce_300(c1)])
+from/for agent c1  prohibition([coin(6, 5, _, a2)], [reduce_300(c1)])
+from/for agent c1  prohibition([coin(6, 6, _, a2)], [reduce_300(c1)])
+from/for agent c1  prohibition([coin(5, 5, _, a3)], [reduce_300(c1)])
+from/for agent c1  prohibition([coin(5, 6, _, a3)], [reduce_300(c1)])
+from/for agent c1  prohibition([coin(6, 5, _, a3)], [reduce_300(c1)])
+from/for agent c1  prohibition([coin(6, 6, _, a3)], [reduce_300(c1)])
+from/for agent a1  prohibition([at(5, 5, a1)], [reduce_300(a1)])
+from/for agent a1  prohibition([at(5, 6, a1)], [reduce_300(a1)])
+from/for agent a1  prohibition([at(6, 5, a1)], [reduce_300(a1)])
+from/for agent a1  prohibition([at(6, 6, a1)], [reduce_300(a1)])
+from/for agent a2  prohibition([at(5, 5, a2)], [reduce_300(a2)])
+from/for agent a2  prohibition([at(5, 6, a2)], [reduce_300(a2)])
+from/for agent a2  prohibition([at(6, 5, a2)], [reduce_300(a2)])
+from/for agent a2  prohibition([at(6, 6, a2)], [reduce_300(a2)])
+from/for agent a3  prohibition([at(5, 5, a3)], [reduce_300(a3)])
+from/for agent a3  prohibition([at(5, 6, a3)], [reduce_300(a3)])
+from/for agent a3  prohibition([at(6, 5, a3)], [reduce_300(a3)])
+from/for agent a3  prohibition([at(6, 6, a3)], [reduce_300(a3)])
+[Prohibition [agent=c1, prohibition=[coin(5, 5, _, a2)], sanction=[reduce_300(c1)], clock=1, time=Fri May 24 15:11:16 BST 2013]]
+[Prohibition [agent=t1, prohibition=[at(5, 5, t1)], sanction=[reduce_300(t1)], clock=1, time=Fri May 24 15:11:16 BST 2013]]
+[Prohibition [agent=c1, prohibition=[coin(5, 5, _, a3)], sanction=[reduce_300(c1)], clock=1, time=Fri May 24 15:11:16 BST 2013]]
+[Prohibition [agent=c1, prohibition=[coin(6, 5, _, a2)], sanction=[reduce_300(c1)], clock=1, time=Fri May 24 15:11:16 BST 2013]]
+[Prohibition [agent=t1, prohibition=[at(6, 6, t1)], sanction=[reduce_300(t1)], clock=1, time=Fri May 24 15:11:16 BST 2013]]
+prohibition(at(5, 6, a1), reduce_300(a1))
+prohibition(at(5, 5, a3), reduce_300(a3))
+prohibition(at(6, 5, a3), reduce_300(a3))
+prohibition(at(6, 6, a3), reduce_300(a3))
+prohibition(at(6, 6, a2), reduce_300(a2))
+[Prohibition [agent=t1, prohibition=[at(6, 5, t1)], sanction=[reduce_300(t1)], clock=1, time=Fri May 24 15:11:16 BST 2013]]
+[Prohibition [agent=c1, prohibition=[coin(5, 5, _, a3)], sanction=[reduce_300(c1)], clock=1, time=Fri May 24 15:11:16 BST 2013]]
+[Prohibition [agent=t1, prohibition=[at(5, 5, t1)], sanction=[reduce_300(t1)], clock=1, time=Fri May 24 15:11:16 BST 2013]]
+prohibition(at(6, 5, a3), reduce_300(a3))
+[Prohibition [agent=c1, prohibition=[coin(6, 6, _, a2)], sanction=[reduce_300(c1)], clock=1, time=Fri May 24 15:11:16 BST 2013]]
+[Prohibition [agent=a2, prohibition=[at(6, 6, a2)], sanction=[reduce_300(a2)], clock=1, time=Fri May 24 15:11:16 BST 2013]]
+prohibition(at(5, 6, a3), reduce_300(a3))
+prohibition(coin(6, 5, _, c1), reduce_300(c1))
+prohibition(at(5, 5, a3), reduce_300(a3))
+prohibition(at(6, 6, a3), reduce_300(a3))
+from/for agent a1  status(position(3, 4), 0)
+from/for agent c1  coin(position(16, 6), 0, a2)
+from/for agent a3  status(position(3, 4), 0)
+from/for agent a2  status(position(3, 4), 0)
+from/for agent t1  status(position(18, 19), 0)
+from/for agent c1  coin(position(3, 9), 0, a3)
+from/for agent a1  status(position(3, 5), 0)
+org notified 
+org notified 
+from/for agent a3  status(position(3, 5), 0)
+from/for agent a2  status(position(3, 5), 0)
+from/for agent t1  status(position(17, 19), 0)
+org notified 
+from/for agent a1  status(position(3, 6), 0)
+org notified 
+from/for agent a3  status(position(3, 6), 0)
+from/for agent a2  status(position(3, 6), 0)
+from/for agent t1  status(position(16, 19), 0)
+from/for agent a1  status(position(3, 7), 0)
+from/for agent a3  status(position(3, 7), 0)
+from/for agent a2  status(position(3, 7), 0)
+from/for agent t1  status(position(15, 19), 0)
+from/for agent a1  status(position(3, 8), 0)
+from/for agent a3  status(position(3, 8), 0)
+from/for agent a2  status(position(3, 8), 0)
+from/for agent t1  status(position(14, 19), 0)
+from/for agent a1  status(position(3, 9), 0)
+from/for agent a3  status(position(3, 9), 0)
+org notified 
+from/for agent a2  status(position(3, 9), 0)
+from/for agent t1  status(position(13, 19), 0)
+from/for agent a1  status(position(3, 10), 0)
+org notified 
+from/for agent a3  status(position(3, 10), 0)
+org notified 
+from/for agent a2  status(position(3, 10), 0)
+org notified 
+from/for agent t1  status(position(12, 19), 0)
+from/for agent a1  status(position(4, 10), 0)
+org notified 
+from/for agent a3  status(position(4, 10), 0)
+org notified 
+from/for agent a2  status(position(4, 10), 0)
+org notified 
+from/for agent t1  status(position(11, 19), 0)
+org notified 
+from/for agent a1  status(position(5, 10), 0)
+org notified 
+from/for agent a3  status(position(5, 10), 0)
+org notified 
+from/for agent a2  status(position(5, 10), 0)
+from/for agent t1  status(position(10, 19), 0)
+from/for agent a1  status(position(6, 10), 0)

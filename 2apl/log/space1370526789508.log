@@ -1,0 +1,545 @@
+test2.
+Service Registrar: 86723201-c216-48c0-b667-f786bee55a9e
+Java Space found.
+TransactionManager found.
+-------------------------last log tuples start--------------------------------
+-------------------------last log tuples end----------------------------------
+register a1
+register a2
+register a3
+register c1
+register t1
+org cargo notification
+Organization notifies agent (write): Obligation [agent=a1, obligation=[makeReading(8, 6)], sanction=[reduce_400(a1)], deadline=50, time=2013-06-06 14:53:17.353, clock=0]
+agent obligation notification a1 number 1
+Error while processing notification
+java.lang.NullPointerException
+	at java.util.Date.getMillisOf(Date.java:939)
+	at java.util.Date.compareTo(Date.java:959)
+	at java.sql.Timestamp.compareTo(Timestamp.java:473)
+	at java.sql.Timestamp.after(Timestamp.java:456)
+	at envJavaSpace.SpaceTest.getFromDate(SpaceTest.java:773)
+	at envJavaSpace.SpaceTest.getAllFromDate(SpaceTest.java:747)
+	at envJavaSpace.SpaceTest.readTuple(SpaceTest.java:728)
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:303)
+	at sun.rmi.transport.Transport$1.run(Transport.java:159)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:155)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:535)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:790)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:649)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Organization notifies agent (write): Obligation [agent=a1, obligation=[makeReading(16, 6)], sanction=[reduce_400(a1)], deadline=50, time=2013-06-06 14:53:18.586, clock=0]
+agent obligation notification a1 number 2
+Error while processing notification
+java.lang.NullPointerException
+	at java.util.Date.getMillisOf(Date.java:939)
+	at java.util.Date.compareTo(Date.java:959)
+	at java.sql.Timestamp.compareTo(Timestamp.java:473)
+	at java.sql.Timestamp.after(Timestamp.java:456)
+	at envJavaSpace.SpaceTest.getFromDate(SpaceTest.java:773)
+	at envJavaSpace.SpaceTest.getAllFromDate(SpaceTest.java:747)
+	at envJavaSpace.SpaceTest.readTuple(SpaceTest.java:728)
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:303)
+	at sun.rmi.transport.Transport$1.run(Transport.java:159)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:155)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:535)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:790)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:649)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Organization notifies agent (write): Obligation [agent=a1, obligation=[makeReading(3, 9)], sanction=[reduce_400(a1)], deadline=50, time=2013-06-06 14:53:19.612, clock=0]
+agent obligation notification a1 number 3
+Error while processing notification
+java.lang.NullPointerException
+	at java.util.Date.getMillisOf(Date.java:939)
+	at java.util.Date.compareTo(Date.java:959)
+	at java.sql.Timestamp.compareTo(Timestamp.java:473)
+	at java.sql.Timestamp.after(Timestamp.java:456)
+	at envJavaSpace.SpaceTest.getFromDate(SpaceTest.java:773)
+	at envJavaSpace.SpaceTest.getAllFromDate(SpaceTest.java:747)
+	at envJavaSpace.SpaceTest.readTuple(SpaceTest.java:728)
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:303)
+	at sun.rmi.transport.Transport$1.run(Transport.java:159)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:155)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:535)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:790)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:649)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Organization notifies agent (write): Obligation [agent=a2, obligation=[makeReading(8, 6)], sanction=[reduce_400(a2)], deadline=50, time=2013-06-06 14:53:20.842, clock=0]
+agent obligation notification a2 number 1
+Error while processing notification
+java.lang.NullPointerException
+	at java.util.Date.getMillisOf(Date.java:939)
+	at java.util.Date.compareTo(Date.java:959)
+	at java.sql.Timestamp.compareTo(Timestamp.java:473)
+	at java.sql.Timestamp.after(Timestamp.java:456)
+	at envJavaSpace.SpaceTest.getFromDate(SpaceTest.java:773)
+	at envJavaSpace.SpaceTest.getAllFromDate(SpaceTest.java:747)
+	at envJavaSpace.SpaceTest.readTuple(SpaceTest.java:728)
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:303)
+	at sun.rmi.transport.Transport$1.run(Transport.java:159)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:155)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:535)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:790)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:649)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Organization notifies agent (write): Obligation [agent=a2, obligation=[makeReading(16, 6)], sanction=[reduce_400(a2)], deadline=50, time=2013-06-06 14:53:22.278, clock=0]
+agent obligation notification a2 number 2
+Error while processing notification
+java.lang.NullPointerException
+	at java.util.Date.getMillisOf(Date.java:939)
+	at java.util.Date.compareTo(Date.java:959)
+	at java.sql.Timestamp.compareTo(Timestamp.java:473)
+	at java.sql.Timestamp.after(Timestamp.java:456)
+	at envJavaSpace.SpaceTest.getFromDate(SpaceTest.java:773)
+	at envJavaSpace.SpaceTest.getAllFromDate(SpaceTest.java:747)
+	at envJavaSpace.SpaceTest.readTuple(SpaceTest.java:728)
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:303)
+	at sun.rmi.transport.Transport$1.run(Transport.java:159)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:155)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:535)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:790)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:649)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Organization notifies agent (write): Obligation [agent=a2, obligation=[makeReading(3, 9)], sanction=[reduce_400(a2)], deadline=50, time=2013-06-06 14:53:23.514, clock=0]
+agent obligation notification a2 number 3
+Error while processing notification
+java.lang.NullPointerException
+	at java.util.Date.getMillisOf(Date.java:939)
+	at java.util.Date.compareTo(Date.java:959)
+	at java.sql.Timestamp.compareTo(Timestamp.java:473)
+	at java.sql.Timestamp.after(Timestamp.java:456)
+	at envJavaSpace.SpaceTest.getFromDate(SpaceTest.java:773)
+	at envJavaSpace.SpaceTest.getAllFromDate(SpaceTest.java:747)
+	at envJavaSpace.SpaceTest.readTuple(SpaceTest.java:728)
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:303)
+	at sun.rmi.transport.Transport$1.run(Transport.java:159)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:155)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:535)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:790)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:649)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Organization notifies agent (write): Obligation [agent=a3, obligation=[makeReading(8, 6)], sanction=[reduce_400(a3)], deadline=50, time=2013-06-06 14:53:24.744, clock=0]
+agent obligation notification a3 number 1
+Error while processing notification
+java.lang.NullPointerException
+	at java.util.Date.getMillisOf(Date.java:939)
+	at java.util.Date.compareTo(Date.java:959)
+	at java.sql.Timestamp.compareTo(Timestamp.java:473)
+	at java.sql.Timestamp.after(Timestamp.java:456)
+	at envJavaSpace.SpaceTest.getFromDate(SpaceTest.java:773)
+	at envJavaSpace.SpaceTest.getAllFromDate(SpaceTest.java:747)
+	at envJavaSpace.SpaceTest.readTuple(SpaceTest.java:728)
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:303)
+	at sun.rmi.transport.Transport$1.run(Transport.java:159)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:155)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:535)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:790)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:649)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Organization notifies agent (write): Obligation [agent=a3, obligation=[makeReading(16, 6)], sanction=[reduce_400(a3)], deadline=50, time=2013-06-06 14:53:25.975, clock=0]
+agent obligation notification a3 number 2
+Error while processing notification
+java.lang.NullPointerException
+	at java.util.Date.getMillisOf(Date.java:939)
+	at java.util.Date.compareTo(Date.java:959)
+	at java.sql.Timestamp.compareTo(Timestamp.java:473)
+	at java.sql.Timestamp.after(Timestamp.java:456)
+	at envJavaSpace.SpaceTest.getFromDate(SpaceTest.java:773)
+	at envJavaSpace.SpaceTest.getAllFromDate(SpaceTest.java:747)
+	at envJavaSpace.SpaceTest.readTuple(SpaceTest.java:728)
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:303)
+	at sun.rmi.transport.Transport$1.run(Transport.java:159)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:155)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:535)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:790)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:649)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Organization notifies agent (write): Obligation [agent=a3, obligation=[makeReading(3, 9)], sanction=[reduce_400(a3)], deadline=50, time=2013-06-06 14:53:27.202, clock=0]
+Organization notifies agent (write): Prohibition [agent=t1, prohibition=[at(5, 5, t1)], sanction=[reduce_300(t1)], clock=0, time=2013-06-06 14:53:27.204]
+Organization notifies agent (write): Prohibition [agent=t1, prohibition=[at(5, 6, t1)], sanction=[reduce_300(t1)], clock=0, time=2013-06-06 14:53:27.208]
+agent obligation notification a3 number 3
+agent prohibition notification t1 number 1
+Organization notifies agent (write): Prohibition [agent=t1, prohibition=[at(6, 5, t1)], sanction=[reduce_300(t1)], clock=0, time=2013-06-06 14:53:27.21]
+Organization notifies agent (write): Prohibition [agent=t1, prohibition=[at(6, 6, t1)], sanction=[reduce_300(t1)], clock=0, time=2013-06-06 14:53:27.219]
+Error while processing notification
+java.lang.NullPointerException
+	at java.util.Date.getMillisOf(Date.java:939)
+	at java.util.Date.compareTo(Date.java:959)
+	at java.sql.Timestamp.compareTo(Timestamp.java:473)
+	at java.sql.Timestamp.after(Timestamp.java:456)
+	at envJavaSpace.SpaceTest.getFromDate(SpaceTest.java:773)
+	at envJavaSpace.SpaceTest.getAllFromDate(SpaceTest.java:747)
+	at envJavaSpace.SpaceTest.readTuple(SpaceTest.java:728)
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:56)
+	at sun.reflect.GeneratedMethodAccessor34.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:303)
+	at sun.rmi.transport.Transport$1.run(Transport.java:159)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:155)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:535)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:790)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:649)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while processing notification
+java.lang.NullPointerException
+	at java.util.Date.getMillisOf(Date.java:939)
+	at java.util.Date.compareTo(Date.java:959)
+	at java.sql.Timestamp.compareTo(Timestamp.java:473)
+	at java.sql.Timestamp.after(Timestamp.java:456)
+	at envJavaSpace.SpaceTest.getFromDate(SpaceTest.java:773)
+	at envJavaSpace.SpaceTest.getAllFromDate(SpaceTest.java:747)
+	at envJavaSpace.SpaceTest.readTuple(SpaceTest.java:728)
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:62)
+	at sun.reflect.GeneratedMethodAccessor34.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:303)
+	at sun.rmi.transport.Transport$1.run(Transport.java:159)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:155)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:535)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:790)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:649)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+agent prohibition notification t1 number 4
+Error while processing notification
+java.lang.NullPointerException
+	at envJavaSpace.SpaceTest.readTuple(SpaceTest.java:729)
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:62)
+	at sun.reflect.GeneratedMethodAccessor34.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:303)
+	at sun.rmi.transport.Transport$1.run(Transport.java:159)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:155)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:535)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:790)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:649)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(5, 5, a1)], sanction=[reduce_300(c1)], clock=0, time=2013-06-06 14:53:28.441]
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(5, 6, a1)], sanction=[reduce_300(c1)], clock=0, time=2013-06-06 14:53:28.442]
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(6, 5, a1)], sanction=[reduce_300(c1)], clock=0, time=2013-06-06 14:53:28.444]
+agent prohibition notification c1 number 2
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(6, 6, a1)], sanction=[reduce_300(c1)], clock=0, time=2013-06-06 14:53:28.447]
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(5, 5, a2)], sanction=[reduce_300(c1)], clock=0, time=2013-06-06 14:53:28.453]
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(5, 6, a2)], sanction=[reduce_300(c1)], clock=0, time=2013-06-06 14:53:28.455]
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(6, 5, a2)], sanction=[reduce_300(c1)], clock=0, time=2013-06-06 14:53:28.456]
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(6, 6, a2)], sanction=[reduce_300(c1)], clock=0, time=2013-06-06 14:53:28.458]
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(5, 5, a3)], sanction=[reduce_300(c1)], clock=0, time=2013-06-06 14:53:28.46]
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(5, 6, a3)], sanction=[reduce_300(c1)], clock=0, time=2013-06-06 14:53:28.461]
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(6, 5, a3)], sanction=[reduce_300(c1)], clock=0, time=2013-06-06 14:53:28.463]
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(6, 6, a3)], sanction=[reduce_300(c1)], clock=0, time=2013-06-06 14:53:28.465]
+Error while processing notification
+java.lang.NullPointerException
+	at java.util.Date.getMillisOf(Date.java:939)
+	at java.util.Date.compareTo(Date.java:959)
+	at java.sql.Timestamp.compareTo(Timestamp.java:473)
+	at java.sql.Timestamp.after(Timestamp.java:456)
+	at envJavaSpace.SpaceTest.getFromDate(SpaceTest.java:773)
+	at envJavaSpace.SpaceTest.getAllFromDate(SpaceTest.java:747)
+	at envJavaSpace.SpaceTest.readTuple(SpaceTest.java:728)
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:62)
+	at sun.reflect.GeneratedMethodAccessor34.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:303)
+	at sun.rmi.transport.Transport$1.run(Transport.java:159)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:155)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:535)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:790)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:649)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+agent prohibition notification c1 number 12
+Error while processing notification
+java.lang.NullPointerException
+	at envJavaSpace.SpaceTest.readTuple(SpaceTest.java:729)
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:62)
+	at sun.reflect.GeneratedMethodAccessor34.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:303)
+	at sun.rmi.transport.Transport$1.run(Transport.java:159)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:155)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:535)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:790)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:649)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Organization notifies agent (write): Prohibition [agent=a1, prohibition=[at(5, 5, a1)], sanction=[reduce_300(a1)], clock=0, time=2013-06-06 14:53:32.116]
+Organization notifies agent (write): Prohibition [agent=a1, prohibition=[at(5, 6, a1)], sanction=[reduce_300(a1)], clock=0, time=2013-06-06 14:53:32.118]
+Organization notifies agent (write): Prohibition [agent=a1, prohibition=[at(6, 5, a1)], sanction=[reduce_300(a1)], clock=0, time=2013-06-06 14:53:32.12]
+agent prohibition notification a1 number 3
+Organization notifies agent (write): Prohibition [agent=a1, prohibition=[at(6, 6, a1)], sanction=[reduce_300(a1)], clock=0, time=2013-06-06 14:53:32.124]
+Organization notifies agent (write): Prohibition [agent=a2, prohibition=[at(5, 5, a2)], sanction=[reduce_300(a2)], clock=0, time=2013-06-06 14:53:32.126]
+Organization notifies agent (write): Prohibition [agent=a2, prohibition=[at(5, 6, a2)], sanction=[reduce_300(a2)], clock=0, time=2013-06-06 14:53:32.128]
+Organization notifies agent (write): Prohibition [agent=a2, prohibition=[at(6, 5, a2)], sanction=[reduce_300(a2)], clock=0, time=2013-06-06 14:53:32.13]
+Organization notifies agent (write): Prohibition [agent=a2, prohibition=[at(6, 6, a2)], sanction=[reduce_300(a2)], clock=0, time=2013-06-06 14:53:32.133]
+Organization notifies agent (write): Prohibition [agent=a3, prohibition=[at(5, 5, a3)], sanction=[reduce_300(a3)], clock=0, time=2013-06-06 14:53:32.135]
+Organization notifies agent (write): Prohibition [agent=a3, prohibition=[at(5, 6, a3)], sanction=[reduce_300(a3)], clock=0, time=2013-06-06 14:53:32.136]
+Organization notifies agent (write): Prohibition [agent=a3, prohibition=[at(6, 5, a3)], sanction=[reduce_300(a3)], clock=0, time=2013-06-06 14:53:32.138]
+Organization notifies agent (write): Prohibition [agent=a3, prohibition=[at(6, 6, a3)], sanction=[reduce_300(a3)], clock=0, time=2013-06-06 14:53:32.14]
+Error while processing notification
+java.lang.NullPointerException
+	at java.util.Date.getMillisOf(Date.java:939)
+	at java.util.Date.compareTo(Date.java:959)
+	at java.sql.Timestamp.compareTo(Timestamp.java:473)
+	at java.sql.Timestamp.after(Timestamp.java:456)
+	at envJavaSpace.SpaceTest.getFromDate(SpaceTest.java:773)
+	at envJavaSpace.SpaceTest.getAllFromDate(SpaceTest.java:747)
+	at envJavaSpace.SpaceTest.readTuple(SpaceTest.java:728)
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:62)
+	at sun.reflect.GeneratedMethodAccessor34.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:303)
+	at sun.rmi.transport.Transport$1.run(Transport.java:159)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:155)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:535)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:790)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:649)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+agent prohibition notification a1 number 4
+agent prohibition notification a2 number 4
+Error while processing notification
+java.lang.NullPointerException
+	at envJavaSpace.SpaceTest.readTuple(SpaceTest.java:729)
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:62)
+	at sun.reflect.GeneratedMethodAccessor34.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:303)
+	at sun.rmi.transport.Transport$1.run(Transport.java:159)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:155)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:535)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:790)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:649)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+agent prohibition notification a3 number 4
+Error while processing notification
+java.lang.NullPointerException
+	at java.util.Date.getMillisOf(Date.java:939)
+	at java.util.Date.compareTo(Date.java:959)
+	at java.sql.Timestamp.compareTo(Timestamp.java:473)
+	at java.sql.Timestamp.after(Timestamp.java:456)
+	at envJavaSpace.SpaceTest.getFromDate(SpaceTest.java:773)
+	at envJavaSpace.SpaceTest.getAllFromDate(SpaceTest.java:747)
+	at envJavaSpace.SpaceTest.readTuple(SpaceTest.java:728)
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:62)
+	at sun.reflect.GeneratedMethodAccessor34.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:303)
+	at sun.rmi.transport.Transport$1.run(Transport.java:159)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:155)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:535)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:790)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:649)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while processing notification
+java.lang.NullPointerException
+	at java.util.Date.getMillisOf(Date.java:939)
+	at java.util.Date.compareTo(Date.java:959)
+	at java.sql.Timestamp.compareTo(Timestamp.java:473)
+	at java.sql.Timestamp.after(Timestamp.java:456)
+	at envJavaSpace.SpaceTest.getFromDate(SpaceTest.java:773)
+	at envJavaSpace.SpaceTest.getAllFromDate(SpaceTest.java:747)
+	at envJavaSpace.SpaceTest.readTuple(SpaceTest.java:728)
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:62)
+	at sun.reflect.GeneratedMethodAccessor34.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:303)
+	at sun.rmi.transport.Transport$1.run(Transport.java:159)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:155)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:535)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:790)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:649)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+org position notification
+Organization notifies agent (write): Prohibition [agent=a1, prohibition=[at(5, 5, a1)], sanction=[reduce_300(a1)], clock=0, time=2013-06-06 14:54:12.698]
+agent prohibition notification a1 number 5
+Error while processing notification
+java.lang.NullPointerException
+	at java.util.Date.getMillisOf(Date.java:939)
+	at java.util.Date.compareTo(Date.java:959)
+	at java.sql.Timestamp.compareTo(Timestamp.java:473)
+	at java.sql.Timestamp.after(Timestamp.java:456)
+	at envJavaSpace.SpaceTest.getFromDate(SpaceTest.java:773)
+	at envJavaSpace.SpaceTest.getAllFromDate(SpaceTest.java:747)
+	at envJavaSpace.SpaceTest.readTuple(SpaceTest.java:728)
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:62)
+	at sun.reflect.GeneratedMethodAccessor34.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:303)
+	at sun.rmi.transport.Transport$1.run(Transport.java:159)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:155)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:535)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:790)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:649)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+org coin notification
+Organization notifies agent (write): Prohibition [agent=a1, prohibition=[at(5, 5, a1)], sanction=[reduce_300(a1)], clock=0, time=2013-06-06 14:54:43.28]
+agent prohibition notification a1 number 6
+Error while processing notification
+java.lang.NullPointerException
+	at java.util.Date.getMillisOf(Date.java:939)
+	at java.util.Date.compareTo(Date.java:959)
+	at java.sql.Timestamp.compareTo(Timestamp.java:473)
+	at java.sql.Timestamp.after(Timestamp.java:456)
+	at envJavaSpace.SpaceTest.getFromDate(SpaceTest.java:773)
+	at envJavaSpace.SpaceTest.getAllFromDate(SpaceTest.java:747)
+	at envJavaSpace.SpaceTest.readTuple(SpaceTest.java:728)
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:62)
+	at sun.reflect.GeneratedMethodAccessor34.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:303)
+	at sun.rmi.transport.Transport$1.run(Transport.java:159)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:155)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:535)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:790)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:649)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+org coin notification
+Organization notifies agent (write): Prohibition [agent=a1, prohibition=[at(5, 5, a1)], sanction=[reduce_300(a1)], clock=0, time=2013-06-06 14:55:13.712]
+agent prohibition notification a1 number 7
+Error while processing notification
+java.lang.NullPointerException
+	at java.util.Date.getMillisOf(Date.java:939)
+	at java.util.Date.compareTo(Date.java:959)
+	at java.sql.Timestamp.compareTo(Timestamp.java:473)
+	at java.sql.Timestamp.after(Timestamp.java:456)
+	at envJavaSpace.SpaceTest.getFromDate(SpaceTest.java:773)
+	at envJavaSpace.SpaceTest.getAllFromDate(SpaceTest.java:747)
+	at envJavaSpace.SpaceTest.readTuple(SpaceTest.java:728)
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:62)
+	at sun.reflect.GeneratedMethodAccessor34.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:303)
+	at sun.rmi.transport.Transport$1.run(Transport.java:159)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:155)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:535)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:790)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:649)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+org coin notification
+Organization notifies agent (write): Prohibition [agent=a1, prohibition=[at(5, 5, a1)], sanction=[reduce_300(a1)], clock=0, time=2013-06-06 14:55:44.203]
+agent prohibition notification a1 number 8
+Error while processing notification
+java.lang.NullPointerException
+org position notification
+Organization notifies agent (write): Prohibition [agent=a1, prohibition=[at(5, 5, a1)], sanction=[reduce_300(a1)], clock=0, time=2013-06-06 14:56:14.657]
+agent prohibition notification a1 number 9
+Error while processing notification
+java.lang.NullPointerException
+org position notification
+Organization notifies agent (write): Prohibition [agent=a1, prohibition=[at(5, 5, a1)], sanction=[reduce_300(a1)], clock=0, time=2013-06-06 14:56:44.93]
+agent prohibition notification a1 number 10
+Error while processing notification
+java.lang.NullPointerException
+org position notification
+Organization notifies agent (write): Prohibition [agent=a1, prohibition=[at(5, 5, a1)], sanction=[reduce_300(a1)], clock=0, time=2013-06-06 14:57:15.251]
+agent prohibition notification a1 number 11
+Error while processing notification
+java.lang.NullPointerException

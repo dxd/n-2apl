@@ -1,0 +1,33 @@
+test2.
+Service Registrar: 645d41b6-a6fb-4f46-9ac5-768acdd74034
+Java Space found.
+TransactionManager found.
+register a1
+register a2
+register a3
+register c1
+register t1
+Got event for t1
+agent obligation notification
+Event sent to agent      obligation(cargo(_, _, _, t1), 15, reduce_100(t1))
+Got event for c1
+agent prohibition notification
+Event sent to agent      prohibition(coin(_, _, _, c1), reduce_100(c1))
+Got event for c1
+agent prohibition notification
+Event sent to agent      prohibition(coin(_, _, _, c1), reduce_100(c1))
+Got event for c1
+agent prohibition notification
+Event sent to agent      prohibition(coin(_, _, _, c1), reduce_100(c1))
+Got event for t1
+agent obligation notification
+Event sent to agent      obligation(cargo(_, _, _, t1), 15, reduce_100(t1))
+Got event for c1
+agent prohibition notification
+Event sent to agent      prohibition(coin(_, _, _, c1), reduce_100(c1))
+Got event for c1
+agent prohibition notification
+Event sent to agent      prohibition(coin(_, _, _, c1), reduce_100(c1))
+Got event for c1
+agent prohibition notification
+Event sent to agent      prohibition(coin(_, _, _, c1), reduce_100(c1))

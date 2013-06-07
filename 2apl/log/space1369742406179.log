@@ -1,0 +1,137 @@
+test2.
+Service Registrar: c107ef97-bf81-4466-964e-9603f52a3af0
+Java Space found.
+TransactionManager found.
+from/for agent t1  cargo(position(19, 19), 0)
+org notified 
+from/for agent c1  coin(position(8, 6), 0, a1)
+org notified 
+!!!!! from org !!!!!!
+cargo(null, null)
+from/for agent t1  obligation([cargo(_, _, _)], 10, [reduce_100(t1)])
+!!!!! from org !!!!!!
+coin(null, null)
+!!!!! from org !!!!!!
+coin(null, null)
+[Obligation [agent=t1, obligation=[cargo(_, _, _)], sanction=[reduce_100(t1)], deadline=10, time=Tue May 28 12:00:17 BST 2013, clock=1]]
+obligation(cargo(_, _, _, t1), 10, reduce_100(t1))
+!!!!! from org !!!!!!
+coin(null, null)
+from/for agent a3  status(position(3, 4), 0)
+org notified 
+from/for agent c1  coin(position(16, 6), 0, a2)
+from/for agent a2  status(position(3, 4), 0)
+from/for agent a1  status(position(3, 4), 0)
+!!!!! from org !!!!!!
+reading(null, null, a1, null)
+from/for agent t1  status(position(18, 19), 0)
+!!!!! from org !!!!!!
+reading(null, null, a2, null)
+!!!!! from org !!!!!!
+reading(null, null, a3, null)
+from/for agent c1  coin(position(3, 9), 0, a3)
+!!!!! from org !!!!!!
+reading(null, null, a1, null)
+from/for agent a3  status(position(3, 5), 0)
+!!!!! from org !!!!!!
+reading(null, null, a2, null)
+from/for agent a2  status(position(3, 5), 0)
+from/for agent a1  status(position(3, 5), 0)
+from/for agent t1  status(position(17, 19), 0)
+!!!!! from org !!!!!!
+reading(null, null, a3, null)
+!!!!! from org !!!!!!
+cargo(null, null)
+from/for agent t1  prohibition([cargo(_, _, 1)], [reduce_100(t1)])
+from/for agent t1  prohibition([at(5, 5, t1)], [reduce_300(t1)])
+from/for agent t1  prohibition([at(5, 6, t1)], [reduce_300(t1)])
+from/for agent t1  prohibition([at(6, 5, t1)], [reduce_300(t1)])
+from/for agent t1  prohibition([at(6, 6, t1)], [reduce_300(t1)])
+!!!!! from org !!!!!!
+coin(null, null, c1)
+from/for agent a3  status(position(3, 6), 0)
+!!!!! from org !!!!!!
+coin(null, null, c1)
+from/for agent a2  status(position(3, 6), 0)
+[Prohibition [agent=t1, prohibition=[at(5, 6, t1)], sanction=[reduce_300(t1)], clock=1, time=Tue May 28 12:26:18 BST 2013]]
+[Prohibition [agent=t1, prohibition=[at(5, 5, t1)], sanction=[reduce_300(t1)], clock=1, time=Tue May 28 12:04:20 BST 2013]]
+[Prohibition [agent=t1, prohibition=[cargo(_, _, 1)], sanction=[reduce_100(t1)], clock=1, time=Tue May 28 12:04:20 BST 2013]]
+prohibition(at(5, 6, a3), reduce_300(a3))
+prohibition(at(5, 6, t1), reduce_300(t1))
+!!!!! from org !!!!!!
+position(a1, null)
+prohibition(at(6, 6, t1), reduce_300(t1))
+from/for agent a1  status(position(3, 6), 0)
+from/for agent t1  status(position(16, 19), 0)
+[Prohibition [agent=t1, prohibition=[at(6, 6, t1)], sanction=[reduce_300(t1)], clock=1, time=Tue May 28 12:04:20 BST 2013]]
+[Prohibition [agent=c1, prohibition=[coin(5, 6, _, a1)], sanction=[reduce_300(c1)], clock=1, time=Tue May 28 12:04:21 BST 2013]]
+prohibition(at(6, 6, t1), reduce_300(t1))
+prohibition(at(6, 5, t1), reduce_300(t1))
+from/for agent a3  status(position(3, 7), 0)
+from/for agent a2  status(position(3, 7), 0)
+from/for agent a1  status(position(3, 7), 0)
+from/for agent t1  status(position(15, 19), 0)
+from/for agent a3  status(position(3, 8), 0)
+from/for agent a2  status(position(3, 8), 0)
+from/for agent a1  status(position(3, 8), 0)
+from/for agent t1  status(position(14, 19), 0)
+from/for agent a3  status(position(3, 9), 0)
+from/for agent a2  status(position(3, 9), 0)
+from/for agent a1  status(position(3, 9), 0)
+from/for agent t1  status(position(13, 19), 0)
+from/for agent a3  status(position(3, 10), 0)
+from/for agent a2  status(position(3, 10), 0)
+from/for agent a1  status(position(3, 10), 0)
+from/for agent t1  status(position(12, 19), 0)
+from/for agent a3  status(position(4, 10), 0)
+from/for agent a2  status(position(4, 10), 0)
+from/for agent a1  status(position(4, 10), 0)
+from/for agent t1  status(position(11, 19), 0)
+from/for agent a3  status(position(5, 10), 0)
+from/for agent a2  status(position(5, 10), 0)
+from/for agent a1  status(position(5, 10), 0)
+from/for agent t1  status(position(10, 19), 0)
+from/for agent a3  status(position(6, 10), 0)
+from/for agent a2  status(position(6, 10), 0)
+from/for agent a1  status(position(6, 10), 0)
+from/for agent t1  status(position(9, 19), 0)
+from/for agent a3  status(position(7, 10), 0)
+from/for agent a2  status(position(7, 10), 0)
+from/for agent a1  status(position(7, 10), 0)
+from/for agent t1  status(position(8, 19), 0)
+from/for agent a3  status(position(8, 10), 0)
+from/for agent a2  status(position(8, 10), 0)
+from/for agent a1  status(position(8, 10), 0)
+from/for agent t1  status(position(7, 19), 0)
+from/for agent a3  status(position(9, 10), 0)
+from/for agent a2  status(position(9, 10), 0)
+from/for agent a1  status(position(9, 10), 0)
+from/for agent t1  status(position(6, 19), 0)
+from/for agent a3  status(position(10, 10), 0)
+from/for agent a2  status(position(10, 10), 0)
+from/for agent a1  status(position(10, 10), 0)
+from/for agent t1  status(position(5, 19), 0)
+from/for agent t1  status(position(4, 19), 0)
+from/for agent t1  status(position(3, 19), 0)
+from/for agent t1  status(position(2, 19), 0)
+from/for agent t1  status(position(2, 18), 0)
+from/for agent t1  status(position(2, 17), 0)
+!!!!! from org !!!!!!
+position(a2, null)
+from/for agent t1  status(position(2, 16), 0)
+from/for agent t1  status(position(2, 15), 0)
+from/for agent t1  status(position(2, 14), 0)
+from/for agent t1  status(position(2, 13), 0)
+from/for agent t1  status(position(2, 12), 0)
+from/for agent t1  status(position(2, 11), 0)
+from/for agent t1  status(position(2, 10), 0)
+from/for agent t1  status(position(2, 9), 0)
+from/for agent t1  status(position(2, 8), 0)
+from/for agent t1  status(position(2, 7), 0)
+from/for agent t1  status(position(2, 6), 0)
+from/for agent t1  status(position(2, 5), 0)
+from/for agent t1  status(position(2, 4), 0)
+from/for agent t1  status(position(2, 3), 0)
+from/for agent t1  status(position(2, 2), 0)
+!!!!! from org !!!!!!
+position(a3, null)

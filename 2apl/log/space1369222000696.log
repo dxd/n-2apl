@@ -1,0 +1,10 @@
+test2.
+Service Registrar: 0515f786-d835-47f3-bd36-2b74949ab00e
+Java Space found.
+TransactionManager found.
+org notified 
+org notified 
+org notified 
+org notified 
+from agent t1  obligation([cargo(_, _, _)], 10, [reduce_100(t1)])
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Wed May 22 12:25:15 BST 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Wed May 22 12:25:15 BST 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Wed May 22 12:25:15 BST 2013, clock=1], Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Wed May 22 12:26:42 BST 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Wed May 22 12:26:42 BST 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Wed May 22 12:26:42 BST 2013, clock=1]]

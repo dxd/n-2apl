@@ -1,0 +1,202 @@
+test2.
+Service Registrar: 0515f786-d835-47f3-bd36-2b74949ab00e
+Java Space found.
+TransactionManager found.
+org notified 
+org notified 
+org notified 
+org notified 
+to be compared: [Cargo [id=5, cell=Cell [x=10, y=10], time=Wed May 22 12:26:42 BST 2013, clock=1], Cargo [id=5, cell=Cell [x=10, y=10], time=Wed May 22 12:27:20 BST 2013, clock=1]]
+from agent t1  obligation([cargo(_, _, _)], 10, [reduce_100(t1)])
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Wed May 22 12:27:20 BST 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Wed May 22 12:27:20 BST 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Wed May 22 12:27:20 BST 2013, clock=1]]
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Wed May 22 12:27:20 BST 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Wed May 22 12:27:20 BST 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Wed May 22 12:27:20 BST 2013, clock=1]]
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Wed May 22 12:27:20 BST 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Wed May 22 12:27:20 BST 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Wed May 22 12:27:20 BST 2013, clock=1]]
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Wed May 22 12:27:20 BST 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Wed May 22 12:27:20 BST 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Wed May 22 12:27:20 BST 2013, clock=1]]
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Wed May 22 12:27:20 BST 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Wed May 22 12:27:20 BST 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Wed May 22 12:27:20 BST 2013, clock=1]]
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Wed May 22 12:27:20 BST 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Wed May 22 12:27:20 BST 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Wed May 22 12:27:20 BST 2013, clock=1]]
+to be compared: [Cargo [id=5, cell=Cell [x=10, y=10], time=Wed May 22 12:26:42 BST 2013, clock=1], Cargo [id=5, cell=Cell [x=10, y=10], time=Wed May 22 12:27:20 BST 2013, clock=1]]
+from agent t1  prohibition([cargo(_, _, 2)], [reduce_100(t1)])
+from agent t1  prohibition([at(5, 5, t1)], [reduce_300(t1)])
+from agent t1  prohibition([at(5, 6, t1)], [reduce_300(t1)])
+from agent t1  prohibition([at(6, 5, t1)], [reduce_300(t1)])
+from agent t1  prohibition([at(6, 6, t1)], [reduce_300(t1)])
+[null]
+java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
+	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1123)
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:303)
+	at sun.rmi.transport.Transport$1.run(Transport.java:159)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:155)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:535)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:790)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:649)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+[null]
+java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
+	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1123)
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:303)
+	at sun.rmi.transport.Transport$1.run(Transport.java:159)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:155)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:535)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:790)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:649)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+to be compared: [Prohibition [agent=t1, prohibition=[at(5, 5, t1)], sanction=[reduce_300(t1)], clock=1, time=Wed May 22 12:27:22 BST 2013], Prohibition [agent=t1, prohibition=[at(6, 6, t1)], sanction=[reduce_300(t1)], clock=1, time=Wed May 22 12:27:22 BST 2013]]
+[Prohibition [agent=t1, prohibition=[at(5, 5, t1)], sanction=[reduce_300(t1)], clock=1, time=Wed May 22 12:27:22 BST 2013]]
+to be compared: [Prohibition [agent=t1, prohibition=[cargo(_, _, 2)], sanction=[reduce_100(t1)], clock=1, time=Wed May 22 12:27:22 BST 2013], Prohibition [agent=t1, prohibition=[at(6, 5, t1)], sanction=[reduce_300(t1)], clock=1, time=Wed May 22 12:27:22 BST 2013]]
+[Prohibition [agent=t1, prohibition=[cargo(_, _, 2)], sanction=[reduce_100(t1)], clock=1, time=Wed May 22 12:27:22 BST 2013]]
+[Prohibition [agent=t1, prohibition=[at(5, 6, t1)], sanction=[reduce_300(t1)], clock=1, time=Wed May 22 12:27:22 BST 2013]]
+prohibition(at(6, 6, t1), reduce_300(t1))
+prohibition(at(6, 5, t1), reduce_300(t1))
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Wed May 22 12:27:20 BST 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Wed May 22 12:27:20 BST 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Wed May 22 12:27:20 BST 2013, clock=1]]
+prohibition(at(5, 6, t1), reduce_300(t1))
+to be compared: [Prohibition [agent=t1, prohibition=[cargo(_, _, 2)], sanction=[reduce_100(t1)], clock=1, time=Wed May 22 12:27:22 BST 2013], Prohibition [agent=t1, prohibition=[at(5, 5, t1)], sanction=[reduce_300(t1)], clock=1, time=Wed May 22 12:27:22 BST 2013]]
+[Prohibition [agent=t1, prohibition=[cargo(_, _, 2)], sanction=[reduce_100(t1)], clock=1, time=Wed May 22 12:27:22 BST 2013]]
+prohibition(at(5, 5, t1), reduce_300(t1))
+to be compared: [Prohibition [agent=t1, prohibition=[at(6, 5, t1)], sanction=[reduce_300(t1)], clock=1, time=Wed May 22 12:27:22 BST 2013], Prohibition [agent=t1, prohibition=[at(6, 6, t1)], sanction=[reduce_300(t1)], clock=1, time=Wed May 22 12:27:22 BST 2013]]
+[Prohibition [agent=t1, prohibition=[at(6, 5, t1)], sanction=[reduce_300(t1)], clock=1, time=Wed May 22 12:27:22 BST 2013]]
+prohibition(at(6, 6, t1), reduce_300(t1))
+[null]
+java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
+	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1123)
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:303)
+	at sun.rmi.transport.Transport$1.run(Transport.java:159)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:155)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:535)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:790)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:649)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Wed May 22 12:27:20 BST 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Wed May 22 12:27:20 BST 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Wed May 22 12:27:20 BST 2013, clock=1]]
+to be compared: [Prohibition [agent=t1, prohibition=[at(5, 5, t1)], sanction=[reduce_300(t1)], clock=1, time=Wed May 22 12:27:22 BST 2013], Prohibition [agent=t1, prohibition=[at(6, 5, t1)], sanction=[reduce_300(t1)], clock=1, time=Wed May 22 12:27:22 BST 2013]]
+to be compared: [Prohibition [agent=t1, prohibition=[at(5, 6, t1)], sanction=[reduce_300(t1)], clock=1, time=Wed May 22 12:27:22 BST 2013], Prohibition [agent=t1, prohibition=[cargo(_, _, 2)], sanction=[reduce_100(t1)], clock=1, time=Wed May 22 12:27:22 BST 2013], Prohibition [agent=t1, prohibition=[at(6, 6, t1)], sanction=[reduce_300(t1)], clock=1, time=Wed May 22 12:27:22 BST 2013]]
+[Prohibition [agent=t1, prohibition=[at(5, 5, t1)], sanction=[reduce_300(t1)], clock=1, time=Wed May 22 12:27:22 BST 2013]]
+[Prohibition [agent=t1, prohibition=[at(5, 6, t1)], sanction=[reduce_300(t1)], clock=1, time=Wed May 22 12:27:22 BST 2013]]
+prohibition(at(6, 5, t1), reduce_300(t1))
+prohibition(at(6, 6, t1), reduce_300(t1))
+from agent c1  prohibition([coin(5, 5, _, a1)], [reduce_300(c1)])
+from agent c1  prohibition([coin(5, 6, _, a1)], [reduce_300(c1)])
+from agent c1  prohibition([coin(6, 5, _, a1)], [reduce_300(c1)])
+from agent c1  prohibition([coin(6, 6, _, a1)], [reduce_300(c1)])
+from agent c1  prohibition([coin(5, 5, _, a2)], [reduce_300(c1)])
+from agent c1  prohibition([coin(5, 6, _, a2)], [reduce_300(c1)])
+from agent c1  prohibition([coin(6, 5, _, a2)], [reduce_300(c1)])
+from agent c1  prohibition([coin(6, 6, _, a2)], [reduce_300(c1)])
+from agent c1  prohibition([coin(5, 5, _, a3)], [reduce_300(c1)])
+from agent c1  prohibition([coin(5, 6, _, a3)], [reduce_300(c1)])
+from agent c1  prohibition([coin(6, 5, _, a3)], [reduce_300(c1)])
+from agent c1  prohibition([coin(6, 6, _, a3)], [reduce_300(c1)])
+[Prohibition [agent=c1, prohibition=[coin(6, 6, _, a2)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013]]
+prohibition(coin(6, 6, _, c1), reduce_300(c1))
+to be compared: [Prohibition [agent=t1, prohibition=[at(5, 5, t1)], sanction=[reduce_300(t1)], clock=1, time=Wed May 22 12:27:22 BST 2013], Prohibition [agent=t1, prohibition=[at(5, 6, t1)], sanction=[reduce_300(t1)], clock=1, time=Wed May 22 12:27:22 BST 2013], Prohibition [agent=c1, prohibition=[coin(5, 6, _, a1)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013], Prohibition [agent=c1, prohibition=[coin(5, 5, _, a2)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013], Prohibition [agent=c1, prohibition=[coin(6, 5, _, a2)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013], Prohibition [agent=c1, prohibition=[coin(6, 5, _, a3)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013]]
+[Prohibition [agent=t1, prohibition=[at(5, 5, t1)], sanction=[reduce_300(t1)], clock=1, time=Wed May 22 12:27:22 BST 2013]]
+to be compared: [Prohibition [agent=t1, prohibition=[at(6, 6, t1)], sanction=[reduce_300(t1)], clock=1, time=Wed May 22 12:27:22 BST 2013], Prohibition [agent=c1, prohibition=[coin(5, 6, _, a2)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013], Prohibition [agent=c1, prohibition=[coin(6, 6, _, a3)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013]]
+[Prohibition [agent=t1, prohibition=[at(6, 6, t1)], sanction=[reduce_300(t1)], clock=1, time=Wed May 22 12:27:22 BST 2013]]
+prohibition(coin(6, 5, _, c1), reduce_300(c1))
+to be compared: [Prohibition [agent=c1, prohibition=[coin(5, 5, _, a1)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013], Prohibition [agent=c1, prohibition=[coin(6, 6, _, a1)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013], Prohibition [agent=c1, prohibition=[coin(5, 5, _, a3)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013]]
+[Prohibition [agent=c1, prohibition=[coin(5, 5, _, a1)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013]]
+prohibition(coin(6, 6, _, c1), reduce_300(c1))
+prohibition(coin(5, 5, _, c1), reduce_300(c1))
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Wed May 22 12:27:20 BST 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Wed May 22 12:27:20 BST 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Wed May 22 12:27:20 BST 2013, clock=1]]
+to be compared: [Prohibition [agent=t1, prohibition=[cargo(_, _, 2)], sanction=[reduce_100(t1)], clock=1, time=Wed May 22 12:27:22 BST 2013], Prohibition [agent=t1, prohibition=[at(6, 5, t1)], sanction=[reduce_300(t1)], clock=1, time=Wed May 22 12:27:22 BST 2013], Prohibition [agent=c1, prohibition=[coin(6, 5, _, a1)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013], Prohibition [agent=c1, prohibition=[coin(5, 6, _, a3)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013], Prohibition [agent=c1, prohibition=[coin(6, 6, _, a2)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013], Prohibition [agent=t1, prohibition=[at(5, 5, t1)], sanction=[reduce_300(t1)], clock=1, time=Wed May 22 12:27:22 BST 2013], Prohibition [agent=t1, prohibition=[at(5, 6, t1)], sanction=[reduce_300(t1)], clock=1, time=Wed May 22 12:27:22 BST 2013], Prohibition [agent=t1, prohibition=[at(6, 6, t1)], sanction=[reduce_300(t1)], clock=1, time=Wed May 22 12:27:22 BST 2013], Prohibition [agent=c1, prohibition=[coin(5, 5, _, a1)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013], Prohibition [agent=c1, prohibition=[coin(5, 6, _, a1)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013], Prohibition [agent=c1, prohibition=[coin(6, 6, _, a1)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013], Prohibition [agent=c1, prohibition=[coin(5, 5, _, a2)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013], Prohibition [agent=c1, prohibition=[coin(5, 6, _, a2)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013], Prohibition [agent=c1, prohibition=[coin(6, 5, _, a2)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013], Prohibition [agent=c1, prohibition=[coin(5, 5, _, a3)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013], Prohibition [agent=c1, prohibition=[coin(6, 5, _, a3)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013], Prohibition [agent=c1, prohibition=[coin(6, 6, _, a3)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013]]
+[Prohibition [agent=t1, prohibition=[cargo(_, _, 2)], sanction=[reduce_100(t1)], clock=1, time=Wed May 22 12:27:22 BST 2013]]
+prohibition(coin(6, 6, _, c1), reduce_300(c1))
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Wed May 22 12:27:20 BST 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Wed May 22 12:27:20 BST 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Wed May 22 12:27:20 BST 2013, clock=1]]
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Wed May 22 12:27:20 BST 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Wed May 22 12:27:20 BST 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Wed May 22 12:27:20 BST 2013, clock=1]]
+from agent a1  prohibition([at(5, 5, a1)], [reduce_300(a1)])
+from agent a1  prohibition([at(5, 6, a1)], [reduce_300(a1)])
+from agent a1  prohibition([at(6, 5, a1)], [reduce_300(a1)])
+from agent a1  prohibition([at(6, 6, a1)], [reduce_300(a1)])
+from agent a2  prohibition([at(5, 5, a2)], [reduce_300(a2)])
+from agent a2  prohibition([at(5, 6, a2)], [reduce_300(a2)])
+from agent a2  prohibition([at(6, 5, a2)], [reduce_300(a2)])
+from agent a2  prohibition([at(6, 6, a2)], [reduce_300(a2)])
+from agent a3  prohibition([at(5, 5, a3)], [reduce_300(a3)])
+from agent a3  prohibition([at(5, 6, a3)], [reduce_300(a3)])
+from agent a3  prohibition([at(6, 5, a3)], [reduce_300(a3)])
+from agent a3  prohibition([at(6, 6, a3)], [reduce_300(a3)])
+to be compared: [Prohibition [agent=c1, prohibition=[coin(5, 5, _, a2)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013], Prohibition [agent=c1, prohibition=[coin(5, 6, _, a3)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013], Prohibition [agent=a1, prohibition=[at(5, 6, a1)], sanction=[reduce_300(a1)], clock=1, time=Wed May 22 12:27:25 BST 2013]]
+[Prohibition [agent=c1, prohibition=[coin(5, 5, _, a2)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013]]
+prohibition(at(5, 6, a1), reduce_300(a1))
+to be compared: [Prohibition [agent=t1, prohibition=[cargo(_, _, 2)], sanction=[reduce_100(t1)], clock=1, time=Wed May 22 12:27:22 BST 2013], Prohibition [agent=c1, prohibition=[coin(5, 5, _, a1)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013], Prohibition [agent=c1, prohibition=[coin(5, 6, _, a2)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013], Prohibition [agent=c1, prohibition=[coin(6, 6, _, a2)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013], Prohibition [agent=a1, prohibition=[at(5, 5, a1)], sanction=[reduce_300(a1)], clock=1, time=Wed May 22 12:27:25 BST 2013], Prohibition [agent=a2, prohibition=[at(5, 5, a2)], sanction=[reduce_300(a2)], clock=1, time=Wed May 22 12:27:25 BST 2013], Prohibition [agent=a2, prohibition=[at(5, 6, a2)], sanction=[reduce_300(a2)], clock=1, time=Wed May 22 12:27:25 BST 2013], Prohibition [agent=a2, prohibition=[at(6, 6, a2)], sanction=[reduce_300(a2)], clock=1, time=Wed May 22 12:27:25 BST 2013], Prohibition [agent=a3, prohibition=[at(6, 6, a3)], sanction=[reduce_300(a3)], clock=1, time=Wed May 22 12:27:25 BST 2013]]
+[Prohibition [agent=t1, prohibition=[cargo(_, _, 2)], sanction=[reduce_100(t1)], clock=1, time=Wed May 22 12:27:22 BST 2013]]
+prohibition(at(6, 6, a3), reduce_300(a3))
+to be compared: [Cargo [id=5, cell=Cell [x=10, y=10], time=Wed May 22 12:26:42 BST 2013, clock=1], Cargo [id=5, cell=Cell [x=10, y=10], time=Wed May 22 12:27:20 BST 2013, clock=1]]
+[null]
+java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
+	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1123)
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:58)
+	at sun.reflect.GeneratedMethodAccessor31.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:303)
+	at sun.rmi.transport.Transport$1.run(Transport.java:159)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:155)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:535)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:790)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:649)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+to be compared: [Prohibition [agent=c1, prohibition=[coin(6, 6, _, a2)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013], Prohibition [agent=a2, prohibition=[at(5, 5, a2)], sanction=[reduce_300(a2)], clock=1, time=Wed May 22 12:27:25 BST 2013]]
+[Prohibition [agent=c1, prohibition=[coin(6, 6, _, a2)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013]]
+to be compared: [Prohibition [agent=t1, prohibition=[at(5, 5, t1)], sanction=[reduce_300(t1)], clock=1, time=Wed May 22 12:27:22 BST 2013], Prohibition [agent=c1, prohibition=[coin(6, 6, _, a1)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013], Prohibition [agent=c1, prohibition=[coin(5, 5, _, a3)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013], Prohibition [agent=a1, prohibition=[at(6, 6, a1)], sanction=[reduce_300(a1)], clock=1, time=Wed May 22 12:27:25 BST 2013], Prohibition [agent=a2, prohibition=[at(6, 5, a2)], sanction=[reduce_300(a2)], clock=1, time=Wed May 22 12:27:25 BST 2013], Prohibition [agent=a3, prohibition=[at(6, 5, a3)], sanction=[reduce_300(a3)], clock=1, time=Wed May 22 12:27:25 BST 2013], Prohibition [agent=a1, prohibition=[at(5, 6, a1)], sanction=[reduce_300(a1)], clock=1, time=Wed May 22 12:27:25 BST 2013], Prohibition [agent=c1, prohibition=[coin(5, 6, _, a2)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013], Prohibition [agent=a2, prohibition=[at(5, 6, a2)], sanction=[reduce_300(a2)], clock=1, time=Wed May 22 12:27:25 BST 2013]]
+[Prohibition [agent=t1, prohibition=[at(5, 5, t1)], sanction=[reduce_300(t1)], clock=1, time=Wed May 22 12:27:22 BST 2013]]
+prohibition(at(5, 5, a2), reduce_300(a2))
+prohibition(at(5, 6, a2), reduce_300(a2))
+to be compared: [Prohibition [agent=t1, prohibition=[at(6, 6, t1)], sanction=[reduce_300(t1)], clock=1, time=Wed May 22 12:27:22 BST 2013], Prohibition [agent=c1, prohibition=[coin(6, 5, _, a1)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013], Prohibition [agent=c1, prohibition=[coin(6, 6, _, a3)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013], Prohibition [agent=a3, prohibition=[at(5, 5, a3)], sanction=[reduce_300(a3)], clock=1, time=Wed May 22 12:27:25 BST 2013], Prohibition [agent=c1, prohibition=[coin(5, 5, _, a2)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013], Prohibition [agent=t1, prohibition=[cargo(_, _, 2)], sanction=[reduce_100(t1)], clock=1, time=Wed May 22 12:27:22 BST 2013], Prohibition [agent=a1, prohibition=[at(5, 5, a1)], sanction=[reduce_300(a1)], clock=1, time=Wed May 22 12:27:25 BST 2013], Prohibition [agent=a3, prohibition=[at(6, 6, a3)], sanction=[reduce_300(a3)], clock=1, time=Wed May 22 12:27:25 BST 2013]]
+[Prohibition [agent=t1, prohibition=[at(6, 6, t1)], sanction=[reduce_300(t1)], clock=1, time=Wed May 22 12:27:22 BST 2013]]
+prohibition(at(6, 6, a3), reduce_300(a3))
+to be compared: [Cargo [id=5, cell=Cell [x=10, y=10], time=Wed May 22 12:26:42 BST 2013, clock=1], Cargo [id=5, cell=Cell [x=10, y=10], time=Wed May 22 12:27:20 BST 2013, clock=1]]
+to be compared: [Cargo [id=5, cell=Cell [x=10, y=10], time=Wed May 22 12:26:42 BST 2013, clock=1], Cargo [id=5, cell=Cell [x=10, y=10], time=Wed May 22 12:27:20 BST 2013, clock=1]]
+to be compared: [Prohibition [agent=c1, prohibition=[coin(6, 6, _, a1)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013], Prohibition [agent=c1, prohibition=[coin(5, 6, _, a2)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013], Prohibition [agent=a1, prohibition=[at(5, 5, a1)], sanction=[reduce_300(a1)], clock=1, time=Wed May 22 12:27:25 BST 2013], Prohibition [agent=a2, prohibition=[at(5, 5, a2)], sanction=[reduce_300(a2)], clock=1, time=Wed May 22 12:27:25 BST 2013], Prohibition [agent=a3, prohibition=[at(5, 5, a3)], sanction=[reduce_300(a3)], clock=1, time=Wed May 22 12:27:25 BST 2013]]
+[Prohibition [agent=c1, prohibition=[coin(6, 6, _, a1)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013]]
+prohibition(at(5, 5, a3), reduce_300(a3))
+to be compared: [Prohibition [agent=t1, prohibition=[at(6, 6, t1)], sanction=[reduce_300(t1)], clock=1, time=Wed May 22 12:27:22 BST 2013], Prohibition [agent=c1, prohibition=[coin(5, 5, _, a3)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013], Prohibition [agent=a1, prohibition=[at(5, 6, a1)], sanction=[reduce_300(a1)], clock=1, time=Wed May 22 12:27:25 BST 2013], Prohibition [agent=a2, prohibition=[at(5, 6, a2)], sanction=[reduce_300(a2)], clock=1, time=Wed May 22 12:27:25 BST 2013], Prohibition [agent=a3, prohibition=[at(6, 5, a3)], sanction=[reduce_300(a3)], clock=1, time=Wed May 22 12:27:25 BST 2013]]
+[Prohibition [agent=t1, prohibition=[at(6, 6, t1)], sanction=[reduce_300(t1)], clock=1, time=Wed May 22 12:27:22 BST 2013]]
+to be compared: [Prohibition [agent=t1, prohibition=[at(5, 6, t1)], sanction=[reduce_300(t1)], clock=1, time=Wed May 22 12:27:22 BST 2013], Prohibition [agent=t1, prohibition=[at(6, 5, t1)], sanction=[reduce_300(t1)], clock=1, time=Wed May 22 12:27:22 BST 2013], Prohibition [agent=c1, prohibition=[coin(5, 6, _, a1)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013], Prohibition [agent=c1, prohibition=[coin(6, 5, _, a2)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013], Prohibition [agent=c1, prohibition=[coin(6, 5, _, a3)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013], Prohibition [agent=a1, prohibition=[at(6, 5, a1)], sanction=[reduce_300(a1)], clock=1, time=Wed May 22 12:27:25 BST 2013], Prohibition [agent=a3, prohibition=[at(5, 6, a3)], sanction=[reduce_300(a3)], clock=1, time=Wed May 22 12:27:25 BST 2013], Prohibition [agent=c1, prohibition=[coin(5, 6, _, a3)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013], Prohibition [agent=c1, prohibition=[coin(5, 5, _, a1)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013], Prohibition [agent=a2, prohibition=[at(6, 6, a2)], sanction=[reduce_300(a2)], clock=1, time=Wed May 22 12:27:25 BST 2013], Prohibition [agent=c1, prohibition=[coin(6, 6, _, a2)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013], Prohibition [agent=t1, prohibition=[at(5, 5, t1)], sanction=[reduce_300(t1)], clock=1, time=Wed May 22 12:27:22 BST 2013], Prohibition [agent=t1, prohibition=[cargo(_, _, 2)], sanction=[reduce_100(t1)], clock=1, time=Wed May 22 12:27:22 BST 2013], Prohibition [agent=c1, prohibition=[coin(6, 5, _, a1)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013], Prohibition [agent=c1, prohibition=[coin(5, 5, _, a2)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013], Prohibition [agent=c1, prohibition=[coin(6, 6, _, a3)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013], Prohibition [agent=a1, prohibition=[at(6, 6, a1)], sanction=[reduce_300(a1)], clock=1, time=Wed May 22 12:27:25 BST 2013], Prohibition [agent=a2, prohibition=[at(6, 5, a2)], sanction=[reduce_300(a2)], clock=1, time=Wed May 22 12:27:25 BST 2013], Prohibition [agent=a3, prohibition=[at(6, 6, a3)], sanction=[reduce_300(a3)], clock=1, time=Wed May 22 12:27:25 BST 2013]]
+[Prohibition [agent=t1, prohibition=[at(5, 6, t1)], sanction=[reduce_300(t1)], clock=1, time=Wed May 22 12:27:22 BST 2013]]
+prohibition(at(6, 6, a3), reduce_300(a3))
+prohibition(at(6, 5, a3), reduce_300(a3))
+to be compared: [Cargo [id=5, cell=Cell [x=10, y=10], time=Wed May 22 12:26:42 BST 2013, clock=1], Cargo [id=5, cell=Cell [x=10, y=10], time=Wed May 22 12:27:20 BST 2013, clock=1]]
+to be compared: [Prohibition [agent=t1, prohibition=[cargo(_, _, 2)], sanction=[reduce_100(t1)], clock=1, time=Wed May 22 12:27:22 BST 2013], Prohibition [agent=t1, prohibition=[at(5, 5, t1)], sanction=[reduce_300(t1)], clock=1, time=Wed May 22 12:27:22 BST 2013], Prohibition [agent=t1, prohibition=[at(5, 6, t1)], sanction=[reduce_300(t1)], clock=1, time=Wed May 22 12:27:22 BST 2013], Prohibition [agent=t1, prohibition=[at(6, 5, t1)], sanction=[reduce_300(t1)], clock=1, time=Wed May 22 12:27:22 BST 2013], Prohibition [agent=t1, prohibition=[at(6, 6, t1)], sanction=[reduce_300(t1)], clock=1, time=Wed May 22 12:27:22 BST 2013], Prohibition [agent=c1, prohibition=[coin(5, 5, _, a1)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013], Prohibition [agent=c1, prohibition=[coin(5, 6, _, a1)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013], Prohibition [agent=c1, prohibition=[coin(6, 5, _, a1)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013], Prohibition [agent=c1, prohibition=[coin(6, 6, _, a1)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013], Prohibition [agent=c1, prohibition=[coin(5, 5, _, a2)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013], Prohibition [agent=c1, prohibition=[coin(5, 6, _, a2)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013], Prohibition [agent=c1, prohibition=[coin(6, 5, _, a2)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013], Prohibition [agent=c1, prohibition=[coin(6, 6, _, a2)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013], Prohibition [agent=c1, prohibition=[coin(5, 5, _, a3)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013], Prohibition [agent=c1, prohibition=[coin(5, 6, _, a3)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013], Prohibition [agent=c1, prohibition=[coin(6, 5, _, a3)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013], Prohibition [agent=c1, prohibition=[coin(6, 6, _, a3)], sanction=[reduce_300(c1)], clock=1, time=Wed May 22 12:27:23 BST 2013], Prohibition [agent=a1, prohibition=[at(5, 5, a1)], sanction=[reduce_300(a1)], clock=1, time=Wed May 22 12:27:25 BST 2013], Prohibition [agent=a1, prohibition=[at(5, 6, a1)], sanction=[reduce_300(a1)], clock=1, time=Wed May 22 12:27:25 BST 2013], Prohibition [agent=a1, prohibition=[at(6, 5, a1)], sanction=[reduce_300(a1)], clock=1, time=Wed May 22 12:27:25 BST 2013], Prohibition [agent=a1, prohibition=[at(6, 6, a1)], sanction=[reduce_300(a1)], clock=1, time=Wed May 22 12:27:25 BST 2013], Prohibition [agent=a2, prohibition=[at(5, 5, a2)], sanction=[reduce_300(a2)], clock=1, time=Wed May 22 12:27:25 BST 2013], Prohibition [agent=a2, prohibition=[at(5, 6, a2)], sanction=[reduce_300(a2)], clock=1, time=Wed May 22 12:27:25 BST 2013], Prohibition [agent=a2, prohibition=[at(6, 5, a2)], sanction=[reduce_300(a2)], clock=1, time=Wed May 22 12:27:25 BST 2013], Prohibition [agent=a2, prohibition=[at(6, 6, a2)], sanction=[reduce_300(a2)], clock=1, time=Wed May 22 12:27:25 BST 2013], Prohibition [agent=a3, prohibition=[at(5, 5, a3)], sanction=[reduce_300(a3)], clock=1, time=Wed May 22 12:27:25 BST 2013], Prohibition [agent=a3, prohibition=[at(5, 6, a3)], sanction=[reduce_300(a3)], clock=1, time=Wed May 22 12:27:25 BST 2013], Prohibition [agent=a3, prohibition=[at(6, 5, a3)], sanction=[reduce_300(a3)], clock=1, time=Wed May 22 12:27:25 BST 2013], Prohibition [agent=a3, prohibition=[at(6, 6, a3)], sanction=[reduce_300(a3)], clock=1, time=Wed May 22 12:27:25 BST 2013]]
+[Prohibition [agent=t1, prohibition=[cargo(_, _, 2)], sanction=[reduce_100(t1)], clock=1, time=Wed May 22 12:27:22 BST 2013]]
+prohibition(at(6, 6, a3), reduce_300(a3))
+to be compared: [Cargo [id=5, cell=Cell [x=10, y=10], time=Wed May 22 12:26:42 BST 2013, clock=1], Cargo [id=5, cell=Cell [x=10, y=10], time=Wed May 22 12:27:20 BST 2013, clock=1]]
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Wed May 22 12:27:20 BST 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Wed May 22 12:27:20 BST 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Wed May 22 12:27:20 BST 2013, clock=1]]
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Wed May 22 12:27:20 BST 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Wed May 22 12:27:20 BST 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Wed May 22 12:27:20 BST 2013, clock=1]]
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Wed May 22 12:27:20 BST 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Wed May 22 12:27:20 BST 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Wed May 22 12:27:20 BST 2013, clock=1]]
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Wed May 22 12:27:20 BST 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Wed May 22 12:27:20 BST 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Wed May 22 12:27:20 BST 2013, clock=1]]
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Wed May 22 12:27:20 BST 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Wed May 22 12:27:20 BST 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Wed May 22 12:27:20 BST 2013, clock=1]]
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Wed May 22 12:27:20 BST 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Wed May 22 12:27:20 BST 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Wed May 22 12:27:20 BST 2013, clock=1]]
+to be compared: [Cargo [id=5, cell=Cell [x=10, y=10], time=Wed May 22 12:26:42 BST 2013, clock=1], Cargo [id=5, cell=Cell [x=10, y=10], time=Wed May 22 12:27:20 BST 2013, clock=1]]
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Wed May 22 12:27:20 BST 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Wed May 22 12:27:20 BST 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Wed May 22 12:27:20 BST 2013, clock=1]]
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Wed May 22 12:27:20 BST 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Wed May 22 12:27:20 BST 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Wed May 22 12:27:20 BST 2013, clock=1]]
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Wed May 22 12:27:20 BST 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Wed May 22 12:27:20 BST 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Wed May 22 12:27:20 BST 2013, clock=1]]
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Wed May 22 12:27:20 BST 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Wed May 22 12:27:20 BST 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Wed May 22 12:27:20 BST 2013, clock=1]]
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Wed May 22 12:27:20 BST 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Wed May 22 12:27:20 BST 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Wed May 22 12:27:20 BST 2013, clock=1]]
+to be compared: [Cargo [id=5, cell=Cell [x=10, y=10], time=Wed May 22 12:26:42 BST 2013, clock=1], Cargo [id=5, cell=Cell [x=10, y=10], time=Wed May 22 12:27:20 BST 2013, clock=1]]
+to be compared: [Cargo [id=5, cell=Cell [x=10, y=10], time=Wed May 22 12:26:42 BST 2013, clock=1], Cargo [id=5, cell=Cell [x=10, y=10], time=Wed May 22 12:27:20 BST 2013, clock=1]]

@@ -1,0 +1,2542 @@
+test2.
+Service Registrar: 9586234c-676f-49f7-8425-b268487ef927
+Java Space found.
+TransactionManager found.
+from agent c1  coin(position(8, 6), 0, a1)
+from agent t1  cargo(position(19, 19), 0)
+org notified 
+org notified 
+!!!!! from org !!!!!!
+cargo
+null
+null
+@>=
+[Ljava.lang.String;@32f22097
+!!!!! from org !!!!!!
+coin
+null
+null
+@>=
+[Ljava.lang.String;@6406c7e
+!!!!! from org !!!!!!
+coin
+null
+null
+@>=
+[Ljava.lang.String;@d6132c4
+!!!!! from org !!!!!!
+coin
+null
+null
+@>=
+[Ljava.lang.String;@684be8b8
+!!!!! from org !!!!!!
+reading
+null
+null
+a1
+null
+=:=
+[Ljava.lang.String;@4f9bbd86
+!!!!! from org !!!!!!
+reading
+null
+null
+a2
+null
+=:=
+[Ljava.lang.String;@130a7be0
+!!!!! from org !!!!!!
+reading
+null
+null
+a3
+null
+=:=
+[Ljava.lang.String;@154ab8e4
+!!!!! from org !!!!!!
+reading
+null
+null
+a1
+null
+=:=
+[Ljava.lang.String;@5cb08ba7
+!!!!! from org !!!!!!
+reading
+null
+null
+a2
+null
+=:=
+[Ljava.lang.String;@4aa0b07b
+!!!!! from org !!!!!!
+reading
+null
+null
+a3
+null
+=:=
+[Ljava.lang.String;@7ba28183
+!!!!! from org !!!!!!
+cargo
+null
+null
+@>=
+[Ljava.lang.String;@69e4fede
+from agent t1  prohibition([at(5, 5, t1)], [reduce_300(t1)])
+from agent t1  prohibition([at(5, 6, t1)], [reduce_300(t1)])
+from agent t1  prohibition([at(6, 5, t1)], [reduce_300(t1)])
+from agent t1  prohibition([at(6, 6, t1)], [reduce_300(t1)])
+!!!!! from org !!!!!!
+coin
+null
+null
+c1
+=..
+[Ljava.lang.String;@170a6001
+!!!!! from org !!!!!!
+coin
+null
+null
+c1
+=..
+[Ljava.lang.String;@2a24ed78
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@697a1686
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@36ed5ba6
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@21dc7b3e
+from agent c1  prohibition([coin(5, 5, _, a1)], [reduce_300(c1)])
+from agent c1  prohibition([coin(5, 6, _, a1)], [reduce_300(c1)])
+from agent c1  prohibition([coin(6, 5, _, a1)], [reduce_300(c1)])
+from agent c1  prohibition([coin(6, 6, _, a1)], [reduce_300(c1)])
+from agent c1  prohibition([coin(5, 5, _, a2)], [reduce_300(c1)])
+from agent c1  prohibition([coin(5, 6, _, a2)], [reduce_300(c1)])
+from agent c1  prohibition([coin(6, 5, _, a2)], [reduce_300(c1)])
+from agent c1  prohibition([coin(6, 6, _, a2)], [reduce_300(c1)])
+from agent c1  prohibition([coin(5, 5, _, a3)], [reduce_300(c1)])
+from agent c1  prohibition([coin(5, 6, _, a3)], [reduce_300(c1)])
+from agent c1  prohibition([coin(6, 5, _, a3)], [reduce_300(c1)])
+from agent c1  prohibition([coin(6, 6, _, a3)], [reduce_300(c1)])
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@150ac9a8
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@773d3f62
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@560c7816
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@4ca0187c
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@235be31e
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@5d8c14b3
+!!!!! from org !!!!!!
+reading
+null
+null
+a1
+null
+=:=
+[Ljava.lang.String;@3aeb203b
+!!!!! from org !!!!!!
+reading
+null
+null
+a2
+null
+=:=
+[Ljava.lang.String;@22911fb5
+!!!!! from org !!!!!!
+reading
+null
+null
+a3
+null
+=:=
+[Ljava.lang.String;@41a7d9e7
+from agent a1  prohibition([at(5, 5, a1)], [reduce_300(a1)])
+from agent a1  prohibition([at(5, 6, a1)], [reduce_300(a1)])
+from agent a1  prohibition([at(6, 5, a1)], [reduce_300(a1)])
+from agent a1  prohibition([at(6, 6, a1)], [reduce_300(a1)])
+from agent a2  prohibition([at(5, 5, a2)], [reduce_300(a2)])
+from agent a2  prohibition([at(5, 6, a2)], [reduce_300(a2)])
+from agent a2  prohibition([at(6, 5, a2)], [reduce_300(a2)])
+from agent a2  prohibition([at(6, 6, a2)], [reduce_300(a2)])
+from agent a3  prohibition([at(5, 5, a3)], [reduce_300(a3)])
+from agent a3  prohibition([at(5, 6, a3)], [reduce_300(a3)])
+from agent a3  prohibition([at(6, 5, a3)], [reduce_300(a3)])
+from agent a3  prohibition([at(6, 6, a3)], [reduce_300(a3)])
+!!!!! from org !!!!!!
+position
+t1
+null
+@>=
+[Ljava.lang.String;@68e1ca74
+!!!!! from org !!!!!!
+position
+t1
+null
+@>=
+[Ljava.lang.String;@3fb2bb77
+!!!!! from org !!!!!!
+position
+t1
+null
+@>=
+[Ljava.lang.String;@6f31a24c
+!!!!! from org !!!!!!
+position
+t1
+null
+@>=
+[Ljava.lang.String;@2396649c
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@6dcbf6bb
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@69b3a74d
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@11ace672
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@6e4d4f6e
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@1599f755
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@2f3cf887
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@4be07f4b
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@7fc53bd7
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@6ddbe1c9
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@7ec48b77
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@19a072a6
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@74c6fd6e
+!!!!! from org !!!!!!
+cargo
+null
+null
+@>=
+[Ljava.lang.String;@34287ca7
+!!!!! from org !!!!!!
+coin
+null
+null
+@>=
+[Ljava.lang.String;@4e0fd2b1
+!!!!! from org !!!!!!
+coin
+null
+null
+@>=
+[Ljava.lang.String;@416b724d
+!!!!! from org !!!!!!
+coin
+null
+null
+@>=
+[Ljava.lang.String;@78ea5d87
+!!!!! from org !!!!!!
+reading
+null
+null
+a1
+null
+=:=
+[Ljava.lang.String;@62a28815
+!!!!! from org !!!!!!
+reading
+null
+null
+a2
+null
+=:=
+[Ljava.lang.String;@1c944d4a
+!!!!! from org !!!!!!
+reading
+null
+null
+a3
+null
+=:=
+[Ljava.lang.String;@4c5e43ee
+!!!!! from org !!!!!!
+reading
+null
+null
+a1
+null
+=:=
+[Ljava.lang.String;@7321784f
+!!!!! from org !!!!!!
+reading
+null
+null
+a2
+null
+=:=
+[Ljava.lang.String;@1a61c596
+!!!!! from org !!!!!!
+reading
+null
+null
+a3
+null
+=:=
+[Ljava.lang.String;@bab5e85
+!!!!! from org !!!!!!
+cargo
+null
+null
+@>=
+[Ljava.lang.String;@520b368f
+!!!!! from org !!!!!!
+coin
+null
+null
+c1
+=..
+[Ljava.lang.String;@5d3f79f7
+!!!!! from org !!!!!!
+coin
+null
+null
+c1
+=..
+[Ljava.lang.String;@726076f4
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@46c6c084
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@60607135
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@54640b25
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@76a3c7b1
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@7a8b7250
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@142b452b
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@24ca1465
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@4f0105c1
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@4c20ea6c
+!!!!! from org !!!!!!
+reading
+null
+null
+a1
+null
+=:=
+[Ljava.lang.String;@4fe7f80
+!!!!! from org !!!!!!
+reading
+null
+null
+a2
+null
+=:=
+[Ljava.lang.String;@6064af0f
+!!!!! from org !!!!!!
+reading
+null
+null
+a3
+null
+=:=
+[Ljava.lang.String;@67854d1f
+!!!!! from org !!!!!!
+position
+t1
+null
+@>=
+[Ljava.lang.String;@608a6351
+!!!!! from org !!!!!!
+position
+t1
+null
+@>=
+[Ljava.lang.String;@9ba0281
+!!!!! from org !!!!!!
+position
+t1
+null
+@>=
+[Ljava.lang.String;@12fa6824
+!!!!! from org !!!!!!
+position
+t1
+null
+@>=
+[Ljava.lang.String;@75cb1d37
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@69eb424b
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@544d8040
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@2c1f14fd
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@23bf011e
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@40d88d2d
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@7192efd
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@1722fe15
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@6e1b0caf
+[Prohibition [agent=c1, prohibition=[coin(5, 5, _, a1)], sanction=[reduce_300(c1)], clock=1, time=Fri May 24 15:11:16 BST 2013]]
+[Prohibition [agent=t1, prohibition=[at(6, 5, t1)], sanction=[reduce_300(t1)], clock=1, time=Fri May 24 15:11:16 BST 2013]]
+[Prohibition [agent=c1, prohibition=[coin(5, 6, _, a2)], sanction=[reduce_300(c1)], clock=1, time=Fri May 24 15:11:16 BST 2013]]
+[Prohibition [agent=c1, prohibition=[coin(6, 6, _, a3)], sanction=[reduce_300(c1)], clock=1, time=Fri May 24 15:11:16 BST 2013]]
+[Prohibition [agent=t1, prohibition=[at(5, 5, t1)], sanction=[reduce_300(t1)], clock=1, time=Fri May 24 15:11:16 BST 2013]]
+prohibition(at(6, 6, a2), reduce_300(a2))
+prohibition(at(6, 5, a2), reduce_300(a2))
+prohibition(at(5, 6, a3), reduce_300(a3))
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@1e235551
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@1922e15b
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@53ddcd5f
+!!!!! from org !!!!!!
+position
+a3
+prohibition(at(6, 6, a3), reduce_300(a3))
+null
+@>=
+[Ljava.lang.String;@392bed82
+prohibition(at(5, 5, a3), reduce_300(a3))
+!!!!! from org !!!!!!
+position
+t1
+null
+@>=
+[Ljava.lang.String;@1cfb765a
+!!!!! from org !!!!!!
+position
+t1
+null
+@>=
+[Ljava.lang.String;@683aec42
+!!!!! from org !!!!!!
+position
+t1
+null
+@>=
+[Ljava.lang.String;@4e3f905b
+!!!!! from org !!!!!!
+position
+t1
+null
+@>=
+[Ljava.lang.String;@5d86aad9
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@51fb8c6
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@659bd1ca
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@58ea58e3
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@171ccb0
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@5635378d
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@3fd23632
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@1e42d5a
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@2b5d70ae
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@390c5c0
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@15a6c214
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@770fba26
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@298651db
+[Prohibition [agent=c1, prohibition=[coin(6, 5, _, a3)], sanction=[reduce_300(c1)], clock=1, time=Fri May 24 15:11:16 BST 2013]]
+prohibition(at(6, 5, a2), reduce_300(a2))
+[Prohibition [agent=t1, prohibition=[at(6, 5, t1)], sanction=[reduce_300(t1)], clock=1, time=Fri May 24 15:11:16 BST 2013]]
+[Prohibition [agent=a1, prohibition=[at(6, 5, a1)], sanction=[reduce_300(a1)], clock=1, time=Fri May 24 15:11:16 BST 2013]]
+prohibition(at(5, 6, a3), reduce_300(a3))
+[Prohibition [agent=a1, prohibition=[at(5, 5, a1)], sanction=[reduce_300(a1)], clock=1, time=Fri May 24 15:11:16 BST 2013]]
+[Prohibition [agent=a1, prohibition=[at(5, 6, a1)], sanction=[reduce_300(a1)], clock=1, time=Fri May 24 15:11:16 BST 2013]]
+prohibition(at(6, 5, a3), reduce_300(a3))
+prohibition(at(6, 6, a3), reduce_300(a3))
+prohibition(at(5, 5, a1), reduce_300(a1))
+!!!!! from org !!!!!!
+cargo
+null
+null
+@>=
+[Ljava.lang.String;@4edf9252
+!!!!! from org !!!!!!
+coin
+null
+null
+@>=
+[Ljava.lang.String;@37ff6df2
+!!!!! from org !!!!!!
+coin
+null
+null
+@>=
+[Ljava.lang.String;@628b4796
+!!!!! from org !!!!!!
+coin
+null
+null
+@>=
+[Ljava.lang.String;@2608fb65
+!!!!! from org !!!!!!
+reading
+null
+null
+a1
+null
+=:=
+[Ljava.lang.String;@17b0b765
+!!!!! from org !!!!!!
+reading
+null
+null
+a2
+null
+=:=
+[Ljava.lang.String;@52d85409
+!!!!! from org !!!!!!
+reading
+null
+null
+a3
+null
+=:=
+[Ljava.lang.String;@7875455c
+!!!!! from org !!!!!!
+reading
+null
+null
+a1
+null
+=:=
+[Ljava.lang.String;@5b1cd8cc
+!!!!! from org !!!!!!
+reading
+null
+null
+a2
+null
+=:=
+[Ljava.lang.String;@42dd67cf
+!!!!! from org !!!!!!
+reading
+null
+null
+a3
+null
+=:=
+[Ljava.lang.String;@55ca6954
+!!!!! from org !!!!!!
+cargo
+null
+null
+@>=
+[Ljava.lang.String;@5bc935cc
+!!!!! from org !!!!!!
+coin
+null
+null
+c1
+=..
+[Ljava.lang.String;@76eb1327
+!!!!! from org !!!!!!
+coin
+null
+null
+c1
+=..
+[Ljava.lang.String;@68dd6317
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@1e94b0ca
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@33e2ad75
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@66e9f6ef
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@a52f9b2
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@4d871a69
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@60d70b42
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@46244bb9
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@78e782a8
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@2733219b
+!!!!! from org !!!!!!
+reading
+null
+null
+a1
+null
+=:=
+[Ljava.lang.String;@de35b38
+!!!!! from org !!!!!!
+reading
+null
+null
+a2
+null
+=:=
+[Ljava.lang.String;@4979c0a7
+!!!!! from org !!!!!!
+reading
+null
+null
+a3
+null
+=:=
+[Ljava.lang.String;@585739a0
+!!!!! from org !!!!!!
+position
+t1
+null
+@>=
+[Ljava.lang.String;@468864af
+!!!!! from org !!!!!!
+position
+t1
+null
+@>=
+[Ljava.lang.String;@248a4156
+!!!!! from org !!!!!!
+position
+t1
+null
+@>=
+[Ljava.lang.String;@70c787d7
+!!!!! from org !!!!!!
+position
+t1
+null
+@>=
+[Ljava.lang.String;@6d2d49e7
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@514ae5cd
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@c351f6d
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@73a2335d
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@1dda59fa
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@6a493b65
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@6dda9a66
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@2aced6e2
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@717da562
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@6ff4ff23
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@3d9a8c41
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@6d6e1eff
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@58b52f79
+!!!!! from org !!!!!!
+position
+t1
+null
+@>=
+[Ljava.lang.String;@5f3fde6e
+!!!!! from org !!!!!!
+position
+t1
+null
+@>=
+[Ljava.lang.String;@5a24389c
+!!!!! from org !!!!!!
+position
+t1
+null
+@>=
+[Ljava.lang.String;@b800
+!!!!! from org !!!!!!
+position
+t1
+null
+@>=
+[Ljava.lang.String;@2f300800
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@7a5d5033
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@43c8308
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@20be8464
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@3be5d207
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@6d3fe849
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@1f2f0ce9
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@49f8a4fd
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@631803fb
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@3dad8690
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@4b5d7792
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@655538e5
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@3e0a765c
+from agent c1  coin(position(16, 6), 0, a2)
+from agent a3  status(position(3, 4), 0)
+from agent a2  status(position(3, 4), 0)
+from agent a1  status(position(3, 4), 0)
+from agent t1  status(position(18, 19), 0)
+from agent c1  coin(position(3, 9), 0, a3)
+from agent a3  status(position(3, 5), 0)
+from agent a2  status(position(3, 5), 0)
+from agent a1  status(position(3, 5), 0)
+from agent t1  status(position(17, 19), 0)
+from agent a3  status(position(3, 6), 0)
+from agent a2  status(position(3, 6), 0)
+from agent a1  status(position(3, 6), 0)
+from agent t1  status(position(16, 19), 0)
+from agent a3  status(position(3, 7), 0)
+from agent a2  status(position(3, 7), 0)
+from agent a1  status(position(3, 7), 0)
+from agent t1  status(position(15, 19), 0)
+from agent a3  status(position(3, 8), 0)
+from agent a2  status(position(3, 8), 0)
+from agent a1  status(position(3, 8), 0)
+from agent t1  status(position(14, 19), 0)
+from agent a3  status(position(3, 9), 0)
+from agent a2  status(position(3, 9), 0)
+from agent a1  status(position(3, 9), 0)
+from agent t1  status(position(13, 19), 0)
+from agent a3  status(position(3, 10), 0)
+from agent a2  status(position(3, 10), 0)
+from agent a1  status(position(3, 10), 0)
+from agent t1  status(position(12, 19), 0)
+from agent a3  status(position(4, 10), 0)
+from agent a2  status(position(4, 10), 0)
+from agent a1  status(position(4, 10), 0)
+from agent t1  status(position(11, 19), 0)
+from agent a3  status(position(5, 10), 0)
+from agent a2  status(position(5, 10), 0)
+org notified 
+org notified 
+from agent a1  status(position(5, 10), 0)
+from agent t1  status(position(10, 19), 0)
+!!!!! from org !!!!!!
+cargo
+null
+null
+@>=
+[Ljava.lang.String;@afc47ad
+!!!!! from org !!!!!!
+coin
+null
+null
+@>=
+[Ljava.lang.String;@5fdce46d
+!!!!! from org !!!!!!
+coin
+null
+null
+@>=
+[Ljava.lang.String;@1f18e146
+!!!!! from org !!!!!!
+coin
+null
+null
+@>=
+[Ljava.lang.String;@1a6dca9d
+!!!!! from org !!!!!!
+reading
+null
+null
+a1
+null
+=:=
+[Ljava.lang.String;@1e1116f9
+!!!!! from org !!!!!!
+reading
+null
+null
+a2
+null
+=:=
+[Ljava.lang.String;@73fb44da
+!!!!! from org !!!!!!
+reading
+null
+null
+a3
+null
+=:=
+[Ljava.lang.String;@75657fb2
+!!!!! from org !!!!!!
+reading
+null
+null
+a1
+null
+=:=
+[Ljava.lang.String;@5aa2bb54
+!!!!! from org !!!!!!
+reading
+null
+null
+a2
+null
+=:=
+[Ljava.lang.String;@71b8b648
+!!!!! from org !!!!!!
+reading
+null
+null
+a3
+null
+=:=
+[Ljava.lang.String;@15c76b4c
+!!!!! from org !!!!!!
+cargo
+null
+null
+@>=
+[Ljava.lang.String;@575555bf
+!!!!! from org !!!!!!
+coin
+null
+null
+c1
+=..
+[Ljava.lang.String;@23709b64
+!!!!! from org !!!!!!
+coin
+null
+null
+c1
+=..
+[Ljava.lang.String;@35e9d469
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@a785526
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@621e3728
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@b3c03bb
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@1118efc0
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@7c242f04
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@2b8aef48
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@2e63764d
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@3ebd106
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@6ee7e2ec
+!!!!! from org !!!!!!
+reading
+null
+null
+a1
+null
+=:=
+[Ljava.lang.String;@39e32cd6
+!!!!! from org !!!!!!
+reading
+null
+null
+a2
+null
+=:=
+[Ljava.lang.String;@7194b34a
+!!!!! from org !!!!!!
+reading
+null
+null
+a3
+null
+=:=
+[Ljava.lang.String;@5986f987
+!!!!! from org !!!!!!
+position
+t1
+null
+@>=
+[Ljava.lang.String;@2c683bfc
+!!!!! from org !!!!!!
+position
+t1
+null
+@>=
+[Ljava.lang.String;@6f3a342a
+!!!!! from org !!!!!!
+position
+t1
+null
+@>=
+[Ljava.lang.String;@5636ea72
+!!!!! from org !!!!!!
+position
+t1
+null
+@>=
+[Ljava.lang.String;@2f5a0e96
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@4173b223
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@12b43967
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@7624a2c8
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@5f3b3510
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@2818de48
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@78a95d88
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@373bc99b
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@3630fb71
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@49cbd382
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@64ab21a7
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@1f2e8e93
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@299264e3
+!!!!! from org !!!!!!
+position
+t1
+null
+@>=
+[Ljava.lang.String;@4a1d8867
+!!!!! from org !!!!!!
+position
+t1
+null
+@>=
+[Ljava.lang.String;@58e64834
+!!!!! from org !!!!!!
+position
+t1
+null
+@>=
+[Ljava.lang.String;@768e7b84
+!!!!! from org !!!!!!
+position
+t1
+null
+@>=
+[Ljava.lang.String;@44f53eb
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@740e6b82
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@5eb45f54
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@13deb45f
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@213d32a
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@638c6b76
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@17e34309
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@4946101f
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@16cc88ce
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@4e299813
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@737f3202
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@6d994bd3
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@6b4141db
+from agent a3  status(position(6, 10), 0)
+!!!!! from org !!!!!!
+cargo
+null
+null
+@>=
+[Ljava.lang.String;@4edc35ba
+!!!!! from org !!!!!!
+coin
+null
+null
+@>=
+[Ljava.lang.String;@5b4b6ec8
+!!!!! from org !!!!!!
+coin
+null
+null
+@>=
+[Ljava.lang.String;@35563b4b
+!!!!! from org !!!!!!
+coin
+null
+null
+@>=
+[Ljava.lang.String;@752dbbf
+!!!!! from org !!!!!!
+reading
+null
+null
+a1
+null
+=:=
+[Ljava.lang.String;@50d8dc5a
+!!!!! from org !!!!!!
+reading
+null
+null
+a2
+null
+=:=
+[Ljava.lang.String;@68e08edd
+!!!!! from org !!!!!!
+reading
+null
+null
+a3
+null
+=:=
+[Ljava.lang.String;@6ec384f5
+!!!!! from org !!!!!!
+reading
+null
+null
+a1
+null
+=:=
+[Ljava.lang.String;@158f7f27
+!!!!! from org !!!!!!
+reading
+null
+null
+a2
+null
+=:=
+[Ljava.lang.String;@44b70e32
+!!!!! from org !!!!!!
+reading
+null
+null
+a3
+null
+=:=
+[Ljava.lang.String;@4e0517dc
+!!!!! from org !!!!!!
+cargo
+null
+null
+@>=
+[Ljava.lang.String;@30619488
+!!!!! from org !!!!!!
+coin
+null
+null
+c1
+=..
+[Ljava.lang.String;@565e8588
+!!!!! from org !!!!!!
+coin
+null
+null
+c1
+=..
+[Ljava.lang.String;@5790d004
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@6448e385
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@6d516432
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@7a8946af
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@4a7fca02
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@ba76f84
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@1d8a4916
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@768f334b
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@3370bdbc
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@2eb89c06
+!!!!! from org !!!!!!
+reading
+null
+null
+a1
+null
+=:=
+[Ljava.lang.String;@5a0b65e0
+!!!!! from org !!!!!!
+reading
+null
+null
+a2
+null
+=:=
+[Ljava.lang.String;@224d834f
+!!!!! from org !!!!!!
+reading
+null
+null
+a3
+null
+=:=
+[Ljava.lang.String;@ee7c921
+!!!!! from org !!!!!!
+position
+t1
+null
+@>=
+[Ljava.lang.String;@13459d2c
+!!!!! from org !!!!!!
+position
+t1
+null
+@>=
+[Ljava.lang.String;@3f51bd96
+!!!!! from org !!!!!!
+position
+t1
+null
+@>=
+[Ljava.lang.String;@f75e354
+!!!!! from org !!!!!!
+position
+t1
+null
+@>=
+[Ljava.lang.String;@49fa7ba
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@dbca6b5
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@5c64bc1e
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@597a84f5
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@7aaf1eb7
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@7f09bf4d
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@58ee9963
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@18986032
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@3bd37f3b
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@3a46192c
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@15b57613
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@39fe9ce1
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@6ae354b6
+!!!!! from org !!!!!!
+position
+t1
+null
+@>=
+[Ljava.lang.String;@72ceaf8c
+!!!!! from org !!!!!!
+position
+t1
+null
+@>=
+[Ljava.lang.String;@5f674b36
+!!!!! from org !!!!!!
+position
+t1
+null
+@>=
+[Ljava.lang.String;@767af728
+!!!!! from org !!!!!!
+position
+t1
+null
+@>=
+[Ljava.lang.String;@2f89fdd
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@10c767b1
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@13689e12
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@3961b9b2
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@2c9bf510
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@32f60451
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@35957bfa
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@68fe7591
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@19d8b871
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@63350ff8
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@30ab95aa
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@50eee4dc
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@73f35106
+org notified 
+from agent a2  status(position(6, 10), 0)
+!!!!! from org !!!!!!
+cargo
+null
+null
+@>=
+[Ljava.lang.String;@65fe58e0
+!!!!! from org !!!!!!
+coin
+null
+null
+@>=
+[Ljava.lang.String;@1d7d0e70
+!!!!! from org !!!!!!
+coin
+null
+null
+@>=
+[Ljava.lang.String;@7d3eea2f
+!!!!! from org !!!!!!
+coin
+null
+null
+@>=
+[Ljava.lang.String;@2d80f3e6
+!!!!! from org !!!!!!
+reading
+null
+null
+a1
+null
+=:=
+[Ljava.lang.String;@6d0c9860
+!!!!! from org !!!!!!
+reading
+null
+null
+a2
+null
+=:=
+[Ljava.lang.String;@291972f8
+!!!!! from org !!!!!!
+reading
+null
+null
+a3
+null
+=:=
+[Ljava.lang.String;@15b96350
+!!!!! from org !!!!!!
+reading
+null
+null
+a1
+null
+=:=
+[Ljava.lang.String;@3e272454
+!!!!! from org !!!!!!
+reading
+null
+null
+a2
+null
+=:=
+[Ljava.lang.String;@7bc226ac
+!!!!! from org !!!!!!
+reading
+null
+null
+a3
+null
+=:=
+[Ljava.lang.String;@77925ae
+!!!!! from org !!!!!!
+cargo
+null
+null
+@>=
+[Ljava.lang.String;@2298c657
+!!!!! from org !!!!!!
+coin
+null
+null
+c1
+=..
+[Ljava.lang.String;@5c058b7f
+!!!!! from org !!!!!!
+coin
+null
+null
+c1
+=..
+[Ljava.lang.String;@70096e0b
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@7b17cda3
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@57bdc777
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@6c7282a1
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@6c1f6177
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@380316
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@5d529976
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@59d941d7
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@4671b856
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@53fd3a3b
+!!!!! from org !!!!!!
+reading
+null
+null
+a1
+null
+=:=
+[Ljava.lang.String;@15fa2291
+!!!!! from org !!!!!!
+reading
+null
+null
+a2
+null
+=:=
+[Ljava.lang.String;@58f368dc
+!!!!! from org !!!!!!
+reading
+null
+null
+a3
+null
+=:=
+[Ljava.lang.String;@54697123
+!!!!! from org !!!!!!
+position
+t1
+null
+@>=
+[Ljava.lang.String;@5682dc20
+!!!!! from org !!!!!!
+position
+t1
+null
+@>=
+[Ljava.lang.String;@2941e53f
+!!!!! from org !!!!!!
+position
+t1
+null
+@>=
+[Ljava.lang.String;@2531a042
+!!!!! from org !!!!!!
+position
+t1
+null
+@>=
+[Ljava.lang.String;@5d106021
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@5e174642
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@4a05c750
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@25355ef9
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@52ee4084
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@17cdc4a5
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@717a07ac
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@28de768
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@32535e27
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@7f4a6c40
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@3fd4c0d2
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@28bf3bbb
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@22ea86e3
+!!!!! from org !!!!!!
+position
+t1
+null
+@>=
+[Ljava.lang.String;@533db2fd
+!!!!! from org !!!!!!
+position
+t1
+null
+@>=
+[Ljava.lang.String;@77b22abc
+!!!!! from org !!!!!!
+position
+t1
+null
+@>=
+[Ljava.lang.String;@5213da08
+!!!!! from org !!!!!!
+position
+t1
+null
+@>=
+[Ljava.lang.String;@154f6d51
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@1191ebc5
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@30ddb86
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@2c73bfb
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@6632dd29
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@1555e32a
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@39b4e557
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@7d92ce93
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@3138554d
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@69684b79
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@3e332aff
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@114beb40
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@f41bf9f
+org notified 
+from agent a1  status(position(6, 10), 0)
+!!!!! from org !!!!!!
+cargo
+null
+null
+@>=
+[Ljava.lang.String;@bf4b610
+!!!!! from org !!!!!!
+coin
+null
+null
+@>=
+[Ljava.lang.String;@6edcda91
+!!!!! from org !!!!!!
+coin
+null
+null
+@>=
+[Ljava.lang.String;@65919e73
+!!!!! from org !!!!!!
+coin
+null
+null
+@>=
+[Ljava.lang.String;@3b39c41d
+!!!!! from org !!!!!!
+reading
+null
+null
+a1
+null
+=:=
+[Ljava.lang.String;@4d7a6a4b
+!!!!! from org !!!!!!
+reading
+null
+null
+a2
+null
+=:=
+[Ljava.lang.String;@1fd889aa
+!!!!! from org !!!!!!
+reading
+null
+null
+a3
+null
+=:=
+[Ljava.lang.String;@4136083b
+!!!!! from org !!!!!!
+reading
+null
+null
+a1
+null
+=:=
+[Ljava.lang.String;@42567aef
+!!!!! from org !!!!!!
+reading
+null
+null
+a2
+null
+=:=
+[Ljava.lang.String;@3ba102ef
+!!!!! from org !!!!!!
+reading
+null
+null
+a3
+null
+=:=
+[Ljava.lang.String;@47c7b77e
+!!!!! from org !!!!!!
+cargo
+null
+null
+@>=
+[Ljava.lang.String;@8dfd603
+!!!!! from org !!!!!!
+coin
+null
+null
+c1
+=..
+[Ljava.lang.String;@1f5b6382
+!!!!! from org !!!!!!
+coin
+null
+null
+c1
+=..
+[Ljava.lang.String;@28e1fbe3
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@c60090d
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@74f23ad3
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@4af42ea0
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@652130d1
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@660c1d35
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@2551b6ea
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@17bfcfca
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@31e2e2f4
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@26a21ac2
+!!!!! from org !!!!!!
+reading
+null
+null
+a1
+null
+=:=
+[Ljava.lang.String;@5c8aca5e
+!!!!! from org !!!!!!
+reading
+null
+null
+a2
+null
+=:=
+[Ljava.lang.String;@1bec10c9
+!!!!! from org !!!!!!
+reading
+null
+null
+a3
+null
+=:=
+[Ljava.lang.String;@27420a71
+!!!!! from org !!!!!!
+position
+t1
+null
+@>=
+[Ljava.lang.String;@60bb94d9
+!!!!! from org !!!!!!
+position
+t1
+null
+@>=
+[Ljava.lang.String;@3b29642c
+!!!!! from org !!!!!!
+position
+t1
+null
+@>=
+[Ljava.lang.String;@1a6fa30c
+!!!!! from org !!!!!!
+position
+t1
+null
+@>=
+[Ljava.lang.String;@17397663
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@3d8b697e
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@bbaeec3
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@1d914a39
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@2d9ff359
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@60216f75
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@331c9ba1
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@1b2d813e
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@48801b62
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@5285e41d
+from agent t1  status(position(9, 19), 0)
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@51032d4b
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@4c7c9492
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@6fe2479
+!!!!! from org !!!!!!
+position
+t1
+null
+@>=
+[Ljava.lang.String;@170c8785
+!!!!! from org !!!!!!
+position
+t1
+null
+@>=
+[Ljava.lang.String;@37953895
+!!!!! from org !!!!!!
+position
+t1
+null
+@>=
+[Ljava.lang.String;@25b5dab5
+!!!!! from org !!!!!!
+position
+t1
+null
+@>=
+[Ljava.lang.String;@4629b46a
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@5c03bf22
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@79f9805f
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@6b5b1b88
+!!!!! from org !!!!!!
+position
+a1
+null
+@>=
+[Ljava.lang.String;@2a6cb4c8
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@46d0cc3a
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@36101828
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@5aa205d2
+!!!!! from org !!!!!!
+position
+a2
+null
+@>=
+[Ljava.lang.String;@432c4c7a
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@1151000a
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@51e668d0
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@74fe4dd2
+!!!!! from org !!!!!!
+position
+a3
+null
+@>=
+[Ljava.lang.String;@7df86f75
+from agent a3  status(position(7, 10), 0)
+from agent a2  status(position(7, 10), 0)

@@ -1,0 +1,223 @@
+Service Registrar: da7bf327-e2cd-45de-b3b5-fe10b555c1a9
+Java Space found.
+TransactionManager found.
+org notified 
+org notified 
+to be compared: [tuplespace.Cargo@69f480e3, tuplespace.Cargo@3339ed6d]
+from agent t1  obligation([cargo(_, _, _)], 10, [reduce_100(t1)])
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Tue Jan 08 12:36:35 GMT 2013, clock=1]]
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Tue Jan 08 12:36:35 GMT 2013, clock=1]]
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Tue Jan 08 12:36:35 GMT 2013, clock=1]]
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Tue Jan 08 12:36:35 GMT 2013, clock=1]]
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Tue Jan 08 12:36:35 GMT 2013, clock=1]]
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Tue Jan 08 12:36:35 GMT 2013, clock=1]]
+to be compared: [tuplespace.Cargo@60f00e0f, tuplespace.Cargo@302b2c81]
+from agent t1  prohibition([cargo(_, _, 2)], [reduce_100(t1)])
+from agent t1  prohibition([at(5, 5, t1)], [reduce_300(t1)])
+from agent t1  prohibition([at(5, 6, t1)], [reduce_300(t1)])
+from agent t1  prohibition([at(6, 5, t1)], [reduce_300(t1)])
+from agent t1  prohibition([at(6, 6, t1)], [reduce_300(t1)])
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Tue Jan 08 12:36:35 GMT 2013, clock=1]]
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Tue Jan 08 12:36:35 GMT 2013, clock=1]]
+org notified 
+org notified 
+from agent c1  prohibition([coin(5, 5, _, a1)], [reduce_300(c1)])
+from agent c1  prohibition([coin(5, 6, _, a1)], [reduce_300(c1)])
+from agent c1  prohibition([coin(6, 5, _, a1)], [reduce_300(c1)])
+from agent c1  prohibition([coin(6, 6, _, a1)], [reduce_300(c1)])
+from agent c1  prohibition([coin(5, 5, _, a2)], [reduce_300(c1)])
+from agent c1  prohibition([coin(5, 6, _, a2)], [reduce_300(c1)])
+from agent c1  prohibition([coin(6, 5, _, a2)], [reduce_300(c1)])
+from agent c1  prohibition([coin(6, 6, _, a2)], [reduce_300(c1)])
+from agent c1  prohibition([coin(5, 5, _, a3)], [reduce_300(c1)])
+from agent c1  prohibition([coin(5, 6, _, a3)], [reduce_300(c1)])
+from agent c1  prohibition([coin(6, 5, _, a3)], [reduce_300(c1)])
+from agent c1  prohibition([coin(6, 6, _, a3)], [reduce_300(c1)])
+to be compared: [Obligation [agent=t1, obligation=[cargo(_, _, _)], sanction=[reduce_100(t1)], deadline=10, time=Tue Jan 08 12:36:41 GMT 2013, clock=1]]
+[Obligation [agent=t1, obligation=[cargo(_, _, _)], sanction=[reduce_100(t1)], deadline=10, time=Tue Jan 08 12:36:41 GMT 2013, clock=1]]
+obligation(cargo(_, _, _, t1), 10, reduce_100(t1))
+from agent c1  coin(position(8, 6), 0, a1)
+from agent t1  cargo(position(19, 19), 0)
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=null, cell=Cell [x=8, y=6], agent=null, time=Tue Jan 08 12:36:45 GMT 2013, clock=0]]
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=null, cell=Cell [x=8, y=6], agent=null, time=Tue Jan 08 12:36:45 GMT 2013, clock=0]]
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=null, cell=Cell [x=8, y=6], agent=null, time=Tue Jan 08 12:36:45 GMT 2013, clock=0]]
+from agent a1  prohibition([at(5, 5, a1)], [reduce_300(a1)])
+from agent a1  prohibition([at(5, 6, a1)], [reduce_300(a1)])
+from agent a1  prohibition([at(6, 5, a1)], [reduce_300(a1)])
+from agent a1  prohibition([at(6, 6, a1)], [reduce_300(a1)])
+from agent a2  prohibition([at(5, 5, a2)], [reduce_300(a2)])
+from agent a2  prohibition([at(5, 6, a2)], [reduce_300(a2)])
+from agent a2  prohibition([at(6, 5, a2)], [reduce_300(a2)])
+from agent a2  prohibition([at(6, 6, a2)], [reduce_300(a2)])
+from agent a3  prohibition([at(5, 5, a3)], [reduce_300(a3)])
+from agent a3  prohibition([at(5, 6, a3)], [reduce_300(a3)])
+from agent a3  prohibition([at(6, 5, a3)], [reduce_300(a3)])
+from agent a3  prohibition([at(6, 6, a3)], [reduce_300(a3)])
+to be compared: [tuplespace.Cargo@5f048099, tuplespace.Cargo@2096ed8b, tuplespace.Cargo@14c55164]
+to be compared: [Prohibition [agent=t1, prohibition=[cargo(_, _, 2)], sanction=[reduce_100(t1)], clock=1, time=Tue Jan 08 12:36:43 GMT 2013], Prohibition [agent=t1, prohibition=[at(5, 5, t1)], sanction=[reduce_300(t1)], clock=1, time=Tue Jan 08 12:36:43 GMT 2013], Prohibition [agent=t1, prohibition=[at(5, 6, t1)], sanction=[reduce_300(t1)], clock=1, time=Tue Jan 08 12:36:43 GMT 2013], Prohibition [agent=t1, prohibition=[at(6, 5, t1)], sanction=[reduce_300(t1)], clock=1, time=Tue Jan 08 12:36:43 GMT 2013], Prohibition [agent=t1, prohibition=[at(6, 6, t1)], sanction=[reduce_300(t1)], clock=1, time=Tue Jan 08 12:36:43 GMT 2013], Prohibition [agent=c1, prohibition=[coin(5, 5, _, a1)], sanction=[reduce_300(c1)], clock=1, time=Tue Jan 08 12:36:44 GMT 2013], Prohibition [agent=c1, prohibition=[coin(5, 6, _, a1)], sanction=[reduce_300(c1)], clock=1, time=Tue Jan 08 12:36:44 GMT 2013], Prohibition [agent=c1, prohibition=[coin(6, 5, _, a1)], sanction=[reduce_300(c1)], clock=1, time=Tue Jan 08 12:36:44 GMT 2013], Prohibition [agent=c1, prohibition=[coin(6, 6, _, a1)], sanction=[reduce_300(c1)], clock=1, time=Tue Jan 08 12:36:44 GMT 2013], Prohibition [agent=c1, prohibition=[coin(5, 5, _, a2)], sanction=[reduce_300(c1)], clock=1, time=Tue Jan 08 12:36:44 GMT 2013], Prohibition [agent=c1, prohibition=[coin(5, 6, _, a2)], sanction=[reduce_300(c1)], clock=1, time=Tue Jan 08 12:36:44 GMT 2013], Prohibition [agent=c1, prohibition=[coin(6, 5, _, a2)], sanction=[reduce_300(c1)], clock=1, time=Tue Jan 08 12:36:44 GMT 2013], Prohibition [agent=c1, prohibition=[coin(6, 6, _, a2)], sanction=[reduce_300(c1)], clock=1, time=Tue Jan 08 12:36:44 GMT 2013], Prohibition [agent=c1, prohibition=[coin(5, 5, _, a3)], sanction=[reduce_300(c1)], clock=1, time=Tue Jan 08 12:36:44 GMT 2013], Prohibition [agent=c1, prohibition=[coin(5, 6, _, a3)], sanction=[reduce_300(c1)], clock=1, time=Tue Jan 08 12:36:44 GMT 2013], Prohibition [agent=c1, prohibition=[coin(6, 5, _, a3)], sanction=[reduce_300(c1)], clock=1, time=Tue Jan 08 12:36:44 GMT 2013], Prohibition [agent=c1, prohibition=[coin(6, 6, _, a3)], sanction=[reduce_300(c1)], clock=1, time=Tue Jan 08 12:36:44 GMT 2013], Prohibition [agent=a1, prohibition=[at(5, 5, a1)], sanction=[reduce_300(a1)], clock=1, time=Tue Jan 08 12:36:46 GMT 2013], Prohibition [agent=a1, prohibition=[at(5, 6, a1)], sanction=[reduce_300(a1)], clock=1, time=Tue Jan 08 12:36:46 GMT 2013], Prohibition [agent=a1, prohibition=[at(6, 5, a1)], sanction=[reduce_300(a1)], clock=1, time=Tue Jan 08 12:36:46 GMT 2013], Prohibition [agent=a1, prohibition=[at(6, 6, a1)], sanction=[reduce_300(a1)], clock=1, time=Tue Jan 08 12:36:46 GMT 2013], Prohibition [agent=a2, prohibition=[at(5, 5, a2)], sanction=[reduce_300(a2)], clock=1, time=Tue Jan 08 12:36:46 GMT 2013], Prohibition [agent=a2, prohibition=[at(5, 6, a2)], sanction=[reduce_300(a2)], clock=1, time=Tue Jan 08 12:36:46 GMT 2013], Prohibition [agent=a2, prohibition=[at(6, 5, a2)], sanction=[reduce_300(a2)], clock=1, time=Tue Jan 08 12:36:46 GMT 2013], Prohibition [agent=a2, prohibition=[at(6, 6, a2)], sanction=[reduce_300(a2)], clock=1, time=Tue Jan 08 12:36:46 GMT 2013], Prohibition [agent=a3, prohibition=[at(5, 5, a3)], sanction=[reduce_300(a3)], clock=1, time=Tue Jan 08 12:36:46 GMT 2013], Prohibition [agent=a3, prohibition=[at(5, 6, a3)], sanction=[reduce_300(a3)], clock=1, time=Tue Jan 08 12:36:46 GMT 2013], Prohibition [agent=a3, prohibition=[at(6, 5, a3)], sanction=[reduce_300(a3)], clock=1, time=Tue Jan 08 12:36:46 GMT 2013], Prohibition [agent=a3, prohibition=[at(6, 6, a3)], sanction=[reduce_300(a3)], clock=1, time=Tue Jan 08 12:36:46 GMT 2013]]
+[Prohibition [agent=a3, prohibition=[at(6, 6, a3)], sanction=[reduce_300(a3)], clock=1, time=Tue Jan 08 12:36:46 GMT 2013]]
+prohibition(cargo(_, _, 2, t1), reduce_100(t1))
+to be compared: [tuplespace.Cargo@4d963c81, tuplespace.Cargo@425e60f2, tuplespace.Cargo@422ed1e8]
+from agent c1  coin(position(16, 6), 0, a2)
+to be compared: [Prohibition [agent=t1, prohibition=[cargo(_, _, 2)], sanction=[reduce_100(t1)], clock=1, time=Tue Jan 08 12:36:43 GMT 2013], Prohibition [agent=t1, prohibition=[at(5, 5, t1)], sanction=[reduce_300(t1)], clock=1, time=Tue Jan 08 12:36:43 GMT 2013], Prohibition [agent=t1, prohibition=[at(5, 6, t1)], sanction=[reduce_300(t1)], clock=1, time=Tue Jan 08 12:36:43 GMT 2013], Prohibition [agent=t1, prohibition=[at(6, 5, t1)], sanction=[reduce_300(t1)], clock=1, time=Tue Jan 08 12:36:43 GMT 2013], Prohibition [agent=t1, prohibition=[at(6, 6, t1)], sanction=[reduce_300(t1)], clock=1, time=Tue Jan 08 12:36:43 GMT 2013], Prohibition [agent=c1, prohibition=[coin(5, 5, _, a1)], sanction=[reduce_300(c1)], clock=1, time=Tue Jan 08 12:36:44 GMT 2013], Prohibition [agent=c1, prohibition=[coin(5, 6, _, a1)], sanction=[reduce_300(c1)], clock=1, time=Tue Jan 08 12:36:44 GMT 2013], Prohibition [agent=c1, prohibition=[coin(6, 5, _, a1)], sanction=[reduce_300(c1)], clock=1, time=Tue Jan 08 12:36:44 GMT 2013], Prohibition [agent=c1, prohibition=[coin(6, 6, _, a1)], sanction=[reduce_300(c1)], clock=1, time=Tue Jan 08 12:36:44 GMT 2013], Prohibition [agent=c1, prohibition=[coin(5, 5, _, a2)], sanction=[reduce_300(c1)], clock=1, time=Tue Jan 08 12:36:44 GMT 2013], Prohibition [agent=c1, prohibition=[coin(5, 6, _, a2)], sanction=[reduce_300(c1)], clock=1, time=Tue Jan 08 12:36:44 GMT 2013], Prohibition [agent=c1, prohibition=[coin(6, 5, _, a2)], sanction=[reduce_300(c1)], clock=1, time=Tue Jan 08 12:36:44 GMT 2013], Prohibition [agent=c1, prohibition=[coin(6, 6, _, a2)], sanction=[reduce_300(c1)], clock=1, time=Tue Jan 08 12:36:44 GMT 2013], Prohibition [agent=c1, prohibition=[coin(5, 5, _, a3)], sanction=[reduce_300(c1)], clock=1, time=Tue Jan 08 12:36:44 GMT 2013], Prohibition [agent=c1, prohibition=[coin(5, 6, _, a3)], sanction=[reduce_300(c1)], clock=1, time=Tue Jan 08 12:36:44 GMT 2013], Prohibition [agent=c1, prohibition=[coin(6, 5, _, a3)], sanction=[reduce_300(c1)], clock=1, time=Tue Jan 08 12:36:44 GMT 2013], Prohibition [agent=c1, prohibition=[coin(6, 6, _, a3)], sanction=[reduce_300(c1)], clock=1, time=Tue Jan 08 12:36:44 GMT 2013], Prohibition [agent=a1, prohibition=[at(5, 5, a1)], sanction=[reduce_300(a1)], clock=1, time=Tue Jan 08 12:36:46 GMT 2013], Prohibition [agent=a1, prohibition=[at(5, 6, a1)], sanction=[reduce_300(a1)], clock=1, time=Tue Jan 08 12:36:46 GMT 2013], Prohibition [agent=a1, prohibition=[at(6, 5, a1)], sanction=[reduce_300(a1)], clock=1, time=Tue Jan 08 12:36:46 GMT 2013], Prohibition [agent=a1, prohibition=[at(6, 6, a1)], sanction=[reduce_300(a1)], clock=1, time=Tue Jan 08 12:36:46 GMT 2013], Prohibition [agent=a2, prohibition=[at(5, 5, a2)], sanction=[reduce_300(a2)], clock=1, time=Tue Jan 08 12:36:46 GMT 2013], Prohibition [agent=a2, prohibition=[at(5, 6, a2)], sanction=[reduce_300(a2)], clock=1, time=Tue Jan 08 12:36:46 GMT 2013], Prohibition [agent=a2, prohibition=[at(6, 5, a2)], sanction=[reduce_300(a2)], clock=1, time=Tue Jan 08 12:36:46 GMT 2013], Prohibition [agent=a2, prohibition=[at(6, 6, a2)], sanction=[reduce_300(a2)], clock=1, time=Tue Jan 08 12:36:46 GMT 2013], Prohibition [agent=a3, prohibition=[at(5, 5, a3)], sanction=[reduce_300(a3)], clock=1, time=Tue Jan 08 12:36:46 GMT 2013], Prohibition [agent=a3, prohibition=[at(5, 6, a3)], sanction=[reduce_300(a3)], clock=1, time=Tue Jan 08 12:36:46 GMT 2013], Prohibition [agent=a3, prohibition=[at(6, 5, a3)], sanction=[reduce_300(a3)], clock=1, time=Tue Jan 08 12:36:46 GMT 2013], Prohibition [agent=a3, prohibition=[at(6, 6, a3)], sanction=[reduce_300(a3)], clock=1, time=Tue Jan 08 12:36:46 GMT 2013]]
+[null]
+[null]
+[null]
+[null]
+to be compared: [tuplespace.Cargo@4c15c0d7, tuplespace.Cargo@28278a47, tuplespace.Cargo@3be74fe9]
+[Prohibition [agent=a3, prohibition=[at(6, 6, a3)], sanction=[reduce_300(a3)], clock=1, time=Tue Jan 08 12:36:46 GMT 2013]]
+java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
+	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1109)
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:303)
+	at sun.rmi.transport.Transport$1.run(Transport.java:159)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:155)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:535)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:790)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:649)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:680)
+java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
+	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1109)
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:303)
+	at sun.rmi.transport.Transport$1.run(Transport.java:159)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:155)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:535)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:790)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:649)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:680)
+prohibition(cargo(_, _, 2, t1), reduce_100(t1))
+java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
+	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1109)
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:303)
+	at sun.rmi.transport.Transport$1.run(Transport.java:159)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:155)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:535)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:790)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:649)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:680)
+java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
+	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1109)
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:303)
+	at sun.rmi.transport.Transport$1.run(Transport.java:159)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:155)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:535)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:790)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:649)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:680)
+from agent t1  status(position(18, 19), 0)
+to be compared: [tuplespace.Cargo@1de9c46d, tuplespace.Cargo@5e5edf72, tuplespace.Cargo@269fe5c5]
+from agent c1  coin(position(3, 9), 0, a3)
+from agent t1  status(position(17, 19), 0)
+from agent t1  status(position(16, 19), 0)
+from agent t1  status(position(15, 19), 0)
+to be compared: [tuplespace.Cargo@4a3e7799, tuplespace.Cargo@4b1e03e3, tuplespace.Cargo@1f91529c]
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=null, cell=Cell [x=8, y=6], agent=null, time=Tue Jan 08 12:36:45 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=16, y=6], agent=null, time=Tue Jan 08 12:36:46 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=3, y=9], agent=null, time=Tue Jan 08 12:36:47 GMT 2013, clock=0]]
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=null, cell=Cell [x=8, y=6], agent=null, time=Tue Jan 08 12:36:45 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=16, y=6], agent=null, time=Tue Jan 08 12:36:46 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=3, y=9], agent=null, time=Tue Jan 08 12:36:47 GMT 2013, clock=0]]
+from agent t1  status(position(14, 19), 0)
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=null, cell=Cell [x=8, y=6], agent=null, time=Tue Jan 08 12:36:45 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=16, y=6], agent=null, time=Tue Jan 08 12:36:46 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=3, y=9], agent=null, time=Tue Jan 08 12:36:47 GMT 2013, clock=0]]
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=null, cell=Cell [x=8, y=6], agent=null, time=Tue Jan 08 12:36:45 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=16, y=6], agent=null, time=Tue Jan 08 12:36:46 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=3, y=9], agent=null, time=Tue Jan 08 12:36:47 GMT 2013, clock=0]]
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=null, cell=Cell [x=8, y=6], agent=null, time=Tue Jan 08 12:36:45 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=16, y=6], agent=null, time=Tue Jan 08 12:36:46 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=3, y=9], agent=null, time=Tue Jan 08 12:36:47 GMT 2013, clock=0]]
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=null, cell=Cell [x=8, y=6], agent=null, time=Tue Jan 08 12:36:45 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=16, y=6], agent=null, time=Tue Jan 08 12:36:46 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=3, y=9], agent=null, time=Tue Jan 08 12:36:47 GMT 2013, clock=0]]
+from agent t1  status(position(13, 19), 0)
+to be compared: [tuplespace.Cargo@184307f2, tuplespace.Cargo@58bead4f, tuplespace.Cargo@4e644b0d]
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=null, cell=Cell [x=8, y=6], agent=null, time=Tue Jan 08 12:36:45 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=16, y=6], agent=null, time=Tue Jan 08 12:36:46 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=3, y=9], agent=null, time=Tue Jan 08 12:36:47 GMT 2013, clock=0]]
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=null, cell=Cell [x=8, y=6], agent=null, time=Tue Jan 08 12:36:45 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=16, y=6], agent=null, time=Tue Jan 08 12:36:46 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=3, y=9], agent=null, time=Tue Jan 08 12:36:47 GMT 2013, clock=0]]
+from agent t1  status(position(12, 19), 0)
+from agent t1  status(position(11, 19), 0)
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=null, cell=Cell [x=8, y=6], agent=null, time=Tue Jan 08 12:36:45 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=16, y=6], agent=null, time=Tue Jan 08 12:36:46 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=3, y=9], agent=null, time=Tue Jan 08 12:36:47 GMT 2013, clock=0]]
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=null, cell=Cell [x=8, y=6], agent=null, time=Tue Jan 08 12:36:45 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=16, y=6], agent=null, time=Tue Jan 08 12:36:46 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=3, y=9], agent=null, time=Tue Jan 08 12:36:47 GMT 2013, clock=0]]
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=null, cell=Cell [x=8, y=6], agent=null, time=Tue Jan 08 12:36:45 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=16, y=6], agent=null, time=Tue Jan 08 12:36:46 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=3, y=9], agent=null, time=Tue Jan 08 12:36:47 GMT 2013, clock=0]]
+to be compared: [tuplespace.Cargo@43c3d993, tuplespace.Cargo@6f0164a6, tuplespace.Cargo@44770739]
+from agent t1  status(position(10, 19), 0)
+org notified 
+from agent t1  status(position(9, 19), 0)
+from agent t1  status(position(8, 19), 0)
+to be compared: [tuplespace.Cargo@7a1fc671, tuplespace.Cargo@3c1d635a, tuplespace.Cargo@2d65c88b]
+from agent t1  status(position(7, 19), 0)
+from agent t1  status(position(6, 19), 0)
+from agent t1  status(position(5, 19), 0)
+to be compared: [tuplespace.Cargo@16dccf02, tuplespace.Cargo@7a9a9807, tuplespace.Cargo@3b733273]
+from agent t1  status(position(4, 19), 0)
+from agent t1  status(position(3, 19), 0)
+from agent t1  status(position(2, 19), 0)
+from agent t1  status(position(2, 18), 0)
+org notified 
+to be compared: [tuplespace.Cargo@260a92f7, tuplespace.Cargo@36a9a4, tuplespace.Cargo@4bb4e18]
+from agent t1  obligation([cargo(_, _, _)], 10, [reduce_100(t1)])
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=null, cell=Cell [x=8, y=6], agent=null, time=Tue Jan 08 12:36:45 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=16, y=6], agent=null, time=Tue Jan 08 12:36:46 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=3, y=9], agent=null, time=Tue Jan 08 12:36:47 GMT 2013, clock=0]]
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=null, cell=Cell [x=8, y=6], agent=null, time=Tue Jan 08 12:36:45 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=16, y=6], agent=null, time=Tue Jan 08 12:36:46 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=3, y=9], agent=null, time=Tue Jan 08 12:36:47 GMT 2013, clock=0]]
+from agent t1  status(position(2, 17), 0)
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=null, cell=Cell [x=8, y=6], agent=null, time=Tue Jan 08 12:36:45 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=16, y=6], agent=null, time=Tue Jan 08 12:36:46 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=3, y=9], agent=null, time=Tue Jan 08 12:36:47 GMT 2013, clock=0]]
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=null, cell=Cell [x=8, y=6], agent=null, time=Tue Jan 08 12:36:45 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=16, y=6], agent=null, time=Tue Jan 08 12:36:46 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=3, y=9], agent=null, time=Tue Jan 08 12:36:47 GMT 2013, clock=0]]
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=null, cell=Cell [x=8, y=6], agent=null, time=Tue Jan 08 12:36:45 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=16, y=6], agent=null, time=Tue Jan 08 12:36:46 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=3, y=9], agent=null, time=Tue Jan 08 12:36:47 GMT 2013, clock=0]]
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=null, cell=Cell [x=8, y=6], agent=null, time=Tue Jan 08 12:36:45 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=16, y=6], agent=null, time=Tue Jan 08 12:36:46 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=3, y=9], agent=null, time=Tue Jan 08 12:36:47 GMT 2013, clock=0]]
+to be compared: [tuplespace.Cargo@44a5b703, tuplespace.Cargo@5b92492a, tuplespace.Cargo@6101935d]
+from agent t1  status(position(2, 16), 0)
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=null, cell=Cell [x=8, y=6], agent=null, time=Tue Jan 08 12:36:45 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=16, y=6], agent=null, time=Tue Jan 08 12:36:46 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=3, y=9], agent=null, time=Tue Jan 08 12:36:47 GMT 2013, clock=0]]
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=null, cell=Cell [x=8, y=6], agent=null, time=Tue Jan 08 12:36:45 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=16, y=6], agent=null, time=Tue Jan 08 12:36:46 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=3, y=9], agent=null, time=Tue Jan 08 12:36:47 GMT 2013, clock=0]]
+from agent t1  status(position(2, 15), 0)
+from agent t1  status(position(2, 14), 0)
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=null, cell=Cell [x=8, y=6], agent=null, time=Tue Jan 08 12:36:45 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=16, y=6], agent=null, time=Tue Jan 08 12:36:46 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=3, y=9], agent=null, time=Tue Jan 08 12:36:47 GMT 2013, clock=0]]
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=null, cell=Cell [x=8, y=6], agent=null, time=Tue Jan 08 12:36:45 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=16, y=6], agent=null, time=Tue Jan 08 12:36:46 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=3, y=9], agent=null, time=Tue Jan 08 12:36:47 GMT 2013, clock=0]]
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=null, cell=Cell [x=8, y=6], agent=null, time=Tue Jan 08 12:36:45 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=16, y=6], agent=null, time=Tue Jan 08 12:36:46 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=3, y=9], agent=null, time=Tue Jan 08 12:36:47 GMT 2013, clock=0]]
+to be compared: [tuplespace.Cargo@3d48392b, tuplespace.Cargo@50a1557b, tuplespace.Cargo@ff32798]
+from agent t1  status(position(2, 13), 0)
+from agent t1  status(position(2, 12), 0)
+from agent t1  status(position(2, 11), 0)
+to be compared: [Obligation [agent=t1, obligation=[cargo(_, _, _)], sanction=[reduce_100(t1)], deadline=10, time=Tue Jan 08 12:36:41 GMT 2013, clock=1], Obligation [agent=t1, obligation=[cargo(_, _, _)], sanction=[reduce_100(t1)], deadline=10, time=Tue Jan 08 12:37:06 GMT 2013, clock=1]]
+[Obligation [agent=t1, obligation=[cargo(_, _, _)], sanction=[reduce_100(t1)], deadline=10, time=Tue Jan 08 12:37:06 GMT 2013, clock=1]]
+obligation(cargo(_, _, _, t1), 10, reduce_100(t1))
+to be compared: [tuplespace.Cargo@2abc7c8e, tuplespace.Cargo@3c95648d, tuplespace.Cargo@73fc840d]
+to be compared: [tuplespace.Cargo@7265d075, tuplespace.Cargo@7a58ebff, tuplespace.Cargo@63edf119]
+from agent t1  status(position(2, 10), 0)
+to be compared: [tuplespace.Cargo@376fe6cc, tuplespace.Cargo@13997783, tuplespace.Cargo@40754382]
+to be compared: [tuplespace.Cargo@66942944, tuplespace.Cargo@92163f9, tuplespace.Cargo@6f2a751d]
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=null, cell=Cell [x=8, y=6], agent=null, time=Tue Jan 08 12:36:45 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=16, y=6], agent=null, time=Tue Jan 08 12:36:46 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=3, y=9], agent=null, time=Tue Jan 08 12:36:47 GMT 2013, clock=0]]
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=null, cell=Cell [x=8, y=6], agent=null, time=Tue Jan 08 12:36:45 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=16, y=6], agent=null, time=Tue Jan 08 12:36:46 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=3, y=9], agent=null, time=Tue Jan 08 12:36:47 GMT 2013, clock=0]]
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=null, cell=Cell [x=8, y=6], agent=null, time=Tue Jan 08 12:36:45 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=16, y=6], agent=null, time=Tue Jan 08 12:36:46 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=3, y=9], agent=null, time=Tue Jan 08 12:36:47 GMT 2013, clock=0]]
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=null, cell=Cell [x=8, y=6], agent=null, time=Tue Jan 08 12:36:45 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=16, y=6], agent=null, time=Tue Jan 08 12:36:46 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=3, y=9], agent=null, time=Tue Jan 08 12:36:47 GMT 2013, clock=0]]
+from agent t1  status(position(2, 9), 0)
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=null, cell=Cell [x=8, y=6], agent=null, time=Tue Jan 08 12:36:45 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=16, y=6], agent=null, time=Tue Jan 08 12:36:46 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=3, y=9], agent=null, time=Tue Jan 08 12:36:47 GMT 2013, clock=0]]
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=null, cell=Cell [x=8, y=6], agent=null, time=Tue Jan 08 12:36:45 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=16, y=6], agent=null, time=Tue Jan 08 12:36:46 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=3, y=9], agent=null, time=Tue Jan 08 12:36:47 GMT 2013, clock=0]]
+to be compared: [tuplespace.Cargo@7dd84118, tuplespace.Cargo@99cf34, tuplespace.Cargo@71f25f3a]
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=null, cell=Cell [x=8, y=6], agent=null, time=Tue Jan 08 12:36:45 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=16, y=6], agent=null, time=Tue Jan 08 12:36:46 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=3, y=9], agent=null, time=Tue Jan 08 12:36:47 GMT 2013, clock=0]]
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=null, cell=Cell [x=8, y=6], agent=null, time=Tue Jan 08 12:36:45 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=16, y=6], agent=null, time=Tue Jan 08 12:36:46 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=3, y=9], agent=null, time=Tue Jan 08 12:36:47 GMT 2013, clock=0]]
+from agent t1  status(position(2, 8), 0)
+from agent t1  status(position(2, 7), 0)
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=null, cell=Cell [x=8, y=6], agent=null, time=Tue Jan 08 12:36:45 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=16, y=6], agent=null, time=Tue Jan 08 12:36:46 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=3, y=9], agent=null, time=Tue Jan 08 12:36:47 GMT 2013, clock=0]]
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=null, cell=Cell [x=8, y=6], agent=null, time=Tue Jan 08 12:36:45 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=16, y=6], agent=null, time=Tue Jan 08 12:36:46 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=3, y=9], agent=null, time=Tue Jan 08 12:36:47 GMT 2013, clock=0]]
+from agent t1  status(position(2, 6), 0)
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Tue Jan 08 12:36:35 GMT 2013, clock=1], Coin [id=null, cell=Cell [x=8, y=6], agent=null, time=Tue Jan 08 12:36:45 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=16, y=6], agent=null, time=Tue Jan 08 12:36:46 GMT 2013, clock=0], Coin [id=null, cell=Cell [x=3, y=9], agent=null, time=Tue Jan 08 12:36:47 GMT 2013, clock=0]]
+to be compared: [tuplespace.Cargo@97b275b, tuplespace.Cargo@7454cc39, tuplespace.Cargo@6b2bedd9]
+from agent t1  status(position(2, 5), 0)

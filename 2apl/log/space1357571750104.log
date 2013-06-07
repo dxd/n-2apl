@@ -1,0 +1,363 @@
+Service Registrar: 2131b097-6371-46da-b860-ae9238a6fc5d
+Java Space found.
+TransactionManager found.
+org notified 
+obligation([cargo(_, _, _)], 11, [reduce_100(t1)])
+t1
+create entry obligation [[cargo(_, _, _)], 11, [reduce_100(t1)]]
+org notified 
+obligation([cargo(_, _, _)], 13, [reduce_100(t1)])
+t1
+create entry obligation [[cargo(_, _, _)], 13, [reduce_100(t1)]]
+cargo(position(20, 20), 6)
+t1
+create entry cargo [position(20, 20), 6]
+coin(position(8, 6), 5, a1)
+c1
+create entry coin [position(8, 6), 5, a1]
+status(position(3, 4), 46)
+a2
+status(position(3, 4), 6)
+a3
+status(position(3, 4), 7)
+a1
+coin(position(16, 6), 7, a2)
+c1
+create entry coin [position(16, 6), 7, a2]
+status(position(19, 20), 6)
+t1
+status(position(3, 5), 7)
+a3
+coin(position(3, 9), 4, a3)
+c1
+create entry coin [position(3, 9), 4, a3]
+status(position(3, 5), 7)
+a2
+status(position(3, 5), 41)
+a1
+status(position(18, 20), 1)
+t1
+status(position(3, 6), 9)
+a3
+status(position(17, 20), 9)
+t1
+status(position(3, 6), 7)
+a2
+status(position(3, 6), 8)
+a1
+status(position(3, 7), 10)
+a3
+status(position(3, 7), 8)
+a2
+status(position(3, 8), 5)
+a3
+status(position(3, 7), 8)
+a1
+obligation([cargo(_, _, _)], 11, [reduce_100(t1)])
+t1
+create entry obligation [[cargo(_, _, _)], 11, [reduce_100(t1)]]
+status(position(16, 20), 8)
+t1
+status(position(3, 8), 11)
+a2
+status(position(3, 9), 10)
+a3
+status(position(3, 8), 11)
+a1
+status(position(15, 20), 11)
+t1
+status(position(3, 9), 12)
+a2
+prohibition([cargo(_, _, 7)], [reduce_100(t1)])
+t1
+create entry prohibition [[cargo(_, _, 7)], [reduce_100(t1)]]
+status(position(3, 9), 12)
+a1
+status(position(3, 10), 8)
+a2
+status(position(3, 10), 10)
+a3
+obligation([cargo(_, _, _)], 13, [reduce_100(t1)])
+t1
+create entry obligation [[cargo(_, _, _)], 13, [reduce_100(t1)]]
+status(position(3, 10), 11)
+a1
+status(position(14, 20), 11)
+t1
+status(position(4, 10), 14)
+a2
+status(position(4, 10), 12)
+a3
+status(position(13, 20), 14)
+t1
+status(position(4, 10), 13)
+a1
+prohibition([cargo(_, _, 7)], [reduce_100(t1)])
+t1
+create entry prohibition [[cargo(_, _, 7)], [reduce_100(t1)]]
+status(position(5, 10), 14)
+a2
+status(position(5, 10), 15)
+a3
+status(position(12, 20), 16)
+t1
+status(position(5, 10), 15)
+a1
+status(position(6, 10), 16)
+a2
+status(position(11, 20), 12)
+t1
+status(position(6, 10), 7)
+a1
+status(position(6, 10), 12)
+a3
+status(position(10, 20), 0)
+t1
+status(position(7, 10), 18)
+a2
+status(position(7, 10), 17)
+a3
+status(position(7, 10), 18)
+a1
+status(position(9, 20), 18)
+t1
+status(position(8, 10), 16)
+a1
+status(position(8, 10), 18)
+a2
+status(position(8, 10), 14)
+a3
+status(position(8, 20), 20)
+t1
+status(position(9, 10), 18)
+a2
+status(position(9, 10), 20)
+a3
+status(position(9, 10), 19)
+a1
+status(position(7, 20), 21)
+t1
+status(position(10, 10), 20)
+a1
+status(position(10, 10), 21)
+a3
+status(position(10, 10), 20)
+a2
+status(position(6, 20), 21)
+t1
+status(position(5, 20), 23)
+t1
+status(position(4, 20), 23)
+t1
+status(position(3, 20), 24)
+t1
+status(position(2, 20), 25)
+t1
+status(position(2, 19), 25)
+t1
+status(position(2, 18), 26)
+t1
+status(position(2, 17), 26)
+t1
+status(position(2, 16), 27)
+t1
+status(position(2, 15), 28)
+t1
+status(position(2, 14), 28)
+t1
+status(position(2, 13), 29)
+t1
+status(position(2, 12), 30)
+t1
+status(position(2, 11), 31)
+t1
+status(position(2, 10), 31)
+t1
+status(position(2, 9), 32)
+t1
+status(position(2, 8), 33)
+t1
+status(position(2, 7), 34)
+t1
+status(position(2, 6), 34)
+t1
+status(position(2, 5), 35)
+t1
+status(position(2, 4), 36)
+t1
+status(position(2, 3), 36)
+t1
+status(position(2, 2), 37)
+t1
+org notified 
+obligation([cargo(_, _, _)], 51, [reduce_100(t1)])
+t1
+create entry obligation [[cargo(_, _, _)], 51, [reduce_100(t1)]]
+org notified 
+obligation([cargo(_, _, _)], 53, [reduce_100(t1)])
+t1
+create entry obligation [[cargo(_, _, _)], 53, [reduce_100(t1)]]
+org notified 
+obligation([cargo(_, _, _)], 79, [reduce_100(t1)])
+t1
+create entry obligation [[cargo(_, _, _)], 79, [reduce_100(t1)]]
+org notified 
+obligation([cargo(_, _, _)], 82, [reduce_100(t1)])
+t1
+create entry obligation [[cargo(_, _, _)], 82, [reduce_100(t1)]]
+obligation([cargo(_, _, _)], 89, [reduce_100(t1)])
+t1
+create entry obligation [[cargo(_, _, _)], 89, [reduce_100(t1)]]
+org notified 
+obligation([cargo(_, _, _)], 89, [reduce_100(t1)])
+t1
+create entry obligation [[cargo(_, _, _)], 89, [reduce_100(t1)]]
+org notified 
+obligation([cargo(_, _, _)], 89, [reduce_100(t1)])
+t1
+create entry obligation [[cargo(_, _, _)], 89, [reduce_100(t1)]]
+org notified 
+obligation([cargo(_, _, _)], 89, [reduce_100(t1)])
+t1
+create entry obligation [[cargo(_, _, _)], 89, [reduce_100(t1)]]
+org notified 
+obligation([cargo(_, _, _)], 89, [reduce_100(t1)])
+t1
+create entry obligation [[cargo(_, _, _)], 89, [reduce_100(t1)]]
+prohibition([cargo(_, _, 7)], [reduce_100(t1)])
+t1
+create entry prohibition [[cargo(_, _, 7)], [reduce_100(t1)]]
+prohibition([at(5, 5, t1)], [reduce_300(t1)])
+t1
+create entry prohibition [[at(5, 5, t1)], [reduce_300(t1)]]
+prohibition([at(5, 6, t1)], [reduce_300(t1)])
+t1
+create entry prohibition [[at(5, 6, t1)], [reduce_300(t1)]]
+prohibition([at(6, 5, t1)], [reduce_300(t1)])
+t1
+create entry prohibition [[at(6, 5, t1)], [reduce_300(t1)]]
+prohibition([at(6, 6, t1)], [reduce_300(t1)])
+t1
+create entry prohibition [[at(6, 6, t1)], [reduce_300(t1)]]
+prohibition([coin(5, 5, _, a1)], [reduce_300(c1)])
+c1
+create entry prohibition [[coin(5, 5, _, a1)], [reduce_300(c1)]]
+prohibition([coin(5, 6, _, a1)], [reduce_300(c1)])
+c1
+create entry prohibition [[coin(5, 6, _, a1)], [reduce_300(c1)]]
+prohibition([coin(6, 5, _, a1)], [reduce_300(c1)])
+c1
+create entry prohibition [[coin(6, 5, _, a1)], [reduce_300(c1)]]
+prohibition([coin(6, 6, _, a1)], [reduce_300(c1)])
+c1
+create entry prohibition [[coin(6, 6, _, a1)], [reduce_300(c1)]]
+prohibition([coin(5, 5, _, a2)], [reduce_300(c1)])
+c1
+create entry prohibition [[coin(5, 5, _, a2)], [reduce_300(c1)]]
+prohibition([coin(5, 6, _, a2)], [reduce_300(c1)])
+c1
+create entry prohibition [[coin(5, 6, _, a2)], [reduce_300(c1)]]
+prohibition([coin(6, 5, _, a2)], [reduce_300(c1)])
+c1
+create entry prohibition [[coin(6, 5, _, a2)], [reduce_300(c1)]]
+prohibition([coin(6, 6, _, a2)], [reduce_300(c1)])
+c1
+create entry prohibition [[coin(6, 6, _, a2)], [reduce_300(c1)]]
+prohibition([coin(5, 5, _, a3)], [reduce_300(c1)])
+c1
+create entry prohibition [[coin(5, 5, _, a3)], [reduce_300(c1)]]
+prohibition([coin(5, 6, _, a3)], [reduce_300(c1)])
+c1
+create entry prohibition [[coin(5, 6, _, a3)], [reduce_300(c1)]]
+prohibition([coin(6, 5, _, a3)], [reduce_300(c1)])
+c1
+create entry prohibition [[coin(6, 5, _, a3)], [reduce_300(c1)]]
+prohibition([coin(6, 6, _, a3)], [reduce_300(c1)])
+c1
+create entry prohibition [[coin(6, 6, _, a3)], [reduce_300(c1)]]
+prohibition([at(5, 5, a1)], [reduce_300(a1)])
+a1
+create entry prohibition [[at(5, 5, a1)], [reduce_300(a1)]]
+prohibition([at(5, 6, a1)], [reduce_300(a1)])
+a1
+create entry prohibition [[at(5, 6, a1)], [reduce_300(a1)]]
+prohibition([at(6, 5, a1)], [reduce_300(a1)])
+a1
+create entry prohibition [[at(6, 5, a1)], [reduce_300(a1)]]
+prohibition([at(6, 6, a1)], [reduce_300(a1)])
+a1
+create entry prohibition [[at(6, 6, a1)], [reduce_300(a1)]]
+prohibition([at(5, 5, a2)], [reduce_300(a2)])
+a2
+create entry prohibition [[at(5, 5, a2)], [reduce_300(a2)]]
+prohibition([at(5, 6, a2)], [reduce_300(a2)])
+a2
+create entry prohibition [[at(5, 6, a2)], [reduce_300(a2)]]
+prohibition([at(6, 5, a2)], [reduce_300(a2)])
+a2
+create entry prohibition [[at(6, 5, a2)], [reduce_300(a2)]]
+prohibition([at(6, 6, a2)], [reduce_300(a2)])
+a2
+create entry prohibition [[at(6, 6, a2)], [reduce_300(a2)]]
+prohibition([at(5, 5, a3)], [reduce_300(a3)])
+a3
+create entry prohibition [[at(5, 5, a3)], [reduce_300(a3)]]
+prohibition([at(5, 6, a3)], [reduce_300(a3)])
+a3
+create entry prohibition [[at(5, 6, a3)], [reduce_300(a3)]]
+prohibition([at(6, 5, a3)], [reduce_300(a3)])
+a3
+create entry prohibition [[at(6, 5, a3)], [reduce_300(a3)]]
+prohibition([at(6, 6, a3)], [reduce_300(a3)])
+a3
+create entry prohibition [[at(6, 6, a3)], [reduce_300(a3)]]
+org notified 
+obligation([cargo(_, _, _)], 89, [reduce_100(t1)])
+t1
+create entry obligation [[cargo(_, _, _)], 89, [reduce_100(t1)]]
+java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
+	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1100)
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:68)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:303)
+	at sun.rmi.transport.Transport$1.run(Transport.java:159)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:155)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:535)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:790)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:649)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:680)
+java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
+	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1100)
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:68)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:303)
+	at sun.rmi.transport.Transport$1.run(Transport.java:159)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:155)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:535)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:790)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:649)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:680)
+org notified 
+obligation([cargo(_, _, _)], 89, [reduce_100(t1)])
+t1
+create entry obligation [[cargo(_, _, _)], 89, [reduce_100(t1)]]
+obligation([cargo(_, _, _)], 89, [reduce_100(t1)])
+t1
+create entry obligation [[cargo(_, _, _)], 89, [reduce_100(t1)]]
+prohibition([cargo(_, _, 2)], [reduce_100(t1)])
+t1
+create entry prohibition [[cargo(_, _, 2)], [reduce_100(t1)]]
+obligation([cargo(_, _, _)], 89, [reduce_100(t1)])
+t1
+create entry obligation [[cargo(_, _, _)], 89, [reduce_100(t1)]]
+org notified 

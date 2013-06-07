@@ -1,0 +1,57 @@
+test2.
+Service Registrar: 030f1663-533c-4ec7-8ed1-91360ca6c545
+Java Space found.
+TransactionManager found.
+register a1
+register a2
+register a3
+register c1
+register t1
+from/for agent c1  coin(position(8, 6), 0, a1)
+Agent writes: Coin [id=null, cell=Cell [x=8, y=6], agent=a1, time=Wed May 29 12:52:17 BST 2013, clock=0]
+from/for agent t1  cargo(position(19, 19), 0)
+Agent writes: Cargo [id=null, cell=Cell [x=19, y=19], time=Wed May 29 12:52:18 BST 2013, clock=0]
+from/for agent a2  status(position(7, 19), 0)
+Agent writes: Position [agent=a2, id=null, cell=Cell [x=7, y=19], time=Wed May 29 12:52:18 BST 2013, clock=0]
+from/for agent a3  status(position(11, 2), 0)
+Agent writes: Position [agent=a3, id=null, cell=Cell [x=11, y=2], time=Wed May 29 12:52:18 BST 2013, clock=0]
+from/for agent t1  status(position(18, 19), 0)
+Agent writes: Position [agent=t1, id=null, cell=Cell [x=18, y=19], time=Wed May 29 12:52:18 BST 2013, clock=0]
+from/for agent c1  coin(position(16, 6), 0, a2)
+Agent writes: Coin [id=null, cell=Cell [x=16, y=6], agent=a2, time=Wed May 29 12:52:19 BST 2013, clock=0]
+from/for agent a1  status(position(3, 4), 0)
+Agent writes: Position [agent=a1, id=null, cell=Cell [x=3, y=4], time=Wed May 29 12:52:19 BST 2013, clock=0]
+from/for agent a2  status(position(6, 19), 0)
+Agent writes: Position [agent=a2, id=null, cell=Cell [x=6, y=19], time=Wed May 29 12:52:19 BST 2013, clock=0]
+from/for agent a3  status(position(11, 3), 0)
+Agent writes: Position [agent=a3, id=null, cell=Cell [x=11, y=3], time=Wed May 29 12:52:19 BST 2013, clock=0]
+from/for agent t1  status(position(17, 19), 0)
+Agent writes: Position [agent=t1, id=null, cell=Cell [x=17, y=19], time=Wed May 29 12:52:19 BST 2013, clock=0]
+from/for agent c1  coin(position(3, 9), 0, a3)
+Agent writes: Coin [id=null, cell=Cell [x=3, y=9], agent=a3, time=Wed May 29 12:52:19 BST 2013, clock=0]
+from/for agent a1  status(position(3, 5), 0)
+Agent writes: Position [agent=a1, id=null, cell=Cell [x=3, y=5], time=Wed May 29 12:52:20 BST 2013, clock=0]
+from/for agent a2  status(position(5, 19), 0)
+Agent writes: Position [agent=a2, id=null, cell=Cell [x=5, y=19], time=Wed May 29 12:52:20 BST 2013, clock=0]
+from/for agent a3  status(position(11, 4), 0)
+Agent writes: Position [agent=a3, id=null, cell=Cell [x=11, y=4], time=Wed May 29 12:52:20 BST 2013, clock=0]
+from/for agent t1  status(position(16, 19), 0)
+Agent writes: Position [agent=t1, id=null, cell=Cell [x=16, y=19], time=Wed May 29 12:52:20 BST 2013, clock=0]
+from/for agent a1  status(position(3, 6), 0)
+Agent writes: Position [agent=a1, id=null, cell=Cell [x=3, y=6], time=Wed May 29 12:52:21 BST 2013, clock=0]
+from/for agent a2  status(position(4, 19), 0)
+Agent writes: Position [agent=a2, id=null, cell=Cell [x=4, y=19], time=Wed May 29 12:52:22 BST 2013, clock=0]
+from/for agent a3  status(position(11, 5), 0)
+Agent writes: Position [agent=a3, id=null, cell=Cell [x=11, y=5], time=Wed May 29 12:52:22 BST 2013, clock=0]
+from/for agent t1  status(position(15, 19), 0)
+Agent writes: Position [agent=t1, id=null, cell=Cell [x=15, y=19], time=Wed May 29 12:52:22 BST 2013, clock=0]
+from/for agent a1  status(position(3, 7), 0)
+Agent writes: Position [agent=a1, id=null, cell=Cell [x=3, y=7], time=Wed May 29 12:52:22 BST 2013, clock=0]
+from/for agent a2  status(position(3, 19), 0)
+Agent writes: Position [agent=a2, id=null, cell=Cell [x=3, y=19], time=Wed May 29 12:52:23 BST 2013, clock=0]
+from/for agent a3  status(position(11, 6), 0)
+Agent writes: Position [agent=a3, id=null, cell=Cell [x=11, y=6], time=Wed May 29 12:52:23 BST 2013, clock=0]
+from/for agent t1  status(position(14, 19), 0)
+Agent writes: Position [agent=t1, id=null, cell=Cell [x=14, y=19], time=Wed May 29 12:52:23 BST 2013, clock=0]
+from/for agent a1  status(position(3, 8), 0)
+Agent writes: Position [agent=a1, id=null, cell=Cell [x=3, y=8], time=Wed May 29 12:52:24 BST 2013, clock=0]

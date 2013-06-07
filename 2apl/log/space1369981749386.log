@@ -1,0 +1,869 @@
+test2.
+Service Registrar: b565cc45-0784-4f89-a51a-9271e5ea06a4
+Java Space found.
+TransactionManager found.
+register a1
+register a2
+register a3
+register c1
+register t1
+from/for agent t1  cargo(position(19, 19), 0)
+Agent writes: Cargo [id=null, cell=Cell [x=19, y=19], time=Fri May 31 07:29:13 BST 2013, clock=0]
+org cargo notification
+Cargo [id=null, cell=null, time=null, clock=null]
+from/for agent a2  status(position(7, 19), 0)
+Agent writes: Position [agent=a2, id=null, cell=Cell [x=7, y=19], time=Fri May 31 07:29:13 BST 2013, clock=0]
+from/for agent a3  status(position(11, 2), 0)
+Agent writes: Position [agent=a3, id=null, cell=Cell [x=11, y=2], time=Fri May 31 07:29:13 BST 2013, clock=0]
+from/for agent c1  coin(position(8, 6), 0, a1)
+Agent writes: Coin [id=null, cell=Cell [x=8, y=6], agent=a1, time=Fri May 31 07:29:13 BST 2013, clock=0]
+from/for agent t1  status(position(18, 19), 0)
+Agent writes: Position [agent=t1, id=null, cell=Cell [x=18, y=19], time=Fri May 31 07:29:13 BST 2013, clock=0]
+from/for agent c1  coin(position(16, 6), 0, a2)
+Agent writes: Coin [id=null, cell=Cell [x=16, y=6], agent=a2, time=Fri May 31 07:29:13 BST 2013, clock=0]
+from/for agent t1  obligation([cargo(_, _, _)], 15, [reduce_100(t1)])
+Organization notifies agent (write): Obligation [agent=t1, obligation=[cargo(_, _, _)], sanction=[reduce_100(t1)], deadline=15, time=Fri May 31 07:29:13 BST 2013, clock=0]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+from/for agent a1  status(position(3, 4), 0)
+Agent writes: Position [agent=a1, id=null, cell=Cell [x=3, y=4], time=Fri May 31 07:29:13 BST 2013, clock=0]
+from/for agent a1  status(position(3, 4), 0)
+Agent writes: Position [agent=a1, id=null, cell=Cell [x=3, y=4], time=Fri May 31 07:29:13 BST 2013, clock=0]
+from/for agent a1  obligation([makeReading(8, 6)], 50, [reduce_400(a1)])
+Organization notifies agent (write): Obligation [agent=a1, obligation=[makeReading(8, 6)], sanction=[reduce_400(a1)], deadline=50, time=Fri May 31 07:29:14 BST 2013, clock=0]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+Got event for t1
+agent obligation notification
+from/for agent a1  obligation([makeReading(16, 6)], 50, [reduce_400(a1)])
+Organization notifies agent (write): Obligation [agent=a1, obligation=[makeReading(16, 6)], sanction=[reduce_400(a1)], deadline=50, time=Fri May 31 07:29:14 BST 2013, clock=0]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+Event sent to agent      obligation(cargo(_, _, _, t1), 15, reduce_100(t1))
+Got event for a1
+agent obligation notification
+from/for agent c1  coin(position(3, 9), 0, a3)
+Agent writes: Coin [id=null, cell=Cell [x=3, y=9], agent=a3, time=Fri May 31 07:29:14 BST 2013, clock=0]
+Event sent to agent      obligation(makeReading(16, 6), 50, reduce_400(a1))
+from/for agent a1  obligation([makeReading(3, 9)], 50, [reduce_400(a1)])
+Organization notifies agent (write): Obligation [agent=a1, obligation=[makeReading(3, 9)], sanction=[reduce_400(a1)], deadline=50, time=Fri May 31 07:29:14 BST 2013, clock=0]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+Got event for a1
+agent obligation notification
+from/for agent a2  obligation([makeReading(8, 6)], 50, [reduce_400(a2)])
+Organization notifies agent (write): Obligation [agent=a2, obligation=[makeReading(8, 6)], sanction=[reduce_400(a2)], deadline=50, time=Fri May 31 07:29:14 BST 2013, clock=0]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+Got event for a2
+agent obligation notification
+Event sent to agent      obligation(makeReading(3, 9), 50, reduce_400(a1))
+from/for agent a2  obligation([makeReading(16, 6)], 50, [reduce_400(a2)])
+Organization notifies agent (write): Obligation [agent=a2, obligation=[makeReading(16, 6)], sanction=[reduce_400(a2)], deadline=50, time=Fri May 31 07:29:15 BST 2013, clock=0]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+from/for agent a2  status(position(6, 19), 0)
+Agent writes: Position [agent=a2, id=null, cell=Cell [x=6, y=19], time=Fri May 31 07:29:15 BST 2013, clock=0]
+Event sent to agent      obligation(makeReading(16, 6), 50, reduce_400(a2))
+Got event for a2
+agent obligation notification
+from/for agent a2  obligation([makeReading(3, 9)], 50, [reduce_400(a2)])
+Organization notifies agent (write): Obligation [agent=a2, obligation=[makeReading(3, 9)], sanction=[reduce_400(a2)], deadline=50, time=Fri May 31 07:29:15 BST 2013, clock=0]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+from/for agent a3  status(position(11, 3), 0)
+Agent writes: Position [agent=a3, id=null, cell=Cell [x=11, y=3], time=Fri May 31 07:29:15 BST 2013, clock=0]
+from/for agent a3  obligation([makeReading(8, 6)], 50, [reduce_400(a3)])
+Organization notifies agent (write): Obligation [agent=a3, obligation=[makeReading(8, 6)], sanction=[reduce_400(a3)], deadline=50, time=Fri May 31 07:29:15 BST 2013, clock=0]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+Got event for a3
+agent obligation notification
+Event sent to agent      obligation(makeReading(3, 9), 50, reduce_400(a2))
+Got event for a2
+agent obligation notification
+from/for agent a3  obligation([makeReading(16, 6)], 50, [reduce_400(a3)])
+Organization notifies agent (write): Obligation [agent=a3, obligation=[makeReading(16, 6)], sanction=[reduce_400(a3)], deadline=50, time=Fri May 31 07:29:15 BST 2013, clock=0]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+Event sent to agent      obligation(makeReading(3, 9), 50, reduce_400(a2))
+from/for agent t1  status(position(17, 19), 0)
+Agent writes: Position [agent=t1, id=null, cell=Cell [x=17, y=19], time=Fri May 31 07:29:15 BST 2013, clock=0]
+from/for agent t1  cargo(position(18, 19), 0)
+Agent writes: Cargo [id=null, cell=Cell [x=18, y=19], time=Fri May 31 07:29:15 BST 2013, clock=0]
+Event sent to agent      obligation(makeReading(16, 6), 50, reduce_400(a3))
+Got event for a3
+agent obligation notification
+from/for agent a3  obligation([makeReading(3, 9)], 50, [reduce_400(a3)])
+Organization notifies agent (write): Obligation [agent=a3, obligation=[makeReading(3, 9)], sanction=[reduce_400(a3)], deadline=50, time=Fri May 31 07:29:16 BST 2013, clock=0]
+Reading [id=null, agent=a1, cell=null, time=null, value=null, clock=null]
+from/for agent a1  status(position(3, 5), 0)
+Agent writes: Position [agent=a1, id=null, cell=Cell [x=3, y=5], time=Fri May 31 07:29:16 BST 2013, clock=0]
+from/for agent a1  status(position(3, 5), 0)
+Agent writes: Position [agent=a1, id=null, cell=Cell [x=3, y=5], time=Fri May 31 07:29:16 BST 2013, clock=0]
+Reading [id=null, agent=a2, cell=null, time=null, value=null, clock=null]
+Event sent to agent      obligation(makeReading(3, 9), 50, reduce_400(a3))
+Got event for a3
+agent obligation notification
+from/for agent a2  status(position(5, 19), 0)
+Agent writes: Position [agent=a2, id=null, cell=Cell [x=5, y=19], time=Fri May 31 07:29:16 BST 2013, clock=0]
+Reading [id=null, agent=a3, cell=null, time=null, value=null, clock=null]
+from/for agent a3  status(position(11, 4), 0)
+Agent writes: Position [agent=a3, id=null, cell=Cell [x=11, y=4], time=Fri May 31 07:29:16 BST 2013, clock=0]
+Event sent to agent      obligation(makeReading(3, 9), 50, reduce_400(a3))
+Reading [id=null, agent=a1, cell=null, time=null, value=null, clock=null]
+Reading [id=null, agent=a2, cell=null, time=null, value=null, clock=null]
+Reading [id=null, agent=a3, cell=null, time=null, value=null, clock=null]
+from/for agent t1  status(position(16, 19), 0)
+Agent writes: Position [agent=t1, id=null, cell=Cell [x=16, y=19], time=Fri May 31 07:29:17 BST 2013, clock=0]
+Cargo [id=null, cell=null, time=null, clock=null]
+from/for agent a2  status(position(4, 19), 0)
+Agent writes: Position [agent=a2, id=null, cell=Cell [x=4, y=19], time=Fri May 31 07:29:17 BST 2013, clock=0]
+from/for agent t1  prohibition([cargo(_, _, 15)], [reduce_100(t1)])
+Organization notifies agent (write): Prohibition [agent=t1, prohibition=[cargo(_, _, 15)], sanction=[reduce_100(t1)], clock=0, time=Fri May 31 07:29:17 BST 2013]
+from/for agent t1  prohibition([at(5, 5, t1)], [reduce_300(t1)])
+Organization notifies agent (write): Prohibition [agent=t1, prohibition=[at(5, 5, t1)], sanction=[reduce_300(t1)], clock=0, time=Fri May 31 07:29:17 BST 2013]
+Got event for t1
+from/for agent t1  agent prohibition notification
+prohibition([at(5, 6, t1)], [reduce_300(t1)])
+Organization notifies agent (write): Prohibition [agent=t1, prohibition=[at(5, 6, t1)], sanction=[reduce_300(t1)], clock=0, time=Fri May 31 07:29:17 BST 2013]
+from/for agent t1  prohibition([at(6, 5, t1)], [reduce_300(t1)])
+Organization notifies agent (write): Prohibition [agent=t1, prohibition=[at(6, 5, t1)], sanction=[reduce_300(t1)], clock=0, time=Fri May 31 07:29:17 BST 2013]
+from/for agent t1  prohibition([at(6, 6, t1)], [reduce_300(t1)])
+Organization notifies agent (write): Prohibition [agent=t1, prohibition=[at(6, 6, t1)], sanction=[reduce_300(t1)], clock=0, time=Fri May 31 07:29:17 BST 2013]
+Coin [id=null, cell=null, agent=null, time=null, clock=null]
+from/for agent a3  status(position(11, 5), 0)
+Agent writes: Position [agent=a3, id=null, cell=Cell [x=11, y=5], time=Fri May 31 07:29:17 BST 2013, clock=0]
+from/for agent a1  status(position(4, 5), 0)
+Agent writes: Position [agent=a1, id=null, cell=Cell [x=4, y=5], time=Fri May 31 07:29:17 BST 2013, clock=0]
+from/for agent a1  status(position(3, 6), 0)
+Agent writes: Position [agent=a1, id=null, cell=Cell [x=3, y=6], time=Fri May 31 07:29:17 BST 2013, clock=0]
+Coin [id=null, cell=null, agent=null, time=null, clock=null]
+Event sent to agent      prohibition(at(6, 6, t1), reduce_300(t1))
+Got event for t1
+agent prohibition notification
+from/for agent c1  prohibition([coin(4, 24, _, _)], [reduce_100(c1)])
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(4, 24, _, _)], sanction=[reduce_100(c1)], clock=0, time=Fri May 31 07:29:17 BST 2013]
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+Got event for c1
+agent prohibition notification
+Event sent to agent      prohibition(at(6, 6, t1), reduce_300(t1))
+Event sent to agent      prohibition(coin(4, 24, _, c1), reduce_100(c1))
+from/for agent t1  status(position(15, 19), 0)
+Agent writes: Position [agent=t1, id=null, cell=Cell [x=15, y=19], time=Fri May 31 07:29:18 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+from/for agent a2  status(position(3, 19), 0)
+Agent writes: Position [agent=a2, id=null, cell=Cell [x=3, y=19], time=Fri May 31 07:29:18 BST 2013, clock=0]
+from/for agent a3  status(position(11, 6), 0)
+Agent writes: Position [agent=a3, id=null, cell=Cell [x=11, y=6], time=Fri May 31 07:29:18 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+from/for agent a1  status(position(4, 6), 0)
+Agent writes: Position [agent=a1, id=null, cell=Cell [x=4, y=6], time=Fri May 31 07:29:19 BST 2013, clock=0]
+from/for agent a1  status(position(3, 7), 0)
+Agent writes: Position [agent=a1, id=null, cell=Cell [x=3, y=7], time=Fri May 31 07:29:19 BST 2013, clock=0]
+from/for agent t1  status(position(14, 19), 0)
+Agent writes: Position [agent=t1, id=null, cell=Cell [x=14, y=19], time=Fri May 31 07:29:19 BST 2013, clock=0]
+from/for agent c1  prohibition([coin(5, 5, _, a1)], [reduce_300(c1)])
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(5, 5, _, a1)], sanction=[reduce_300(c1)], clock=0, time=Fri May 31 07:29:19 BST 2013]
+from/for agent c1  prohibition([coin(5, 6, _, a1)], [reduce_300(c1)])
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(5, 6, _, a1)], sanction=[reduce_300(c1)], clock=0, time=Fri May 31 07:29:19 BST 2013]
+Got event for c1
+agent prohibition notification
+from/for agent c1  prohibition([coin(6, 5, _, a1)], [reduce_300(c1)])
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(6, 5, _, a1)], sanction=[reduce_300(c1)], clock=0, time=Fri May 31 07:29:19 BST 2013]
+from/for agent c1  prohibition([coin(6, 6, _, a1)], [reduce_300(c1)])
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(6, 6, _, a1)], sanction=[reduce_300(c1)], clock=0, time=Fri May 31 07:29:19 BST 2013]
+from/for agent c1  prohibition([coin(5, 5, _, a2)], [reduce_300(c1)])
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(5, 5, _, a2)], sanction=[reduce_300(c1)], clock=0, time=Fri May 31 07:29:19 BST 2013]
+from/for agent c1  prohibition([coin(5, 6, _, a2)], [reduce_300(c1)])
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(5, 6, _, a2)], sanction=[reduce_300(c1)], clock=0, time=Fri May 31 07:29:19 BST 2013]
+from/for agent c1  prohibition([coin(6, 5, _, a2)], [reduce_300(c1)])
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(6, 5, _, a2)], sanction=[reduce_300(c1)], clock=0, time=Fri May 31 07:29:19 BST 2013]
+from/for agent c1  prohibition([coin(6, 6, _, a2)], [reduce_300(c1)])
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(6, 6, _, a2)], sanction=[reduce_300(c1)], clock=0, time=Fri May 31 07:29:19 BST 2013]
+from/for agent c1  prohibition([coin(5, 5, _, a3)], [reduce_300(c1)])
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(5, 5, _, a3)], sanction=[reduce_300(c1)], clock=0, time=Fri May 31 07:29:19 BST 2013]
+from/for agent c1  prohibition([coin(5, 6, _, a3)], [reduce_300(c1)])
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(5, 6, _, a3)], sanction=[reduce_300(c1)], clock=0, time=Fri May 31 07:29:19 BST 2013]
+from/for agent c1  prohibition([coin(6, 5, _, a3)], [reduce_300(c1)])
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(6, 5, _, a3)], sanction=[reduce_300(c1)], clock=0, time=Fri May 31 07:29:19 BST 2013]
+from/for agent c1  prohibition([coin(6, 6, _, a3)], [reduce_300(c1)])
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(6, 6, _, a3)], sanction=[reduce_300(c1)], clock=0, time=Fri May 31 07:29:19 BST 2013]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+from/for agent c1  prohibition([coin(_, _, _, a1)], [reduce_100(c1)])
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(_, _, _, a1)], sanction=[reduce_100(c1)], clock=0, time=Fri May 31 07:29:19 BST 2013]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+from/for agent a2  status(position(3, 18), 0)
+Agent writes: Position [agent=a2, id=null, cell=Cell [x=3, y=18], time=Fri May 31 07:29:19 BST 2013, clock=0]
+from/for agent a3  status(position(11, 7), 0)
+Agent writes: Position [agent=a3, id=null, cell=Cell [x=11, y=7], time=Fri May 31 07:29:19 BST 2013, clock=0]
+Event sent to agent      prohibition(coin(_, _, _, c1), reduce_100(c1))
+Got event for c1
+agent prohibition notification
+from/for agent c1  prohibition([coin(_, _, _, a2)], [reduce_100(c1)])
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(_, _, _, a2)], sanction=[reduce_100(c1)], clock=0, time=Fri May 31 07:29:19 BST 2013]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+from/for agent c1  prohibition([coin(_, _, _, a3)], [reduce_100(c1)])
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(_, _, _, a3)], sanction=[reduce_100(c1)], clock=0, time=Fri May 31 07:29:19 BST 2013]
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+from/for agent a1  status(position(4, 7), 0)
+Agent writes: Position [agent=a1, id=null, cell=Cell [x=4, y=7], time=Fri May 31 07:29:20 BST 2013, clock=0]
+from/for agent a1  status(position(3, 8), 0)
+Agent writes: Position [agent=a1, id=null, cell=Cell [x=3, y=8], time=Fri May 31 07:29:20 BST 2013, clock=0]
+Event sent to agent      prohibition(coin(_, _, _, c1), reduce_100(c1))
+Got event for c1
+agent prohibition notification
+from/for agent t1  status(position(13, 19), 0)
+Agent writes: Position [agent=t1, id=null, cell=Cell [x=13, y=19], time=Fri May 31 07:29:20 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+Event sent to agent      prohibition(coin(_, _, _, c1), reduce_100(c1))
+from/for agent a2  status(position(3, 17), 0)
+Agent writes: Position [agent=a2, id=null, cell=Cell [x=3, y=17], time=Fri May 31 07:29:20 BST 2013, clock=0]
+from/for agent a3  status(position(11, 8), 0)
+Agent writes: Position [agent=a3, id=null, cell=Cell [x=11, y=8], time=Fri May 31 07:29:20 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+from/for agent t1  status(position(12, 19), 0)
+Agent writes: Position [agent=t1, id=null, cell=Cell [x=12, y=19], time=Fri May 31 07:29:21 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+from/for agent a1  status(position(4, 8), 0)
+Agent writes: Position [agent=a1, id=null, cell=Cell [x=4, y=8], time=Fri May 31 07:29:21 BST 2013, clock=0]
+from/for agent a1  status(position(3, 9), 0)
+Agent writes: Position [agent=a1, id=null, cell=Cell [x=3, y=9], time=Fri May 31 07:29:21 BST 2013, clock=0]
+from/for agent a2  status(position(3, 16), 0)
+Agent writes: Position [agent=a2, id=null, cell=Cell [x=3, y=16], time=Fri May 31 07:29:21 BST 2013, clock=0]
+from/for agent a3  status(position(11, 9), 0)
+Agent writes: Position [agent=a3, id=null, cell=Cell [x=11, y=9], time=Fri May 31 07:29:21 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+from/for agent t1  status(position(11, 19), 0)
+Agent writes: Position [agent=t1, id=null, cell=Cell [x=11, y=19], time=Fri May 31 07:29:21 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+Reading [id=null, agent=a1, cell=null, time=null, value=null, clock=null]
+from/for agent a2  status(position(3, 15), 0)
+Agent writes: Position [agent=a2, id=null, cell=Cell [x=3, y=15], time=Fri May 31 07:29:22 BST 2013, clock=0]
+from/for agent a3  status(position(11, 10), 0)
+Agent writes: Position [agent=a3, id=null, cell=Cell [x=11, y=10], time=Fri May 31 07:29:22 BST 2013, clock=0]
+Reading [id=null, agent=a2, cell=null, time=null, value=null, clock=null]
+from/for agent a1  status(position(4, 9), 0)
+Agent writes: Position [agent=a1, id=null, cell=Cell [x=4, y=9], time=Fri May 31 07:29:22 BST 2013, clock=0]
+from/for agent a1  status(position(3, 10), 0)
+Agent writes: Position [agent=a1, id=null, cell=Cell [x=3, y=10], time=Fri May 31 07:29:22 BST 2013, clock=0]
+from/for agent t1  status(position(10, 19), 0)
+Agent writes: Position [agent=t1, id=null, cell=Cell [x=10, y=19], time=Fri May 31 07:29:22 BST 2013, clock=0]
+Reading [id=null, agent=a3, cell=null, time=null, value=null, clock=null]
+from/for agent a1  prohibition([at(5, 5, a1)], [reduce_300(a1)])
+Organization notifies agent (write): Prohibition [agent=a1, prohibition=[at(5, 5, a1)], sanction=[reduce_300(a1)], clock=0, time=Fri May 31 07:29:22 BST 2013]
+from/for agent a1  prohibition([at(5, 6, a1)], [reduce_300(a1)])
+Organization notifies agent (write): Prohibition [agent=a1, prohibition=[at(5, 6, a1)], sanction=[reduce_300(a1)], clock=0, time=Fri May 31 07:29:22 BST 2013]
+Got event for a1
+agent prohibition notification
+from/for agent a1  prohibition([at(6, 5, a1)], [reduce_300(a1)])
+Organization notifies agent (write): Prohibition [agent=a1, prohibition=[at(6, 5, a1)], sanction=[reduce_300(a1)], clock=0, time=Fri May 31 07:29:22 BST 2013]
+from/for agent a1  prohibition([at(6, 6, a1)], [reduce_300(a1)])
+Organization notifies agent (write): Prohibition [agent=a1, prohibition=[at(6, 6, a1)], sanction=[reduce_300(a1)], clock=0, time=Fri May 31 07:29:22 BST 2013]
+from/for agent a2  prohibition([at(5, 5, a2)], [reduce_300(a2)])
+Organization notifies agent (write): Prohibition [agent=a2, prohibition=[at(5, 5, a2)], sanction=[reduce_300(a2)], clock=0, time=Fri May 31 07:29:22 BST 2013]
+from/for agent a2  prohibition([at(5, 6, a2)], [reduce_300(a2)])
+Organization notifies agent (write): Prohibition [agent=a2, prohibition=[at(5, 6, a2)], sanction=[reduce_300(a2)], clock=0, time=Fri May 31 07:29:22 BST 2013]
+from/for agent a2  prohibition([at(6, 5, a2)], [reduce_300(a2)])
+Organization notifies agent (write): Prohibition [agent=a2, prohibition=[at(6, 5, a2)], sanction=[reduce_300(a2)], clock=0, time=Fri May 31 07:29:22 BST 2013]
+from/for agent a2  prohibition([at(6, 6, a2)], [reduce_300(a2)])
+Organization notifies agent (write): Prohibition [agent=a2, prohibition=[at(6, 6, a2)], sanction=[reduce_300(a2)], clock=0, time=Fri May 31 07:29:22 BST 2013]
+from/for agent a3  prohibition([at(5, 5, a3)], [reduce_300(a3)])
+Organization notifies agent (write): Prohibition [agent=a3, prohibition=[at(5, 5, a3)], sanction=[reduce_300(a3)], clock=0, time=Fri May 31 07:29:22 BST 2013]
+Got event for a2
+agent prohibition notification
+from/for agent a3  prohibition([at(5, 6, a3)], [reduce_300(a3)])
+Organization notifies agent (write): Prohibition [agent=a3, prohibition=[at(5, 6, a3)], sanction=[reduce_300(a3)], clock=0, time=Fri May 31 07:29:22 BST 2013]
+from/for agent a3  prohibition([at(6, 5, a3)], [reduce_300(a3)])
+Organization notifies agent (write): Prohibition [agent=a3, prohibition=[at(6, 5, a3)], sanction=[reduce_300(a3)], clock=0, time=Fri May 31 07:29:22 BST 2013]
+from/for agent a3  prohibition([at(6, 6, a3)], [reduce_300(a3)])
+Organization notifies agent (write): Prohibition [agent=a3, prohibition=[at(6, 6, a3)], sanction=[reduce_300(a3)], clock=0, time=Fri May 31 07:29:22 BST 2013]
+Cargo [id=null, cell=null, time=null, clock=null]
+from/for agent a2  status(position(3, 14), 0)
+Agent writes: Position [agent=a2, id=null, cell=Cell [x=3, y=14], time=Fri May 31 07:29:23 BST 2013, clock=0]
+Event sent to agent      prohibition(at(6, 6, a1), reduce_300(a1))
+Got event for a1
+agent prohibition notification
+Event sent to agent      prohibition(at(6, 6, a2), reduce_300(a2))
+Cargo [id=null, cell=null, time=null, clock=null]
+Got event for a3
+agent prohibition notification
+from/for agent a3  status(position(11, 11), 0)
+Agent writes: Position [agent=a3, id=null, cell=Cell [x=11, y=11], time=Fri May 31 07:29:23 BST 2013, clock=0]
+from/for agent t1  status(position(9, 19), 0)
+Agent writes: Position [agent=t1, id=null, cell=Cell [x=9, y=19], time=Fri May 31 07:29:23 BST 2013, clock=0]
+Event sent to agent      prohibition(at(6, 6, a1), reduce_300(a1))
+Cargo [id=null, cell=null, time=null, clock=null]
+Event sent to agent      prohibition(at(6, 6, a3), reduce_300(a3))
+from/for agent a1  status(position(4, 10), 0)
+Agent writes: Position [agent=a1, id=null, cell=Cell [x=4, y=10], time=Fri May 31 07:29:23 BST 2013, clock=0]
+from/for agent a1  status(position(4, 10), 0)
+Agent writes: Position [agent=a1, id=null, cell=Cell [x=4, y=10], time=Fri May 31 07:29:23 BST 2013, clock=0]
+Cargo [id=null, cell=null, time=null, clock=null]
+from/for agent a2  status(position(3, 13), 0)
+Agent writes: Position [agent=a2, id=null, cell=Cell [x=3, y=13], time=Fri May 31 07:29:23 BST 2013, clock=0]
+Position [agent=t1, id=null, cell=null, time=null, clock=null]
+from/for agent a3  status(position(11, 12), 0)
+Agent writes: Position [agent=a3, id=null, cell=Cell [x=11, y=12], time=Fri May 31 07:29:23 BST 2013, clock=0]
+Position [agent=t1, id=null, cell=null, time=null, clock=null]
+from/for agent t1  status(position(8, 19), 0)
+Agent writes: Position [agent=t1, id=null, cell=Cell [x=8, y=19], time=Fri May 31 07:29:24 BST 2013, clock=0]
+Position [agent=t1, id=null, cell=null, time=null, clock=null]
+from/for agent a1  status(position(5, 10), 0)
+Agent writes: Position [agent=a1, id=null, cell=Cell [x=5, y=10], time=Fri May 31 07:29:24 BST 2013, clock=0]
+from/for agent a1  status(position(5, 10), 0)
+Agent writes: Position [agent=a1, id=null, cell=Cell [x=5, y=10], time=Fri May 31 07:29:24 BST 2013, clock=0]
+Position [agent=t1, id=null, cell=null, time=null, clock=null]
+from/for agent a2  status(position(3, 12), 0)
+Agent writes: Position [agent=a2, id=null, cell=Cell [x=3, y=12], time=Fri May 31 07:29:24 BST 2013, clock=0]
+from/for agent a3  status(position(11, 13), 0)
+Agent writes: Position [agent=a3, id=null, cell=Cell [x=11, y=13], time=Fri May 31 07:29:24 BST 2013, clock=0]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+from/for agent t1  status(position(7, 19), 0)
+Agent writes: Position [agent=t1, id=null, cell=Cell [x=7, y=19], time=Fri May 31 07:29:24 BST 2013, clock=0]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+from/for agent a1  status(position(5, 9), 0)
+Agent writes: Position [agent=a1, id=null, cell=Cell [x=5, y=9], time=Fri May 31 07:29:25 BST 2013, clock=0]
+from/for agent a1  status(position(6, 10), 0)
+Agent writes: Position [agent=a1, id=null, cell=Cell [x=6, y=10], time=Fri May 31 07:29:25 BST 2013, clock=0]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+from/for agent a2  status(position(3, 11), 0)
+Agent writes: Position [agent=a2, id=null, cell=Cell [x=3, y=11], time=Fri May 31 07:29:25 BST 2013, clock=0]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+from/for agent a3  status(position(11, 14), 0)
+Agent writes: Position [agent=a3, id=null, cell=Cell [x=11, y=14], time=Fri May 31 07:29:25 BST 2013, clock=0]
+from/for agent t1  status(position(6, 19), 0)
+Agent writes: Position [agent=t1, id=null, cell=Cell [x=6, y=19], time=Fri May 31 07:29:25 BST 2013, clock=0]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+from/for agent a2  status(position(3, 10), 0)
+Agent writes: Position [agent=a2, id=null, cell=Cell [x=3, y=10], time=Fri May 31 07:29:26 BST 2013, clock=0]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+from/for agent a1  status(position(5, 10), 0)
+Agent writes: Position [agent=a1, id=null, cell=Cell [x=5, y=10], time=Fri May 31 07:29:26 BST 2013, clock=0]
+from/for agent a1  status(position(7, 10), 0)
+Agent writes: Position [agent=a1, id=null, cell=Cell [x=7, y=10], time=Fri May 31 07:29:26 BST 2013, clock=0]
+from/for agent a3  status(position(11, 15), 0)
+Agent writes: Position [agent=a3, id=null, cell=Cell [x=11, y=15], time=Fri May 31 07:29:26 BST 2013, clock=0]
+from/for agent t1  status(position(5, 19), 0)
+Agent writes: Position [agent=t1, id=null, cell=Cell [x=5, y=19], time=Fri May 31 07:29:26 BST 2013, clock=0]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+from/for agent a2  status(position(3, 9), 0)
+Agent writes: Position [agent=a2, id=null, cell=Cell [x=3, y=9], time=Fri May 31 07:29:26 BST 2013, clock=0]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+from/for agent a3  status(position(11, 16), 0)
+Agent writes: Position [agent=a3, id=null, cell=Cell [x=11, y=16], time=Fri May 31 07:29:27 BST 2013, clock=0]
+from/for agent t1  status(position(4, 19), 0)
+Agent writes: Position [agent=t1, id=null, cell=Cell [x=4, y=19], time=Fri May 31 07:29:27 BST 2013, clock=0]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+from/for agent a1  status(position(6, 10), 0)
+Agent writes: Position [agent=a1, id=null, cell=Cell [x=6, y=10], time=Fri May 31 07:29:27 BST 2013, clock=0]
+from/for agent a1  status(position(8, 10), 0)
+Agent writes: Position [agent=a1, id=null, cell=Cell [x=8, y=10], time=Fri May 31 07:29:27 BST 2013, clock=0]
+from/for agent a2  status(position(3, 8), 0)
+Agent writes: Position [agent=a2, id=null, cell=Cell [x=3, y=8], time=Fri May 31 07:29:27 BST 2013, clock=0]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+from/for agent a3  status(position(11, 17), 0)
+Agent writes: Position [agent=a3, id=null, cell=Cell [x=11, y=17], time=Fri May 31 07:29:27 BST 2013, clock=0]
+from/for agent t1  status(position(3, 19), 0)
+Agent writes: Position [agent=t1, id=null, cell=Cell [x=3, y=19], time=Fri May 31 07:29:27 BST 2013, clock=0]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+from/for agent a2  status(position(3, 7), 0)
+Agent writes: Position [agent=a2, id=null, cell=Cell [x=3, y=7], time=Fri May 31 07:29:28 BST 2013, clock=0]
+from/for agent a1  status(position(7, 10), 0)
+Agent writes: Position [agent=a1, id=null, cell=Cell [x=7, y=10], time=Fri May 31 07:29:28 BST 2013, clock=0]
+from/for agent a1  status(position(9, 10), 0)
+Agent writes: Position [agent=a1, id=null, cell=Cell [x=9, y=10], time=Fri May 31 07:29:28 BST 2013, clock=0]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+from/for agent a3  status(position(11, 18), 0)
+Agent writes: Position [agent=a3, id=null, cell=Cell [x=11, y=18], time=Fri May 31 07:29:28 BST 2013, clock=0]
+from/for agent t1  status(position(2, 19), 0)
+Agent writes: Position [agent=t1, id=null, cell=Cell [x=2, y=19], time=Fri May 31 07:29:28 BST 2013, clock=0]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+from/for agent a2  status(position(3, 6), 0)
+Agent writes: Position [agent=a2, id=null, cell=Cell [x=3, y=6], time=Fri May 31 07:29:29 BST 2013, clock=0]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+from/for agent a1  status(position(8, 10), 0)
+Agent writes: Position [agent=a1, id=null, cell=Cell [x=8, y=10], time=Fri May 31 07:29:29 BST 2013, clock=0]
+from/for agent a1  status(position(10, 10), 0)
+Agent writes: Position [agent=a1, id=null, cell=Cell [x=10, y=10], time=Fri May 31 07:29:29 BST 2013, clock=0]
+from/for agent a3  status(position(11, 19), 0)
+Agent writes: Position [agent=a3, id=null, cell=Cell [x=11, y=19], time=Fri May 31 07:29:29 BST 2013, clock=0]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+from/for agent t1  status(position(2, 18), 0)
+Agent writes: Position [agent=t1, id=null, cell=Cell [x=2, y=18], time=Fri May 31 07:29:29 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+from/for agent a1  status(position(9, 10), 0)
+Agent writes: Position [agent=a1, id=null, cell=Cell [x=9, y=10], time=Fri May 31 07:29:30 BST 2013, clock=0]
+from/for agent a3  status(position(12, 19), 0)
+Agent writes: Position [agent=a3, id=null, cell=Cell [x=12, y=19], time=Fri May 31 07:29:30 BST 2013, clock=0]
+from/for agent t1  status(position(2, 17), 0)
+Agent writes: Position [agent=t1, id=null, cell=Cell [x=2, y=17], time=Fri May 31 07:29:30 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+from/for agent a1  status(position(8, 10), 0)
+Agent writes: Position [agent=a1, id=null, cell=Cell [x=8, y=10], time=Fri May 31 07:29:31 BST 2013, clock=0]
+from/for agent a3  status(position(13, 19), 0)
+Agent writes: Position [agent=a3, id=null, cell=Cell [x=13, y=19], time=Fri May 31 07:29:31 BST 2013, clock=0]
+from/for agent t1  status(position(2, 16), 0)
+Agent writes: Position [agent=t1, id=null, cell=Cell [x=2, y=16], time=Fri May 31 07:29:31 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+from/for agent a1  status(position(7, 10), 0)
+Agent writes: Position [agent=a1, id=null, cell=Cell [x=7, y=10], time=Fri May 31 07:29:32 BST 2013, clock=0]
+from/for agent a3  status(position(14, 19), 0)
+Agent writes: Position [agent=a3, id=null, cell=Cell [x=14, y=19], time=Fri May 31 07:29:32 BST 2013, clock=0]
+from/for agent t1  status(position(2, 15), 0)
+Agent writes: Position [agent=t1, id=null, cell=Cell [x=2, y=15], time=Fri May 31 07:29:32 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+from/for agent a1  status(position(6, 10), 0)
+Agent writes: Position [agent=a1, id=null, cell=Cell [x=6, y=10], time=Fri May 31 07:29:33 BST 2013, clock=0]
+from/for agent a3  status(position(15, 19), 0)
+Agent writes: Position [agent=a3, id=null, cell=Cell [x=15, y=19], time=Fri May 31 07:29:33 BST 2013, clock=0]
+from/for agent t1  status(position(2, 14), 0)
+Agent writes: Position [agent=t1, id=null, cell=Cell [x=2, y=14], time=Fri May 31 07:29:33 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+Cargo [id=null, cell=null, time=null, clock=null]
+from/for agent t1  obligation([cargo(_, _, _)], 15, [reduce_100(t1)])
+Organization notifies agent (write): Obligation [agent=t1, obligation=[cargo(_, _, _)], sanction=[reduce_100(t1)], deadline=15, time=Fri May 31 07:29:34 BST 2013, clock=0]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+Got event for t1
+agent obligation notification
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+from/for agent a1  status(position(5, 10), 0)
+Agent writes: Position [agent=a1, id=null, cell=Cell [x=5, y=10], time=Fri May 31 07:29:34 BST 2013, clock=0]
+Event sent to agent      obligation(cargo(_, _, _, t1), 15, reduce_100(t1))
+from/for agent a3  status(position(16, 19), 0)
+Agent writes: Position [agent=a3, id=null, cell=Cell [x=16, y=19], time=Fri May 31 07:29:34 BST 2013, clock=0]
+from/for agent t1  status(position(2, 13), 0)
+Agent writes: Position [agent=t1, id=null, cell=Cell [x=2, y=13], time=Fri May 31 07:29:34 BST 2013, clock=0]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+from/for agent a1  status(position(5, 9), 0)
+Agent writes: Position [agent=a1, id=null, cell=Cell [x=5, y=9], time=Fri May 31 07:29:35 BST 2013, clock=0]
+from/for agent a3  status(position(17, 19), 0)
+Agent writes: Position [agent=a3, id=null, cell=Cell [x=17, y=19], time=Fri May 31 07:29:35 BST 2013, clock=0]
+from/for agent t1  cargo(position(2, 13), 0)
+Agent writes: Cargo [id=null, cell=Cell [x=2, y=13], time=Fri May 31 07:29:35 BST 2013, clock=0]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+from/for agent t1  status(position(2, 12), 0)
+Agent writes: Position [agent=t1, id=null, cell=Cell [x=2, y=12], time=Fri May 31 07:29:35 BST 2013, clock=0]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+from/for agent a1  status(position(5, 8), 0)
+Agent writes: Position [agent=a1, id=null, cell=Cell [x=5, y=8], time=Fri May 31 07:29:36 BST 2013, clock=0]
+Reading [id=null, agent=a1, cell=null, time=null, value=null, clock=null]
+from/for agent a3  status(position(18, 19), 0)
+Agent writes: Position [agent=a3, id=null, cell=Cell [x=18, y=19], time=Fri May 31 07:29:36 BST 2013, clock=0]
+Reading [id=null, agent=a2, cell=null, time=null, value=null, clock=null]
+from/for agent t1  status(position(2, 11), 0)
+Agent writes: Position [agent=t1, id=null, cell=Cell [x=2, y=11], time=Fri May 31 07:29:36 BST 2013, clock=0]
+Reading [id=null, agent=a3, cell=null, time=null, value=null, clock=null]
+Reading [id=null, agent=a1, cell=null, time=null, value=null, clock=null]
+from/for agent a1  status(position(5, 7), 0)
+Agent writes: Position [agent=a1, id=null, cell=Cell [x=5, y=7], time=Fri May 31 07:29:36 BST 2013, clock=0]
+Reading [id=null, agent=a2, cell=null, time=null, value=null, clock=null]
+from/for agent a3  status(position(19, 19), 0)
+Agent writes: Position [agent=a3, id=null, cell=Cell [x=19, y=19], time=Fri May 31 07:29:37 BST 2013, clock=0]
+Reading [id=null, agent=a3, cell=null, time=null, value=null, clock=null]
+from/for agent t1  status(position(2, 10), 0)
+Agent writes: Position [agent=t1, id=null, cell=Cell [x=2, y=10], time=Fri May 31 07:29:37 BST 2013, clock=0]
+Cargo [id=null, cell=null, time=null, clock=null]
+from/for agent t1  prohibition([cargo(_, _, 15)], [reduce_100(t1)])
+Organization notifies agent (write): Prohibition [agent=t1, prohibition=[cargo(_, _, 15)], sanction=[reduce_100(t1)], clock=0, time=Fri May 31 07:29:37 BST 2013]
+Coin [id=null, cell=null, agent=null, time=null, clock=null]
+Got event for t1
+agent prohibition notification
+from/for agent a1  status(position(5, 6), 0)
+Agent writes: Position [agent=a1, id=null, cell=Cell [x=5, y=6], time=Fri May 31 07:29:37 BST 2013, clock=0]
+Coin [id=null, cell=null, agent=null, time=null, clock=null]
+Event sent to agent      prohibition(cargo(_, _, 15, t1), reduce_100(t1))
+from/for agent t1  status(position(2, 9), 0)
+Agent writes: Position [agent=t1, id=null, cell=Cell [x=2, y=9], time=Fri May 31 07:29:38 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+from/for agent a1  status(position(5, 5), 0)
+Agent writes: Position [agent=a1, id=null, cell=Cell [x=5, y=5], time=Fri May 31 07:29:38 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+from/for agent t1  status(position(2, 8), 0)
+Agent writes: Position [agent=t1, id=null, cell=Cell [x=2, y=8], time=Fri May 31 07:29:38 BST 2013, clock=0]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+from/for agent t1  status(position(2, 7), 0)
+Agent writes: Position [agent=t1, id=null, cell=Cell [x=2, y=7], time=Fri May 31 07:29:39 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+from/for agent t1  status(position(2, 6), 0)
+Agent writes: Position [agent=t1, id=null, cell=Cell [x=2, y=6], time=Fri May 31 07:29:40 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+from/for agent t1  status(position(2, 5), 0)
+Agent writes: Position [agent=t1, id=null, cell=Cell [x=2, y=5], time=Fri May 31 07:29:41 BST 2013, clock=0]
+Reading [id=null, agent=a1, cell=null, time=null, value=null, clock=null]
+Reading [id=null, agent=a2, cell=null, time=null, value=null, clock=null]
+Reading [id=null, agent=a3, cell=null, time=null, value=null, clock=null]
+Cargo [id=null, cell=null, time=null, clock=null]
+Position [agent=t1, id=null, cell=null, time=null, clock=null]
+from/for agent t1  status(position(2, 4), 0)
+Agent writes: Position [agent=t1, id=null, cell=Cell [x=2, y=4], time=Fri May 31 07:29:42 BST 2013, clock=0]
+Position [agent=t1, id=null, cell=null, time=null, clock=null]
+Position [agent=t1, id=null, cell=null, time=null, clock=null]
+Position [agent=t1, id=null, cell=null, time=null, clock=null]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+from/for agent t1  status(position(2, 3), 0)
+Agent writes: Position [agent=t1, id=null, cell=Cell [x=2, y=3], time=Fri May 31 07:29:44 BST 2013, clock=0]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+from/for agent t1  status(position(2, 2), 0)
+Agent writes: Position [agent=t1, id=null, cell=Cell [x=2, y=2], time=Fri May 31 07:29:45 BST 2013, clock=0]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+Cargo [id=null, cell=null, time=null, clock=null]
+Cargo [id=null, cell=null, time=null, clock=null]
+Cargo [id=null, cell=null, time=null, clock=null]
+Cargo [id=null, cell=null, time=null, clock=null]
+Cargo [id=null, cell=null, time=null, clock=null]
+from/for agent t1  obligation([cargo(_, _, _)], 15, [reduce_100(t1)])
+Organization notifies agent (write): Obligation [agent=t1, obligation=[cargo(_, _, _)], sanction=[reduce_100(t1)], deadline=15, time=Fri May 31 07:29:52 BST 2013, clock=0]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+Got event for t1
+agent obligation notification
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+Event sent to agent      obligation(cargo(_, _, _, t1), 15, reduce_100(t1))
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+from/for agent t1  cargo(position(2, 2), 0)
+Agent writes: Cargo [id=null, cell=Cell [x=2, y=2], time=Fri May 31 07:29:53 BST 2013, clock=0]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+Reading [id=null, agent=a1, cell=null, time=null, value=null, clock=null]
+Reading [id=null, agent=a2, cell=null, time=null, value=null, clock=null]
+Reading [id=null, agent=a3, cell=null, time=null, value=null, clock=null]
+Reading [id=null, agent=a1, cell=null, time=null, value=null, clock=null]
+Reading [id=null, agent=a2, cell=null, time=null, value=null, clock=null]
+Reading [id=null, agent=a3, cell=null, time=null, value=null, clock=null]
+Cargo [id=null, cell=null, time=null, clock=null]
+from/for agent t1  prohibition([cargo(_, _, 15)], [reduce_100(t1)])
+Organization notifies agent (write): Prohibition [agent=t1, prohibition=[cargo(_, _, 15)], sanction=[reduce_100(t1)], clock=0, time=Fri May 31 07:29:56 BST 2013]
+Coin [id=null, cell=null, agent=null, time=null, clock=null]
+Got event for t1
+agent prohibition notification
+Coin [id=null, cell=null, agent=null, time=null, clock=null]
+Event sent to agent      prohibition(cargo(_, _, 15, t1), reduce_100(t1))
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+Reading [id=null, agent=a1, cell=null, time=null, value=null, clock=null]
+Reading [id=null, agent=a2, cell=null, time=null, value=null, clock=null]
+Reading [id=null, agent=a3, cell=null, time=null, value=null, clock=null]
+Cargo [id=null, cell=null, time=null, clock=null]
+Position [agent=t1, id=null, cell=null, time=null, clock=null]
+Position [agent=t1, id=null, cell=null, time=null, clock=null]
+Position [agent=t1, id=null, cell=null, time=null, clock=null]
+Position [agent=t1, id=null, cell=null, time=null, clock=null]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+Cargo [id=null, cell=null, time=null, clock=null]
+Cargo [id=null, cell=null, time=null, clock=null]
+Cargo [id=null, cell=null, time=null, clock=null]
+Cargo [id=null, cell=null, time=null, clock=null]
+Cargo [id=null, cell=null, time=null, clock=null]
+Cargo [id=null, cell=null, time=null, clock=null]
+from/for agent t1  obligation([cargo(_, _, _)], 15, [reduce_100(t1)])
+Organization notifies agent (write): Obligation [agent=t1, obligation=[cargo(_, _, _)], sanction=[reduce_100(t1)], deadline=15, time=Fri May 31 07:30:10 BST 2013, clock=0]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+Got event for t1
+agent obligation notification
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+Event sent to agent      obligation(cargo(_, _, _, t1), 15, reduce_100(t1))
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+from/for agent t1  cargo(position(2, 2), 0)
+Agent writes: Cargo [id=null, cell=Cell [x=2, y=2], time=Fri May 31 07:30:11 BST 2013, clock=0]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+Reading [id=null, agent=a1, cell=null, time=null, value=null, clock=null]
+Reading [id=null, agent=a2, cell=null, time=null, value=null, clock=null]
+Reading [id=null, agent=a3, cell=null, time=null, value=null, clock=null]
+Reading [id=null, agent=a1, cell=null, time=null, value=null, clock=null]
+Reading [id=null, agent=a2, cell=null, time=null, value=null, clock=null]
+Reading [id=null, agent=a3, cell=null, time=null, value=null, clock=null]
+Cargo [id=null, cell=null, time=null, clock=null]
+Coin [id=null, cell=null, agent=null, time=null, clock=null]
+Coin [id=null, cell=null, agent=null, time=null, clock=null]
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+Reading [id=null, agent=a1, cell=null, time=null, value=null, clock=null]
+Reading [id=null, agent=a2, cell=null, time=null, value=null, clock=null]
+Reading [id=null, agent=a3, cell=null, time=null, value=null, clock=null]
+Cargo [id=null, cell=null, time=null, clock=null]
+Position [agent=t1, id=null, cell=null, time=null, clock=null]
+Position [agent=t1, id=null, cell=null, time=null, clock=null]
+Position [agent=t1, id=null, cell=null, time=null, clock=null]
+Position [agent=t1, id=null, cell=null, time=null, clock=null]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+Cargo [id=null, cell=null, time=null, clock=null]
+Cargo [id=null, cell=null, time=null, clock=null]
+Cargo [id=null, cell=null, time=null, clock=null]
+Cargo [id=null, cell=null, time=null, clock=null]
+Cargo [id=null, cell=null, time=null, clock=null]
+Cargo [id=null, cell=null, time=null, clock=null]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+Reading [id=null, agent=a1, cell=null, time=null, value=null, clock=null]
+Reading [id=null, agent=a2, cell=null, time=null, value=null, clock=null]
+Reading [id=null, agent=a3, cell=null, time=null, value=null, clock=null]
+Reading [id=null, agent=a1, cell=null, time=null, value=null, clock=null]
+Reading [id=null, agent=a2, cell=null, time=null, value=null, clock=null]
+Reading [id=null, agent=a3, cell=null, time=null, value=null, clock=null]
+Cargo [id=null, cell=null, time=null, clock=null]
+Coin [id=null, cell=null, agent=null, time=null, clock=null]
+Coin [id=null, cell=null, agent=null, time=null, clock=null]
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+Reading [id=null, agent=a1, cell=null, time=null, value=null, clock=null]
+Reading [id=null, agent=a2, cell=null, time=null, value=null, clock=null]
+Reading [id=null, agent=a3, cell=null, time=null, value=null, clock=null]
+Cargo [id=null, cell=null, time=null, clock=null]
+Position [agent=t1, id=null, cell=null, time=null, clock=null]
+Position [agent=t1, id=null, cell=null, time=null, clock=null]
+Position [agent=t1, id=null, cell=null, time=null, clock=null]
+Position [agent=t1, id=null, cell=null, time=null, clock=null]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+Cargo [id=null, cell=null, time=null, clock=null]
+Cargo [id=null, cell=null, time=null, clock=null]
+Cargo [id=null, cell=null, time=null, clock=null]
+Position [agent=t1, id=null, cell=null, time=null, clock=null]
+Position [agent=t1, id=null, cell=null, time=null, clock=null]
+Position [agent=t1, id=null, cell=null, time=null, clock=null]
+Position [agent=t1, id=null, cell=null, time=null, clock=null]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+Cargo [id=null, cell=null, time=null, clock=null]
+Cargo [id=null, cell=null, time=null, clock=null]
+Cargo [id=null, cell=null, time=null, clock=null]
+Position [agent=t1, id=null, cell=null, time=null, clock=null]
+Position [agent=t1, id=null, cell=null, time=null, clock=null]
+Position [agent=t1, id=null, cell=null, time=null, clock=null]
+Position [agent=t1, id=null, cell=null, time=null, clock=null]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+Cargo [id=null, cell=null, time=null, clock=null]
+Cargo [id=null, cell=null, time=null, clock=null]
+org coin notification
+Cargo [id=null, cell=null, time=null, clock=null]
+from/for agent t1  obligation([cargo(_, _, _)], 15, [reduce_100(t1)])
+Organization notifies agent (write): Obligation [agent=t1, obligation=[cargo(_, _, _)], sanction=[reduce_100(t1)], deadline=15, time=Fri May 31 07:31:00 BST 2013, clock=0]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+Got event for t1
+agent obligation notification
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+Event sent to agent      obligation(cargo(_, _, _, t1), 15, reduce_100(t1))
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+from/for agent t1  cargo(position(2, 2), 0)
+Agent writes: Cargo [id=null, cell=Cell [x=2, y=2], time=Fri May 31 07:31:01 BST 2013, clock=0]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+Reading [id=null, agent=a1, cell=null, time=null, value=null, clock=null]
+Reading [id=null, agent=a2, cell=null, time=null, value=null, clock=null]

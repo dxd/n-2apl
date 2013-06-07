@@ -1,0 +1,566 @@
+Service Registrar: 2131b097-6371-46da-b860-ae9238a6fc5d
+Java Space found.
+TransactionManager found.
+org notified 
+org notified 
+java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
+	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1112)
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:68)
+	at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:303)
+	at sun.rmi.transport.Transport$1.run(Transport.java:159)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:155)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:535)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:790)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:649)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:680)
+java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
+	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1112)
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:68)
+	at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:303)
+	at sun.rmi.transport.Transport$1.run(Transport.java:159)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:155)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:535)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:790)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:649)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:680)
+java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
+	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1112)
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:68)
+	at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:303)
+	at sun.rmi.transport.Transport$1.run(Transport.java:159)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:155)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:535)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:790)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:649)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:680)
+java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
+	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1112)
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:68)
+	at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:303)
+	at sun.rmi.transport.Transport$1.run(Transport.java:159)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:155)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:535)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:790)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:649)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:680)
+org notified 
+java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
+	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1112)
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:68)
+	at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:303)
+	at sun.rmi.transport.Transport$1.run(Transport.java:159)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:155)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:535)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:790)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:649)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:680)
+java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
+	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1112)
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:48)
+	at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:303)
+	at sun.rmi.transport.Transport$1.run(Transport.java:159)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:155)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:535)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:790)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:649)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:680)
+java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
+	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1112)
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:48)
+	at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:303)
+	at sun.rmi.transport.Transport$1.run(Transport.java:159)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:155)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:535)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:790)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:649)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:680)
+java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
+	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1112)
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:48)
+	at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:303)
+	at sun.rmi.transport.Transport$1.run(Transport.java:159)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:155)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:535)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:790)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:649)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:680)
+org notified 
+java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
+	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1112)
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:63)
+	at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:303)
+	at sun.rmi.transport.Transport$1.run(Transport.java:159)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:155)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:535)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:790)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:649)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:680)
+java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
+	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1112)
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:63)
+	at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:303)
+	at sun.rmi.transport.Transport$1.run(Transport.java:159)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:155)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:535)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:790)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:649)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:680)
+obligation([cargo(_, _, _)], 73, [reduce_100(t1)])
+agent t1
+create entry obligation [[cargo(_, _, _)], 73, [reduce_100(t1)]]
+Obligation [agent=t1, obligation=[cargo(_, _, _)], sanction=[reduce_100(t1)], deadline=73, time=Mon Jan 07 16:08:07 GMT 2013, clock=1]
+java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
+	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1112)
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:63)
+	at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:303)
+	at sun.rmi.transport.Transport$1.run(Transport.java:159)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:155)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:535)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:790)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:649)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:680)
+prohibition([cargo(_, _, 2)], [reduce_100(t1)])
+agent t1
+create entry prohibition [[cargo(_, _, 2)], [reduce_100(t1)]]
+Prohibition [agent=t1, prohibition=[cargo(_, _, 2)], sanction=[reduce_100(t1)], clock=1, time=Mon Jan 07 16:08:09 GMT 2013]
+prohibition([at(5, 5, t1)], [reduce_300(t1)])
+agent t1
+create entry prohibition [[at(5, 5, t1)], [reduce_300(t1)]]
+Prohibition [agent=t1, prohibition=[at(5, 5, t1)], sanction=[reduce_300(t1)], clock=1, time=Mon Jan 07 16:08:09 GMT 2013]
+prohibition([at(5, 6, t1)], [reduce_300(t1)])
+agent t1
+create entry prohibition [[at(5, 6, t1)], [reduce_300(t1)]]
+Prohibition [agent=t1, prohibition=[at(5, 6, t1)], sanction=[reduce_300(t1)], clock=1, time=Mon Jan 07 16:08:09 GMT 2013]
+prohibition([at(6, 5, t1)], [reduce_300(t1)])
+agent t1
+create entry prohibition [[at(6, 5, t1)], [reduce_300(t1)]]
+Prohibition [agent=t1, prohibition=[at(6, 5, t1)], sanction=[reduce_300(t1)], clock=1, time=Mon Jan 07 16:08:09 GMT 2013]
+prohibition([at(6, 6, t1)], [reduce_300(t1)])
+agent t1
+create entry prohibition [[at(6, 6, t1)], [reduce_300(t1)]]
+Prohibition [agent=t1, prohibition=[at(6, 6, t1)], sanction=[reduce_300(t1)], clock=1, time=Mon Jan 07 16:08:09 GMT 2013]
+org notified 
+prohibition([coin(5, 5, _, a1)], [reduce_300(c1)])
+agent c1
+create entry prohibition [[coin(5, 5, _, a1)], [reduce_300(c1)]]
+Prohibition [agent=c1, prohibition=[coin(5, 5, _, a1)], sanction=[reduce_300(c1)], clock=1, time=Mon Jan 07 16:08:10 GMT 2013]
+prohibition([coin(5, 6, _, a1)], [reduce_300(c1)])
+agent c1
+create entry prohibition [[coin(5, 6, _, a1)], [reduce_300(c1)]]
+Prohibition [agent=c1, prohibition=[coin(5, 6, _, a1)], sanction=[reduce_300(c1)], clock=1, time=Mon Jan 07 16:08:10 GMT 2013]
+prohibition([coin(6, 5, _, a1)], [reduce_300(c1)])
+agent c1
+create entry prohibition [[coin(6, 5, _, a1)], [reduce_300(c1)]]
+Prohibition [agent=c1, prohibition=[coin(6, 5, _, a1)], sanction=[reduce_300(c1)], clock=1, time=Mon Jan 07 16:08:10 GMT 2013]
+prohibition([coin(6, 6, _, a1)], [reduce_300(c1)])
+agent c1
+create entry prohibition [[coin(6, 6, _, a1)], [reduce_300(c1)]]
+Prohibition [agent=c1, prohibition=[coin(6, 6, _, a1)], sanction=[reduce_300(c1)], clock=1, time=Mon Jan 07 16:08:10 GMT 2013]
+prohibition([coin(5, 5, _, a2)], [reduce_300(c1)])
+agent c1
+create entry prohibition [[coin(5, 5, _, a2)], [reduce_300(c1)]]
+Prohibition [agent=c1, prohibition=[coin(5, 5, _, a2)], sanction=[reduce_300(c1)], clock=1, time=Mon Jan 07 16:08:10 GMT 2013]
+prohibition([coin(5, 6, _, a2)], [reduce_300(c1)])
+agent c1
+create entry prohibition [[coin(5, 6, _, a2)], [reduce_300(c1)]]
+Prohibition [agent=c1, prohibition=[coin(5, 6, _, a2)], sanction=[reduce_300(c1)], clock=1, time=Mon Jan 07 16:08:10 GMT 2013]
+prohibition([coin(6, 5, _, a2)], [reduce_300(c1)])
+agent c1
+create entry prohibition [[coin(6, 5, _, a2)], [reduce_300(c1)]]
+Prohibition [agent=c1, prohibition=[coin(6, 5, _, a2)], sanction=[reduce_300(c1)], clock=1, time=Mon Jan 07 16:08:10 GMT 2013]
+prohibition([coin(6, 6, _, a2)], [reduce_300(c1)])
+agent c1
+create entry prohibition [[coin(6, 6, _, a2)], [reduce_300(c1)]]
+Prohibition [agent=c1, prohibition=[coin(6, 6, _, a2)], sanction=[reduce_300(c1)], clock=1, time=Mon Jan 07 16:08:10 GMT 2013]
+prohibition([coin(5, 5, _, a3)], [reduce_300(c1)])
+agent c1
+create entry prohibition [[coin(5, 5, _, a3)], [reduce_300(c1)]]
+Prohibition [agent=c1, prohibition=[coin(5, 5, _, a3)], sanction=[reduce_300(c1)], clock=1, time=Mon Jan 07 16:08:10 GMT 2013]
+prohibition([coin(5, 6, _, a3)], [reduce_300(c1)])
+agent c1
+create entry prohibition [[coin(5, 6, _, a3)], [reduce_300(c1)]]
+Prohibition [agent=c1, prohibition=[coin(5, 6, _, a3)], sanction=[reduce_300(c1)], clock=1, time=Mon Jan 07 16:08:10 GMT 2013]
+prohibition([coin(6, 5, _, a3)], [reduce_300(c1)])
+agent c1
+create entry prohibition [[coin(6, 5, _, a3)], [reduce_300(c1)]]
+Prohibition [agent=c1, prohibition=[coin(6, 5, _, a3)], sanction=[reduce_300(c1)], clock=1, time=Mon Jan 07 16:08:10 GMT 2013]
+prohibition([coin(6, 6, _, a3)], [reduce_300(c1)])
+agent c1
+create entry prohibition [[coin(6, 6, _, a3)], [reduce_300(c1)]]
+Prohibition [agent=c1, prohibition=[coin(6, 6, _, a3)], sanction=[reduce_300(c1)], clock=1, time=Mon Jan 07 16:08:10 GMT 2013]
+obligation([cargo(_, _, _)], 73, [reduce_100(t1)])
+agent t1
+create entry obligation [[cargo(_, _, _)], 73, [reduce_100(t1)]]
+Obligation [agent=t1, obligation=[cargo(_, _, _)], sanction=[reduce_100(t1)], deadline=73, time=Mon Jan 07 16:08:10 GMT 2013, clock=1]
+prohibition([at(5, 5, a1)], [reduce_300(a1)])
+agent a1
+create entry prohibition [[at(5, 5, a1)], [reduce_300(a1)]]
+Prohibition [agent=a1, prohibition=[at(5, 5, a1)], sanction=[reduce_300(a1)], clock=1, time=Mon Jan 07 16:08:12 GMT 2013]
+prohibition([at(5, 6, a1)], [reduce_300(a1)])
+agent a1
+create entry prohibition [[at(5, 6, a1)], [reduce_300(a1)]]
+Prohibition [agent=a1, prohibition=[at(5, 6, a1)], sanction=[reduce_300(a1)], clock=1, time=Mon Jan 07 16:08:12 GMT 2013]
+prohibition([at(6, 5, a1)], [reduce_300(a1)])
+agent a1
+create entry prohibition [[at(6, 5, a1)], [reduce_300(a1)]]
+Prohibition [agent=a1, prohibition=[at(6, 5, a1)], sanction=[reduce_300(a1)], clock=1, time=Mon Jan 07 16:08:12 GMT 2013]
+prohibition([at(6, 6, a1)], [reduce_300(a1)])
+agent a1
+create entry prohibition [[at(6, 6, a1)], [reduce_300(a1)]]
+Prohibition [agent=a1, prohibition=[at(6, 6, a1)], sanction=[reduce_300(a1)], clock=1, time=Mon Jan 07 16:08:12 GMT 2013]
+prohibition([at(5, 5, a2)], [reduce_300(a2)])
+agent a2
+create entry prohibition [[at(5, 5, a2)], [reduce_300(a2)]]
+Prohibition [agent=a2, prohibition=[at(5, 5, a2)], sanction=[reduce_300(a2)], clock=1, time=Mon Jan 07 16:08:12 GMT 2013]
+prohibition([at(5, 6, a2)], [reduce_300(a2)])
+agent a2
+create entry prohibition [[at(5, 6, a2)], [reduce_300(a2)]]
+Prohibition [agent=a2, prohibition=[at(5, 6, a2)], sanction=[reduce_300(a2)], clock=1, time=Mon Jan 07 16:08:12 GMT 2013]
+prohibition([at(6, 5, a2)], [reduce_300(a2)])
+agent a2
+create entry prohibition [[at(6, 5, a2)], [reduce_300(a2)]]
+Prohibition [agent=a2, prohibition=[at(6, 5, a2)], sanction=[reduce_300(a2)], clock=1, time=Mon Jan 07 16:08:12 GMT 2013]
+prohibition([at(6, 6, a2)], [reduce_300(a2)])
+agent a2
+create entry prohibition [[at(6, 6, a2)], [reduce_300(a2)]]
+Prohibition [agent=a2, prohibition=[at(6, 6, a2)], sanction=[reduce_300(a2)], clock=1, time=Mon Jan 07 16:08:12 GMT 2013]
+prohibition([at(5, 5, a3)], [reduce_300(a3)])
+agent a3
+create entry prohibition [[at(5, 5, a3)], [reduce_300(a3)]]
+Prohibition [agent=a3, prohibition=[at(5, 5, a3)], sanction=[reduce_300(a3)], clock=1, time=Mon Jan 07 16:08:12 GMT 2013]
+prohibition([at(5, 6, a3)], [reduce_300(a3)])
+agent a3
+create entry prohibition [[at(5, 6, a3)], [reduce_300(a3)]]
+Prohibition [agent=a3, prohibition=[at(5, 6, a3)], sanction=[reduce_300(a3)], clock=1, time=Mon Jan 07 16:08:12 GMT 2013]
+prohibition([at(6, 5, a3)], [reduce_300(a3)])
+agent a3
+create entry prohibition [[at(6, 5, a3)], [reduce_300(a3)]]
+Prohibition [agent=a3, prohibition=[at(6, 5, a3)], sanction=[reduce_300(a3)], clock=1, time=Mon Jan 07 16:08:12 GMT 2013]
+prohibition([at(6, 6, a3)], [reduce_300(a3)])
+agent a3
+create entry prohibition [[at(6, 6, a3)], [reduce_300(a3)]]
+Prohibition [agent=a3, prohibition=[at(6, 6, a3)], sanction=[reduce_300(a3)], clock=1, time=Mon Jan 07 16:08:12 GMT 2013]
+obligation([cargo(_, _, _)], 73, [reduce_100(t1)])
+agent t1
+create entry obligation [[cargo(_, _, _)], 73, [reduce_100(t1)]]
+Obligation [agent=t1, obligation=[cargo(_, _, _)], sanction=[reduce_100(t1)], deadline=73, time=Mon Jan 07 16:08:34 GMT 2013, clock=1]
+org notified 
+obligation([cargo(_, _, _)], 73, [reduce_100(t1)])
+agent t1
+create entry obligation [[cargo(_, _, _)], 73, [reduce_100(t1)]]
+Obligation [agent=t1, obligation=[cargo(_, _, _)], sanction=[reduce_100(t1)], deadline=73, time=Mon Jan 07 16:08:37 GMT 2013, clock=1]
+obligation([cargo(_, _, _)], 73, [reduce_100(t1)])
+agent t1
+create entry obligation [[cargo(_, _, _)], 73, [reduce_100(t1)]]
+Obligation [agent=t1, obligation=[cargo(_, _, _)], sanction=[reduce_100(t1)], deadline=73, time=Mon Jan 07 16:09:01 GMT 2013, clock=1]
+obligation([cargo(_, _, _)], 73, [reduce_100(t1)])
+agent t1
+create entry obligation [[cargo(_, _, _)], 73, [reduce_100(t1)]]
+Obligation [agent=t1, obligation=[cargo(_, _, _)], sanction=[reduce_100(t1)], deadline=73, time=Mon Jan 07 16:09:05 GMT 2013, clock=1]
+coin(position(8, 6), 5, a1)
+agent c1
+create entry coin [position(8, 6), 5, a1]
+org notified 
+cargo(position(20, 20), 4)
+agent t1
+create entry cargo [position(20, 20), 4]
+org notified 
+status(position(3, 4), 5)
+agent a3
+org notified 
+status(position(3, 4), 4)
+agent a1
+status(position(3, 4), 6)
+agent a2
+coin(position(16, 6), 6, a2)
+agent c1
+create entry coin [position(16, 6), 6, a2]
+status(position(19, 20), 7)
+agent t1
+status(position(3, 5), 3)
+agent a2
+status(position(3, 5), 7)
+agent a3
+coin(position(3, 9), 4, a3)
+agent c1
+create entry coin [position(3, 9), 4, a3]
+status(position(18, 20), 63)
+agent t1
+status(position(3, 5), 63)
+agent a1
+status(position(3, 6), 1)
+agent a3
+status(position(3, 6), 6)
+agent a2
+status(position(17, 20), 9)
+agent t1
+status(position(3, 7), 10)
+agent a3
+status(position(3, 7), 8)
+agent a2
+status(position(3, 6), 9)
+agent a1
+obligation([cargo(_, _, _)], 19, [reduce_100(t1)])
+agent t1
+create entry obligation [[cargo(_, _, _)], 19, [reduce_100(t1)]]
+Obligation [agent=t1, obligation=[cargo(_, _, _)], sanction=[reduce_100(t1)], deadline=19, time=Mon Jan 07 16:09:25 GMT 2013, clock=1]
+status(position(16, 20), 11)
+agent t1
+status(position(3, 8), 10)
+agent a3
+status(position(15, 20), 4)
+agent t1
+status(position(3, 9), 4)
+agent a3
+status(position(3, 8), 54)
+agent a2
+status(position(3, 7), 12)
+agent a1
+prohibition([cargo(_, _, 5)], [reduce_100(t1)])
+agent t1
+create entry prohibition [[cargo(_, _, 5)], [reduce_100(t1)]]
+Prohibition [agent=t1, prohibition=[cargo(_, _, 5)], sanction=[reduce_100(t1)], clock=1, time=Mon Jan 07 16:09:26 GMT 2013]
+status(position(14, 20), 12)
+agent t1
+status(position(3, 8), 13)
+agent a1
+status(position(3, 10), 11)
+agent a3
+status(position(3, 9), 12)
+agent a2
+status(position(13, 20), 14)
+agent t1
+status(position(3, 10), 13)
+agent a2
+status(position(4, 10), 12)
+agent a3
+status(position(3, 9), 14)
+agent a1
+status(position(12, 20), 15)
+agent t1
+status(position(3, 10), 15)
+agent a1
+status(position(5, 10), 13)
+agent a3
+status(position(4, 10), 14)
+agent a2
+status(position(11, 20), 16)
+agent t1
+status(position(5, 10), 15)
+agent a2
+status(position(10, 20), 12)
+agent t1
+status(position(6, 10), 32)
+agent a3
+status(position(4, 10), 15)
+agent a1
+status(position(6, 10), 18)
+agent a2
+status(position(7, 10), 17)
+agent a3
+status(position(9, 20), 16)
+agent t1
+status(position(5, 10), 19)
+agent a1
+status(position(7, 10), 17)
+agent a2
+status(position(8, 20), 19)
+agent t1
+status(position(8, 10), 16)
+agent a2
+status(position(8, 10), 19)
+agent a3
+org notified 
+status(position(6, 10), 20)
+agent a1
+obligation([cargo(_, _, _)], 30, [reduce_100(t1)])
+agent t1
+create entry obligation [[cargo(_, _, _)], 30, [reduce_100(t1)]]
+Obligation [agent=t1, obligation=[cargo(_, _, _)], sanction=[reduce_100(t1)], deadline=30, time=Mon Jan 07 16:09:35 GMT 2013, clock=1]
+status(position(7, 20), 21)
+agent t1
+status(position(9, 10), 19)
+agent a3
+status(position(9, 10), 19)
+agent a2
+status(position(6, 20), 21)
+agent t1
+status(position(7, 10), 20)
+agent a1
+prohibition([cargo(_, _, 5)], [reduce_100(t1)])
+agent t1
+create entry prohibition [[cargo(_, _, 5)], [reduce_100(t1)]]
+Prohibition [agent=t1, prohibition=[cargo(_, _, 5)], sanction=[reduce_100(t1)], clock=1, time=Mon Jan 07 16:09:37 GMT 2013]
+status(position(10, 10), 23)
+agent a3
+status(position(5, 20), 22)
+agent t1
+status(position(8, 10), 23)
+agent a1
+status(position(10, 10), 21)
+agent a2
+status(position(4, 20), 25)
+agent t1
+status(position(9, 10), 24)
+agent a1
+status(position(3, 20), 26)
+agent t1
+status(position(10, 10), 26)
+agent a1
+status(position(2, 20), 28)
+agent t1
+status(position(2, 19), 29)
+agent t1
+status(position(2, 18), 31)
+agent t1
+obligation([cargo(_, _, _)], 30, [reduce_100(t1)])
+agent t1
+create entry obligation [[cargo(_, _, _)], 30, [reduce_100(t1)]]
+Obligation [agent=t1, obligation=[cargo(_, _, _)], sanction=[reduce_100(t1)], deadline=30, time=Mon Jan 07 16:09:46 GMT 2013, clock=1]
+status(position(2, 17), 32)
+agent t1
+status(position(2, 16), 34)
+agent t1
+status(position(2, 15), 35)
+agent t1
+status(position(2, 14), 37)
+agent t1
+status(position(2, 13), 39)
+agent t1
+status(position(2, 12), 40)
+agent t1
+status(position(2, 11), 42)
+agent t1
+status(position(2, 10), 44)
+agent t1
+status(position(2, 9), 46)
+agent t1
+status(position(2, 8), 48)
+agent t1
+org notified 
+status(position(2, 7), 49)
+agent t1
+obligation([cargo(_, _, _)], 61, [reduce_100(t1)])
+agent t1
+create entry obligation [[cargo(_, _, _)], 61, [reduce_100(t1)]]
+Obligation [agent=t1, obligation=[cargo(_, _, _)], sanction=[reduce_100(t1)], deadline=61, time=Mon Jan 07 16:10:05 GMT 2013, clock=1]
+status(position(2, 6), 51)
+agent t1
+status(position(2, 5), 53)
+agent t1
+status(position(2, 4), 55)
+agent t1
+status(position(2, 3), 57)
+agent t1
+status(position(2, 2), 58)
+agent t1
+org notified 
+obligation([cargo(_, _, _)], 72, [reduce_100(t1)])
+agent t1
+create entry obligation [[cargo(_, _, _)], 72, [reduce_100(t1)]]
+Obligation [agent=t1, obligation=[cargo(_, _, _)], sanction=[reduce_100(t1)], deadline=72, time=Mon Jan 07 16:10:17 GMT 2013, clock=1]
+org notified 
+obligation([cargo(_, _, _)], 90, [reduce_100(t1)])
+agent t1
+create entry obligation [[cargo(_, _, _)], 90, [reduce_100(t1)]]
+Obligation [agent=t1, obligation=[cargo(_, _, _)], sanction=[reduce_100(t1)], deadline=90, time=Mon Jan 07 16:10:34 GMT 2013, clock=1]
+org notified 
+obligation([cargo(_, _, _)], 102, [reduce_100(t1)])
+agent t1
+create entry obligation [[cargo(_, _, _)], 102, [reduce_100(t1)]]
+Obligation [agent=t1, obligation=[cargo(_, _, _)], sanction=[reduce_100(t1)], deadline=102, time=Mon Jan 07 16:10:46 GMT 2013, clock=1]
+obligation([cargo(_, _, _)], 118, [reduce_100(t1)])
+agent t1
+create entry obligation [[cargo(_, _, _)], 118, [reduce_100(t1)]]
+Obligation [agent=t1, obligation=[cargo(_, _, _)], sanction=[reduce_100(t1)], deadline=118, time=Mon Jan 07 16:11:02 GMT 2013, clock=1]
+obligation([cargo(_, _, _)], 131, [reduce_100(t1)])
+agent t1
+create entry obligation [[cargo(_, _, _)], 131, [reduce_100(t1)]]
+Obligation [agent=t1, obligation=[cargo(_, _, _)], sanction=[reduce_100(t1)], deadline=131, time=Mon Jan 07 16:11:15 GMT 2013, clock=1]
+org notified 
+obligation([cargo(_, _, _)], 146, [reduce_100(t1)])
+agent t1
+create entry obligation [[cargo(_, _, _)], 146, [reduce_100(t1)]]
+Obligation [agent=t1, obligation=[cargo(_, _, _)], sanction=[reduce_100(t1)], deadline=146, time=Mon Jan 07 16:11:30 GMT 2013, clock=1]
+obligation([cargo(_, _, _)], 160, [reduce_100(t1)])
+agent t1
+create entry obligation [[cargo(_, _, _)], 160, [reduce_100(t1)]]
+Obligation [agent=t1, obligation=[cargo(_, _, _)], sanction=[reduce_100(t1)], deadline=160, time=Mon Jan 07 16:11:44 GMT 2013, clock=1]
+obligation([cargo(_, _, _)], 175, [reduce_100(t1)])
+agent t1
+create entry obligation [[cargo(_, _, _)], 175, [reduce_100(t1)]]
+Obligation [agent=t1, obligation=[cargo(_, _, _)], sanction=[reduce_100(t1)], deadline=175, time=Mon Jan 07 16:11:59 GMT 2013, clock=1]
+obligation([cargo(_, _, _)], 178, [reduce_100(t1)])
+agent t1
+create entry obligation [[cargo(_, _, _)], 178, [reduce_100(t1)]]
+Obligation [agent=t1, obligation=[cargo(_, _, _)], sanction=[reduce_100(t1)], deadline=178, time=Mon Jan 07 16:12:13 GMT 2013, clock=1]
+obligation([cargo(_, _, _)], 178, [reduce_100(t1)])
+agent t1
+create entry obligation [[cargo(_, _, _)], 178, [reduce_100(t1)]]
+Obligation [agent=t1, obligation=[cargo(_, _, _)], sanction=[reduce_100(t1)], deadline=178, time=Mon Jan 07 16:12:28 GMT 2013, clock=1]

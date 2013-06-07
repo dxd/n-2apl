@@ -1,0 +1,425 @@
+test2.
+Service Registrar: cd3a4044-12fc-4239-a9d9-b6afeec3f53d
+Java Space found.
+TransactionManager found.
+GoalAction created:   at(X, Y) : Infinite, priority 1
+GoalAction created:   reading(X, Y) : Infinite, priority 1
+GoalAction created:   makeReading : Infinite, priority 1
+GoalAction created:   makeReading(X, Y) : Infinite, priority 1
+PAction created:   position(X, Y) -> reduce_100, priority 0
+PAction created:   position(X, Y) -> reduce_200, priority 0
+PAction created:   position(X, Y) -> reduce_300, priority 0
+PAction created:   position(X, Y) -> reduce_400, priority 0
+PAction created:   position(X, Y) -> reduce_500, priority 0
+GoalAction created:   at(X, Y) : Infinite, priority 1
+GoalAction created:   at(X, Y) : Infinite, priority 1
+GoalAction created:   at(X, Y) : Infinite, priority 1
+GoalAction created:   at(X, Y) : Infinite, priority 1
+GoalAction created:   at(X, Y) : Infinite, priority 1
+PAction created:   coin(X, Y, A) -> reduce_100, priority 0
+PAction created:   coin(X, Y, A) -> reduce_200, priority 0
+PAction created:   coin(X, Y, A) -> reduce_300, priority 0
+PAction created:   coin(X, Y, A) -> reduce_400, priority 0
+PAction created:   coin(X, Y, A) -> reduce_500, priority 0
+GoalAction created:   coin(X, Y, A) : Infinite, priority 1
+GoalAction created:   coin(X, Y, A) : Infinite, priority 1
+GoalAction created:   coin(X, Y, A) : Infinite, priority 1
+GoalAction created:   coin(X, Y, A) : Infinite, priority 1
+GoalAction created:   placeCoin(X, Y, A) : Infinite, priority 1
+PAction created:   coin(_, _, _) -> reduce_100, priority 0
+PAction created:   coin(_, _, _) -> reduce_200, priority 0
+PAction created:   coin(_, _, _) -> reduce_300, priority 0
+PAction created:   coin(_, _, _) -> reduce_400, priority 0
+PAction created:   coin(_, _, _) -> reduce_500, priority 0
+GoalAction created:   placeCoin : Infinite, priority 1
+GoalAction created:   placeCoin : Infinite, priority 1
+GoalAction created:   placeCoin : Infinite, priority 1
+GoalAction created:   placeCoin : Infinite, priority 1
+GoalAction created:   placeCoin : Infinite, priority 1
+PAction created:   cargo(X, Y) -> reduce_100, priority 0
+PAction created:   cargo(X, Y) -> reduce_200, priority 0
+PAction created:   cargo(X, Y) -> reduce_300, priority 0
+PAction created:   cargo(X, Y) -> reduce_400, priority 0
+PAction created:   cargo(X, Y) -> reduce_500, priority 0
+GoalAction created:   drop(X, Y) : Infinite, priority 1
+GoalAction created:   drop(X, Y) : Infinite, priority 1
+GoalAction created:   drop(X, Y) : Infinite, priority 1
+GoalAction created:   drop(X, Y) : Infinite, priority 1
+GoalAction created:   drop(X, Y) : Infinite, priority 1
+GoalAction created:   dropLoad : Infinite, priority 1
+GoalAction created:   dropLoad : Infinite, priority 1
+GoalAction created:   dropLoad : Infinite, priority 1
+GoalAction created:   dropLoad : Infinite, priority 1
+GoalAction created:   dropLoad : Infinite, priority 1
+PAction created:   cargo(A, _) -> reduce_100, priority 0
+PAction created:   cargo(A, _) -> reduce_200, priority 0
+PAction created:   cargo(A, _) -> reduce_300, priority 0
+PAction created:   cargo(A, _) -> reduce_400, priority 0
+PAction created:   cargo(A, _) -> reduce_500, priority 0
+PAction created:   reading(X, Y) -> reduce_100, priority 0
+PAction created:   reading(X, Y) -> reduce_200, priority 0
+PAction created:   reading(X, Y) -> reduce_300, priority 0
+PAction created:   reading(X, Y) -> reduce_400, priority 0
+PAction created:   reading(X, Y) -> reduce_500, priority 0
+GoalAction created:   reading(X, Y) : Infinite, priority 1
+GoalAction created:   reading(X, Y) : Infinite, priority 1
+GoalAction created:   reading(X, Y) : Infinite, priority 1
+GoalAction created:   reading(X, Y) : Infinite, priority 1
+GoalAction created:   reading(X, Y) : Infinite, priority 1
+GoalAction created:   makeReading : Infinite, priority 1
+GoalAction created:   makeReading : Infinite, priority 1
+GoalAction created:   makeReading : Infinite, priority 1
+GoalAction created:   makeReading : Infinite, priority 1
+GoalAction created:   makeReading : Infinite, priority 1
+GoalAction created:   makeReading(X, Y) : Infinite, priority 1
+GoalAction created:   makeReading(X, Y) : Infinite, priority 1
+GoalAction created:   makeReading(X, Y) : Infinite, priority 1
+GoalAction created:   makeReading(X, Y) : Infinite, priority 1
+GoalAction created:   makeReading(X, Y) : Infinite, priority 1
+PAction created:   investigate(X, Y) -> reduce_100, priority 0
+PAction created:   investigate(X, Y) -> reduce_200, priority 0
+PAction created:   investigate(X, Y) -> reduce_300, priority 0
+PAction created:   investigate(X, Y) -> reduce_400, priority 0
+PAction created:   investigate(X, Y) -> reduce_500, priority 0
+GoalAction created:   investigate(X, Y) : Infinite, priority 1
+GoalAction created:   investigate(X, Y) : Infinite, priority 1
+GoalAction created:   investigate(X, Y) : Infinite, priority 1
+GoalAction created:   investigate(X, Y) : Infinite, priority 1
+GoalAction created:   investigate(X, Y) : Infinite, priority 1
+GoalAction created:   at(X, Y) : Infinite, priority 1
+GoalAction created:   makeReading : Infinite, priority 1
+GoalAction created:   reading(X, Y) : Infinite, priority 1
+GoalAction created:   makeReading(X, Y) : Infinite, priority 1
+PAction created:   position(X, Y) -> reduce_100, priority 0
+PAction created:   position(X, Y) -> reduce_200, priority 0
+PAction created:   position(X, Y) -> reduce_300, priority 0
+PAction created:   position(X, Y) -> reduce_400, priority 0
+PAction created:   position(X, Y) -> reduce_500, priority 0
+GoalAction created:   at(X, Y) : Infinite, priority 1
+GoalAction created:   at(X, Y) : Infinite, priority 1
+GoalAction created:   at(X, Y) : Infinite, priority 1
+GoalAction created:   at(X, Y) : Infinite, priority 1
+GoalAction created:   at(X, Y) : Infinite, priority 1
+PAction created:   coin(X, Y, A) -> reduce_100, priority 0
+PAction created:   coin(X, Y, A) -> reduce_200, priority 0
+PAction created:   coin(X, Y, A) -> reduce_300, priority 0
+PAction created:   coin(X, Y, A) -> reduce_400, priority 0
+PAction created:   coin(X, Y, A) -> reduce_500, priority 0
+GoalAction created:   coin(X, Y, A) : Infinite, priority 1
+GoalAction created:   coin(X, Y, A) : Infinite, priority 1
+GoalAction created:   coin(X, Y, A) : Infinite, priority 1
+GoalAction created:   coin(X, Y, A) : Infinite, priority 1
+GoalAction created:   placeCoin(X, Y, A) : Infinite, priority 1
+PAction created:   coin(_, _, _) -> reduce_100, priority 0
+PAction created:   coin(_, _, _) -> reduce_200, priority 0
+PAction created:   coin(_, _, _) -> reduce_300, priority 0
+PAction created:   coin(_, _, _) -> reduce_400, priority 0
+PAction created:   coin(_, _, _) -> reduce_500, priority 0
+GoalAction created:   placeCoin : Infinite, priority 1
+GoalAction created:   placeCoin : Infinite, priority 1
+GoalAction created:   placeCoin : Infinite, priority 1
+GoalAction created:   placeCoin : Infinite, priority 1
+GoalAction created:   placeCoin : Infinite, priority 1
+PAction created:   cargo(X, Y) -> reduce_100, priority 0
+PAction created:   cargo(X, Y) -> reduce_200, priority 0
+PAction created:   cargo(X, Y) -> reduce_300, priority 0
+PAction created:   cargo(X, Y) -> reduce_400, priority 0
+PAction created:   cargo(X, Y) -> reduce_500, priority 0
+GoalAction created:   drop(X, Y) : Infinite, priority 1
+GoalAction created:   drop(X, Y) : Infinite, priority 1
+GoalAction created:   drop(X, Y) : Infinite, priority 1
+GoalAction created:   drop(X, Y) : Infinite, priority 1
+GoalAction created:   drop(X, Y) : Infinite, priority 1
+GoalAction created:   dropLoad : Infinite, priority 1
+GoalAction created:   dropLoad : Infinite, priority 1
+GoalAction created:   dropLoad : Infinite, priority 1
+GoalAction created:   dropLoad : Infinite, priority 1
+GoalAction created:   dropLoad : Infinite, priority 1
+PAction created:   cargo(A, _) -> reduce_100, priority 0
+PAction created:   cargo(A, _) -> reduce_200, priority 0
+PAction created:   cargo(A, _) -> reduce_300, priority 0
+PAction created:   cargo(A, _) -> reduce_400, priority 0
+PAction created:   cargo(A, _) -> reduce_500, priority 0
+PAction created:   reading(X, Y) -> reduce_100, priority 0
+PAction created:   reading(X, Y) -> reduce_200, priority 0
+PAction created:   reading(X, Y) -> reduce_300, priority 0
+PAction created:   reading(X, Y) -> reduce_400, priority 0
+PAction created:   reading(X, Y) -> reduce_500, priority 0
+GoalAction created:   reading(X, Y) : Infinite, priority 1
+GoalAction created:   reading(X, Y) : Infinite, priority 1
+GoalAction created:   reading(X, Y) : Infinite, priority 1
+GoalAction created:   reading(X, Y) : Infinite, priority 1
+GoalAction created:   reading(X, Y) : Infinite, priority 1
+GoalAction created:   makeReading : Infinite, priority 1
+GoalAction created:   makeReading : Infinite, priority 1
+GoalAction created:   makeReading : Infinite, priority 1
+GoalAction created:   makeReading : Infinite, priority 1
+GoalAction created:   makeReading : Infinite, priority 1
+GoalAction created:   makeReading(X, Y) : Infinite, priority 1
+GoalAction created:   makeReading(X, Y) : Infinite, priority 1
+GoalAction created:   makeReading(X, Y) : Infinite, priority 1
+GoalAction created:   makeReading(X, Y) : Infinite, priority 1
+GoalAction created:   makeReading(X, Y) : Infinite, priority 1
+PAction created:   investigate(X, Y) -> reduce_100, priority 0
+PAction created:   investigate(X, Y) -> reduce_200, priority 0
+PAction created:   investigate(X, Y) -> reduce_300, priority 0
+PAction created:   investigate(X, Y) -> reduce_400, priority 0
+PAction created:   investigate(X, Y) -> reduce_500, priority 0
+GoalAction created:   investigate(X, Y) : Infinite, priority 1
+GoalAction created:   investigate(X, Y) : Infinite, priority 1
+GoalAction created:   investigate(X, Y) : Infinite, priority 1
+GoalAction created:   investigate(X, Y) : Infinite, priority 1
+GoalAction created:   investigate(X, Y) : Infinite, priority 1
+GoalAction created:   at(X, Y) : Infinite, priority 1
+GoalAction created:   makeReading : Infinite, priority 1
+GoalAction created:   reading(X, Y) : Infinite, priority 1
+GoalAction created:   makeReading(X, Y) : Infinite, priority 1
+PAction created:   position(X, Y) -> reduce_100, priority 0
+PAction created:   position(X, Y) -> reduce_200, priority 0
+PAction created:   position(X, Y) -> reduce_300, priority 0
+PAction created:   position(X, Y) -> reduce_400, priority 0
+PAction created:   position(X, Y) -> reduce_500, priority 0
+GoalAction created:   at(X, Y) : Infinite, priority 1
+GoalAction created:   at(X, Y) : Infinite, priority 1
+GoalAction created:   at(X, Y) : Infinite, priority 1
+GoalAction created:   at(X, Y) : Infinite, priority 1
+GoalAction created:   at(X, Y) : Infinite, priority 1
+PAction created:   coin(X, Y, A) -> reduce_100, priority 0
+PAction created:   coin(X, Y, A) -> reduce_200, priority 0
+PAction created:   coin(X, Y, A) -> reduce_300, priority 0
+PAction created:   coin(X, Y, A) -> reduce_400, priority 0
+PAction created:   coin(X, Y, A) -> reduce_500, priority 0
+GoalAction created:   coin(X, Y, A) : Infinite, priority 1
+GoalAction created:   coin(X, Y, A) : Infinite, priority 1
+GoalAction created:   coin(X, Y, A) : Infinite, priority 1
+GoalAction created:   coin(X, Y, A) : Infinite, priority 1
+GoalAction created:   placeCoin(X, Y, A) : Infinite, priority 1
+PAction created:   coin(_, _, _) -> reduce_100, priority 0
+PAction created:   coin(_, _, _) -> reduce_200, priority 0
+PAction created:   coin(_, _, _) -> reduce_300, priority 0
+PAction created:   coin(_, _, _) -> reduce_400, priority 0
+PAction created:   coin(_, _, _) -> reduce_500, priority 0
+GoalAction created:   placeCoin : Infinite, priority 1
+GoalAction created:   placeCoin : Infinite, priority 1
+GoalAction created:   placeCoin : Infinite, priority 1
+GoalAction created:   placeCoin : Infinite, priority 1
+GoalAction created:   placeCoin : Infinite, priority 1
+PAction created:   cargo(X, Y) -> reduce_100, priority 0
+PAction created:   cargo(X, Y) -> reduce_200, priority 0
+PAction created:   cargo(X, Y) -> reduce_300, priority 0
+PAction created:   cargo(X, Y) -> reduce_400, priority 0
+PAction created:   cargo(X, Y) -> reduce_500, priority 0
+GoalAction created:   drop(X, Y) : Infinite, priority 1
+GoalAction created:   drop(X, Y) : Infinite, priority 1
+GoalAction created:   drop(X, Y) : Infinite, priority 1
+GoalAction created:   drop(X, Y) : Infinite, priority 1
+GoalAction created:   drop(X, Y) : Infinite, priority 1
+GoalAction created:   dropLoad : Infinite, priority 1
+GoalAction created:   dropLoad : Infinite, priority 1
+GoalAction created:   dropLoad : Infinite, priority 1
+GoalAction created:   dropLoad : Infinite, priority 1
+GoalAction created:   dropLoad : Infinite, priority 1
+PAction created:   cargo(A, _) -> reduce_100, priority 0
+PAction created:   cargo(A, _) -> reduce_200, priority 0
+PAction created:   cargo(A, _) -> reduce_300, priority 0
+PAction created:   cargo(A, _) -> reduce_400, priority 0
+PAction created:   cargo(A, _) -> reduce_500, priority 0
+PAction created:   reading(X, Y) -> reduce_100, priority 0
+PAction created:   reading(X, Y) -> reduce_200, priority 0
+PAction created:   reading(X, Y) -> reduce_300, priority 0
+PAction created:   reading(X, Y) -> reduce_400, priority 0
+PAction created:   reading(X, Y) -> reduce_500, priority 0
+GoalAction created:   reading(X, Y) : Infinite, priority 1
+GoalAction created:   reading(X, Y) : Infinite, priority 1
+GoalAction created:   reading(X, Y) : Infinite, priority 1
+GoalAction created:   reading(X, Y) : Infinite, priority 1
+GoalAction created:   reading(X, Y) : Infinite, priority 1
+GoalAction created:   makeReading : Infinite, priority 1
+GoalAction created:   makeReading : Infinite, priority 1
+GoalAction created:   makeReading : Infinite, priority 1
+GoalAction created:   makeReading : Infinite, priority 1
+GoalAction created:   makeReading : Infinite, priority 1
+GoalAction created:   makeReading(X, Y) : Infinite, priority 1
+GoalAction created:   makeReading(X, Y) : Infinite, priority 1
+GoalAction created:   makeReading(X, Y) : Infinite, priority 1
+GoalAction created:   makeReading(X, Y) : Infinite, priority 1
+GoalAction created:   makeReading(X, Y) : Infinite, priority 1
+PAction created:   investigate(X, Y) -> reduce_100, priority 0
+PAction created:   investigate(X, Y) -> reduce_200, priority 0
+PAction created:   investigate(X, Y) -> reduce_300, priority 0
+PAction created:   investigate(X, Y) -> reduce_400, priority 0
+PAction created:   investigate(X, Y) -> reduce_500, priority 0
+GoalAction created:   investigate(X, Y) : Infinite, priority 1
+GoalAction created:   investigate(X, Y) : Infinite, priority 1
+GoalAction created:   investigate(X, Y) : Infinite, priority 1
+GoalAction created:   investigate(X, Y) : Infinite, priority 1
+GoalAction created:   investigate(X, Y) : Infinite, priority 1
+GoalAction created:   placeCoin(X, Y, Agent) : Infinite, priority 1
+GoalAction created:   placeCoin : Infinite, priority 1
+PAction created:   position(X, Y) -> reduce_100, priority 0
+PAction created:   position(X, Y) -> reduce_200, priority 0
+PAction created:   position(X, Y) -> reduce_300, priority 0
+PAction created:   position(X, Y) -> reduce_400, priority 0
+PAction created:   position(X, Y) -> reduce_500, priority 0
+GoalAction created:   at(X, Y) : Infinite, priority 1
+GoalAction created:   at(X, Y) : Infinite, priority 1
+GoalAction created:   at(X, Y) : Infinite, priority 1
+GoalAction created:   at(X, Y) : Infinite, priority 1
+GoalAction created:   at(X, Y) : Infinite, priority 1
+PAction created:   coin(X, Y, A) -> reduce_100, priority 0
+PAction created:   coin(X, Y, A) -> reduce_200, priority 0
+PAction created:   coin(X, Y, A) -> reduce_300, priority 0
+PAction created:   coin(X, Y, A) -> reduce_400, priority 0
+PAction created:   coin(X, Y, A) -> reduce_500, priority 0
+GoalAction created:   coin(X, Y, A) : Infinite, priority 1
+GoalAction created:   coin(X, Y, A) : Infinite, priority 1
+GoalAction created:   coin(X, Y, A) : Infinite, priority 1
+GoalAction created:   coin(X, Y, A) : Infinite, priority 1
+GoalAction created:   placeCoin(X, Y, A) : Infinite, priority 1
+PAction created:   coin(_, _, _) -> reduce_100, priority 0
+PAction created:   coin(_, _, _) -> reduce_200, priority 0
+PAction created:   coin(_, _, _) -> reduce_300, priority 0
+PAction created:   coin(_, _, _) -> reduce_400, priority 0
+PAction created:   coin(_, _, _) -> reduce_500, priority 0
+GoalAction created:   placeCoin : Infinite, priority 1
+GoalAction created:   placeCoin : Infinite, priority 1
+GoalAction created:   placeCoin : Infinite, priority 1
+GoalAction created:   placeCoin : Infinite, priority 1
+GoalAction created:   placeCoin : Infinite, priority 1
+PAction created:   cargo(X, Y) -> reduce_100, priority 0
+PAction created:   cargo(X, Y) -> reduce_200, priority 0
+PAction created:   cargo(X, Y) -> reduce_300, priority 0
+PAction created:   cargo(X, Y) -> reduce_400, priority 0
+PAction created:   cargo(X, Y) -> reduce_500, priority 0
+GoalAction created:   drop(X, Y) : Infinite, priority 1
+GoalAction created:   drop(X, Y) : Infinite, priority 1
+GoalAction created:   drop(X, Y) : Infinite, priority 1
+GoalAction created:   drop(X, Y) : Infinite, priority 1
+GoalAction created:   drop(X, Y) : Infinite, priority 1
+GoalAction created:   dropLoad : Infinite, priority 1
+GoalAction created:   dropLoad : Infinite, priority 1
+GoalAction created:   dropLoad : Infinite, priority 1
+GoalAction created:   dropLoad : Infinite, priority 1
+GoalAction created:   dropLoad : Infinite, priority 1
+PAction created:   cargo(A, _) -> reduce_100, priority 0
+PAction created:   cargo(A, _) -> reduce_200, priority 0
+PAction created:   cargo(A, _) -> reduce_300, priority 0
+PAction created:   cargo(A, _) -> reduce_400, priority 0
+PAction created:   cargo(A, _) -> reduce_500, priority 0
+PAction created:   reading(X, Y) -> reduce_100, priority 0
+PAction created:   reading(X, Y) -> reduce_200, priority 0
+PAction created:   reading(X, Y) -> reduce_300, priority 0
+PAction created:   reading(X, Y) -> reduce_400, priority 0
+PAction created:   reading(X, Y) -> reduce_500, priority 0
+GoalAction created:   reading(X, Y) : Infinite, priority 1
+GoalAction created:   reading(X, Y) : Infinite, priority 1
+GoalAction created:   reading(X, Y) : Infinite, priority 1
+GoalAction created:   reading(X, Y) : Infinite, priority 1
+GoalAction created:   reading(X, Y) : Infinite, priority 1
+GoalAction created:   makeReading : Infinite, priority 1
+GoalAction created:   makeReading : Infinite, priority 1
+GoalAction created:   makeReading : Infinite, priority 1
+GoalAction created:   makeReading : Infinite, priority 1
+GoalAction created:   makeReading : Infinite, priority 1
+GoalAction created:   makeReading(X, Y) : Infinite, priority 1
+GoalAction created:   makeReading(X, Y) : Infinite, priority 1
+GoalAction created:   makeReading(X, Y) : Infinite, priority 1
+GoalAction created:   makeReading(X, Y) : Infinite, priority 1
+GoalAction created:   makeReading(X, Y) : Infinite, priority 1
+PAction created:   investigate(X, Y) -> reduce_100, priority 0
+PAction created:   investigate(X, Y) -> reduce_200, priority 0
+PAction created:   investigate(X, Y) -> reduce_300, priority 0
+PAction created:   investigate(X, Y) -> reduce_400, priority 0
+PAction created:   investigate(X, Y) -> reduce_500, priority 0
+GoalAction created:   investigate(X, Y) : Infinite, priority 1
+GoalAction created:   investigate(X, Y) : Infinite, priority 1
+GoalAction created:   investigate(X, Y) : Infinite, priority 1
+GoalAction created:   investigate(X, Y) : Infinite, priority 1
+GoalAction created:   investigate(X, Y) : Infinite, priority 1
+GoalAction created:   dropLoad : Infinite, priority 1
+GoalAction created:   at(X, Y) : Infinite, priority 1
+PAction created:   position(X, Y) -> reduce_100, priority 0
+PAction created:   position(X, Y) -> reduce_200, priority 0
+PAction created:   position(X, Y) -> reduce_300, priority 0
+PAction created:   position(X, Y) -> reduce_400, priority 0
+PAction created:   position(X, Y) -> reduce_500, priority 0
+GoalAction created:   at(X, Y) : Infinite, priority 1
+GoalAction created:   at(X, Y) : Infinite, priority 1
+GoalAction created:   at(X, Y) : Infinite, priority 1
+GoalAction created:   at(X, Y) : Infinite, priority 1
+GoalAction created:   at(X, Y) : Infinite, priority 1
+PAction created:   coin(X, Y, A) -> reduce_100, priority 0
+PAction created:   coin(X, Y, A) -> reduce_200, priority 0
+PAction created:   coin(X, Y, A) -> reduce_300, priority 0
+PAction created:   coin(X, Y, A) -> reduce_400, priority 0
+PAction created:   coin(X, Y, A) -> reduce_500, priority 0
+GoalAction created:   coin(X, Y, A) : Infinite, priority 1
+GoalAction created:   coin(X, Y, A) : Infinite, priority 1
+GoalAction created:   coin(X, Y, A) : Infinite, priority 1
+GoalAction created:   coin(X, Y, A) : Infinite, priority 1
+GoalAction created:   placeCoin(X, Y, A) : Infinite, priority 1
+PAction created:   coin(_, _, _) -> reduce_100, priority 0
+PAction created:   coin(_, _, _) -> reduce_200, priority 0
+PAction created:   coin(_, _, _) -> reduce_300, priority 0
+PAction created:   coin(_, _, _) -> reduce_400, priority 0
+PAction created:   coin(_, _, _) -> reduce_500, priority 0
+GoalAction created:   placeCoin : Infinite, priority 1
+GoalAction created:   placeCoin : Infinite, priority 1
+GoalAction created:   placeCoin : Infinite, priority 1
+GoalAction created:   placeCoin : Infinite, priority 1
+GoalAction created:   placeCoin : Infinite, priority 1
+PAction created:   cargo(X, Y) -> reduce_100, priority 0
+PAction created:   cargo(X, Y) -> reduce_200, priority 0
+PAction created:   cargo(X, Y) -> reduce_300, priority 0
+PAction created:   cargo(X, Y) -> reduce_400, priority 0
+PAction created:   cargo(X, Y) -> reduce_500, priority 0
+GoalAction created:   drop(X, Y) : Infinite, priority 1
+GoalAction created:   drop(X, Y) : Infinite, priority 1
+GoalAction created:   drop(X, Y) : Infinite, priority 1
+GoalAction created:   drop(X, Y) : Infinite, priority 1
+GoalAction created:   drop(X, Y) : Infinite, priority 1
+GoalAction created:   dropLoad : Infinite, priority 1
+GoalAction created:   dropLoad : Infinite, priority 1
+GoalAction created:   dropLoad : Infinite, priority 1
+GoalAction created:   dropLoad : Infinite, priority 1
+GoalAction created:   dropLoad : Infinite, priority 1
+PAction created:   cargo(A, _) -> reduce_100, priority 0
+PAction created:   cargo(A, _) -> reduce_200, priority 0
+PAction created:   cargo(A, _) -> reduce_300, priority 0
+PAction created:   cargo(A, _) -> reduce_400, priority 0
+PAction created:   cargo(A, _) -> reduce_500, priority 0
+PAction created:   reading(X, Y) -> reduce_100, priority 0
+PAction created:   reading(X, Y) -> reduce_200, priority 0
+PAction created:   reading(X, Y) -> reduce_300, priority 0
+PAction created:   reading(X, Y) -> reduce_400, priority 0
+PAction created:   reading(X, Y) -> reduce_500, priority 0
+GoalAction created:   reading(X, Y) : Infinite, priority 1
+GoalAction created:   reading(X, Y) : Infinite, priority 1
+GoalAction created:   reading(X, Y) : Infinite, priority 1
+GoalAction created:   reading(X, Y) : Infinite, priority 1
+GoalAction created:   reading(X, Y) : Infinite, priority 1
+GoalAction created:   makeReading : Infinite, priority 1
+GoalAction created:   makeReading : Infinite, priority 1
+GoalAction created:   makeReading : Infinite, priority 1
+GoalAction created:   makeReading : Infinite, priority 1
+GoalAction created:   makeReading : Infinite, priority 1
+GoalAction created:   makeReading(X, Y) : Infinite, priority 1
+GoalAction created:   makeReading(X, Y) : Infinite, priority 1
+GoalAction created:   makeReading(X, Y) : Infinite, priority 1
+GoalAction created:   makeReading(X, Y) : Infinite, priority 1
+GoalAction created:   makeReading(X, Y) : Infinite, priority 1
+PAction created:   investigate(X, Y) -> reduce_100, priority 0
+PAction created:   investigate(X, Y) -> reduce_200, priority 0
+PAction created:   investigate(X, Y) -> reduce_300, priority 0
+PAction created:   investigate(X, Y) -> reduce_400, priority 0
+PAction created:   investigate(X, Y) -> reduce_500, priority 0
+GoalAction created:   investigate(X, Y) : Infinite, priority 1
+GoalAction created:   investigate(X, Y) : Infinite, priority 1
+GoalAction created:   investigate(X, Y) : Infinite, priority 1
+GoalAction created:   investigate(X, Y) : Infinite, priority 1
+GoalAction created:   investigate(X, Y) : Infinite, priority 1
+register a1
+register a2
+register a3
+register c1
+register t1

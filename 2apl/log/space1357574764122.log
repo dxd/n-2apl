@@ -1,0 +1,309 @@
+Service Registrar: 2131b097-6371-46da-b860-ae9238a6fc5d
+Java Space found.
+TransactionManager found.
+org notified 
+org notified 
+org notified 
+org notified 
+obligation([cargo(_, _, _)], 25, [reduce_100(t1)])
+agent t1
+create entry obligation [[cargo(_, _, _)], 25, [reduce_100(t1)]]
+Obligation [agent=t1, obligation=[cargo(_, _, _)], sanction=[reduce_100(t1)], deadline=25, time=Mon Jan 07 16:06:07 GMT 2013, clock=1]
+prohibition([cargo(_, _, 2)], [reduce_100(t1)])
+agent t1
+create entry prohibition [[cargo(_, _, 2)], [reduce_100(t1)]]
+Prohibition [agent=t1, prohibition=[cargo(_, _, 2)], sanction=[reduce_100(t1)], clock=1, time=Mon Jan 07 16:06:08 GMT 2013]
+prohibition([at(5, 5, t1)], [reduce_300(t1)])
+agent t1
+create entry prohibition [[at(5, 5, t1)], [reduce_300(t1)]]
+Prohibition [agent=t1, prohibition=[at(5, 5, t1)], sanction=[reduce_300(t1)], clock=1, time=Mon Jan 07 16:06:08 GMT 2013]
+prohibition([at(5, 6, t1)], [reduce_300(t1)])
+agent t1
+create entry prohibition [[at(5, 6, t1)], [reduce_300(t1)]]
+Prohibition [agent=t1, prohibition=[at(5, 6, t1)], sanction=[reduce_300(t1)], clock=1, time=Mon Jan 07 16:06:08 GMT 2013]
+prohibition([at(6, 5, t1)], [reduce_300(t1)])
+agent t1
+create entry prohibition [[at(6, 5, t1)], [reduce_300(t1)]]
+Prohibition [agent=t1, prohibition=[at(6, 5, t1)], sanction=[reduce_300(t1)], clock=1, time=Mon Jan 07 16:06:08 GMT 2013]
+prohibition([at(6, 6, t1)], [reduce_300(t1)])
+agent t1
+create entry prohibition [[at(6, 6, t1)], [reduce_300(t1)]]
+Prohibition [agent=t1, prohibition=[at(6, 6, t1)], sanction=[reduce_300(t1)], clock=1, time=Mon Jan 07 16:06:08 GMT 2013]
+prohibition([coin(5, 5, _, a1)], [reduce_300(c1)])
+agent c1
+create entry prohibition [[coin(5, 5, _, a1)], [reduce_300(c1)]]
+Prohibition [agent=c1, prohibition=[coin(5, 5, _, a1)], sanction=[reduce_300(c1)], clock=1, time=Mon Jan 07 16:06:10 GMT 2013]
+prohibition([coin(5, 6, _, a1)], [reduce_300(c1)])
+agent c1
+create entry prohibition [[coin(5, 6, _, a1)], [reduce_300(c1)]]
+Prohibition [agent=c1, prohibition=[coin(5, 6, _, a1)], sanction=[reduce_300(c1)], clock=1, time=Mon Jan 07 16:06:10 GMT 2013]
+prohibition([coin(6, 5, _, a1)], [reduce_300(c1)])
+agent c1
+create entry prohibition [[coin(6, 5, _, a1)], [reduce_300(c1)]]
+Prohibition [agent=c1, prohibition=[coin(6, 5, _, a1)], sanction=[reduce_300(c1)], clock=1, time=Mon Jan 07 16:06:10 GMT 2013]
+prohibition([coin(6, 6, _, a1)], [reduce_300(c1)])
+agent c1
+create entry prohibition [[coin(6, 6, _, a1)], [reduce_300(c1)]]
+Prohibition [agent=c1, prohibition=[coin(6, 6, _, a1)], sanction=[reduce_300(c1)], clock=1, time=Mon Jan 07 16:06:10 GMT 2013]
+prohibition([coin(5, 5, _, a2)], [reduce_300(c1)])
+agent c1
+create entry prohibition [[coin(5, 5, _, a2)], [reduce_300(c1)]]
+Prohibition [agent=c1, prohibition=[coin(5, 5, _, a2)], sanction=[reduce_300(c1)], clock=1, time=Mon Jan 07 16:06:10 GMT 2013]
+prohibition([coin(5, 6, _, a2)], [reduce_300(c1)])
+agent c1
+create entry prohibition [[coin(5, 6, _, a2)], [reduce_300(c1)]]
+Prohibition [agent=c1, prohibition=[coin(5, 6, _, a2)], sanction=[reduce_300(c1)], clock=1, time=Mon Jan 07 16:06:10 GMT 2013]
+prohibition([coin(6, 5, _, a2)], [reduce_300(c1)])
+agent c1
+create entry prohibition [[coin(6, 5, _, a2)], [reduce_300(c1)]]
+Prohibition [agent=c1, prohibition=[coin(6, 5, _, a2)], sanction=[reduce_300(c1)], clock=1, time=Mon Jan 07 16:06:10 GMT 2013]
+prohibition([coin(6, 6, _, a2)], [reduce_300(c1)])
+agent c1
+create entry prohibition [[coin(6, 6, _, a2)], [reduce_300(c1)]]
+Prohibition [agent=c1, prohibition=[coin(6, 6, _, a2)], sanction=[reduce_300(c1)], clock=1, time=Mon Jan 07 16:06:10 GMT 2013]
+prohibition([coin(5, 5, _, a3)], [reduce_300(c1)])
+agent c1
+create entry prohibition [[coin(5, 5, _, a3)], [reduce_300(c1)]]
+Prohibition [agent=c1, prohibition=[coin(5, 5, _, a3)], sanction=[reduce_300(c1)], clock=1, time=Mon Jan 07 16:06:10 GMT 2013]
+prohibition([coin(5, 6, _, a3)], [reduce_300(c1)])
+agent c1
+create entry prohibition [[coin(5, 6, _, a3)], [reduce_300(c1)]]
+Prohibition [agent=c1, prohibition=[coin(5, 6, _, a3)], sanction=[reduce_300(c1)], clock=1, time=Mon Jan 07 16:06:10 GMT 2013]
+prohibition([coin(6, 5, _, a3)], [reduce_300(c1)])
+agent c1
+create entry prohibition [[coin(6, 5, _, a3)], [reduce_300(c1)]]
+Prohibition [agent=c1, prohibition=[coin(6, 5, _, a3)], sanction=[reduce_300(c1)], clock=1, time=Mon Jan 07 16:06:10 GMT 2013]
+prohibition([coin(6, 6, _, a3)], [reduce_300(c1)])
+agent c1
+create entry prohibition [[coin(6, 6, _, a3)], [reduce_300(c1)]]
+Prohibition [agent=c1, prohibition=[coin(6, 6, _, a3)], sanction=[reduce_300(c1)], clock=1, time=Mon Jan 07 16:06:10 GMT 2013]
+coin(position(8, 6), 17, a1)
+agent c1
+create entry coin [position(8, 6), 17, a1]
+cargo(position(20, 20), 16)
+agent t1
+create entry cargo [position(20, 20), 16]
+coin(position(16, 6), 17, a2)
+agent c1
+create entry coin [position(16, 6), 17, a2]
+status(position(3, 4), 18)
+agent a1
+status(position(3, 4), 19)
+agent a2
+status(position(3, 4), 15)
+agent a3
+prohibition([at(5, 5, a1)], [reduce_300(a1)])
+agent a1
+create entry prohibition [[at(5, 5, a1)], [reduce_300(a1)]]
+Prohibition [agent=a1, prohibition=[at(5, 5, a1)], sanction=[reduce_300(a1)], clock=1, time=Mon Jan 07 16:06:12 GMT 2013]
+prohibition([at(5, 6, a1)], [reduce_300(a1)])
+agent a1
+create entry prohibition [[at(5, 6, a1)], [reduce_300(a1)]]
+Prohibition [agent=a1, prohibition=[at(5, 6, a1)], sanction=[reduce_300(a1)], clock=1, time=Mon Jan 07 16:06:12 GMT 2013]
+prohibition([at(6, 5, a1)], [reduce_300(a1)])
+agent a1
+create entry prohibition [[at(6, 5, a1)], [reduce_300(a1)]]
+Prohibition [agent=a1, prohibition=[at(6, 5, a1)], sanction=[reduce_300(a1)], clock=1, time=Mon Jan 07 16:06:12 GMT 2013]
+prohibition([at(6, 6, a1)], [reduce_300(a1)])
+agent a1
+create entry prohibition [[at(6, 6, a1)], [reduce_300(a1)]]
+Prohibition [agent=a1, prohibition=[at(6, 6, a1)], sanction=[reduce_300(a1)], clock=1, time=Mon Jan 07 16:06:12 GMT 2013]
+prohibition([at(5, 5, a2)], [reduce_300(a2)])
+agent a2
+create entry prohibition [[at(5, 5, a2)], [reduce_300(a2)]]
+Prohibition [agent=a2, prohibition=[at(5, 5, a2)], sanction=[reduce_300(a2)], clock=1, time=Mon Jan 07 16:06:12 GMT 2013]
+prohibition([at(5, 6, a2)], [reduce_300(a2)])
+agent a2
+create entry prohibition [[at(5, 6, a2)], [reduce_300(a2)]]
+Prohibition [agent=a2, prohibition=[at(5, 6, a2)], sanction=[reduce_300(a2)], clock=1, time=Mon Jan 07 16:06:12 GMT 2013]
+prohibition([at(6, 5, a2)], [reduce_300(a2)])
+agent a2
+create entry prohibition [[at(6, 5, a2)], [reduce_300(a2)]]
+Prohibition [agent=a2, prohibition=[at(6, 5, a2)], sanction=[reduce_300(a2)], clock=1, time=Mon Jan 07 16:06:12 GMT 2013]
+prohibition([at(6, 6, a2)], [reduce_300(a2)])
+agent a2
+create entry prohibition [[at(6, 6, a2)], [reduce_300(a2)]]
+Prohibition [agent=a2, prohibition=[at(6, 6, a2)], sanction=[reduce_300(a2)], clock=1, time=Mon Jan 07 16:06:12 GMT 2013]
+prohibition([at(5, 5, a3)], [reduce_300(a3)])
+agent a3
+create entry prohibition [[at(5, 5, a3)], [reduce_300(a3)]]
+Prohibition [agent=a3, prohibition=[at(5, 5, a3)], sanction=[reduce_300(a3)], clock=1, time=Mon Jan 07 16:06:12 GMT 2013]
+prohibition([at(5, 6, a3)], [reduce_300(a3)])
+agent a3
+create entry prohibition [[at(5, 6, a3)], [reduce_300(a3)]]
+Prohibition [agent=a3, prohibition=[at(5, 6, a3)], sanction=[reduce_300(a3)], clock=1, time=Mon Jan 07 16:06:12 GMT 2013]
+prohibition([at(6, 5, a3)], [reduce_300(a3)])
+agent a3
+create entry prohibition [[at(6, 5, a3)], [reduce_300(a3)]]
+Prohibition [agent=a3, prohibition=[at(6, 5, a3)], sanction=[reduce_300(a3)], clock=1, time=Mon Jan 07 16:06:12 GMT 2013]
+prohibition([at(6, 6, a3)], [reduce_300(a3)])
+agent a3
+create entry prohibition [[at(6, 6, a3)], [reduce_300(a3)]]
+Prohibition [agent=a3, prohibition=[at(6, 6, a3)], sanction=[reduce_300(a3)], clock=1, time=Mon Jan 07 16:06:12 GMT 2013]
+status(position(19, 20), 20)
+agent t1
+coin(position(3, 9), 15, a3)
+agent c1
+create entry coin [position(3, 9), 15, a3]
+status(position(3, 5), 20)
+agent a1
+status(position(3, 5), 20)
+agent a3
+status(position(3, 5), 13)
+agent a2
+status(position(18, 20), 15)
+agent t1
+org notified 
+status(position(3, 6), 22)
+agent a1
+status(position(17, 20), 20)
+agent t1
+status(position(3, 6), 23)
+agent a3
+status(position(3, 6), 23)
+agent a2
+status(position(3, 7), 24)
+agent a1
+status(position(3, 7), 23)
+agent a2
+status(position(3, 7), 24)
+agent a3
+status(position(16, 20), 24)
+agent t1
+obligation([cargo(_, _, _)], 25, [reduce_100(t1)])
+agent t1
+create entry obligation [[cargo(_, _, _)], 25, [reduce_100(t1)]]
+Obligation [agent=t1, obligation=[cargo(_, _, _)], sanction=[reduce_100(t1)], deadline=25, time=Mon Jan 07 16:06:18 GMT 2013, clock=1]
+status(position(3, 8), 26)
+agent a2
+status(position(3, 8), 25)
+agent a1
+status(position(3, 8), 0)
+agent a3
+status(position(15, 20), 27)
+agent t1
+prohibition([cargo(_, _, 17)], [reduce_100(t1)])
+agent t1
+create entry prohibition [[cargo(_, _, 17)], [reduce_100(t1)]]
+Prohibition [agent=t1, prohibition=[cargo(_, _, 17)], sanction=[reduce_100(t1)], clock=1, time=Mon Jan 07 16:06:19 GMT 2013]
+status(position(3, 9), 27)
+agent a3
+status(position(3, 9), 26)
+agent a2
+status(position(3, 9), 25)
+agent a1
+status(position(14, 20), 28)
+agent t1
+status(position(3, 10), 27)
+agent a1
+status(position(3, 10), 29)
+agent a2
+status(position(3, 10), 28)
+agent a3
+status(position(13, 20), 30)
+agent t1
+status(position(4, 10), 29)
+agent a1
+status(position(12, 20), 27)
+agent t1
+status(position(4, 10), 27)
+agent a2
+status(position(4, 10), 13)
+agent a3
+status(position(11, 20), 0)
+agent t1
+status(position(5, 10), 33)
+agent a1
+status(position(5, 10), 32)
+agent a2
+status(position(5, 10), 32)
+agent a3
+status(position(6, 10), 33)
+agent a1
+status(position(10, 20), 33)
+agent t1
+status(position(6, 10), 35)
+agent a2
+status(position(6, 10), 36)
+agent a3
+status(position(9, 20), 35)
+agent t1
+status(position(7, 10), 35)
+agent a1
+status(position(7, 10), 33)
+agent a2
+status(position(7, 10), 37)
+agent a3
+status(position(8, 20), 38)
+agent t1
+status(position(8, 10), 36)
+agent a2
+status(position(8, 10), 38)
+agent a1
+status(position(8, 10), 39)
+agent a3
+status(position(7, 20), 40)
+agent t1
+status(position(9, 10), 39)
+agent a3
+status(position(9, 10), 40)
+agent a1
+status(position(9, 10), 40)
+agent a2
+status(position(6, 20), 42)
+agent t1
+status(position(10, 10), 42)
+agent a1
+status(position(10, 10), 40)
+agent a3
+status(position(10, 10), 42)
+agent a2
+status(position(5, 20), 44)
+agent t1
+status(position(4, 20), 46)
+agent t1
+status(position(3, 20), 47)
+agent t1
+status(position(2, 20), 49)
+agent t1
+status(position(2, 19), 50)
+agent t1
+status(position(2, 18), 52)
+agent t1
+status(position(2, 17), 54)
+agent t1
+org notified 
+status(position(2, 16), 55)
+agent t1
+obligation([cargo(_, _, _)], 66, [reduce_100(t1)])
+agent t1
+create entry obligation [[cargo(_, _, _)], 66, [reduce_100(t1)]]
+Obligation [agent=t1, obligation=[cargo(_, _, _)], sanction=[reduce_100(t1)], deadline=66, time=Mon Jan 07 16:06:48 GMT 2013, clock=1]
+status(position(2, 15), 57)
+agent t1
+status(position(2, 14), 59)
+agent t1
+status(position(2, 13), 60)
+agent t1
+status(position(2, 12), 62)
+agent t1
+status(position(2, 11), 63)
+agent t1
+status(position(2, 10), 63)
+agent t1
+status(position(2, 9), 63)
+agent t1
+status(position(2, 8), 63)
+agent t1
+status(position(2, 7), 63)
+agent t1
+org notified 
+obligation([cargo(_, _, _)], 73, [reduce_100(t1)])
+agent t1
+create entry obligation [[cargo(_, _, _)], 73, [reduce_100(t1)]]
+Obligation [agent=t1, obligation=[cargo(_, _, _)], sanction=[reduce_100(t1)], deadline=73, time=Mon Jan 07 16:07:15 GMT 2013, clock=1]
+org notified 
+obligation([cargo(_, _, _)], 73, [reduce_100(t1)])
+agent t1
+create entry obligation [[cargo(_, _, _)], 73, [reduce_100(t1)]]
+Obligation [agent=t1, obligation=[cargo(_, _, _)], sanction=[reduce_100(t1)], deadline=73, time=Mon Jan 07 16:07:43 GMT 2013, clock=1]

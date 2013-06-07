@@ -1,0 +1,31 @@
+test2.
+Service Registrar: 030f1663-533c-4ec7-8ed1-91360ca6c545
+Java Space found.
+TransactionManager found.
+register a1
+register a2
+register a3
+register c1
+register t1
+from/for agent c1  coin(position(8, 6), 0, a1)
+org coin notification
+org notified 
+org coin notification
+org notified 
+org coin notification
+org notified 
+org coin notification
+org notified 
+org coin notification
+org notified 
+from/for agent a3  status(position(11, 2), 0)
+org position notification
+org notified 
+org position notification
+org notified 
+org position notification
+org notified 
+org position notification
+org notified 
+org position notification
+org notified 

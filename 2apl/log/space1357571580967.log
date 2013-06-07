@@ -1,0 +1,276 @@
+Service Registrar: 2131b097-6371-46da-b860-ae9238a6fc5d
+Java Space found.
+TransactionManager found.
+org notified 
+org notified 
+org notified 
+org notified 
+obligation([cargo(_, _, _)], 48, [reduce_100(t1)])
+t1
+create entry obligation [[cargo(_, _, _)], 48, [reduce_100(t1)]]
+prohibition([cargo(_, _, 2)], [reduce_100(t1)])
+t1
+create entry prohibition [[cargo(_, _, 2)], [reduce_100(t1)]]
+prohibition([at(5, 5, t1)], [reduce_300(t1)])
+t1
+create entry prohibition [[at(5, 5, t1)], [reduce_300(t1)]]
+prohibition([at(5, 6, t1)], [reduce_300(t1)])
+t1
+create entry prohibition [[at(5, 6, t1)], [reduce_300(t1)]]
+prohibition([at(6, 5, t1)], [reduce_300(t1)])
+t1
+create entry prohibition [[at(6, 5, t1)], [reduce_300(t1)]]
+prohibition([at(6, 6, t1)], [reduce_300(t1)])
+t1
+create entry prohibition [[at(6, 6, t1)], [reduce_300(t1)]]
+prohibition([coin(5, 5, _, a1)], [reduce_300(c1)])
+c1
+create entry prohibition [[coin(5, 5, _, a1)], [reduce_300(c1)]]
+prohibition([coin(5, 6, _, a1)], [reduce_300(c1)])
+c1
+create entry prohibition [[coin(5, 6, _, a1)], [reduce_300(c1)]]
+prohibition([coin(6, 5, _, a1)], [reduce_300(c1)])
+c1
+create entry prohibition [[coin(6, 5, _, a1)], [reduce_300(c1)]]
+prohibition([coin(6, 6, _, a1)], [reduce_300(c1)])
+c1
+create entry prohibition [[coin(6, 6, _, a1)], [reduce_300(c1)]]
+prohibition([coin(5, 5, _, a2)], [reduce_300(c1)])
+c1
+create entry prohibition [[coin(5, 5, _, a2)], [reduce_300(c1)]]
+prohibition([coin(5, 6, _, a2)], [reduce_300(c1)])
+c1
+create entry prohibition [[coin(5, 6, _, a2)], [reduce_300(c1)]]
+prohibition([coin(6, 5, _, a2)], [reduce_300(c1)])
+c1
+create entry prohibition [[coin(6, 5, _, a2)], [reduce_300(c1)]]
+prohibition([coin(6, 6, _, a2)], [reduce_300(c1)])
+c1
+create entry prohibition [[coin(6, 6, _, a2)], [reduce_300(c1)]]
+prohibition([coin(5, 5, _, a3)], [reduce_300(c1)])
+c1
+create entry prohibition [[coin(5, 5, _, a3)], [reduce_300(c1)]]
+prohibition([coin(5, 6, _, a3)], [reduce_300(c1)])
+c1
+create entry prohibition [[coin(5, 6, _, a3)], [reduce_300(c1)]]
+prohibition([coin(6, 5, _, a3)], [reduce_300(c1)])
+c1
+create entry prohibition [[coin(6, 5, _, a3)], [reduce_300(c1)]]
+prohibition([coin(6, 6, _, a3)], [reduce_300(c1)])
+c1
+create entry prohibition [[coin(6, 6, _, a3)], [reduce_300(c1)]]
+prohibition([at(5, 5, a1)], [reduce_300(a1)])
+a1
+create entry prohibition [[at(5, 5, a1)], [reduce_300(a1)]]
+prohibition([at(5, 6, a1)], [reduce_300(a1)])
+a1
+create entry prohibition [[at(5, 6, a1)], [reduce_300(a1)]]
+prohibition([at(6, 5, a1)], [reduce_300(a1)])
+a1
+create entry prohibition [[at(6, 5, a1)], [reduce_300(a1)]]
+prohibition([at(6, 6, a1)], [reduce_300(a1)])
+a1
+create entry prohibition [[at(6, 6, a1)], [reduce_300(a1)]]
+prohibition([at(5, 5, a2)], [reduce_300(a2)])
+a2
+create entry prohibition [[at(5, 5, a2)], [reduce_300(a2)]]
+prohibition([at(5, 6, a2)], [reduce_300(a2)])
+a2
+create entry prohibition [[at(5, 6, a2)], [reduce_300(a2)]]
+prohibition([at(6, 5, a2)], [reduce_300(a2)])
+a2
+create entry prohibition [[at(6, 5, a2)], [reduce_300(a2)]]
+prohibition([at(6, 6, a2)], [reduce_300(a2)])
+a2
+create entry prohibition [[at(6, 6, a2)], [reduce_300(a2)]]
+prohibition([at(5, 5, a3)], [reduce_300(a3)])
+a3
+create entry prohibition [[at(5, 5, a3)], [reduce_300(a3)]]
+prohibition([at(5, 6, a3)], [reduce_300(a3)])
+a3
+create entry prohibition [[at(5, 6, a3)], [reduce_300(a3)]]
+prohibition([at(6, 5, a3)], [reduce_300(a3)])
+a3
+create entry prohibition [[at(6, 5, a3)], [reduce_300(a3)]]
+prohibition([at(6, 6, a3)], [reduce_300(a3)])
+a3
+create entry prohibition [[at(6, 6, a3)], [reduce_300(a3)]]
+cargo(position(20, 20), 38)
+t1
+create entry cargo [position(20, 20), 38]
+coin(position(8, 6), 38, a1)
+c1
+create entry coin [position(8, 6), 38, a1]
+status(position(3, 4), 36)
+a1
+status(position(3, 4), 37)
+a3
+status(position(3, 4), 38)
+a2
+coin(position(16, 6), 38, a2)
+c1
+create entry coin [position(16, 6), 38, a2]
+status(position(19, 20), 36)
+t1
+status(position(3, 5), 37)
+a2
+status(position(3, 5), 36)
+a1
+status(position(3, 5), 38)
+a3
+coin(position(3, 9), 37, a3)
+c1
+create entry coin [position(3, 9), 37, a3]
+status(position(18, 20), 38)
+t1
+status(position(3, 6), 36)
+a3
+status(position(3, 6), 38)
+a2
+status(position(3, 6), 37)
+a1
+obligation([cargo(_, _, _)], 48, [reduce_100(t1)])
+t1
+create entry obligation [[cargo(_, _, _)], 48, [reduce_100(t1)]]
+status(position(17, 20), 38)
+t1
+status(position(3, 7), 37)
+a3
+status(position(3, 7), 30)
+a2
+status(position(3, 7), 34)
+a1
+status(position(16, 20), 37)
+t1
+prohibition([cargo(_, _, 39)], [reduce_100(t1)])
+t1
+create entry prohibition [[cargo(_, _, 39)], [reduce_100(t1)]]
+status(position(3, 8), 38)
+a3
+status(position(3, 8), 37)
+a1
+status(position(15, 20), 38)
+t1
+status(position(3, 8), 35)
+a2
+status(position(3, 9), 38)
+a3
+status(position(3, 9), 38)
+a2
+status(position(3, 9), 38)
+a1
+status(position(3, 10), 36)
+a3
+status(position(14, 20), 34)
+t1
+status(position(3, 10), 38)
+a2
+status(position(3, 10), 38)
+a1
+status(position(4, 10), 36)
+a3
+status(position(13, 20), 37)
+t1
+status(position(4, 10), 38)
+a2
+status(position(12, 20), 36)
+t1
+status(position(5, 10), 31)
+a3
+status(position(5, 10), 29)
+a2
+org notified 
+status(position(4, 10), 37)
+a1
+status(position(11, 20), 38)
+t1
+status(position(6, 10), 37)
+a3
+status(position(6, 10), 35)
+a2
+status(position(5, 10), 37)
+a1
+status(position(10, 20), 38)
+t1
+status(position(7, 10), 38)
+a3
+status(position(7, 10), 38)
+a2
+status(position(6, 10), 37)
+a1
+status(position(9, 20), 38)
+t1
+status(position(8, 10), 38)
+a3
+status(position(7, 10), 38)
+a1
+status(position(8, 10), 37)
+a2
+status(position(8, 20), 38)
+t1
+status(position(9, 10), 38)
+a3
+status(position(8, 10), 37)
+a1
+status(position(7, 20), 34)
+t1
+status(position(9, 10), 31)
+a2
+status(position(10, 10), 38)
+a3
+status(position(9, 10), 38)
+a1
+status(position(6, 20), 38)
+t1
+status(position(10, 10), 38)
+a2
+status(position(10, 10), 17)
+a1
+status(position(5, 20), 17)
+t1
+status(position(4, 20), 38)
+t1
+status(position(3, 20), 38)
+t1
+status(position(2, 20), 38)
+t1
+status(position(2, 19), 38)
+t1
+status(position(2, 18), 38)
+t1
+status(position(2, 17), 38)
+t1
+status(position(2, 16), 38)
+t1
+org notified 
+status(position(2, 15), 38)
+t1
+obligation([cargo(_, _, _)], 48, [reduce_100(t1)])
+t1
+create entry obligation [[cargo(_, _, _)], 48, [reduce_100(t1)]]
+status(position(2, 14), 38)
+t1
+status(position(2, 13), 38)
+t1
+status(position(2, 12), 38)
+t1
+status(position(2, 11), 38)
+t1
+status(position(2, 10), 38)
+t1
+status(position(2, 9), 38)
+t1
+status(position(2, 8), 38)
+t1
+status(position(2, 7), 38)
+t1
+status(position(2, 6), 38)
+t1
+status(position(2, 5), 38)
+t1
+status(position(2, 4), 38)
+t1
+status(position(2, 3), 38)
+t1
+status(position(2, 2), 38)
+t1

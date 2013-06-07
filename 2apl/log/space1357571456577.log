@@ -1,0 +1,117 @@
+Service Registrar: 2131b097-6371-46da-b860-ae9238a6fc5d
+Java Space found.
+TransactionManager found.
+org notified 
+org notified 
+org notified 
+org notified 
+prohibition([cargo(_, _, 2)], [reduce_100(t1)])
+t1
+create entry prohibition [[cargo(_, _, 2)], [reduce_100(t1)]]
+prohibition([at(5, 5, t1)], [reduce_300(t1)])
+t1
+create entry prohibition [[at(5, 5, t1)], [reduce_300(t1)]]
+prohibition([at(5, 6, t1)], [reduce_300(t1)])
+t1
+create entry prohibition [[at(5, 6, t1)], [reduce_300(t1)]]
+prohibition([at(6, 5, t1)], [reduce_300(t1)])
+t1
+create entry prohibition [[at(6, 5, t1)], [reduce_300(t1)]]
+prohibition([at(6, 6, t1)], [reduce_300(t1)])
+t1
+create entry prohibition [[at(6, 6, t1)], [reduce_300(t1)]]
+prohibition([coin(5, 5, _, a1)], [reduce_300(c1)])
+c1
+create entry prohibition [[coin(5, 5, _, a1)], [reduce_300(c1)]]
+prohibition([coin(5, 6, _, a1)], [reduce_300(c1)])
+c1
+create entry prohibition [[coin(5, 6, _, a1)], [reduce_300(c1)]]
+prohibition([coin(6, 5, _, a1)], [reduce_300(c1)])
+c1
+create entry prohibition [[coin(6, 5, _, a1)], [reduce_300(c1)]]
+prohibition([coin(6, 6, _, a1)], [reduce_300(c1)])
+c1
+create entry prohibition [[coin(6, 6, _, a1)], [reduce_300(c1)]]
+prohibition([coin(5, 5, _, a2)], [reduce_300(c1)])
+c1
+create entry prohibition [[coin(5, 5, _, a2)], [reduce_300(c1)]]
+prohibition([coin(5, 6, _, a2)], [reduce_300(c1)])
+c1
+create entry prohibition [[coin(5, 6, _, a2)], [reduce_300(c1)]]
+prohibition([coin(6, 5, _, a2)], [reduce_300(c1)])
+c1
+create entry prohibition [[coin(6, 5, _, a2)], [reduce_300(c1)]]
+prohibition([coin(6, 6, _, a2)], [reduce_300(c1)])
+c1
+create entry prohibition [[coin(6, 6, _, a2)], [reduce_300(c1)]]
+prohibition([coin(5, 5, _, a3)], [reduce_300(c1)])
+c1
+create entry prohibition [[coin(5, 5, _, a3)], [reduce_300(c1)]]
+prohibition([coin(5, 6, _, a3)], [reduce_300(c1)])
+c1
+create entry prohibition [[coin(5, 6, _, a3)], [reduce_300(c1)]]
+prohibition([coin(6, 5, _, a3)], [reduce_300(c1)])
+c1
+create entry prohibition [[coin(6, 5, _, a3)], [reduce_300(c1)]]
+prohibition([coin(6, 6, _, a3)], [reduce_300(c1)])
+c1
+create entry prohibition [[coin(6, 6, _, a3)], [reduce_300(c1)]]
+coin(position(8, 6), 38, a1)
+c1
+create entry coin [position(8, 6), 38, a1]
+cargo(position(20, 20), 34)
+t1
+create entry cargo [position(20, 20), 34]
+prohibition([at(5, 5, a1)], [reduce_300(a1)])
+a1
+create entry prohibition [[at(5, 5, a1)], [reduce_300(a1)]]
+prohibition([at(5, 6, a1)], [reduce_300(a1)])
+a1
+create entry prohibition [[at(5, 6, a1)], [reduce_300(a1)]]
+prohibition([at(6, 5, a1)], [reduce_300(a1)])
+a1
+create entry prohibition [[at(6, 5, a1)], [reduce_300(a1)]]
+prohibition([at(6, 6, a1)], [reduce_300(a1)])
+a1
+create entry prohibition [[at(6, 6, a1)], [reduce_300(a1)]]
+prohibition([at(5, 5, a2)], [reduce_300(a2)])
+a2
+create entry prohibition [[at(5, 5, a2)], [reduce_300(a2)]]
+prohibition([at(5, 6, a2)], [reduce_300(a2)])
+a2
+create entry prohibition [[at(5, 6, a2)], [reduce_300(a2)]]
+prohibition([at(6, 5, a2)], [reduce_300(a2)])
+a2
+create entry prohibition [[at(6, 5, a2)], [reduce_300(a2)]]
+prohibition([at(6, 6, a2)], [reduce_300(a2)])
+a2
+create entry prohibition [[at(6, 6, a2)], [reduce_300(a2)]]
+prohibition([at(5, 5, a3)], [reduce_300(a3)])
+a3
+create entry prohibition [[at(5, 5, a3)], [reduce_300(a3)]]
+prohibition([at(5, 6, a3)], [reduce_300(a3)])
+a3
+create entry prohibition [[at(5, 6, a3)], [reduce_300(a3)]]
+prohibition([at(6, 5, a3)], [reduce_300(a3)])
+a3
+create entry prohibition [[at(6, 5, a3)], [reduce_300(a3)]]
+prohibition([at(6, 6, a3)], [reduce_300(a3)])
+a3
+create entry prohibition [[at(6, 6, a3)], [reduce_300(a3)]]
+obligation([cargo(_, _, _)], 40, [reduce_100(t1)])
+t1
+create entry obligation [[cargo(_, _, _)], 40, [reduce_100(t1)]]
+prohibition([cargo(_, _, 35)], [reduce_100(t1)])
+t1
+create entry prohibition [[cargo(_, _, 35)], [reduce_100(t1)]]
+org notified 
+obligation([cargo(_, _, _)], 48, [reduce_100(t1)])
+t1
+create entry obligation [[cargo(_, _, _)], 48, [reduce_100(t1)]]
+org notified 
+obligation([cargo(_, _, _)], 48, [reduce_100(t1)])
+t1
+create entry obligation [[cargo(_, _, _)], 48, [reduce_100(t1)]]
+obligation([cargo(_, _, _)], 48, [reduce_100(t1)])
+t1
+create entry obligation [[cargo(_, _, _)], 48, [reduce_100(t1)]]

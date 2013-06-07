@@ -1,0 +1,49 @@
+test2.
+Service Registrar: 0515f786-d835-47f3-bd36-2b74949ab00e
+Java Space found.
+TransactionManager found.
+org notified 
+org notified 
+to be compared: [Cargo [id=5, cell=Cell [x=10, y=10], time=Wed May 22 11:45:45 BST 2013, clock=1]]
+from agent t1  obligation([cargo(_, _, _)], 10, [reduce_100(t1)])
+to be compared: [Coin [id=10, cell=Cell [x=15, y=15], agent=a1, time=Wed May 22 11:45:45 BST 2013, clock=1], Coin [id=20, cell=Cell [x=1, y=15], agent=a2, time=Wed May 22 11:45:45 BST 2013, clock=1], Coin [id=30, cell=Cell [x=15, y=1], agent=a3, time=Wed May 22 11:45:45 BST 2013, clock=1]]
+to be compared: [Cargo [id=5, cell=Cell [x=10, y=10], time=Wed May 22 11:45:45 BST 2013, clock=1]]
+from agent t1  prohibition([cargo(_, _, 2)], [reduce_100(t1)])
+from agent t1  prohibition([at(5, 5, t1)], [reduce_300(t1)])
+org notified 
+from agent t1  prohibition([at(5, 6, t1)], [reduce_300(t1)])
+from agent t1  prohibition([at(6, 5, t1)], [reduce_300(t1)])
+from agent t1  prohibition([at(6, 6, t1)], [reduce_300(t1)])
+from agent c1  prohibition([coin(5, 5, _, a1)], [reduce_300(c1)])
+from agent c1  prohibition([coin(5, 6, _, a1)], [reduce_300(c1)])
+from agent c1  prohibition([coin(6, 5, _, a1)], [reduce_300(c1)])
+from agent c1  prohibition([coin(6, 6, _, a1)], [reduce_300(c1)])
+from agent c1  prohibition([coin(5, 5, _, a2)], [reduce_300(c1)])
+from agent c1  prohibition([coin(5, 6, _, a2)], [reduce_300(c1)])
+from agent c1  prohibition([coin(6, 5, _, a2)], [reduce_300(c1)])
+from agent c1  prohibition([coin(6, 6, _, a2)], [reduce_300(c1)])
+from agent c1  prohibition([coin(5, 5, _, a3)], [reduce_300(c1)])
+from agent c1  prohibition([coin(5, 6, _, a3)], [reduce_300(c1)])
+from agent c1  prohibition([coin(6, 5, _, a3)], [reduce_300(c1)])
+from agent c1  prohibition([coin(6, 6, _, a3)], [reduce_300(c1)])
+from agent a1  prohibition([at(5, 5, a1)], [reduce_300(a1)])
+from agent a1  prohibition([at(5, 6, a1)], [reduce_300(a1)])
+from agent a1  prohibition([at(6, 5, a1)], [reduce_300(a1)])
+from agent a1  prohibition([at(6, 6, a1)], [reduce_300(a1)])
+from agent a2  prohibition([at(5, 5, a2)], [reduce_300(a2)])
+from agent a2  prohibition([at(5, 6, a2)], [reduce_300(a2)])
+from agent a2  prohibition([at(6, 5, a2)], [reduce_300(a2)])
+from agent a2  prohibition([at(6, 6, a2)], [reduce_300(a2)])
+from agent a3  prohibition([at(5, 5, a3)], [reduce_300(a3)])
+from agent a3  prohibition([at(5, 6, a3)], [reduce_300(a3)])
+from agent a3  prohibition([at(6, 5, a3)], [reduce_300(a3)])
+from agent a3  prohibition([at(6, 6, a3)], [reduce_300(a3)])
+to be compared: [Cargo [id=5, cell=Cell [x=10, y=10], time=Wed May 22 11:45:45 BST 2013, clock=1]]
+to be compared: [Cargo [id=5, cell=Cell [x=10, y=10], time=Wed May 22 11:45:45 BST 2013, clock=1]]
+to be compared: [Cargo [id=5, cell=Cell [x=10, y=10], time=Wed May 22 11:45:45 BST 2013, clock=1]]
+to be compared: [Cargo [id=5, cell=Cell [x=10, y=10], time=Wed May 22 11:45:45 BST 2013, clock=1]]
+to be compared: [Cargo [id=5, cell=Cell [x=10, y=10], time=Wed May 22 11:45:45 BST 2013, clock=1]]
+to be compared: [Cargo [id=5, cell=Cell [x=10, y=10], time=Wed May 22 11:45:45 BST 2013, clock=1]]
+to be compared: [Cargo [id=5, cell=Cell [x=10, y=10], time=Wed May 22 11:45:45 BST 2013, clock=1]]
+to be compared: [Cargo [id=5, cell=Cell [x=10, y=10], time=Wed May 22 11:45:45 BST 2013, clock=1]]
+to be compared: [Cargo [id=5, cell=Cell [x=10, y=10], time=Wed May 22 11:45:45 BST 2013, clock=1]]

@@ -1,0 +1,9 @@
+test2.
+Service Registrar: 0515f786-d835-47f3-bd36-2b74949ab00e
+Java Space found.
+TransactionManager found.
+org notified 
+org notified 
+org notified 
+org notified 
+to be compared: [Cargo [id=5, cell=Cell [x=10, y=10], time=Wed May 22 12:19:04 BST 2013, clock=1], Cargo [id=5, cell=Cell [x=10, y=10], time=Wed May 22 12:25:15 BST 2013, clock=1]]

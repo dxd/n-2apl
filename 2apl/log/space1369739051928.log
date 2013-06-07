@@ -1,0 +1,262 @@
+test2.
+Service Registrar: c107ef97-bf81-4466-964e-9603f52a3af0
+Java Space found.
+TransactionManager found.
+from/for agent c1  coin(position(8, 6), 0, a1)
+from/for agent t1  cargo(position(19, 19), 0)
+org notified 
+org notified 
+!!!!! from org !!!!!!
+from/for agent t1  obligation([cargo(_, _, _)], 10, [reduce_100(t1)])
+!!!!! from org !!!!!!
+!!!!! from org !!!!!!
+!!!!! from org !!!!!!
+!!!!! from org !!!!!!
+from/for agent c1  coin(position(16, 6), 0, a2)
+from/for agent a1  status(position(3, 4), 0)
+from/for agent a2  status(position(3, 4), 0)
+from/for agent a3  status(position(3, 4), 0)
+!!!!! from org !!!!!!
+from/for agent t1  status(position(18, 19), 0)
+[Obligation [agent=t1, obligation=[cargo(_, _, _)], sanction=[reduce_100(t1)], deadline=10, time=Tue May 28 12:00:17 BST 2013, clock=1]]
+obligation(cargo(_, _, _, t1), 10, reduce_100(t1))
+org notified 
+!!!!! from org !!!!!!
+!!!!! from org !!!!!!
+from/for agent c1  coin(position(3, 9), 0, a3)
+!!!!! from org !!!!!!
+!!!!! from org !!!!!!
+from/for agent a1  status(position(3, 5), 0)
+from/for agent a2  status(position(3, 5), 0)
+from/for agent a3  status(position(3, 5), 0)
+!!!!! from org !!!!!!
+from/for agent t1  status(position(17, 19), 0)
+from/for agent t1  prohibition([cargo(_, _, 1)], [reduce_100(t1)])
+from/for agent t1  prohibition([at(5, 5, t1)], [reduce_300(t1)])
+from/for agent t1  prohibition([at(5, 6, t1)], [reduce_300(t1)])
+from/for agent t1  prohibition([at(6, 5, t1)], [reduce_300(t1)])
+from/for agent t1  prohibition([at(6, 6, t1)], [reduce_300(t1)])
+!!!!! from org !!!!!!
+[Prohibition [agent=t1, prohibition=[at(5, 6, t1)], sanction=[reduce_300(t1)], clock=1, time=Tue May 28 12:04:20 BST 2013]]
+[Prohibition [agent=t1, prohibition=[cargo(_, _, 1)], sanction=[reduce_100(t1)], clock=1, time=Tue May 28 12:04:20 BST 2013]]
+prohibition(at(5, 6, t1), reduce_300(t1))
+prohibition(at(6, 5, t1), reduce_300(t1))
+!!!!! from org !!!!!!
+[null]
+java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
+	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1142)
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:303)
+	at sun.rmi.transport.Transport$1.run(Transport.java:159)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:155)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:535)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:790)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:649)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+[Prohibition [agent=t1, prohibition=[cargo(_, _, 1)], sanction=[reduce_100(t1)], clock=1, time=Tue May 28 12:04:20 BST 2013]]
+prohibition(cargo(_, _, 1, t1), reduce_100(t1))
+!!!!! from org !!!!!!
+from/for agent a1  status(position(3, 6), 0)
+[null]
+java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
+	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1142)
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:303)
+	at sun.rmi.transport.Transport$1.run(Transport.java:159)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:155)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:535)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:790)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:649)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+[Prohibition [agent=t1, prohibition=[at(6, 6, t1)], sanction=[reduce_300(t1)], clock=1, time=Tue May 28 12:04:20 BST 2013]]
+prohibition(cargo(_, _, 1, t1), reduce_100(t1))
+[null]
+java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
+	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1142)
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:303)
+	at sun.rmi.transport.Transport$1.run(Transport.java:159)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:155)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:535)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:790)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:649)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+from/for agent a2  status(position(3, 6), 0)
+!!!!! from org !!!!!!
+from/for agent a3  status(position(3, 6), 0)
+from/for agent t1  status(position(16, 19), 0)
+[Prohibition [agent=t1, prohibition=[cargo(_, _, 1)], sanction=[reduce_100(t1)], clock=1, time=Tue May 28 12:04:20 BST 2013]]
+prohibition(at(6, 6, t1), reduce_300(t1))
+!!!!! from org !!!!!!
+from/for agent c1  prohibition([coin(5, 5, _, a1)], [reduce_300(c1)])
+from/for agent c1  prohibition([coin(5, 6, _, a1)], [reduce_300(c1)])
+from/for agent c1  prohibition([coin(6, 5, _, a1)], [reduce_300(c1)])
+from/for agent c1  prohibition([coin(6, 6, _, a1)], [reduce_300(c1)])
+from/for agent c1  prohibition([coin(5, 5, _, a2)], [reduce_300(c1)])
+from/for agent c1  prohibition([coin(5, 6, _, a2)], [reduce_300(c1)])
+from/for agent c1  prohibition([coin(6, 5, _, a2)], [reduce_300(c1)])
+from/for agent c1  prohibition([coin(6, 6, _, a2)], [reduce_300(c1)])
+from/for agent c1  prohibition([coin(5, 5, _, a3)], [reduce_300(c1)])
+from/for agent c1  prohibition([coin(5, 6, _, a3)], [reduce_300(c1)])
+from/for agent c1  prohibition([coin(6, 5, _, a3)], [reduce_300(c1)])
+from/for agent c1  prohibition([coin(6, 6, _, a3)], [reduce_300(c1)])
+!!!!! from org !!!!!!
+from/for agent a1  status(position(3, 7), 0)
+[Prohibition [agent=t1, prohibition=[at(6, 6, t1)], sanction=[reduce_300(t1)], clock=1, time=Tue May 28 12:04:20 BST 2013]]
+prohibition(coin(6, 5, _, c1), reduce_300(c1))
+!!!!! from org !!!!!!
+[null]
+java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
+	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1142)
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:303)
+	at sun.rmi.transport.Transport$1.run(Transport.java:159)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:155)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:535)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:790)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:649)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+[Prohibition [agent=t1, prohibition=[at(6, 5, t1)], sanction=[reduce_300(t1)], clock=1, time=Tue May 28 12:04:20 BST 2013]]
+[Prohibition [agent=t1, prohibition=[cargo(_, _, 1)], sanction=[reduce_100(t1)], clock=1, time=Tue May 28 12:04:20 BST 2013]]
+prohibition(coin(5, 5, _, c1), reduce_300(c1))
+prohibition(coin(6, 5, _, c1), reduce_300(c1))
+!!!!! from org !!!!!!
+from/for agent a2  status(position(3, 7), 0)
+from/for agent a3  status(position(3, 7), 0)
+from/for agent t1  status(position(15, 19), 0)
+[Prohibition [agent=c1, prohibition=[coin(6, 5, _, a1)], sanction=[reduce_300(c1)], clock=1, time=Tue May 28 12:04:21 BST 2013]]
+prohibition(coin(6, 6, _, c1), reduce_300(c1))
+[Prohibition [agent=t1, prohibition=[cargo(_, _, 1)], sanction=[reduce_100(t1)], clock=1, time=Tue May 28 12:04:20 BST 2013]]
+prohibition(coin(6, 6, _, c1), reduce_300(c1))
+!!!!! from org !!!!!!
+[Prohibition [agent=c1, prohibition=[coin(5, 6, _, a2)], sanction=[reduce_300(c1)], clock=1, time=Tue May 28 12:04:21 BST 2013]]
+prohibition(coin(5, 6, _, c1), reduce_300(c1))
+[Prohibition [agent=t1, prohibition=[cargo(_, _, 1)], sanction=[reduce_100(t1)], clock=1, time=Tue May 28 12:04:20 BST 2013]]
+prohibition(coin(6, 5, _, c1), reduce_300(c1))
+!!!!! from org !!!!!!
+from/for agent a1  status(position(3, 8), 0)
+!!!!! from org !!!!!!
+!!!!! from org !!!!!!
+!!!!! from org !!!!!!
+from/for agent a2  status(position(3, 8), 0)
+from/for agent a3  status(position(3, 8), 0)
+from/for agent t1  status(position(14, 19), 0)
+!!!!! from org !!!!!!
+from/for agent a1  status(position(3, 9), 0)
+from/for agent a1  prohibition([at(5, 5, a1)], [reduce_300(a1)])
+from/for agent a1  prohibition([at(5, 6, a1)], [reduce_300(a1)])
+from/for agent a1  prohibition([at(6, 5, a1)], [reduce_300(a1)])
+from/for agent a1  prohibition([at(6, 6, a1)], [reduce_300(a1)])
+from/for agent a2  prohibition([at(5, 5, a2)], [reduce_300(a2)])
+from/for agent a2  prohibition([at(5, 6, a2)], [reduce_300(a2)])
+from/for agent a2  prohibition([at(6, 5, a2)], [reduce_300(a2)])
+from/for agent a2  prohibition([at(6, 6, a2)], [reduce_300(a2)])
+from/for agent a3  prohibition([at(5, 5, a3)], [reduce_300(a3)])
+from/for agent a3  prohibition([at(5, 6, a3)], [reduce_300(a3)])
+from/for agent a3  prohibition([at(6, 5, a3)], [reduce_300(a3)])
+from/for agent a3  prohibition([at(6, 6, a3)], [reduce_300(a3)])
+!!!!! from org !!!!!!
+[Prohibition [agent=t1, prohibition=[cargo(_, _, 1)], sanction=[reduce_100(t1)], clock=1, time=Tue May 28 12:04:20 BST 2013]]
+prohibition(at(6, 5, a3), reduce_300(a3))
+[Prohibition [agent=c1, prohibition=[coin(6, 5, _, a1)], sanction=[reduce_300(c1)], clock=1, time=Tue May 28 12:04:21 BST 2013]]
+prohibition(at(5, 5, a2), reduce_300(a2))
+!!!!! from org !!!!!!
+!!!!! from org !!!!!!
+[Prohibition [agent=c1, prohibition=[coin(5, 5, _, a1)], sanction=[reduce_300(c1)], clock=1, time=Tue May 28 12:04:21 BST 2013]]
+[Prohibition [agent=t1, prohibition=[at(5, 6, t1)], sanction=[reduce_300(t1)], clock=1, time=Tue May 28 12:04:20 BST 2013]]
+[Prohibition [agent=c1, prohibition=[coin(5, 5, _, a2)], sanction=[reduce_300(c1)], clock=1, time=Tue May 28 12:04:21 BST 2013]]
+prohibition(at(6, 5, a3), reduce_300(a3))
+prohibition(at(6, 5, a2), reduce_300(a2))
+prohibition(at(5, 6, a3), reduce_300(a3))
+!!!!! from org !!!!!!
+from/for agent a2  status(position(3, 9), 0)
+[Prohibition [agent=t1, prohibition=[at(6, 6, t1)], sanction=[reduce_300(t1)], clock=1, time=Tue May 28 12:04:20 BST 2013]]
+[Prohibition [agent=t1, prohibition=[cargo(_, _, 1)], sanction=[reduce_100(t1)], clock=1, time=Tue May 28 12:04:20 BST 2013]]
+prohibition(at(6, 6, a3), reduce_300(a3))
+prohibition(at(5, 6, a3), reduce_300(a3))
+[Prohibition [agent=t1, prohibition=[at(5, 5, t1)], sanction=[reduce_300(t1)], clock=1, time=Tue May 28 12:04:20 BST 2013]]
+prohibition(at(6, 5, a3), reduce_300(a3))
+!!!!! from org !!!!!!
+from/for agent a3  status(position(3, 9), 0)
+from/for agent t1  status(position(13, 19), 0)
+from/for agent a1  status(position(3, 10), 0)
+!!!!! from org !!!!!!
+!!!!! from org !!!!!!
+from/for agent a2  status(position(3, 10), 0)
+!!!!! from org !!!!!!
+from/for agent a3  status(position(3, 10), 0)
+!!!!! from org !!!!!!
+from/for agent t1  status(position(12, 19), 0)
+from/for agent a1  status(position(4, 10), 0)
+!!!!! from org !!!!!!
+!!!!! from org !!!!!!
+from/for agent a2  status(position(4, 10), 0)
+!!!!! from org !!!!!!
+!!!!! from org !!!!!!
+from/for agent a3  status(position(4, 10), 0)
+from/for agent t1  status(position(11, 19), 0)
+from/for agent a1  status(position(5, 10), 0)
+!!!!! from org !!!!!!
+!!!!! from org !!!!!!
+from/for agent a2  status(position(5, 10), 0)
+!!!!! from org !!!!!!
+from/for agent a3  status(position(5, 10), 0)
+!!!!! from org !!!!!!
+from/for agent t1  status(position(10, 19), 0)
+from/for agent a1  status(position(6, 10), 0)
+!!!!! from org !!!!!!
+!!!!! from org !!!!!!
+from/for agent a2  status(position(6, 10), 0)
+!!!!! from org !!!!!!
+from/for agent a3  status(position(6, 10), 0)
+!!!!! from org !!!!!!
+from/for agent t1  status(position(9, 19), 0)
+from/for agent a1  status(position(7, 10), 0)
+!!!!! from org !!!!!!
+from/for agent a2  status(position(7, 10), 0)
+!!!!! from org !!!!!!
+!!!!! from org !!!!!!
+from/for agent a3  status(position(7, 10), 0)
+!!!!! from org !!!!!!
+!!!!! from org !!!!!!
+from/for agent t1  status(position(8, 19), 0)
+from/for agent a1  status(position(8, 10), 0)
+!!!!! from org !!!!!!
+from/for agent a2  status(position(8, 10), 0)
+!!!!! from org !!!!!!
+!!!!! from org !!!!!!
+from/for agent a3  status(position(8, 10), 0)
+!!!!! from org !!!!!!
+from/for agent t1  status(position(7, 19), 0)
+!!!!! from org !!!!!!
+from/for agent a1  status(position(9, 10), 0)
+from/for agent a2  status(position(9, 10), 0)
+!!!!! from org !!!!!!

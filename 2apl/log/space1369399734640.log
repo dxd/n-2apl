@@ -1,0 +1,203 @@
+test2.
+Service Registrar: e17d53f6-970d-49d0-9306-ab595385730e
+Java Space found.
+TransactionManager found.
+org notified 
+org notified 
+org notified 
+!!!!!!!!!!!!!!!!
+cargo
+from agent t1  obligation([cargo(_, _, _)], 10, [reduce_100(t1)])
+!!!!!!!!!!!!!!!!
+reading
+!!!!!!!!!!!!!!!!
+reading
+!!!!!!!!!!!!!!!!
+reading
+org notified 
+!!!!!!!!!!!!!!!!
+reading
+from agent a1  obligation([reading(11, 11, 50, a1, 1)], 1, [reduce_500(a1)])
+!!!!!!!!!!!!!!!!
+reading
+!!!!!!!!!!!!!!!!
+reading
+[Obligation [agent=a1, obligation=[reading(11, 11, 50, a1, 1)], sanction=[reduce_500(a1)], deadline=1, time=Fri May 24 13:42:11 BST 2013, clock=1]]
+obligation(reading(11, 11, 50, a1, a1, 1), 1, reduce_500(a1))
+!!!!!!!!!!!!!!!!
+cargo
+from agent t1  prohibition([cargo(_, _, 2)], [reduce_100(t1)])
+from agent t1  prohibition([at(5, 5, t1)], [reduce_300(t1)])
+from agent t1  prohibition([at(5, 6, t1)], [reduce_300(t1)])
+from agent t1  prohibition([at(6, 5, t1)], [reduce_300(t1)])
+from agent t1  prohibition([at(6, 6, t1)], [reduce_300(t1)])
+!!!!!!!!!!!!!!!!
+coin
+!!!!!!!!!!!!!!!!
+coin
+[Prohibition [agent=t1, prohibition=[cargo(_, _, 2)], sanction=[reduce_100(t1)], clock=1, time=Fri May 24 13:42:11 BST 2013]]
+prohibition(at(6, 6, t1), reduce_300(t1))
+!!!!!!!!!!!!!!!!
+position
+[Prohibition [agent=t1, prohibition=[cargo(_, _, 2)], sanction=[reduce_100(t1)], clock=1, time=Fri May 24 13:42:11 BST 2013]]
+prohibition(at(6, 6, t1), reduce_300(t1))
+!!!!!!!!!!!!!!!!
+position
+!!!!!!!!!!!!!!!!
+position
+[Prohibition [agent=t1, prohibition=[cargo(_, _, 2)], sanction=[reduce_100(t1)], clock=1, time=Fri May 24 13:42:11 BST 2013]]
+prohibition(at(6, 6, t1), reduce_300(t1))
+from agent c1  prohibition([coin(5, 5, _, a1)], [reduce_300(c1)])
+from agent c1  prohibition([coin(5, 6, _, a1)], [reduce_300(c1)])
+from agent c1  prohibition([coin(6, 5, _, a1)], [reduce_300(c1)])
+from agent c1  prohibition([coin(6, 6, _, a1)], [reduce_300(c1)])
+from agent c1  prohibition([coin(5, 5, _, a2)], [reduce_300(c1)])
+from agent c1  prohibition([coin(5, 6, _, a2)], [reduce_300(c1)])
+from agent c1  prohibition([coin(6, 5, _, a2)], [reduce_300(c1)])
+from agent c1  prohibition([coin(6, 6, _, a2)], [reduce_300(c1)])
+from agent c1  prohibition([coin(5, 5, _, a3)], [reduce_300(c1)])
+from agent c1  prohibition([coin(5, 6, _, a3)], [reduce_300(c1)])
+from agent c1  prohibition([coin(6, 5, _, a3)], [reduce_300(c1)])
+from agent c1  prohibition([coin(6, 6, _, a3)], [reduce_300(c1)])
+!!!!!!!!!!!!!!!!
+position
+!!!!!!!!!!!!!!!!
+position
+[Prohibition [agent=t1, prohibition=[cargo(_, _, 2)], sanction=[reduce_100(t1)], clock=1, time=Fri May 24 13:42:11 BST 2013]]
+prohibition(coin(6, 6, _, c1), reduce_300(c1))
+!!!!!!!!!!!!!!!!
+position
+[Prohibition [agent=t1, prohibition=[cargo(_, _, 2)], sanction=[reduce_100(t1)], clock=1, time=Fri May 24 13:42:11 BST 2013]]
+prohibition(coin(6, 6, _, c1), reduce_300(c1))
+!!!!!!!!!!!!!!!!
+position
+!!!!!!!!!!!!!!!!
+position
+[Prohibition [agent=t1, prohibition=[cargo(_, _, 2)], sanction=[reduce_100(t1)], clock=1, time=Fri May 24 13:42:11 BST 2013]]
+prohibition(coin(6, 6, _, c1), reduce_300(c1))
+!!!!!!!!!!!!!!!!
+position
+[Prohibition [agent=t1, prohibition=[cargo(_, _, 2)], sanction=[reduce_100(t1)], clock=1, time=Fri May 24 13:42:11 BST 2013]]
+prohibition(coin(6, 6, _, c1), reduce_300(c1))
+!!!!!!!!!!!!!!!!
+reading
+from agent a1  prohibition([reading(_, _, _, a1, 2)], [reduce_300(a1)])
+!!!!!!!!!!!!!!!!
+reading
+[Prohibition [agent=t1, prohibition=[cargo(_, _, 2)], sanction=[reduce_100(t1)], clock=1, time=Fri May 24 13:42:11 BST 2013]]
+prohibition(reading(_, _, _, a1, a1, 2), reduce_300(a1))
+!!!!!!!!!!!!!!!!
+reading
+from agent a1  prohibition([at(5, 5, a1)], [reduce_300(a1)])
+from agent a1  prohibition([at(5, 6, a1)], [reduce_300(a1)])
+from agent a1  prohibition([at(6, 5, a1)], [reduce_300(a1)])
+from agent a1  prohibition([at(6, 6, a1)], [reduce_300(a1)])
+from agent a2  prohibition([at(5, 5, a2)], [reduce_300(a2)])
+from agent a2  prohibition([at(5, 6, a2)], [reduce_300(a2)])
+from agent a2  prohibition([at(6, 5, a2)], [reduce_300(a2)])
+from agent a2  prohibition([at(6, 6, a2)], [reduce_300(a2)])
+from agent a3  prohibition([at(5, 5, a3)], [reduce_300(a3)])
+from agent a3  prohibition([at(5, 6, a3)], [reduce_300(a3)])
+from agent a3  prohibition([at(6, 5, a3)], [reduce_300(a3)])
+from agent a3  prohibition([at(6, 6, a3)], [reduce_300(a3)])
+!!!!!!!!!!!!!!!!
+cargo
+!!!!!!!!!!!!!!!!
+cargo
+[Prohibition [agent=t1, prohibition=[cargo(_, _, 2)], sanction=[reduce_100(t1)], clock=1, time=Fri May 24 13:42:11 BST 2013]]
+prohibition(at(6, 6, a3), reduce_300(a3))
+!!!!!!!!!!!!!!!!
+cargo
+[Prohibition [agent=t1, prohibition=[cargo(_, _, 2)], sanction=[reduce_100(t1)], clock=1, time=Fri May 24 13:42:11 BST 2013]]
+prohibition(at(6, 6, a3), reduce_300(a3))
+!!!!!!!!!!!!!!!!
+reading
+!!!!!!!!!!!!!!!!
+reading
+[Prohibition [agent=t1, prohibition=[cargo(_, _, 2)], sanction=[reduce_100(t1)], clock=1, time=Fri May 24 13:42:11 BST 2013]]
+[Prohibition [agent=c1, prohibition=[coin(5, 5, _, a1)], sanction=[reduce_300(c1)], clock=1, time=Fri May 24 13:48:58 BST 2013]]
+prohibition(at(5, 6, a3), reduce_300(a3))
+[Prohibition [agent=c1, prohibition=[coin(5, 5, _, a3)], sanction=[reduce_300(c1)], clock=1, time=Fri May 24 13:48:58 BST 2013]]
+prohibition(at(6, 5, a3), reduce_300(a3))
+prohibition(at(6, 6, a2), reduce_300(a2))
+!!!!!!!!!!!!!!!!
+reading
+!!!!!!!!!!!!!!!!
+cargo
+[Prohibition [agent=c1, prohibition=[coin(5, 6, _, a2)], sanction=[reduce_300(c1)], clock=1, time=Fri May 24 13:48:58 BST 2013]]
+prohibition(at(6, 5, a3), reduce_300(a3))
+!!!!!!!!!!!!!!!!
+position
+!!!!!!!!!!!!!!!!
+position
+from agent c1  coin(position(8, 6), 0, a1)
+from agent t1  cargo(position(19, 19), 0)
+!!!!!!!!!!!!!!!!
+position
+!!!!!!!!!!!!!!!!
+position
+!!!!!!!!!!!!!!!!
+reading
+!!!!!!!!!!!!!!!!
+position
+!!!!!!!!!!!!!!!!
+position
+!!!!!!!!!!!!!!!!
+position
+!!!!!!!!!!!!!!!!
+position
+from agent c1  coin(position(16, 6), 0, a2)
+from agent a1  status(position(3, 4), 0)
+org notified 
+from agent a3  status(position(3, 4), 0)
+!!!!!!!!!!!!!!!!
+position
+from agent a2  status(position(3, 4), 0)
+from agent t1  status(position(18, 19), 0)
+!!!!!!!!!!!!!!!!
+position
+!!!!!!!!!!!!!!!!
+position
+!!!!!!!!!!!!!!!!
+position
+from agent c1  coin(position(3, 9), 0, a3)
+!!!!!!!!!!!!!!!!
+position
+!!!!!!!!!!!!!!!!
+position
+!!!!!!!!!!!!!!!!
+position
+!!!!!!!!!!!!!!!!
+position
+from agent a1  status(position(3, 5), 0)
+from agent a3  status(position(3, 5), 0)
+from agent a2  status(position(3, 5), 0)
+from agent t1  status(position(17, 19), 0)
+!!!!!!!!!!!!!!!!
+cargo
+!!!!!!!!!!!!!!!!
+reading
+!!!!!!!!!!!!!!!!
+reading
+!!!!!!!!!!!!!!!!
+reading
+!!!!!!!!!!!!!!!!
+reading
+!!!!!!!!!!!!!!!!
+reading
+!!!!!!!!!!!!!!!!
+reading
+!!!!!!!!!!!!!!!!
+cargo
+!!!!!!!!!!!!!!!!
+coin
+!!!!!!!!!!!!!!!!
+coin
+!!!!!!!!!!!!!!!!
+position
+!!!!!!!!!!!!!!!!
+position
+!!!!!!!!!!!!!!!!
+position
+!!!!!!!!!!!!!!!!
+position

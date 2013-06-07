@@ -1,0 +1,783 @@
+test2.
+Service Registrar: 2e54dc9d-c303-4373-99b3-1f419f6c4d91
+Java Space found.
+TransactionManager found.
+from/for agent c1  coin(position(8, 6), 2, a1)
+org notified 
+from/for agent t1  cargo(position(19, 19), 1)
+!!!!! from org !!!!!!
+cargo(null, null)
+Cargo [id=null, cell=null, time=null, clock=null]
+from/for agent a2  status(position(7, 19), 4)
+org notified 
+from/for agent a3  status(position(11, 2), 1)
+from/for agent t1  obligation([cargo(_, _, _)], 16, [reduce_100(t1)])
+!!!!! from org !!!!!!
+coin(null, null, null)
+Coin [id=null, cell=null, agent=null, time=null, clock=null]
+org notified 
+from/for agent t1  status(position(18, 19), 1)
+!!!!! from org !!!!!!
+coin(null, null, null)
+Coin [id=null, cell=null, agent=null, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, null)
+Coin [id=null, cell=null, agent=null, time=null, clock=null]
+!!!!! from org !!!!!!
+reading(null, null, a1, null)
+Reading [id=null, agent=a1, cell=null, time=null, value=null, clock=null]
+[Obligation [agent=t1, obligation=[cargo(_, _, _)], sanction=[reduce_100(t1)], deadline=10, time=Tue May 28 14:35:38 BST 2013, clock=0]]
+from/for agent a1  status(position(3, 4), 1)
+obligation(cargo(_, _, _, t1), 16, reduce_100(t1))
+!!!!! from org !!!!!!
+reading(null, null, a2, null)
+Reading [id=null, agent=a2, cell=null, time=null, value=null, clock=null]
+from/for agent c1  coin(position(16, 6), 1, a2)
+!!!!! from org !!!!!!
+reading(null, null, a3, null)
+Reading [id=null, agent=a3, cell=null, time=null, value=null, clock=null]
+!!!!! from org !!!!!!
+reading(null, null, a1, null)
+Reading [id=null, agent=a1, cell=null, time=null, value=null, clock=null]
+from/for agent a3  status(position(11, 3), 2)
+from/for agent a2  status(position(6, 19), 1)
+!!!!! from org !!!!!!
+reading(null, null, a2, null)
+Reading [id=null, agent=a2, cell=null, time=null, value=null, clock=null]
+!!!!! from org !!!!!!
+reading(null, null, a3, null)
+Reading [id=null, agent=a3, cell=null, time=null, value=null, clock=null]
+from/for agent t1  status(position(17, 19), 1)
+!!!!! from org !!!!!!
+cargo(null, null)
+Cargo [id=null, cell=null, time=null, clock=null]
+from/for agent t1  prohibition([cargo(_, _, 15)], [reduce_100(t1)])
+from/for agent t1  prohibition([at(5, 5, t1)], [reduce_300(t1)])
+from/for agent t1  prohibition([at(5, 6, t1)], [reduce_300(t1)])
+from/for agent t1  prohibition([at(6, 5, t1)], [reduce_300(t1)])
+from/for agent t1  prohibition([at(6, 6, t1)], [reduce_300(t1)])
+!!!!! from org !!!!!!
+coin(null, _, null)
+Coin [id=null, cell=null, agent=null, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(cell(_, _), null, null)
+Coin [id=null, cell=null, agent=null, time=null, clock=null]
+[Prohibition [agent=t1, prohibition=[cargo(_, _, 1)], sanction=[reduce_100(t1)], clock=0, time=Tue May 28 14:35:41 BST 2013]]
+from/for agent c1  prohibition([coin(9, 21, _, _)], [reduce_100(c1)])
+prohibition(at(6, 6, t1), reduce_300(t1))
+!!!!! from org !!!!!!
+position(a1, null)
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+from/for agent c1  coin(position(3, 9), 1, a3)
+from/for agent a1  status(position(3, 5), 0)
+[Prohibition [agent=t1, prohibition=[cargo(_, _, 1)], sanction=[reduce_100(t1)], clock=0, time=Tue May 28 14:35:41 BST 2013]]
+prohibition(at(6, 6, t1), reduce_300(t1))
+from/for agent t1  cargo(position(18, 19), 1)
+!!!!! from org !!!!!!
+position(a2, null)
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+[Prohibition [agent=c1, prohibition=[coin(5, 5, _, a1)], sanction=[reduce_300(c1)], clock=0, time=Tue May 28 14:35:42 BST 2013]]
+prohibition(coin(9, 21, _, c1), reduce_100(c1))
+from/for agent a2  status(position(5, 19), 2)
+from/for agent a3  status(position(11, 4), 1)
+!!!!! from org !!!!!!
+position(a3, null)
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+from/for agent c1  prohibition([coin(5, 5, _, a1)], [reduce_300(c1)])
+from/for agent c1  prohibition([coin(5, 6, _, a1)], [reduce_300(c1)])
+from/for agent c1  prohibition([coin(6, 5, _, a1)], [reduce_300(c1)])
+from/for agent c1  prohibition([coin(6, 6, _, a1)], [reduce_300(c1)])
+from/for agent c1  prohibition([coin(5, 5, _, a2)], [reduce_300(c1)])
+from/for agent c1  prohibition([coin(5, 6, _, a2)], [reduce_300(c1)])
+from/for agent c1  prohibition([coin(6, 5, _, a2)], [reduce_300(c1)])
+from/for agent c1  prohibition([coin(6, 6, _, a2)], [reduce_300(c1)])
+from/for agent c1  prohibition([coin(5, 5, _, a3)], [reduce_300(c1)])
+from/for agent c1  prohibition([coin(5, 6, _, a3)], [reduce_300(c1)])
+from/for agent c1  prohibition([coin(6, 5, _, a3)], [reduce_300(c1)])
+from/for agent c1  prohibition([coin(6, 6, _, a3)], [reduce_300(c1)])
+!!!!! from org !!!!!!
+coin(null, null, a1)
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, a2)
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, a3)
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+!!!!! from org !!!!!!
+position(a1, null)
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+[Prohibition [agent=c1, prohibition=[coin(5, 5, _, a1)], sanction=[reduce_300(c1)], clock=0, time=Tue May 28 14:35:42 BST 2013]]
+prohibition(coin(6, 6, _, c1), reduce_300(c1))
+from/for agent t1  status(position(16, 19), 1)
+!!!!! from org !!!!!!
+position(a2, null)
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+[Prohibition [agent=c1, prohibition=[coin(5, 5, _, a1)], sanction=[reduce_300(c1)], clock=0, time=Tue May 28 14:35:42 BST 2013]]
+prohibition(coin(6, 6, _, c1), reduce_300(c1))
+!!!!! from org !!!!!!
+position(a3, null)
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+from/for agent a1  status(position(3, 6), 1)
+!!!!! from org !!!!!!
+position(a1, null)
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+from/for agent a2  status(position(4, 19), 1)
+from/for agent a3  status(position(11, 5), 1)
+!!!!! from org !!!!!!
+position(a2, null)
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+position(a3, null)
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+reading(null, null, a1, null)
+Reading [id=null, agent=a1, cell=null, time=null, value=null, clock=null]
+from/for agent t1  status(position(15, 19), 1)
+from/for agent a1  status(position(3, 7), 1)
+!!!!! from org !!!!!!
+reading(null, null, a2, null)
+Reading [id=null, agent=a2, cell=null, time=null, value=null, clock=null]
+!!!!! from org !!!!!!
+reading(null, null, a3, null)
+Reading [id=null, agent=a3, cell=null, time=null, value=null, clock=null]
+from/for agent a1  prohibition([at(5, 5, a1)], [reduce_300(a1)])
+from/for agent a1  prohibition([at(5, 6, a1)], [reduce_300(a1)])
+from/for agent a1  prohibition([at(6, 5, a1)], [reduce_300(a1)])
+from/for agent a1  prohibition([at(6, 6, a1)], [reduce_300(a1)])
+from/for agent a2  prohibition([at(5, 5, a2)], [reduce_300(a2)])
+from/for agent a2  prohibition([at(5, 6, a2)], [reduce_300(a2)])
+from/for agent a2  prohibition([at(6, 5, a2)], [reduce_300(a2)])
+from/for agent a2  prohibition([at(6, 6, a2)], [reduce_300(a2)])
+from/for agent a3  prohibition([at(5, 5, a3)], [reduce_300(a3)])
+from/for agent a3  prohibition([at(5, 6, a3)], [reduce_300(a3)])
+from/for agent a3  prohibition([at(6, 5, a3)], [reduce_300(a3)])
+from/for agent a3  prohibition([at(6, 6, a3)], [reduce_300(a3)])
+!!!!! from org !!!!!!
+cargo(null, null)
+Cargo [id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+cargo(null, null)
+Cargo [id=null, cell=null, time=null, clock=null]
+[Prohibition [agent=a1, prohibition=[at(5, 5, a1)], sanction=[reduce_300(a1)], clock=0, time=Tue May 28 14:35:44 BST 2013]]
+prohibition(at(6, 6, a1), reduce_300(a1))
+[Prohibition [agent=a2, prohibition=[at(5, 5, a2)], sanction=[reduce_300(a2)], clock=0, time=Tue May 28 14:35:44 BST 2013]]
+prohibition(at(6, 6, a2), reduce_300(a2))
+[Prohibition [agent=a3, prohibition=[at(5, 5, a3)], sanction=[reduce_300(a3)], clock=0, time=Tue May 28 14:35:44 BST 2013]]
+prohibition(at(6, 6, a3), reduce_300(a3))
+from/for agent a3  status(position(11, 6), 2)
+from/for agent a2  status(position(3, 19), 1)
+from/for agent t1  status(position(14, 19), 1)
+!!!!! from org !!!!!!
+cargo(null, null)
+Cargo [id=null, cell=null, time=null, clock=null]
+[Prohibition [agent=a1, prohibition=[at(5, 5, a1)], sanction=[reduce_300(a1)], clock=0, time=Tue May 28 14:35:44 BST 2013]]
+prohibition(at(6, 6, a1), reduce_300(a1))
+!!!!! from org !!!!!!
+cargo(null, null)
+Cargo [id=null, cell=null, time=null, clock=null]
+from/for agent a1  status(position(3, 8), 1)
+!!!!! from org !!!!!!
+position(t1, null)
+Position [agent=t1, id=null, cell=null, time=null, clock=null]
+from/for agent a2  status(position(3, 18), 6)
+from/for agent a3  status(position(11, 7), 1)
+from/for agent t1  status(position(13, 19), 6)
+!!!!! from org !!!!!!
+position(t1, null)
+Position [agent=t1, id=null, cell=null, time=null, clock=null]
+from/for agent a1  status(position(3, 9), 6)
+!!!!! from org !!!!!!
+position(t1, null)
+Position [agent=t1, id=null, cell=null, time=null, clock=null]
+from/for agent a2  status(position(3, 17), 13)
+from/for agent a3  status(position(11, 8), 1)
+!!!!! from org !!!!!!
+position(t1, null)
+Position [agent=t1, id=null, cell=null, time=null, clock=null]
+from/for agent t1  status(position(12, 19), 1)
+from/for agent a1  status(position(3, 10), 2)
+!!!!! from org !!!!!!
+coin(null, null, a1)
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, a2)
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, a3)
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+from/for agent a3  status(position(11, 9), 22)
+from/for agent a2  status(position(3, 16), 1)
+!!!!! from org !!!!!!
+coin(null, null, a1)
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, a1)
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, a1)
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+from/for agent a1  status(position(4, 10), 17)
+from/for agent t1  status(position(11, 19), 1)
+!!!!! from org !!!!!!
+coin(null, null, a1)
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, a2)
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+from/for agent a3  status(position(11, 10), 1)
+!!!!! from org !!!!!!
+coin(null, null, a2)
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, a2)
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, a2)
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+from/for agent a1  status(position(5, 10), 0)
+from/for agent t1  status(position(10, 19), 0)
+from/for agent a2  status(position(3, 15), 17)
+!!!!! from org !!!!!!
+coin(null, null, a3)
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, a3)
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+from/for agent a3  status(position(11, 11), 1)
+!!!!! from org !!!!!!
+coin(null, null, a3)
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, a3)
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+!!!!! from org !!!!!!
+position(a1, null)
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+position(a1, null)
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+from/for agent t1  status(position(9, 19), 16)
+from/for agent a1  status(position(6, 10), 1)
+!!!!! from org !!!!!!
+position(a1, null)
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+from/for agent a3  status(position(11, 12), 2)
+from/for agent a2  status(position(3, 14), 1)
+!!!!! from org !!!!!!
+position(a1, null)
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+position(a2, null)
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+position(a2, null)
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+from/for agent a1  status(position(7, 10), 15)
+from/for agent t1  status(position(8, 19), 1)
+from/for agent a3  status(position(11, 13), 15)
+!!!!! from org !!!!!!
+position(a2, null)
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+from/for agent a2  status(position(3, 13), 17)
+!!!!! from org !!!!!!
+position(a2, null)
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+position(a3, null)
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+position(a3, null)
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+position(a3, null)
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+from/for agent t1  status(position(7, 19), 6)
+from/for agent a1  status(position(8, 10), 1)
+!!!!! from org !!!!!!
+position(a3, null)
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+from/for agent a2  status(position(3, 12), 8)
+from/for agent a3  status(position(11, 14), 6)
+!!!!! from org !!!!!!
+cargo(null, null)
+Cargo [id=null, cell=null, time=null, clock=null]
+from/for agent t1  obligation([cargo(_, _, _)], 16, [reduce_100(t1)])
+!!!!! from org !!!!!!
+coin(null, null, null)
+Coin [id=null, cell=null, agent=null, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, null)
+Coin [id=null, cell=null, agent=null, time=null, clock=null]
+[Obligation [agent=t1, obligation=[cargo(_, _, _)], sanction=[reduce_100(t1)], deadline=10, time=Tue May 28 14:35:38 BST 2013, clock=0]]
+obligation(cargo(_, _, _, t1), 16, reduce_100(t1))
+!!!!! from org !!!!!!
+coin(null, null, null)
+Coin [id=null, cell=null, agent=null, time=null, clock=null]
+from/for agent a1  status(position(9, 10), 26)
+from/for agent t1  status(position(6, 19), 1)
+!!!!! from org !!!!!!
+reading(null, null, a1, null)
+Reading [id=null, agent=a1, cell=null, time=null, value=null, clock=null]
+!!!!! from org !!!!!!
+reading(null, null, a2, null)
+Reading [id=null, agent=a2, cell=null, time=null, value=null, clock=null]
+!!!!! from org !!!!!!
+reading(null, null, a3, null)
+Reading [id=null, agent=a3, cell=null, time=null, value=null, clock=null]
+from/for agent a3  status(position(11, 15), 28)
+!!!!! from org !!!!!!
+reading(null, null, a1, null)
+Reading [id=null, agent=a1, cell=null, time=null, value=null, clock=null]
+from/for agent a2  status(position(3, 11), 26)
+!!!!! from org !!!!!!
+reading(null, null, a2, null)
+Reading [id=null, agent=a2, cell=null, time=null, value=null, clock=null]
+!!!!! from org !!!!!!
+reading(null, null, a3, null)
+Reading [id=null, agent=a3, cell=null, time=null, value=null, clock=null]
+from/for agent t1  cargo(position(6, 19), 1)
+from/for agent a1  status(position(10, 10), 1)
+!!!!! from org !!!!!!
+cargo(null, null)
+Cargo [id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, _, null)
+Coin [id=null, cell=null, agent=null, time=null, clock=null]
+from/for agent a3  status(position(11, 16), 2)
+from/for agent t1  status(position(5, 19), 1)
+from/for agent a2  status(position(3, 10), 3)
+!!!!! from org !!!!!!
+coin(cell(_, _), null, null)
+Coin [id=null, cell=null, agent=null, time=null, clock=null]
+!!!!! from org !!!!!!
+position(a1, null)
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+position(a2, null)
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+from/for agent t1  status(position(4, 19), 8)
+from/for agent a2  status(position(3, 9), 7)
+from/for agent a3  status(position(11, 17), 1)
+!!!!! from org !!!!!!
+position(a3, null)
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, a1)
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, a2)
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, a3)
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+from/for agent t1  status(position(3, 19), 1)
+from/for agent a2  status(position(3, 8), 6)
+from/for agent a3  status(position(11, 18), 18)
+!!!!! from org !!!!!!
+position(a1, null)
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+position(a2, null)
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+position(a3, null)
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+position(a1, null)
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+from/for agent a2  status(position(3, 7), 5)
+from/for agent t1  status(position(2, 19), 1)
+from/for agent a3  status(position(11, 19), 31)
+!!!!! from org !!!!!!
+position(a2, null)
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+position(a3, null)
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+reading(null, null, a1, null)
+Reading [id=null, agent=a1, cell=null, time=null, value=null, clock=null]
+!!!!! from org !!!!!!
+reading(null, null, a2, null)
+Reading [id=null, agent=a2, cell=null, time=null, value=null, clock=null]
+!!!!! from org !!!!!!
+reading(null, null, a3, null)
+Reading [id=null, agent=a3, cell=null, time=null, value=null, clock=null]
+from/for agent a3  status(position(12, 19), 30)
+from/for agent a2  status(position(3, 6), 1)
+!!!!! from org !!!!!!
+cargo(null, null)
+Cargo [id=null, cell=null, time=null, clock=null]
+from/for agent t1  status(position(2, 18), 6)
+!!!!! from org !!!!!!
+position(t1, null)
+Position [agent=t1, id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+position(t1, null)
+Position [agent=t1, id=null, cell=null, time=null, clock=null]
+from/for agent a3  status(position(13, 19), 1)
+from/for agent t1  status(position(2, 17), 1)
+!!!!! from org !!!!!!
+position(t1, null)
+Position [agent=t1, id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+position(t1, null)
+Position [agent=t1, id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, a1)
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, a2)
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+from/for agent t1  status(position(2, 16), 30)
+!!!!! from org !!!!!!
+coin(null, null, a3)
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+from/for agent a3  status(position(14, 19), 1)
+!!!!! from org !!!!!!
+coin(null, null, a1)
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, a1)
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, a1)
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+from/for agent a3  status(position(15, 19), 0)
+!!!!! from org !!!!!!
+coin(null, null, a1)
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, a2)
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+from/for agent t1  status(position(2, 15), 1)
+!!!!! from org !!!!!!
+coin(null, null, a2)
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, a2)
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+from/for agent a3  status(position(16, 19), 1)
+!!!!! from org !!!!!!
+coin(null, null, a2)
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, a3)
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+from/for agent t1  status(position(2, 14), 1)
+!!!!! from org !!!!!!
+coin(null, null, a3)
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+from/for agent a3  status(position(17, 19), 1)
+!!!!! from org !!!!!!
+coin(null, null, a3)
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, a3)
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+!!!!! from org !!!!!!
+position(a1, null)
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+from/for agent a3  status(position(18, 19), 0)
+!!!!! from org !!!!!!
+position(a1, null)
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+from/for agent t1  status(position(2, 13), 1)
+!!!!! from org !!!!!!
+position(a1, null)
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+from/for agent a3  status(position(19, 19), 1)
+!!!!! from org !!!!!!
+position(a1, null)
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+from/for agent t1  status(position(2, 12), 1)
+!!!!! from org !!!!!!
+position(a2, null)
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+position(a2, null)
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+position(a2, null)
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+from/for agent t1  status(position(2, 11), 1)
+!!!!! from org !!!!!!
+position(a2, null)
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+position(a3, null)
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+position(a3, null)
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+from/for agent t1  status(position(2, 10), 1)
+!!!!! from org !!!!!!
+position(a3, null)
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+position(a3, null)
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+from/for agent t1  status(position(2, 9), 1)
+!!!!! from org !!!!!!
+cargo(null, null)
+Cargo [id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+cargo(null, null)
+Cargo [id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+cargo(null, null)
+Cargo [id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+cargo(null, null)
+Cargo [id=null, cell=null, time=null, clock=null]
+from/for agent t1  status(position(2, 8), 1)
+!!!!! from org !!!!!!
+coin(null, null, null)
+Coin [id=null, cell=null, agent=null, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, null)
+Coin [id=null, cell=null, agent=null, time=null, clock=null]
+from/for agent t1  status(position(2, 7), 1)
+!!!!! from org !!!!!!
+coin(null, null, null)
+Coin [id=null, cell=null, agent=null, time=null, clock=null]
+!!!!! from org !!!!!!
+reading(null, null, a1, null)
+Reading [id=null, agent=a1, cell=null, time=null, value=null, clock=null]
+!!!!! from org !!!!!!
+reading(null, null, a2, null)
+Reading [id=null, agent=a2, cell=null, time=null, value=null, clock=null]
+from/for agent t1  status(position(2, 6), 1)
+!!!!! from org !!!!!!
+reading(null, null, a3, null)
+Reading [id=null, agent=a3, cell=null, time=null, value=null, clock=null]
+!!!!! from org !!!!!!
+reading(null, null, a1, null)
+Reading [id=null, agent=a1, cell=null, time=null, value=null, clock=null]
+from/for agent t1  status(position(2, 5), 1)
+!!!!! from org !!!!!!
+reading(null, null, a2, null)
+Reading [id=null, agent=a2, cell=null, time=null, value=null, clock=null]
+!!!!! from org !!!!!!
+reading(null, null, a3, null)
+Reading [id=null, agent=a3, cell=null, time=null, value=null, clock=null]
+!!!!! from org !!!!!!
+cargo(null, null)
+Cargo [id=null, cell=null, time=null, clock=null]
+from/for agent t1  status(position(2, 4), 1)
+!!!!! from org !!!!!!
+coin(null, _, null)
+Coin [id=null, cell=null, agent=null, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(cell(_, _), null, null)
+Coin [id=null, cell=null, agent=null, time=null, clock=null]
+!!!!! from org !!!!!!
+position(a1, null)
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+from/for agent t1  status(position(2, 3), 1)
+!!!!! from org !!!!!!
+position(a2, null)
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+position(a3, null)
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+from/for agent t1  status(position(2, 2), 1)
+!!!!! from org !!!!!!
+coin(null, null, a1)
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, a2)
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, a3)
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+!!!!! from org !!!!!!
+position(a1, null)
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+position(a2, null)
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+position(a3, null)
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+position(a1, null)
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+position(a2, null)
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+position(a3, null)
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+reading(null, null, a1, null)
+Reading [id=null, agent=a1, cell=null, time=null, value=null, clock=null]
+!!!!! from org !!!!!!
+reading(null, null, a2, null)
+Reading [id=null, agent=a2, cell=null, time=null, value=null, clock=null]
+!!!!! from org !!!!!!
+reading(null, null, a3, null)
+Reading [id=null, agent=a3, cell=null, time=null, value=null, clock=null]
+!!!!! from org !!!!!!
+cargo(null, null)
+Cargo [id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+position(t1, null)
+Position [agent=t1, id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+position(t1, null)
+Position [agent=t1, id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+position(t1, null)
+Position [agent=t1, id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+position(t1, null)
+Position [agent=t1, id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, a1)
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, a2)
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, a3)
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, a1)
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, a1)
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, a1)
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, a1)
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, a2)
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, a2)
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, a2)
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, a2)
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, a3)
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, a3)
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, a3)
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, a3)
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+!!!!! from org !!!!!!
+position(a1, null)
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+position(a1, null)
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+position(a1, null)
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+position(a1, null)
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+position(a2, null)
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+position(a2, null)
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+position(a2, null)
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+position(a2, null)
+Position [agent=a2, id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+position(a3, null)
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+position(a3, null)
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+position(a3, null)
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+position(a3, null)
+Position [agent=a3, id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+cargo(null, null)
+Cargo [id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+position(t1, null)
+Position [agent=t1, id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+position(t1, null)
+Position [agent=t1, id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+position(t1, null)
+Position [agent=t1, id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+position(t1, null)
+Position [agent=t1, id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, a1)
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, a2)
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, a3)
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, a1)
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, a1)
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, a1)
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, a1)
+Coin [id=null, cell=null, agent=a1, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, a2)
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, a2)
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, a2)
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, a2)
+Coin [id=null, cell=null, agent=a2, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, a3)
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, a3)
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, a3)
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+!!!!! from org !!!!!!
+coin(null, null, a3)
+Coin [id=null, cell=null, agent=a3, time=null, clock=null]
+!!!!! from org !!!!!!
+position(a1, null)
+Position [agent=a1, id=null, cell=null, time=null, clock=null]
+!!!!! from org !!!!!!
+position(a1, null)
+Position [agent=a1, id=null, cell=null, time=null, clock=null]

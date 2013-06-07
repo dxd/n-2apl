@@ -1,0 +1,824 @@
+test2.
+Service Registrar: 407365e0-cb43-4d51-bb4d-4997a47d11d2
+Java Space found.
+TransactionManager found.
+-------------------------last log tuples start--------------------------------
+Obligation [agent=a1, obligation=[makeReading(16, 6)], sanction=[reduce_400(a1)], deadline=50, time=Wed Jun 05 10:55:20 BST 2013, clock=0]
+Obligation [agent=a1, obligation=[makeReading(3, 9)], sanction=[reduce_400(a1)], deadline=50, time=Wed Jun 05 10:55:20 BST 2013, clock=0]
+Obligation [agent=a2, obligation=[makeReading(8, 6)], sanction=[reduce_400(a2)], deadline=50, time=Wed Jun 05 10:55:21 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=7, y=19], time=Wed Jun 05 10:55:17 BST 2013, clock=0]
+Obligation [agent=a2, obligation=[makeReading(16, 6)], sanction=[reduce_400(a2)], deadline=50, time=Wed Jun 05 10:55:22 BST 2013, clock=0]
+Obligation [agent=a2, obligation=[makeReading(3, 9)], sanction=[reduce_400(a2)], deadline=50, time=Wed Jun 05 10:55:24 BST 2013, clock=0]
+Obligation [agent=a3, obligation=[makeReading(8, 6)], sanction=[reduce_400(a3)], deadline=50, time=Wed Jun 05 10:55:26 BST 2013, clock=0]
+Obligation [agent=a3, obligation=[makeReading(16, 6)], sanction=[reduce_400(a3)], deadline=50, time=Wed Jun 05 10:55:27 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=6, y=19], time=Wed Jun 05 10:55:19 BST 2013, clock=0]
+Obligation [agent=a3, obligation=[makeReading(3, 9)], sanction=[reduce_400(a3)], deadline=50, time=Wed Jun 05 10:55:28 BST 2013, clock=0]
+Obligation [agent=a1, obligation=[makeReading(8, 6)], sanction=[reduce_400(a1)], deadline=50, time=Wed Jun 05 10:56:14 BST 2013, clock=0]
+Cargo [id=null, cell=Cell [x=19, y=19], time=Wed Jun 05 10:55:18 BST 2013, clock=0]
+Position [agent=t1, id=null, cell=Cell [x=18, y=19], time=Wed Jun 05 10:55:19 BST 2013, clock=0]
+Prohibition [agent=t1, prohibition=[at(5, 5, t1)], sanction=[reduce_300(t1)], clock=0, time=Wed Jun 05 10:55:29 BST 2013]
+Coin [id=null, cell=Cell [x=8, y=6], agent=a1, time=Wed Jun 05 10:55:19 BST 2013, clock=0]
+Coin [id=null, cell=Cell [x=16, y=6], agent=a2, time=Wed Jun 05 10:55:20 BST 2013, clock=0]
+Coin [id=null, cell=Cell [x=3, y=9], agent=a3, time=Wed Jun 05 10:55:20 BST 2013, clock=0]
+Prohibition [agent=t1, prohibition=[at(5, 6, t1)], sanction=[reduce_300(t1)], clock=0, time=Wed Jun 05 10:55:30 BST 2013]
+Position [agent=a1, id=null, cell=Cell [x=3, y=4], time=Wed Jun 05 10:55:19 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=3, y=4], time=Wed Jun 05 10:55:20 BST 2013, clock=0]
+Position [agent=t1, id=null, cell=Cell [x=17, y=19], time=Wed Jun 05 10:55:20 BST 2013, clock=0]
+Prohibition [agent=t1, prohibition=[at(6, 5, t1)], sanction=[reduce_300(t1)], clock=0, time=Wed Jun 05 10:55:31 BST 2013]
+Position [agent=a2, id=null, cell=Cell [x=5, y=19], time=Wed Jun 05 10:55:21 BST 2013, clock=0]
+Prohibition [agent=t1, prohibition=[at(6, 6, t1)], sanction=[reduce_300(t1)], clock=0, time=Wed Jun 05 10:55:32 BST 2013]
+Position [agent=t1, id=null, cell=Cell [x=16, y=19], time=Wed Jun 05 10:55:21 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=4, y=19], time=Wed Jun 05 10:55:22 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=3, y=5], time=Wed Jun 05 10:55:22 BST 2013, clock=0]
+Prohibition [agent=c1, prohibition=[coin(5, 6, a2)], sanction=[reduce_300(c1)], clock=0, time=Wed Jun 05 10:55:37 BST 2013]
+Prohibition [agent=c1, prohibition=[coin(6, 5, a2)], sanction=[reduce_300(c1)], clock=0, time=Wed Jun 05 10:55:37 BST 2013]
+Position [agent=t1, id=null, cell=Cell [x=15, y=19], time=Wed Jun 05 10:55:22 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=3, y=5], time=Wed Jun 05 10:55:22 BST 2013, clock=0]
+Prohibition [agent=c1, prohibition=[coin(6, 6, a2)], sanction=[reduce_300(c1)], clock=0, time=Wed Jun 05 10:55:37 BST 2013]
+Prohibition [agent=c1, prohibition=[coin(5, 5, a3)], sanction=[reduce_300(c1)], clock=0, time=Wed Jun 05 10:55:38 BST 2013]
+Position [agent=t1, id=null, cell=Cell [x=14, y=19], time=Wed Jun 05 10:55:23 BST 2013, clock=0]
+Prohibition [agent=c1, prohibition=[coin(5, 6, a3)], sanction=[reduce_300(c1)], clock=0, time=Wed Jun 05 10:55:39 BST 2013]
+Position [agent=a2, id=null, cell=Cell [x=3, y=19], time=Wed Jun 05 10:55:23 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=5, y=19], time=Wed Jun 05 10:55:25 BST 2013, clock=0]
+Prohibition [agent=c1, prohibition=[coin(6, 5, a3)], sanction=[reduce_300(c1)], clock=0, time=Wed Jun 05 10:55:39 BST 2013]
+Position [agent=t1, id=null, cell=Cell [x=13, y=19], time=Wed Jun 05 10:55:25 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=4, y=5], time=Wed Jun 05 10:55:26 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=3, y=18], time=Wed Jun 05 10:55:26 BST 2013, clock=0]
+Prohibition [agent=c1, prohibition=[coin(6, 6, a3)], sanction=[reduce_300(c1)], clock=0, time=Wed Jun 05 10:55:39 BST 2013]
+Prohibition [agent=a1, prohibition=[at(5, 5, a1)], sanction=[reduce_300(a1)], clock=0, time=Wed Jun 05 10:55:42 BST 2013]
+Position [agent=a1, id=null, cell=Cell [x=3, y=6], time=Wed Jun 05 10:55:26 BST 2013, clock=0]
+Prohibition [agent=a1, prohibition=[at(5, 6, a1)], sanction=[reduce_300(a1)], clock=0, time=Wed Jun 05 10:55:42 BST 2013]
+Prohibition [agent=a1, prohibition=[at(6, 5, a1)], sanction=[reduce_300(a1)], clock=0, time=Wed Jun 05 10:55:43 BST 2013]
+Position [agent=t1, id=null, cell=Cell [x=12, y=19], time=Wed Jun 05 10:55:26 BST 2013, clock=0]
+Prohibition [agent=a1, prohibition=[at(6, 6, a1)], sanction=[reduce_300(a1)], clock=0, time=Wed Jun 05 10:55:44 BST 2013]
+Position [agent=a2, id=null, cell=Cell [x=4, y=19], time=Wed Jun 05 10:55:27 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=3, y=6], time=Wed Jun 05 10:55:27 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=3, y=6], time=Wed Jun 05 10:55:28 BST 2013, clock=0]
+Position [agent=t1, id=null, cell=Cell [x=11, y=19], time=Wed Jun 05 10:55:28 BST 2013, clock=0]
+Prohibition [agent=a3, prohibition=[at(5, 5, a3)], sanction=[reduce_300(a3)], clock=0, time=Wed Jun 05 10:55:47 BST 2013]
+Position [agent=a2, id=null, cell=Cell [x=6, y=19], time=Wed Jun 05 10:55:28 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=3, y=19], time=Wed Jun 05 10:55:29 BST 2013, clock=0]
+Prohibition [agent=a3, prohibition=[at(5, 6, a3)], sanction=[reduce_300(a3)], clock=0, time=Wed Jun 05 10:55:48 BST 2013]
+Position [agent=a2, id=null, cell=Cell [x=3, y=19], time=Wed Jun 05 10:55:29 BST 2013, clock=0]
+Prohibition [agent=a3, prohibition=[at(6, 5, a3)], sanction=[reduce_300(a3)], clock=0, time=Wed Jun 05 10:55:49 BST 2013]
+Prohibition [agent=a3, prohibition=[at(6, 6, a3)], sanction=[reduce_300(a3)], clock=0, time=Wed Jun 05 10:55:50 BST 2013]
+Position [agent=t1, id=null, cell=Cell [x=10, y=19], time=Wed Jun 05 10:55:29 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=5, y=19], time=Wed Jun 05 10:55:30 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=4, y=6], time=Wed Jun 05 10:55:31 BST 2013, clock=0]
+Position [agent=t1, id=null, cell=Cell [x=9, y=19], time=Wed Jun 05 10:55:31 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=3, y=7], time=Wed Jun 05 10:55:31 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=3, y=7], time=Wed Jun 05 10:55:32 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=7, y=19], time=Wed Jun 05 10:55:32 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=4, y=19], time=Wed Jun 05 10:55:33 BST 2013, clock=0]
+Position [agent=t1, id=null, cell=Cell [x=8, y=19], time=Wed Jun 05 10:55:33 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=4, y=6], time=Wed Jun 05 10:55:33 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=4, y=19], time=Wed Jun 05 10:55:33 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=6, y=19], time=Wed Jun 05 10:55:34 BST 2013, clock=0]
+Position [agent=t1, id=null, cell=Cell [x=7, y=19], time=Wed Jun 05 10:55:34 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=4, y=7], time=Wed Jun 05 10:55:36 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=8, y=19], time=Wed Jun 05 10:55:36 BST 2013, clock=0]
+Position [agent=t1, id=null, cell=Cell [x=6, y=19], time=Wed Jun 05 10:55:36 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=3, y=8], time=Wed Jun 05 10:55:37 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=5, y=19], time=Wed Jun 05 10:55:37 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=4, y=7], time=Wed Jun 05 10:55:37 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=8, y=8], time=Wed Jun 05 10:55:37 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=5, y=6], time=Wed Jun 05 10:55:37 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=5, y=19], time=Wed Jun 05 10:55:37 BST 2013, clock=0]
+Position [agent=t1, id=null, cell=Cell [x=5, y=19], time=Wed Jun 05 10:55:38 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=9, y=9], time=Wed Jun 05 10:55:38 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=7, y=19], time=Wed Jun 05 10:55:38 BST 2013, clock=0]
+Position [agent=t1, id=null, cell=Cell [x=4, y=19], time=Wed Jun 05 10:55:39 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=8, y=18], time=Wed Jun 05 10:55:40 BST 2013, clock=0]
+Position [agent=t1, id=null, cell=Cell [x=3, y=19], time=Wed Jun 05 10:55:40 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=9, y=8], time=Wed Jun 05 10:55:40 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=8, y=9], time=Wed Jun 05 10:55:41 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=5, y=7], time=Wed Jun 05 10:55:41 BST 2013, clock=0]
+Position [agent=t1, id=null, cell=Cell [x=2, y=19], time=Wed Jun 05 10:55:41 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=6, y=19], time=Wed Jun 05 10:55:41 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=8, y=7], time=Wed Jun 05 10:55:41 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=4, y=8], time=Wed Jun 05 10:55:41 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=6, y=19], time=Wed Jun 05 10:55:41 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=5, y=7], time=Wed Jun 05 10:55:42 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=8, y=9], time=Wed Jun 05 10:55:42 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=8, y=19], time=Wed Jun 05 10:55:42 BST 2013, clock=0]
+Position [agent=t1, id=null, cell=Cell [x=2, y=18], time=Wed Jun 05 10:55:42 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=6, y=6], time=Wed Jun 05 10:55:43 BST 2013, clock=0]
+Position [agent=t1, id=null, cell=Cell [x=2, y=17], time=Wed Jun 05 10:55:43 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=9, y=7], time=Wed Jun 05 10:55:44 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=8, y=17], time=Wed Jun 05 10:55:44 BST 2013, clock=0]
+Position [agent=t1, id=null, cell=Cell [x=2, y=16], time=Wed Jun 05 10:55:44 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=8, y=8], time=Wed Jun 05 10:55:45 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=7, y=19], time=Wed Jun 05 10:55:45 BST 2013, clock=0]
+Position [agent=t1, id=null, cell=Cell [x=2, y=15], time=Wed Jun 05 10:55:45 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=8, y=6], time=Wed Jun 05 10:55:45 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=7, y=19], time=Wed Jun 05 10:55:45 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=9, y=19], time=Wed Jun 05 10:55:46 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=7, y=9], time=Wed Jun 05 10:55:46 BST 2013, clock=0]
+Position [agent=t1, id=null, cell=Cell [x=2, y=14], time=Wed Jun 05 10:55:46 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=5, y=8], time=Wed Jun 05 10:55:47 BST 2013, clock=0]
+Position [agent=t1, id=null, cell=Cell [x=2, y=13], time=Wed Jun 05 10:55:48 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=9, y=6], time=Wed Jun 05 10:55:48 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=8, y=16], time=Wed Jun 05 10:55:48 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=6, y=7], time=Wed Jun 05 10:55:48 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=7, y=6], time=Wed Jun 05 10:55:48 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=8, y=19], time=Wed Jun 05 10:55:49 BST 2013, clock=0]
+Position [agent=t1, id=null, cell=Cell [x=2, y=12], time=Wed Jun 05 10:55:49 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=8, y=19], time=Wed Jun 05 10:55:50 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=8, y=7], time=Wed Jun 05 10:55:50 BST 2013, clock=0]
+Position [agent=t1, id=null, cell=Cell [x=2, y=11], time=Wed Jun 05 10:55:50 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=6, y=8], time=Wed Jun 05 10:55:50 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=6, y=9], time=Wed Jun 05 10:55:50 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=7, y=7], time=Wed Jun 05 10:55:51 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=10, y=19], time=Wed Jun 05 10:55:52 BST 2013, clock=0]
+Position [agent=t1, id=null, cell=Cell [x=2, y=10], time=Wed Jun 05 10:55:52 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=8, y=6], time=Wed Jun 05 10:55:52 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=9, y=7], time=Wed Jun 05 10:55:53 BST 2013, clock=0]
+Position [agent=t1, id=null, cell=Cell [x=2, y=9], time=Wed Jun 05 10:55:53 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=8, y=15], time=Wed Jun 05 10:55:53 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=8, y=8], time=Wed Jun 05 10:55:53 BST 2013, clock=0]
+Position [agent=t1, id=null, cell=Cell [x=2, y=8], time=Wed Jun 05 10:55:54 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=9, y=19], time=Wed Jun 05 10:55:54 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=9, y=19], time=Wed Jun 05 10:55:54 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=5, y=9], time=Wed Jun 05 10:55:54 BST 2013, clock=0]
+Position [agent=t1, id=null, cell=Cell [x=2, y=7], time=Wed Jun 05 10:55:55 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=5, y=8], time=Wed Jun 05 10:55:55 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=11, y=19], time=Wed Jun 05 10:55:55 BST 2013, clock=0]
+Position [agent=t1, id=null, cell=Cell [x=2, y=6], time=Wed Jun 05 10:55:56 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=9, y=8], time=Wed Jun 05 10:55:56 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=7, y=8], time=Wed Jun 05 10:55:56 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=8, y=9], time=Wed Jun 05 10:55:57 BST 2013, clock=0]
+Position [agent=t1, id=null, cell=Cell [x=2, y=5], time=Wed Jun 05 10:55:57 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=8, y=14], time=Wed Jun 05 10:55:57 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=8, y=7], time=Wed Jun 05 10:55:57 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=9, y=6], time=Wed Jun 05 10:55:57 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=10, y=19], time=Wed Jun 05 10:55:58 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=4, y=9], time=Wed Jun 05 10:55:58 BST 2013, clock=0]
+Position [agent=t1, id=null, cell=Cell [x=2, y=4], time=Wed Jun 05 10:55:58 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=10, y=19], time=Wed Jun 05 10:55:58 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=12, y=19], time=Wed Jun 05 10:55:59 BST 2013, clock=0]
+Position [agent=t1, id=null, cell=Cell [x=2, y=3], time=Wed Jun 05 10:55:59 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=9, y=9], time=Wed Jun 05 10:56:00 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=6, y=8], time=Wed Jun 05 10:56:00 BST 2013, clock=0]
+Position [agent=t1, id=null, cell=Cell [x=2, y=2], time=Wed Jun 05 10:56:00 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=8, y=13], time=Wed Jun 05 10:56:00 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=8, y=8], time=Wed Jun 05 10:56:01 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=11, y=19], time=Wed Jun 05 10:56:01 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=9, y=7], time=Wed Jun 05 10:56:01 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=10, y=6], time=Wed Jun 05 10:56:01 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=11, y=19], time=Wed Jun 05 10:56:01 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=8, y=10], time=Wed Jun 05 10:56:01 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=3, y=9], time=Wed Jun 05 10:56:02 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=13, y=19], time=Wed Jun 05 10:56:03 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=7, y=8], time=Wed Jun 05 10:56:03 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=9, y=10], time=Wed Jun 05 10:56:03 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=9, y=8], time=Wed Jun 05 10:56:03 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=8, y=11], time=Wed Jun 05 10:56:04 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=8, y=12], time=Wed Jun 05 10:56:04 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=10, y=7], time=Wed Jun 05 10:56:04 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=9, y=11], time=Wed Jun 05 10:56:05 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=12, y=19], time=Wed Jun 05 10:56:05 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=11, y=6], time=Wed Jun 05 10:56:05 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=12, y=19], time=Wed Jun 05 10:56:05 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=8, y=12], time=Wed Jun 05 10:56:05 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=14, y=19], time=Wed Jun 05 10:56:06 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=9, y=12], time=Wed Jun 05 10:56:06 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=8, y=13], time=Wed Jun 05 10:56:07 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=8, y=11], time=Wed Jun 05 10:56:07 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=9, y=13], time=Wed Jun 05 10:56:08 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=13, y=19], time=Wed Jun 05 10:56:08 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=13, y=19], time=Wed Jun 05 10:56:08 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=8, y=14], time=Wed Jun 05 10:56:08 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=8, y=8], time=Wed Jun 05 10:56:09 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=15, y=19], time=Wed Jun 05 10:56:09 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=9, y=14], time=Wed Jun 05 10:56:10 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=10, y=8], time=Wed Jun 05 10:56:10 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=8, y=15], time=Wed Jun 05 10:56:10 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=8, y=10], time=Wed Jun 05 10:56:10 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=11, y=7], time=Wed Jun 05 10:56:10 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=9, y=15], time=Wed Jun 05 10:56:11 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=14, y=19], time=Wed Jun 05 10:56:11 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=12, y=6], time=Wed Jun 05 10:56:11 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=14, y=19], time=Wed Jun 05 10:56:11 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=8, y=16], time=Wed Jun 05 10:56:11 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=16, y=19], time=Wed Jun 05 10:56:12 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=9, y=16], time=Wed Jun 05 10:56:12 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=8, y=17], time=Wed Jun 05 10:56:13 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=8, y=9], time=Wed Jun 05 10:56:13 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=15, y=19], time=Wed Jun 05 10:56:14 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=9, y=17], time=Wed Jun 05 10:56:14 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=15, y=19], time=Wed Jun 05 10:56:14 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=8, y=18], time=Wed Jun 05 10:56:15 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=9, y=8], time=Wed Jun 05 10:56:15 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=16, y=18], time=Wed Jun 05 10:56:15 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=11, y=8], time=Wed Jun 05 10:56:15 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=8, y=8], time=Wed Jun 05 10:56:16 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=12, y=7], time=Wed Jun 05 10:56:16 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=15, y=18], time=Wed Jun 05 10:56:17 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=9, y=18], time=Wed Jun 05 10:56:17 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=13, y=6], time=Wed Jun 05 10:56:17 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=8, y=19], time=Wed Jun 05 10:56:17 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=15, y=18], time=Wed Jun 05 10:56:17 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=16, y=17], time=Wed Jun 05 10:56:17 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=9, y=19], time=Wed Jun 05 10:56:18 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=9, y=19], time=Wed Jun 05 10:56:18 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=8, y=7], time=Wed Jun 05 10:56:19 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=10, y=19], time=Wed Jun 05 10:56:20 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=15, y=17], time=Wed Jun 05 10:56:20 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=15, y=17], time=Wed Jun 05 10:56:20 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=10, y=19], time=Wed Jun 05 10:56:20 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=16, y=16], time=Wed Jun 05 10:56:20 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=10, y=8], time=Wed Jun 05 10:56:21 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=11, y=19], time=Wed Jun 05 10:56:21 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=8, y=6], time=Wed Jun 05 10:56:22 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=11, y=19], time=Wed Jun 05 10:56:22 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=12, y=8], time=Wed Jun 05 10:56:22 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=15, y=16], time=Wed Jun 05 10:56:22 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=12, y=6], time=Wed Jun 05 10:56:22 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=15, y=16], time=Wed Jun 05 10:56:23 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=12, y=19], time=Wed Jun 05 10:56:23 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=13, y=7], time=Wed Jun 05 10:56:23 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=12, y=19], time=Wed Jun 05 10:56:23 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=16, y=15], time=Wed Jun 05 10:56:23 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=14, y=6], time=Wed Jun 05 10:56:24 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=13, y=19], time=Wed Jun 05 10:56:25 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=13, y=19], time=Wed Jun 05 10:56:25 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=14, y=19], time=Wed Jun 05 10:56:27 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=14, y=19], time=Wed Jun 05 10:56:27 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=15, y=15], time=Wed Jun 05 10:56:27 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=15, y=15], time=Wed Jun 05 10:56:28 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=15, y=19], time=Wed Jun 05 10:56:28 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=15, y=19], time=Wed Jun 05 10:56:28 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=16, y=14], time=Wed Jun 05 10:56:29 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=11, y=6], time=Wed Jun 05 10:56:29 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=16, y=19], time=Wed Jun 05 10:56:30 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=13, y=8], time=Wed Jun 05 10:56:30 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=16, y=19], time=Wed Jun 05 10:56:30 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=13, y=6], time=Wed Jun 05 10:56:31 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=16, y=18], time=Wed Jun 05 10:56:31 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=15, y=14], time=Wed Jun 05 10:56:31 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=14, y=7], time=Wed Jun 05 10:56:31 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=15, y=14], time=Wed Jun 05 10:56:31 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=17, y=19], time=Wed Jun 05 10:56:31 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=16, y=13], time=Wed Jun 05 10:56:32 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=15, y=6], time=Wed Jun 05 10:56:32 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=16, y=19], time=Wed Jun 05 10:56:32 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=18, y=19], time=Wed Jun 05 10:56:33 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=15, y=13], time=Wed Jun 05 10:56:34 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=17, y=19], time=Wed Jun 05 10:56:34 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=15, y=13], time=Wed Jun 05 10:56:34 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=19, y=19], time=Wed Jun 05 10:56:34 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=16, y=12], time=Wed Jun 05 10:56:35 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=18, y=19], time=Wed Jun 05 10:56:35 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=17, y=19], time=Wed Jun 05 10:56:36 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=15, y=12], time=Wed Jun 05 10:56:37 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=12, y=6], time=Wed Jun 05 10:56:37 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=15, y=12], time=Wed Jun 05 10:56:37 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=16, y=19], time=Wed Jun 05 10:56:37 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=16, y=11], time=Wed Jun 05 10:56:37 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=14, y=8], time=Wed Jun 05 10:56:37 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=14, y=6], time=Wed Jun 05 10:56:38 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=16, y=18], time=Wed Jun 05 10:56:38 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=15, y=7], time=Wed Jun 05 10:56:39 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=16, y=17], time=Wed Jun 05 10:56:39 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=15, y=11], time=Wed Jun 05 10:56:39 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=16, y=6], time=Wed Jun 05 10:56:39 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=15, y=11], time=Wed Jun 05 10:56:39 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=16, y=16], time=Wed Jun 05 10:56:39 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=16, y=10], time=Wed Jun 05 10:56:39 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=16, y=15], time=Wed Jun 05 10:56:40 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=15, y=10], time=Wed Jun 05 10:56:41 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=16, y=14], time=Wed Jun 05 10:56:41 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=15, y=10], time=Wed Jun 05 10:56:42 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=16, y=13], time=Wed Jun 05 10:56:42 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=16, y=9], time=Wed Jun 05 10:56:42 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=16, y=12], time=Wed Jun 05 10:56:43 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=13, y=6], time=Wed Jun 05 10:56:43 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=15, y=8], time=Wed Jun 05 10:56:43 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=15, y=6], time=Wed Jun 05 10:56:43 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=16, y=7], time=Wed Jun 05 10:56:44 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=16, y=11], time=Wed Jun 05 10:56:44 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=15, y=9], time=Wed Jun 05 10:56:44 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=16, y=10], time=Wed Jun 05 10:56:44 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=15, y=9], time=Wed Jun 05 10:56:45 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=16, y=9], time=Wed Jun 05 10:56:45 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=16, y=8], time=Wed Jun 05 10:56:45 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=16, y=8], time=Wed Jun 05 10:56:46 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=16, y=7], time=Wed Jun 05 10:56:47 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=16, y=9], time=Wed Jun 05 10:56:47 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=15, y=8], time=Wed Jun 05 10:56:47 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=14, y=6], time=Wed Jun 05 10:56:47 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=16, y=7], time=Wed Jun 05 10:56:47 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=16, y=8], time=Wed Jun 05 10:56:47 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=15, y=7], time=Wed Jun 05 10:56:48 BST 2013, clock=0]
+Position [agent=a3, id=null, cell=Cell [x=16, y=6], time=Wed Jun 05 10:56:48 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=16, y=8], time=Wed Jun 05 10:56:48 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=14, y=7], time=Wed Jun 05 10:56:50 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=16, y=8], time=Wed Jun 05 10:56:50 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=16, y=9], time=Wed Jun 05 10:56:50 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=15, y=7], time=Wed Jun 05 10:56:50 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=16, y=6], time=Wed Jun 05 10:56:50 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=15, y=8], time=Wed Jun 05 10:56:50 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=16, y=9], time=Wed Jun 05 10:56:51 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=16, y=7], time=Wed Jun 05 10:56:51 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=15, y=6], time=Wed Jun 05 10:56:51 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=15, y=7], time=Wed Jun 05 10:56:52 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=14, y=6], time=Wed Jun 05 10:56:52 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=14, y=7], time=Wed Jun 05 10:56:53 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=14, y=8], time=Wed Jun 05 10:56:53 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=13, y=6], time=Wed Jun 05 10:56:53 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=16, y=10], time=Wed Jun 05 10:56:54 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=13, y=7], time=Wed Jun 05 10:56:54 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=15, y=9], time=Wed Jun 05 10:56:54 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=12, y=6], time=Wed Jun 05 10:56:54 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=15, y=9], time=Wed Jun 05 10:56:55 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=12, y=7], time=Wed Jun 05 10:56:55 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=11, y=6], time=Wed Jun 05 10:56:55 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=11, y=7], time=Wed Jun 05 10:56:57 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=10, y=6], time=Wed Jun 05 10:56:57 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=10, y=7], time=Wed Jun 05 10:56:58 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=14, y=9], time=Wed Jun 05 10:56:58 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=9, y=6], time=Wed Jun 05 10:56:58 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=15, y=10], time=Wed Jun 05 10:56:58 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=9, y=7], time=Wed Jun 05 10:56:59 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=14, y=9], time=Wed Jun 05 10:56:59 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=8, y=6], time=Wed Jun 05 10:56:59 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=14, y=9], time=Wed Jun 05 10:57:00 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=8, y=7], time=Wed Jun 05 10:57:00 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=7, y=6], time=Wed Jun 05 10:57:00 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=7, y=7], time=Wed Jun 05 10:57:01 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=6, y=6], time=Wed Jun 05 10:57:02 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=6, y=7], time=Wed Jun 05 10:57:02 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=13, y=9], time=Wed Jun 05 10:57:03 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=14, y=10], time=Wed Jun 05 10:57:03 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=5, y=7], time=Wed Jun 05 10:57:03 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=13, y=9], time=Wed Jun 05 10:57:03 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=6, y=8], time=Wed Jun 05 10:57:04 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=13, y=9], time=Wed Jun 05 10:57:04 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=5, y=8], time=Wed Jun 05 10:57:05 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=6, y=9], time=Wed Jun 05 10:57:05 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=5, y=9], time=Wed Jun 05 10:57:06 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=4, y=9], time=Wed Jun 05 10:57:07 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=12, y=9], time=Wed Jun 05 10:57:07 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=13, y=10], time=Wed Jun 05 10:57:07 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=3, y=9], time=Wed Jun 05 10:57:07 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=12, y=9], time=Wed Jun 05 10:57:07 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=12, y=9], time=Wed Jun 05 10:57:08 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=3, y=8], time=Wed Jun 05 10:57:08 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=3, y=7], time=Wed Jun 05 10:57:08 BST 2013, clock=0]
+Position [agent=a2, id=null, cell=Cell [x=3, y=6], time=Wed Jun 05 10:57:09 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=11, y=9], time=Wed Jun 05 10:57:10 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=12, y=10], time=Wed Jun 05 10:57:10 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=11, y=9], time=Wed Jun 05 10:57:10 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=11, y=9], time=Wed Jun 05 10:57:11 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=10, y=9], time=Wed Jun 05 10:57:13 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=11, y=10], time=Wed Jun 05 10:57:13 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=10, y=9], time=Wed Jun 05 10:57:14 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=10, y=9], time=Wed Jun 05 10:57:14 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=9, y=9], time=Wed Jun 05 10:57:16 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=10, y=10], time=Wed Jun 05 10:57:16 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=9, y=9], time=Wed Jun 05 10:57:16 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=9, y=9], time=Wed Jun 05 10:57:16 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=8, y=9], time=Wed Jun 05 10:57:18 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=9, y=10], time=Wed Jun 05 10:57:18 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=8, y=9], time=Wed Jun 05 10:57:19 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=8, y=9], time=Wed Jun 05 10:57:19 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=7, y=9], time=Wed Jun 05 10:57:21 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=8, y=10], time=Wed Jun 05 10:57:21 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=8, y=8], time=Wed Jun 05 10:57:21 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=7, y=9], time=Wed Jun 05 10:57:21 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=7, y=8], time=Wed Jun 05 10:57:23 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=7, y=10], time=Wed Jun 05 10:57:23 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=8, y=9], time=Wed Jun 05 10:57:24 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=6, y=9], time=Wed Jun 05 10:57:24 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=7, y=9], time=Wed Jun 05 10:57:26 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=6, y=10], time=Wed Jun 05 10:57:27 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=7, y=9], time=Wed Jun 05 10:57:27 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=5, y=9], time=Wed Jun 05 10:57:27 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=6, y=9], time=Wed Jun 05 10:57:29 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=5, y=10], time=Wed Jun 05 10:57:29 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=6, y=9], time=Wed Jun 05 10:57:30 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=4, y=9], time=Wed Jun 05 10:57:30 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=5, y=9], time=Wed Jun 05 10:57:32 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=4, y=10], time=Wed Jun 05 10:57:32 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=5, y=9], time=Wed Jun 05 10:57:32 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=3, y=9], time=Wed Jun 05 10:57:32 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=5, y=8], time=Wed Jun 05 10:57:34 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=3, y=10], time=Wed Jun 05 10:57:34 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=4, y=9], time=Wed Jun 05 10:57:35 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=5, y=9], time=Wed Jun 05 10:57:36 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=4, y=10], time=Wed Jun 05 10:57:37 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=5, y=9], time=Wed Jun 05 10:57:37 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=5, y=8], time=Wed Jun 05 10:57:39 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=5, y=10], time=Wed Jun 05 10:57:39 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=6, y=9], time=Wed Jun 05 10:57:39 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=5, y=9], time=Wed Jun 05 10:57:41 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=6, y=10], time=Wed Jun 05 10:57:41 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=7, y=9], time=Wed Jun 05 10:57:41 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=6, y=9], time=Wed Jun 05 10:57:42 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=7, y=10], time=Wed Jun 05 10:57:43 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=8, y=9], time=Wed Jun 05 10:57:43 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=7, y=9], time=Wed Jun 05 10:57:44 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=8, y=10], time=Wed Jun 05 10:57:45 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=8, y=8], time=Wed Jun 05 10:57:45 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=7, y=8], time=Wed Jun 05 10:57:46 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=8, y=9], time=Wed Jun 05 10:57:46 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=8, y=7], time=Wed Jun 05 10:57:47 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=7, y=7], time=Wed Jun 05 10:57:49 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=8, y=8], time=Wed Jun 05 10:57:49 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=8, y=6], time=Wed Jun 05 10:57:49 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=7, y=6], time=Wed Jun 05 10:57:51 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=8, y=7], time=Wed Jun 05 10:57:51 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=7, y=7], time=Wed Jun 05 10:57:53 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=8, y=8], time=Wed Jun 05 10:57:53 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=7, y=8], time=Wed Jun 05 10:57:54 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=8, y=9], time=Wed Jun 05 10:57:54 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=7, y=9], time=Wed Jun 05 10:57:55 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=8, y=10], time=Wed Jun 05 10:57:55 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=7, y=10], time=Wed Jun 05 10:57:57 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=9, y=10], time=Wed Jun 05 10:57:57 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=8, y=10], time=Wed Jun 05 10:57:58 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=10, y=10], time=Wed Jun 05 10:57:59 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=9, y=10], time=Wed Jun 05 10:58:00 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=8, y=10], time=Wed Jun 05 10:58:01 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=7, y=10], time=Wed Jun 05 10:58:01 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=6, y=10], time=Wed Jun 05 10:58:02 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=5, y=10], time=Wed Jun 05 10:58:03 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=5, y=9], time=Wed Jun 05 10:58:04 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=5, y=8], time=Wed Jun 05 10:58:05 BST 2013, clock=0]
+Position [agent=a1, id=null, cell=Cell [x=5, y=7], time=Wed Jun 05 10:58:06 BST 2013, clock=0]
+-------------------------last log tuples end----------------------------------
+register a1
+register a2
+register a3
+register c1
+register t1
+org position notification
+Organization notifies agent (write): Obligation [agent=a1, obligation=[makeReading(8, 6)], sanction=[reduce_400(a1)], deadline=50, time=Wed Jun 05 10:58:56 BST 2013, clock=0]
+Organization notifies agent (write): Obligation [agent=a1, obligation=[makeReading(16, 6)], sanction=[reduce_400(a1)], deadline=50, time=Wed Jun 05 10:58:56 BST 2013, clock=0]
+agent obligation notification a1 number 2
+Organization notifies agent (write): Obligation [agent=a1, obligation=[makeReading(3, 9)], sanction=[reduce_400(a1)], deadline=50, time=Wed Jun 05 10:58:58 BST 2013, clock=0]
+Event sent to agent      a1 obligation(makeReading(8, 6), 50, reduce_400(a1))
+Event sent to agent      a1 obligation(makeReading(16, 6), 50, reduce_400(a1))
+Organization notifies agent (write): Obligation [agent=a2, obligation=[makeReading(8, 6)], sanction=[reduce_400(a2)], deadline=50, time=Wed Jun 05 10:58:58 BST 2013, clock=0]
+agent obligation notification a1 number 3
+agent obligation notification a2 number 1
+Event processed adoptObligation(makeReading(8, 6), 50, reduce_400(a1))
+Event processed adoptObligation(makeReading(16, 6), 50, reduce_400(a1))
+Organization notifies agent (write): Obligation [agent=a2, obligation=[makeReading(16, 6)], sanction=[reduce_400(a2)], deadline=50, time=Wed Jun 05 10:58:58 BST 2013, clock=0]
+Organization notifies agent (write): Obligation [agent=a2, obligation=[makeReading(3, 9)], sanction=[reduce_400(a2)], deadline=50, time=Wed Jun 05 10:58:58 BST 2013, clock=0]
+Event sent to agent      a2 obligation(makeReading(8, 6), 50, reduce_400(a2))
+Event sent to agent      a2 obligation(makeReading(3, 9), 50, reduce_400(a2))
+agent obligation notification a2 number 3
+Event processed adoptObligation(makeReading(8, 6), 50, reduce_400(a2))
+Event processed adoptObligation(makeReading(3, 9), 50, reduce_400(a2))
+Event sent to agent      a1 obligation(makeReading(8, 6), 50, reduce_400(a1))
+Event sent to agent      a1 obligation(makeReading(16, 6), 50, reduce_400(a1))
+Event sent to agent      a1 obligation(makeReading(3, 9), 50, reduce_400(a1))
+Event sent to agent      a2 obligation(makeReading(8, 6), 50, reduce_400(a2))
+Event sent to agent      a2 obligation(makeReading(16, 6), 50, reduce_400(a2))
+Event sent to agent      a2 obligation(makeReading(3, 9), 50, reduce_400(a2))
+Event processed adoptObligation(makeReading(8, 6), 50, reduce_400(a2))
+Event processed adoptObligation(makeReading(16, 6), 50, reduce_400(a2))
+Event processed adoptObligation(makeReading(3, 9), 50, reduce_400(a2))
+Event processed adoptObligation(makeReading(8, 6), 50, reduce_400(a1))
+Event processed adoptObligation(makeReading(16, 6), 50, reduce_400(a1))
+Event processed adoptObligation(makeReading(3, 9), 50, reduce_400(a1))
+Organization notifies agent (write): Obligation [agent=a3, obligation=[makeReading(8, 6)], sanction=[reduce_400(a3)], deadline=50, time=Wed Jun 05 10:58:59 BST 2013, clock=0]
+agent obligation notification a3 number 1
+Event sent to agent      a3 obligation(makeReading(8, 6), 50, reduce_400(a3))
+Event processed adoptObligation(makeReading(8, 6), 50, reduce_400(a3))
+Organization notifies agent (write): Obligation [agent=a3, obligation=[makeReading(16, 6)], sanction=[reduce_400(a3)], deadline=50, time=Wed Jun 05 10:59:01 BST 2013, clock=0]
+agent obligation notification a3 number 2
+Event sent to agent      a3 obligation(makeReading(8, 6), 50, reduce_400(a3))
+Event sent to agent      a3 obligation(makeReading(16, 6), 50, reduce_400(a3))
+Organization notifies agent (write): Obligation [agent=a3, obligation=[makeReading(3, 9)], sanction=[reduce_400(a3)], deadline=50, time=Wed Jun 05 10:59:03 BST 2013, clock=0]
+Organization notifies agent (write): Prohibition [agent=t1, prohibition=[at(5, 5, t1)], sanction=[reduce_300(t1)], clock=0, time=Wed Jun 05 10:59:03 BST 2013]
+agent obligation notification a3 number 3
+Event sent to agent      a3 obligation(makeReading(8, 6), 50, reduce_400(a3))
+Event sent to agent      a3 obligation(makeReading(16, 6), 50, reduce_400(a3))
+Event sent to agent      a3 obligation(makeReading(3, 9), 50, reduce_400(a3))
+Organization notifies agent (write): Prohibition [agent=t1, prohibition=[at(5, 6, t1)], sanction=[reduce_300(t1)], clock=0, time=Wed Jun 05 10:59:03 BST 2013]
+Organization notifies agent (write): Prohibition [agent=t1, prohibition=[at(6, 5, t1)], sanction=[reduce_300(t1)], clock=0, time=Wed Jun 05 10:59:03 BST 2013]
+agent prohibition notification t1 number 2
+Event processed adoptObligation(makeReading(8, 6), 50, reduce_400(a3))
+Event processed adoptObligation(makeReading(16, 6), 50, reduce_400(a3))
+Event processed adoptObligation(makeReading(8, 6), 50, reduce_400(a3))
+Event processed adoptObligation(makeReading(16, 6), 50, reduce_400(a3))
+Event processed adoptObligation(makeReading(3, 9), 50, reduce_400(a3))
+Event sent to agent      t1 prohibition(at(5, 5, t1), reduce_300(t1))
+Event sent to agent      t1 prohibition(at(5, 6, t1), reduce_300(t1))
+Event sent to agent      t1 prohibition(at(6, 5, t1), reduce_300(t1))
+agent prohibition notification t1 number 3
+Event processed aprohibition(at(5, 5, t1), reduce_300(t1))
+Event processed aprohibition(at(5, 6, t1), reduce_300(t1))
+Event processed aprohibition(at(6, 5, t1), reduce_300(t1))
+Organization notifies agent (write): Prohibition [agent=t1, prohibition=[at(6, 6, t1)], sanction=[reduce_300(t1)], clock=0, time=Wed Jun 05 10:59:03 BST 2013]
+Got event for agent but couldn't display it
+java.util.ConcurrentModificationException
+	at java.util.AbstractList$Itr.checkForComodification(AbstractList.java:372)
+	at java.util.AbstractList$Itr.next(AbstractList.java:343)
+	at envJavaSpace.SpaceTest.getFromDate(SpaceTest.java:769)
+	at envJavaSpace.SpaceTest.getAllFromDate(SpaceTest.java:745)
+	at envJavaSpace.SpaceTest.readTuple(SpaceTest.java:727)
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:60)
+	at sun.reflect.GeneratedMethodAccessor34.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:303)
+	at sun.rmi.transport.Transport$1.run(Transport.java:159)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:155)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:535)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:790)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:649)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+agent prohibition notification t1 number 4
+Got event for agent but couldn't display it
+java.lang.NullPointerException
+	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:837)
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:69)
+	at sun.reflect.GeneratedMethodAccessor34.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:303)
+	at sun.rmi.transport.Transport$1.run(Transport.java:159)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:155)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:535)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:790)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:649)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(5, 5, a1)], sanction=[reduce_300(c1)], clock=0, time=Wed Jun 05 10:59:05 BST 2013]
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(5, 6, a1)], sanction=[reduce_300(c1)], clock=0, time=Wed Jun 05 10:59:05 BST 2013]
+agent prohibition notification c1 number 1
+Event sent to agent      c1 prohibition(coin(5, 5, a1), reduce_300(c1))
+Event sent to agent      c1 prohibition(coin(5, 6, a1), reduce_300(c1))
+agent prohibition notification c1 number 2
+Event processed aprohibition(coin(5, 5, a1), reduce_300(c1))
+Event processed aprohibition(coin(5, 6, a1), reduce_300(c1))
+Event sent to agent      c1 prohibition(coin(5, 5, a1), reduce_300(c1))
+Event sent to agent      c1 prohibition(coin(5, 6, a1), reduce_300(c1))
+Event processed aprohibition(coin(5, 5, a1), reduce_300(c1))
+Event processed aprohibition(coin(5, 6, a1), reduce_300(c1))
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(6, 5, a1)], sanction=[reduce_300(c1)], clock=0, time=Wed Jun 05 10:59:06 BST 2013]
+agent prohibition notification c1 number 3
+Event sent to agent      c1 prohibition(coin(5, 5, a1), reduce_300(c1))
+Event sent to agent      c1 prohibition(coin(5, 6, a1), reduce_300(c1))
+Event sent to agent      c1 prohibition(coin(6, 5, a1), reduce_300(c1))
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(6, 6, a1)], sanction=[reduce_300(c1)], clock=0, time=Wed Jun 05 10:59:07 BST 2013]
+agent prohibition notification c1 number 4
+Event processed aprohibition(coin(5, 5, a1), reduce_300(c1))
+Event processed aprohibition(coin(5, 6, a1), reduce_300(c1))
+Event processed aprohibition(coin(6, 5, a1), reduce_300(c1))
+Event sent to agent      c1 prohibition(coin(5, 5, a1), reduce_300(c1))
+Event sent to agent      c1 prohibition(coin(5, 6, a1), reduce_300(c1))
+Event sent to agent      c1 prohibition(coin(6, 5, a1), reduce_300(c1))
+Event sent to agent      c1 prohibition(coin(6, 6, a1), reduce_300(c1))
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(5, 5, a2)], sanction=[reduce_300(c1)], clock=0, time=Wed Jun 05 10:59:08 BST 2013]
+agent prohibition notification c1 number 5
+Event processed aprohibition(coin(5, 5, a1), reduce_300(c1))
+Event processed aprohibition(coin(5, 6, a1), reduce_300(c1))
+Event processed aprohibition(coin(6, 5, a1), reduce_300(c1))
+Event processed aprohibition(coin(6, 6, a1), reduce_300(c1))
+Event sent to agent      c1 prohibition(coin(5, 5, a1), reduce_300(c1))
+Event sent to agent      c1 prohibition(coin(5, 6, a1), reduce_300(c1))
+Event sent to agent      c1 prohibition(coin(6, 5, a1), reduce_300(c1))
+Event sent to agent      c1 prohibition(coin(6, 6, a1), reduce_300(c1))
+Event sent to agent      c1 prohibition(coin(5, 5, a2), reduce_300(c1))
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(5, 6, a2)], sanction=[reduce_300(c1)], clock=0, time=Wed Jun 05 10:59:09 BST 2013]
+agent prohibition notification c1 number 6
+Event processed aprohibition(coin(5, 5, a1), reduce_300(c1))
+Event processed aprohibition(coin(5, 6, a1), reduce_300(c1))
+Event processed aprohibition(coin(6, 5, a1), reduce_300(c1))
+Event processed aprohibition(coin(6, 6, a1), reduce_300(c1))
+Event processed aprohibition(coin(5, 5, a2), reduce_300(c1))
+Event sent to agent      c1 prohibition(coin(5, 5, a1), reduce_300(c1))
+Event sent to agent      c1 prohibition(coin(5, 6, a1), reduce_300(c1))
+Event sent to agent      c1 prohibition(coin(6, 5, a1), reduce_300(c1))
+Event sent to agent      c1 prohibition(coin(6, 6, a1), reduce_300(c1))
+Event sent to agent      c1 prohibition(coin(5, 5, a2), reduce_300(c1))
+Event sent to agent      c1 prohibition(coin(5, 6, a2), reduce_300(c1))
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(6, 5, a2)], sanction=[reduce_300(c1)], clock=0, time=Wed Jun 05 10:59:10 BST 2013]
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(6, 6, a2)], sanction=[reduce_300(c1)], clock=0, time=Wed Jun 05 10:59:10 BST 2013]
+agent prohibition notification c1 number 7
+Event processed aprohibition(coin(5, 5, a1), reduce_300(c1))
+Event processed aprohibition(coin(5, 6, a1), reduce_300(c1))
+Event processed aprohibition(coin(6, 5, a1), reduce_300(c1))
+Event processed aprohibition(coin(6, 6, a1), reduce_300(c1))
+Event processed aprohibition(coin(5, 5, a2), reduce_300(c1))
+Event processed aprohibition(coin(5, 6, a2), reduce_300(c1))
+Event sent to agent      c1 prohibition(coin(5, 5, a1), reduce_300(c1))
+Event sent to agent      c1 prohibition(coin(5, 6, a1), reduce_300(c1))
+Event sent to agent      c1 prohibition(coin(6, 5, a1), reduce_300(c1))
+Event sent to agent      c1 prohibition(coin(6, 6, a1), reduce_300(c1))
+Event sent to agent      c1 prohibition(coin(5, 5, a2), reduce_300(c1))
+Event sent to agent      c1 prohibition(coin(5, 6, a2), reduce_300(c1))
+Event sent to agent      c1 prohibition(coin(6, 5, a2), reduce_300(c1))
+Event sent to agent      c1 prohibition(coin(6, 6, a2), reduce_300(c1))
+agent prohibition notification c1 number 8
+Event processed aprohibition(coin(5, 5, a1), reduce_300(c1))
+Event processed aprohibition(coin(5, 6, a1), reduce_300(c1))
+Event processed aprohibition(coin(6, 5, a1), reduce_300(c1))
+Event processed aprohibition(coin(6, 6, a1), reduce_300(c1))
+Event processed aprohibition(coin(5, 5, a2), reduce_300(c1))
+Event processed aprohibition(coin(5, 6, a2), reduce_300(c1))
+Event processed aprohibition(coin(6, 5, a2), reduce_300(c1))
+Event processed aprohibition(coin(6, 6, a2), reduce_300(c1))
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(5, 5, a3)], sanction=[reduce_300(c1)], clock=0, time=Wed Jun 05 10:59:10 BST 2013]
+Got event for agent but couldn't display it
+java.util.ConcurrentModificationException
+	at java.util.AbstractList$Itr.checkForComodification(AbstractList.java:372)
+	at java.util.AbstractList$Itr.next(AbstractList.java:343)
+	at envJavaSpace.SpaceTest.getFromDate(SpaceTest.java:769)
+	at envJavaSpace.SpaceTest.getAllFromDate(SpaceTest.java:745)
+	at envJavaSpace.SpaceTest.readTuple(SpaceTest.java:727)
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:60)
+	at sun.reflect.GeneratedMethodAccessor34.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:303)
+	at sun.rmi.transport.Transport$1.run(Transport.java:159)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:155)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:535)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:790)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:649)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+agent prohibition notification c1 number 9
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(5, 6, a3)], sanction=[reduce_300(c1)], clock=0, time=Wed Jun 05 10:59:11 BST 2013]
+Got event for agent but couldn't display it
+java.util.ConcurrentModificationException
+	at java.util.AbstractList$Itr.checkForComodification(AbstractList.java:372)
+	at java.util.AbstractList$Itr.next(AbstractList.java:343)
+	at envJavaSpace.SpaceTest.getFromDate(SpaceTest.java:769)
+	at envJavaSpace.SpaceTest.getAllFromDate(SpaceTest.java:745)
+	at envJavaSpace.SpaceTest.readTuple(SpaceTest.java:727)
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:60)
+	at sun.reflect.GeneratedMethodAccessor34.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:303)
+	at sun.rmi.transport.Transport$1.run(Transport.java:159)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:155)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:535)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:790)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:649)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+agent prohibition notification c1 number 10
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(6, 5, a3)], sanction=[reduce_300(c1)], clock=0, time=Wed Jun 05 10:59:11 BST 2013]
+Got event for agent but couldn't display it
+java.util.ConcurrentModificationException
+	at java.util.AbstractList$Itr.checkForComodification(AbstractList.java:372)
+	at java.util.AbstractList$Itr.next(AbstractList.java:343)
+	at envJavaSpace.SpaceTest.getFromDate(SpaceTest.java:769)
+	at envJavaSpace.SpaceTest.getAllFromDate(SpaceTest.java:745)
+	at envJavaSpace.SpaceTest.readTuple(SpaceTest.java:727)
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:60)
+	at sun.reflect.GeneratedMethodAccessor34.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:303)
+	at sun.rmi.transport.Transport$1.run(Transport.java:159)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:155)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:535)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:790)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:649)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+agent prohibition notification c1 number 11
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(6, 6, a3)], sanction=[reduce_300(c1)], clock=0, time=Wed Jun 05 10:59:12 BST 2013]
+Got event for agent but couldn't display it
+java.util.ConcurrentModificationException
+	at java.util.AbstractList$Itr.checkForComodification(AbstractList.java:372)
+	at java.util.AbstractList$Itr.next(AbstractList.java:343)
+	at envJavaSpace.SpaceTest.getFromDate(SpaceTest.java:769)
+	at envJavaSpace.SpaceTest.getAllFromDate(SpaceTest.java:745)
+	at envJavaSpace.SpaceTest.readTuple(SpaceTest.java:727)
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:60)
+	at sun.reflect.GeneratedMethodAccessor34.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:303)
+	at sun.rmi.transport.Transport$1.run(Transport.java:159)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:155)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:535)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:790)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:649)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+agent prohibition notification c1 number 12
+Got event for agent but couldn't display it
+java.lang.NullPointerException
+	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:837)
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:69)
+	at sun.reflect.GeneratedMethodAccessor34.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:303)
+	at sun.rmi.transport.Transport$1.run(Transport.java:159)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:155)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:535)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:790)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:649)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Organization notifies agent (write): Prohibition [agent=a1, prohibition=[at(5, 5, a1)], sanction=[reduce_300(a1)], clock=0, time=Wed Jun 05 10:59:15 BST 2013]
+agent prohibition notification a1 number 1
+Event sent to agent      a1 prohibition(at(5, 5, a1), reduce_300(a1))
+Organization notifies agent (write): Prohibition [agent=a1, prohibition=[at(5, 6, a1)], sanction=[reduce_300(a1)], clock=0, time=Wed Jun 05 10:59:15 BST 2013]
+agent prohibition notification a1 number 2
+Event processed aprohibition(at(5, 5, a1), reduce_300(a1))
+Event sent to agent      a1 prohibition(at(5, 5, a1), reduce_300(a1))
+Event sent to agent      a1 prohibition(at(5, 6, a1), reduce_300(a1))
+Organization notifies agent (write): Prohibition [agent=a1, prohibition=[at(6, 5, a1)], sanction=[reduce_300(a1)], clock=0, time=Wed Jun 05 10:59:16 BST 2013]
+agent prohibition notification a1 number 3
+Event processed aprohibition(at(5, 5, a1), reduce_300(a1))
+Event processed aprohibition(at(5, 6, a1), reduce_300(a1))
+Event sent to agent      a1 prohibition(at(5, 5, a1), reduce_300(a1))
+Event sent to agent      a1 prohibition(at(5, 6, a1), reduce_300(a1))
+Event sent to agent      a1 prohibition(at(6, 5, a1), reduce_300(a1))
+Organization notifies agent (write): Prohibition [agent=a1, prohibition=[at(6, 6, a1)], sanction=[reduce_300(a1)], clock=0, time=Wed Jun 05 10:59:16 BST 2013]
+agent prohibition notification a1 number 4
+Event sent to agent      a1 prohibition(at(5, 5, a1), reduce_300(a1))
+Event sent to agent      a1 prohibition(at(5, 6, a1), reduce_300(a1))
+Event sent to agent      a1 prohibition(at(6, 5, a1), reduce_300(a1))
+Event sent to agent      a1 prohibition(at(6, 6, a1), reduce_300(a1))
+Organization notifies agent (write): Prohibition [agent=a2, prohibition=[at(5, 5, a2)], sanction=[reduce_300(a2)], clock=0, time=Wed Jun 05 10:59:17 BST 2013]
+agent prohibition notification a2 number 1
+Event sent to agent      a2 prohibition(at(5, 5, a2), reduce_300(a2))
+Organization notifies agent (write): Prohibition [agent=a2, prohibition=[at(5, 6, a2)], sanction=[reduce_300(a2)], clock=0, time=Wed Jun 05 10:59:19 BST 2013]
+agent prohibition notification a2 number 2
+Event processed aprohibition(at(5, 5, a2), reduce_300(a2))
+Event processed aprohibition(at(5, 5, a1), reduce_300(a1))
+Event processed aprohibition(at(5, 6, a1), reduce_300(a1))
+Event processed aprohibition(at(6, 5, a1), reduce_300(a1))
+Event processed aprohibition(at(5, 5, a1), reduce_300(a1))
+Event processed aprohibition(at(5, 6, a1), reduce_300(a1))
+Event processed aprohibition(at(6, 5, a1), reduce_300(a1))
+Event processed aprohibition(at(6, 6, a1), reduce_300(a1))
+Event sent to agent      a2 prohibition(at(5, 5, a2), reduce_300(a2))
+Event sent to agent      a2 prohibition(at(5, 6, a2), reduce_300(a2))
+Organization notifies agent (write): Prohibition [agent=a2, prohibition=[at(6, 5, a2)], sanction=[reduce_300(a2)], clock=0, time=Wed Jun 05 10:59:19 BST 2013]
+agent prohibition notification a2 number 3
+Event sent to agent      a2 prohibition(at(5, 5, a2), reduce_300(a2))
+Event sent to agent      a2 prohibition(at(5, 6, a2), reduce_300(a2))
+Event sent to agent      a2 prohibition(at(6, 5, a2), reduce_300(a2))
+Organization notifies agent (write): Prohibition [agent=a2, prohibition=[at(6, 6, a2)], sanction=[reduce_300(a2)], clock=0, time=Wed Jun 05 10:59:20 BST 2013]
+agent prohibition notification a2 number 4
+Event processed aprohibition(at(5, 5, a2), reduce_300(a2))
+Event processed aprohibition(at(5, 6, a2), reduce_300(a2))
+Event processed aprohibition(at(5, 5, a2), reduce_300(a2))
+Event processed aprohibition(at(5, 6, a2), reduce_300(a2))
+Event processed aprohibition(at(6, 5, a2), reduce_300(a2))
+Event sent to agent      a2 prohibition(at(5, 5, a2), reduce_300(a2))
+Event sent to agent      a2 prohibition(at(5, 6, a2), reduce_300(a2))
+Event sent to agent      a2 prohibition(at(6, 5, a2), reduce_300(a2))
+Event sent to agent      a2 prohibition(at(6, 6, a2), reduce_300(a2))
+Organization notifies agent (write): Prohibition [agent=a3, prohibition=[at(5, 5, a3)], sanction=[reduce_300(a3)], clock=0, time=Wed Jun 05 10:59:21 BST 2013]
+agent prohibition notification a3 number 1
+Event processed aprohibition(at(5, 5, a2), reduce_300(a2))
+Event processed aprohibition(at(5, 6, a2), reduce_300(a2))
+Event processed aprohibition(at(6, 5, a2), reduce_300(a2))
+Event processed aprohibition(at(6, 6, a2), reduce_300(a2))
+Event sent to agent      a3 prohibition(at(5, 5, a3), reduce_300(a3))
+Organization notifies agent (write): Prohibition [agent=a3, prohibition=[at(5, 6, a3)], sanction=[reduce_300(a3)], clock=0, time=Wed Jun 05 10:59:22 BST 2013]
+agent prohibition notification a3 number 2
+Event processed aprohibition(at(5, 5, a3), reduce_300(a3))
+Event sent to agent      a3 prohibition(at(5, 5, a3), reduce_300(a3))
+Event sent to agent      a3 prohibition(at(5, 6, a3), reduce_300(a3))
+Organization notifies agent (write): Prohibition [agent=a3, prohibition=[at(6, 5, a3)], sanction=[reduce_300(a3)], clock=0, time=Wed Jun 05 10:59:23 BST 2013]
+agent prohibition notification a3 number 3
+Event processed aprohibition(at(5, 5, a3), reduce_300(a3))
+Event processed aprohibition(at(5, 6, a3), reduce_300(a3))
+Event sent to agent      a3 prohibition(at(5, 5, a3), reduce_300(a3))
+Event sent to agent      a3 prohibition(at(5, 6, a3), reduce_300(a3))
+Event sent to agent      a3 prohibition(at(6, 5, a3), reduce_300(a3))
+Organization notifies agent (write): Prohibition [agent=a3, prohibition=[at(6, 6, a3)], sanction=[reduce_300(a3)], clock=0, time=Wed Jun 05 10:59:24 BST 2013]
+agent prohibition notification a3 number 4
+Event processed aprohibition(at(5, 5, a3), reduce_300(a3))
+Event processed aprohibition(at(5, 6, a3), reduce_300(a3))
+Event processed aprohibition(at(6, 5, a3), reduce_300(a3))
+Event sent to agent      a3 prohibition(at(5, 5, a3), reduce_300(a3))
+Event sent to agent      a3 prohibition(at(5, 6, a3), reduce_300(a3))
+Event sent to agent      a3 prohibition(at(6, 5, a3), reduce_300(a3))
+Event sent to agent      a3 prohibition(at(6, 6, a3), reduce_300(a3))
+Event processed aprohibition(at(5, 5, a3), reduce_300(a3))
+Event processed aprohibition(at(5, 6, a3), reduce_300(a3))
+Event processed aprohibition(at(6, 5, a3), reduce_300(a3))
+Event processed aprohibition(at(6, 6, a3), reduce_300(a3))
+org coin notification

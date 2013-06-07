@@ -1,0 +1,135 @@
+test2.
+Service Registrar: 15d7a9b8-ce1e-4e74-b4a6-252d9fc5cdd4
+Java Space found.
+TransactionManager found.
+register a1
+register a2
+register a3
+register c1
+register t1
+org position notification
+Organization notifies agent (write): Obligation [agent=a1, obligation=[makeReading(8, 6)], sanction=[reduce_400(a1)], deadline=50, time=Tue Jun 04 16:11:47 BST 2013, clock=0]
+Organization notifies agent (write): Obligation [agent=a1, obligation=[makeReading(16, 6)], sanction=[reduce_400(a1)], deadline=50, time=Tue Jun 04 16:11:48 BST 2013, clock=0]
+2
+a1 agent obligation notification
+Organization notifies agent (write): Obligation [agent=a1, obligation=[makeReading(3, 9)], sanction=[reduce_400(a1)], deadline=50, time=Tue Jun 04 16:11:49 BST 2013, clock=0]
+Event sent to agent      a1 obligation(makeReading(16, 6), 50, reduce_400(a1))
+Event processed adoptObligation(makeReading(16, 6), 50, reduce_400(a1))
+Organization notifies agent (write): Obligation [agent=a2, obligation=[makeReading(8, 6)], sanction=[reduce_400(a2)], deadline=50, time=Tue Jun 04 16:11:49 BST 2013, clock=0]
+Organization notifies agent (write): Obligation [agent=a2, obligation=[makeReading(16, 6)], sanction=[reduce_400(a2)], deadline=50, time=Tue Jun 04 16:11:51 BST 2013, clock=0]
+Organization notifies agent (write): Obligation [agent=a2, obligation=[makeReading(3, 9)], sanction=[reduce_400(a2)], deadline=50, time=Tue Jun 04 16:11:52 BST 2013, clock=0]
+Organization notifies agent (write): Obligation [agent=a3, obligation=[makeReading(8, 6)], sanction=[reduce_400(a3)], deadline=50, time=Tue Jun 04 16:11:52 BST 2013, clock=0]
+3
+a1 agent obligation notification
+Event sent to agent      a1 obligation(makeReading(3, 9), 50, reduce_400(a1))
+3
+a2 agent obligation notification
+Organization notifies agent (write): Obligation [agent=a3, obligation=[makeReading(16, 6)], sanction=[reduce_400(a3)], deadline=50, time=Tue Jun 04 16:11:53 BST 2013, clock=0]
+Event sent to agent      a2 obligation(makeReading(3, 9), 50, reduce_400(a2))
+2
+a3 agent obligation notification
+Event processed adoptObligation(makeReading(3, 9), 50, reduce_400(a1))
+Event processed adoptObligation(makeReading(3, 9), 50, reduce_400(a2))
+Event sent to agent      a3 obligation(makeReading(16, 6), 50, reduce_400(a3))
+Organization notifies agent (write): Obligation [agent=a3, obligation=[makeReading(3, 9)], sanction=[reduce_400(a3)], deadline=50, time=Tue Jun 04 16:11:55 BST 2013, clock=0]
+3
+a3 agent obligation notification
+Event processed adoptObligation(makeReading(16, 6), 50, reduce_400(a3))
+Event sent to agent      a3 obligation(makeReading(3, 9), 50, reduce_400(a3))
+Organization notifies agent (write): Prohibition [agent=t1, prohibition=[at(5, 5, t1)], sanction=[reduce_300(t1)], clock=0, time=Tue Jun 04 16:11:55 BST 2013]
+Organization notifies agent (write): Prohibition [agent=t1, prohibition=[at(5, 6, t1)], sanction=[reduce_300(t1)], clock=0, time=Tue Jun 04 16:11:55 BST 2013]
+1
+t1 agent prohibition notification
+Organization notifies agent (write): Prohibition [agent=t1, prohibition=[at(6, 5, t1)], sanction=[reduce_300(t1)], clock=0, time=Tue Jun 04 16:11:55 BST 2013]
+Event processed adoptObligation(makeReading(3, 9), 50, reduce_400(a3))
+Event sent to agent      t1 prohibition(at(6, 5, t1), reduce_300(t1))
+3
+t1 agent prohibition notification
+Event processed aprohibition(at(6, 5, t1), reduce_300(t1))
+Organization notifies agent (write): Prohibition [agent=t1, prohibition=[at(6, 6, t1)], sanction=[reduce_300(t1)], clock=0, time=Tue Jun 04 16:11:56 BST 2013]
+Event sent to agent      t1 prohibition(at(6, 6, t1), reduce_300(t1))
+4
+t1 agent prohibition notification
+Event processed aprohibition(at(6, 6, t1), reduce_300(t1))
+Event sent to agent      t1 prohibition(at(6, 6, t1), reduce_300(t1))
+Event processed aprohibition(at(6, 6, t1), reduce_300(t1))
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(5, 5, a1)], sanction=[reduce_300(c1)], clock=0, time=Tue Jun 04 16:11:59 BST 2013]
+1
+c1 agent prohibition notification
+Event sent to agent      c1 prohibition(coin(5, 5, a1), reduce_300(c1))
+Event processed aprohibition(coin(5, 5, a1), reduce_300(c1))
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(5, 6, a1)], sanction=[reduce_300(c1)], clock=0, time=Tue Jun 04 16:12:00 BST 2013]
+2
+c1 agent prohibition notification
+Event sent to agent      c1 prohibition(coin(5, 6, a1), reduce_300(c1))
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(6, 5, a1)], sanction=[reduce_300(c1)], clock=0, time=Tue Jun 04 16:12:00 BST 2013]
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(6, 6, a1)], sanction=[reduce_300(c1)], clock=0, time=Tue Jun 04 16:12:00 BST 2013]
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(5, 5, a2)], sanction=[reduce_300(c1)], clock=0, time=Tue Jun 04 16:12:00 BST 2013]
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(5, 6, a2)], sanction=[reduce_300(c1)], clock=0, time=Tue Jun 04 16:12:00 BST 2013]
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(6, 5, a2)], sanction=[reduce_300(c1)], clock=0, time=Tue Jun 04 16:12:00 BST 2013]
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(6, 6, a2)], sanction=[reduce_300(c1)], clock=0, time=Tue Jun 04 16:12:00 BST 2013]
+8
+c1 agent prohibition notification
+Event processed aprohibition(coin(5, 6, a1), reduce_300(c1))
+Event sent to agent      c1 prohibition(coin(6, 6, a2), reduce_300(c1))
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(5, 5, a3)], sanction=[reduce_300(c1)], clock=0, time=Tue Jun 04 16:12:01 BST 2013]
+9
+c1 agent prohibition notification
+Event processed aprohibition(coin(6, 6, a2), reduce_300(c1))
+Event sent to agent      c1 prohibition(coin(5, 5, a3), reduce_300(c1))
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(5, 6, a3)], sanction=[reduce_300(c1)], clock=0, time=Tue Jun 04 16:12:02 BST 2013]
+10
+c1 agent prohibition notification
+Event processed aprohibition(coin(5, 5, a3), reduce_300(c1))
+Event sent to agent      c1 prohibition(coin(5, 6, a3), reduce_300(c1))
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(6, 5, a3)], sanction=[reduce_300(c1)], clock=0, time=Tue Jun 04 16:12:03 BST 2013]
+11
+c1 agent prohibition notification
+Event processed aprohibition(coin(5, 6, a3), reduce_300(c1))
+Event sent to agent      c1 prohibition(coin(6, 5, a3), reduce_300(c1))
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(6, 6, a3)], sanction=[reduce_300(c1)], clock=0, time=Tue Jun 04 16:12:04 BST 2013]
+12
+c1 agent prohibition notification
+Event processed aprohibition(coin(6, 5, a3), reduce_300(c1))
+Event sent to agent      c1 prohibition(coin(6, 6, a3), reduce_300(c1))
+Event processed aprohibition(coin(6, 6, a3), reduce_300(c1))
+Organization notifies agent (write): Prohibition [agent=a1, prohibition=[at(5, 5, a1)], sanction=[reduce_300(a1)], clock=0, time=Tue Jun 04 16:12:07 BST 2013]
+1
+a1 agent prohibition notification
+Event sent to agent      a1 prohibition(at(5, 5, a1), reduce_300(a1))
+Organization notifies agent (write): Prohibition [agent=a1, prohibition=[at(5, 6, a1)], sanction=[reduce_300(a1)], clock=0, time=Tue Jun 04 16:12:08 BST 2013]
+2
+a1 agent prohibition notification
+Event processed aprohibition(at(5, 5, a1), reduce_300(a1))
+Event sent to agent      a1 prohibition(at(5, 6, a1), reduce_300(a1))
+Organization notifies agent (write): Prohibition [agent=a1, prohibition=[at(6, 5, a1)], sanction=[reduce_300(a1)], clock=0, time=Tue Jun 04 16:12:09 BST 2013]
+Organization notifies agent (write): Prohibition [agent=a1, prohibition=[at(6, 6, a1)], sanction=[reduce_300(a1)], clock=0, time=Tue Jun 04 16:12:09 BST 2013]
+Organization notifies agent (write): Prohibition [agent=a2, prohibition=[at(5, 5, a2)], sanction=[reduce_300(a2)], clock=0, time=Tue Jun 04 16:12:09 BST 2013]
+Organization notifies agent (write): Prohibition [agent=a2, prohibition=[at(5, 6, a2)], sanction=[reduce_300(a2)], clock=0, time=Tue Jun 04 16:12:09 BST 2013]
+Organization notifies agent (write): Prohibition [agent=a2, prohibition=[at(6, 5, a2)], sanction=[reduce_300(a2)], clock=0, time=Tue Jun 04 16:12:09 BST 2013]
+Organization notifies agent (write): Prohibition [agent=a2, prohibition=[at(6, 6, a2)], sanction=[reduce_300(a2)], clock=0, time=Tue Jun 04 16:12:09 BST 2013]
+4
+a1 agent prohibition notification
+Event processed aprohibition(at(5, 6, a1), reduce_300(a1))
+Event sent to agent      a1 prohibition(at(6, 6, a1), reduce_300(a1))
+Organization notifies agent (write): Prohibition [agent=a3, prohibition=[at(5, 5, a3)], sanction=[reduce_300(a3)], clock=0, time=Tue Jun 04 16:12:09 BST 2013]
+Organization notifies agent (write): Prohibition [agent=a3, prohibition=[at(5, 6, a3)], sanction=[reduce_300(a3)], clock=0, time=Tue Jun 04 16:12:09 BST 2013]
+4
+a2 agent prohibition notification
+Event sent to agent      a2 prohibition(at(6, 6, a2), reduce_300(a2))
+2
+a3 agent prohibition notification
+Event processed aprohibition(at(6, 6, a1), reduce_300(a1))
+Event processed aprohibition(at(6, 6, a2), reduce_300(a2))
+Organization notifies agent (write): Prohibition [agent=a3, prohibition=[at(6, 5, a3)], sanction=[reduce_300(a3)], clock=0, time=Tue Jun 04 16:12:10 BST 2013]
+Event sent to agent      a3 prohibition(at(6, 5, a3), reduce_300(a3))
+3
+a3 agent prohibition notification
+Organization notifies agent (write): Prohibition [agent=a3, prohibition=[at(6, 6, a3)], sanction=[reduce_300(a3)], clock=0, time=Tue Jun 04 16:12:11 BST 2013]
+Event processed aprohibition(at(6, 5, a3), reduce_300(a3))
+Event sent to agent      a3 prohibition(at(6, 6, a3), reduce_300(a3))
+4
+a3 agent prohibition notification
+Event processed aprohibition(at(6, 6, a3), reduce_300(a3))
+Event sent to agent      a3 prohibition(at(6, 6, a3), reduce_300(a3))
+Event processed aprohibition(at(6, 6, a3), reduce_300(a3))
