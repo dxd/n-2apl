@@ -1,4 +1,4 @@
-package envJavaSpace;
+/*package envJavaSpace;
 
 import java.awt.Point;
 
@@ -30,3 +30,4 @@ public class Tuple implements Entry {
 		return "tuple("+str+","+pointStr+","+i+").";
 	}
 }
+*/
