@@ -1,0 +1,9 @@
+test2.
+Service Registrar: c8b027cf-46ec-4b6a-b63f-618f7ba5883f
+Java Space found.
+TransactionManager found.
+-------------------------last log tuples start--------------------------------
+-------------------------last log tuples end----------------------------------
+test.
+Lookup locator: jini://kafka.cs.nott.ac.uk/
+Service Registrar: c8b027cf-46ec-4b6a-b63f-618f7ba5883f
