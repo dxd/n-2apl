@@ -17,7 +17,7 @@ import apapl.SubstList;
 /**
  * An abstract action.
  */
-public class AbstractAction extends Plan implements Callable<PlanResult>
+public class AbstractAction extends Plan
 {
 	private APLFunction plan;
 	
@@ -128,12 +128,5 @@ public class AbstractAction extends Plan implements Callable<PlanResult>
 		return new APLIdent("abstractaction");
 	}
 
-
-
-	@Override
-	public PlanResult call() throws Exception {
-		// TODO Auto-generated method stub
-		return null;
-	}
 	
 }

@@ -75,9 +75,9 @@ public class SpaceTest  extends Environment implements ExternalTool{
 		System.setSecurityManager(new RMISecurityManager());
 		LookupLocator ll = null; 
 		try { 
-			ll = new LookupLocator("jini://kafka.cs.nott.ac.uk"); 
+			//ll = new LookupLocator("jini://kafka.cs.nott.ac.uk"); 
 			//ll = new LookupLocator("jini://localhost"); 
-			//ll = new LookupLocator("jini://10.154.154.26");
+			ll = new LookupLocator("jini://10.154.154.26");
 			//ll = new LookupLocator("jini://192.168.0.5"); 
 		} catch (MalformedURLException e) { 
 			

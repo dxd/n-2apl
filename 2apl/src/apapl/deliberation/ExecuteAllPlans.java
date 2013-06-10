@@ -34,7 +34,7 @@ public class ExecuteAllPlans implements DeliberationStep
 
 		ArrayList<PlanSeq> toRemove = new ArrayList<PlanSeq>();
 		
-		ArrayList<PlanResult> eaResults = executeEA(planbase, module.getAtomic());
+		ArrayList<PlanResult> eaResults = executeEA(planbase, module);
 	
 		for (PlanResult p : eaResults) {
 			result.addPlanResult(p);
@@ -105,11 +105,12 @@ public class ExecuteAllPlans implements DeliberationStep
 	}
 
 	
-	private ArrayList<PlanResult> executeEA(Planbase planbase, PlanSeq planSeq) {
-		ArrayList<AbstractAction> aa = new ArrayList<AbstractAction>();
+	private ArrayList<PlanResult> executeEA(Planbase planbase, APLModule module) {
+		ArrayList<ExternalAction> ea = new ArrayList<ExternalAction>();
+		ArrayList<PlanResult> results = new ArrayList<PlanResult>();
 		for (PlanSeq ps : planbase) 
 		{
-			if (ps.isAtomic() && planSeq != ps)
+			if (ps.isAtomic() && module.getAtomic() != ps)
 				continue;
 			 if (ps.getProhibited())
 				continue;
@@ -119,16 +120,17 @@ public class ExecuteAllPlans implements DeliberationStep
 			if (plans.size() > 0)
 			{ Plan p = plans.getFirst();
 				if (p instanceof ExternalAction) {
-					aa.add((AbstractAction) p);
-					plans.removeFirst();
+					((ExternalAction) p).setModule(module);
+					ea.add((ExternalAction) p);
+					//plans.remove(p);
 				}
 			}
 		}
-		if (aa.size() > 0) {
-			ExecutorService executor = Executors.newFixedThreadPool(aa.size());
+		if (ea.size() > 0) {
+			ExecutorService executor = Executors.newFixedThreadPool(ea.size());
 			List<Future<PlanResult>> list = new ArrayList<Future<PlanResult>>();
-			ArrayList<PlanResult> results = new ArrayList<PlanResult>();
-			for (AbstractAction a : aa) {
+			
+			for (ExternalAction a : ea) {
 				 Callable<PlanResult> worker = a;
 			      Future<PlanResult> submit = executor.submit(worker);
 			      list.add(submit);
@@ -145,7 +147,8 @@ public class ExecuteAllPlans implements DeliberationStep
 			   
 			    executor.shutdown();
 		}
-		return null;
+		
+		return results;
 	}
 
 

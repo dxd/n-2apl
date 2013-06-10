@@ -11,9 +11,11 @@ import apapl.data.APLVar;
 import apapl.data.APLList;
 import apapl.APLModule;
 import apapl.SubstList;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Vector;
+import java.util.concurrent.Callable;
 import java.lang.reflect.Method;
 
 import eis.EnvironmentInterfaceStandard;
@@ -27,7 +29,7 @@ import eis.iilang.Percept;
 /**
  * An external action.
  */
-public class ExternalAction extends Plan {
+public class ExternalAction extends Plan implements Callable<PlanResult> {
     private String env;
     private APLFunction action;
     private APLVar result;
@@ -36,6 +38,8 @@ public class ExternalAction extends Plan {
     private long firstExecuteTime = -1;
 
     private boolean eisDebug = false;
+    
+    private APLModule module;
     
     public ExternalAction(String env, APLFunction action, APLVar result) {
         this(env, action, result, new APLNum(0));
@@ -378,6 +382,19 @@ public class ExternalAction extends Plan {
     public Term getPlanDescriptor() {
         return new APLFunction("externalaction", new APLIdent(env), action, result, timeoutTerm);
     }
+
+	@Override
+	public PlanResult call() throws Exception {
+		return execute(module);
+	}
+
+	public APLModule getModule() {
+		return module;
+	}
+
+	public void setModule(APLModule module) {
+		this.module = module;
+	}
 
 
 }
