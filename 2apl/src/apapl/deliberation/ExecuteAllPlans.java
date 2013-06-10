@@ -4,6 +4,7 @@ import apapl.*;
 import apapl.program.*;
 import apapl.data.APLFunction;
 import apapl.plans.*;
+
 import java.util.*;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
@@ -33,7 +34,11 @@ public class ExecuteAllPlans implements DeliberationStep
 
 		ArrayList<PlanSeq> toRemove = new ArrayList<PlanSeq>();
 		
+		ArrayList<PlanResult> eaResults = executeEA(planbase, module.getAtomic());
 	
+		for (PlanResult p : eaResults) {
+			result.addPlanResult(p);
+		}
 		
 		for (PlanSeq ps : planbase) 
 		{	// If the goal is still a goal of the module, execute the first plan of
@@ -98,34 +103,52 @@ public class ExecuteAllPlans implements DeliberationStep
 
 		return( result );
 	}
-	private void findAA(){
-		
-	}
-	
-	public void threading() {
-		 ExecutorService executor = Executors.newFixedThreadPool(3);
-		    List<Future<PlanResult>> list = new ArrayList<Future<PlanResult>>();
-		    for (int i = 0; i < abstractActions.size(); i++) {
-		      Callable<PlanResult> worker = abstractActions.get(i);
-		      abstractActions.remove(i);
-		      Future<PlanResult> submit = executor.submit(worker);
-		      list.add(submit);
-		    }
 
-		    //System.out.println(list.size());
-		    // Now retrieve the result
-		    for (Future<PlanResult> future : list) {
-		      try {
-		        future.get();
-		      } catch (InterruptedException e) {
-		        e.printStackTrace();
-		      } catch (ExecutionException e) {
-		        e.printStackTrace();
-		      }
-		    }
-		   
-		    executor.shutdown();
+	
+	private ArrayList<PlanResult> executeEA(Planbase planbase, PlanSeq planSeq) {
+		ArrayList<AbstractAction> aa = new ArrayList<AbstractAction>();
+		for (PlanSeq ps : planbase) 
+		{
+			if (ps.isAtomic() && planSeq != ps)
+				continue;
+			 if (ps.getProhibited())
+				continue;
+			 
+			LinkedList<Plan> plans = ps.getPlans();
+
+			if (plans.size() > 0)
+			{ Plan p = plans.getFirst();
+				if (p instanceof ExternalAction) {
+					aa.add((AbstractAction) p);
+					plans.removeFirst();
+				}
+			}
+		}
+		if (aa.size() > 0) {
+			ExecutorService executor = Executors.newFixedThreadPool(aa.size());
+			List<Future<PlanResult>> list = new ArrayList<Future<PlanResult>>();
+			ArrayList<PlanResult> results = new ArrayList<PlanResult>();
+			for (AbstractAction a : aa) {
+				 Callable<PlanResult> worker = a;
+			      Future<PlanResult> submit = executor.submit(worker);
+			      list.add(submit);
+			}
+			 for (Future<PlanResult> future : list) {
+			      try {
+			        results.add(future.get());
+			      } catch (InterruptedException e) {
+			        e.printStackTrace();
+			      } catch (ExecutionException e) {
+			        e.printStackTrace();
+			      }
+			    }
+			   
+			    executor.shutdown();
+		}
+		return null;
 	}
+
+
 	public String toString()
 	{
 		return "Execute Plans";
