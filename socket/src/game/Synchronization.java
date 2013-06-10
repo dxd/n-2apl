@@ -22,6 +22,7 @@ import java.util.ArrayList;
 import java.util.Hashtable;
 import java.util.List;
 
+import net.jini.core.lease.Lease;
 import net.jini.core.transaction.TransactionException;
 //import org.json.JSONTokener;
 
@@ -352,23 +353,23 @@ public class Synchronization {
 			for (int i=0; i<jspace.agents.length;i++) {
 				JSpace.space.notify(new Position(jspace.agents[i]), null,
 						new NotificationHandler(this),
-						3000000,
+						Lease.FOREVER,
 						new MarshalledObject(new String[]{"position", jspace.agents[i]}));
 				JSpace.space.notify(new ActionRequest(jspace.agents[i],"reading"), null,
 						new NotificationHandler(this),
-						3000000,
+						Lease.FOREVER,
 						new MarshalledObject(new String[]{"makeReading", jspace.agents[i]}));
 				JSpace.space.notify(new ActionRequest(jspace.agents[i],"investigation"), null,
 						new NotificationHandler(this),
-						3000000,
+						Lease.FOREVER,
 						new MarshalledObject(new String[]{"makeInvestigation", jspace.agents[i]}));
 				JSpace.space.notify(new tuplespace.Coin(jspace.agents[i]), null,
 						new NotificationHandler(this),
-						3000000,
+						Lease.FOREVER,
 						new MarshalledObject(new String[]{"coin", jspace.agents[i]}));
 				JSpace.space.notify(new tuplespace.Points(jspace.agents[i]), null,
 						new NotificationHandler(this),
-						3000000,
+						Lease.FOREVER,
 						new MarshalledObject(new String[]{"points", jspace.agents[i]}));
 			}
 			JSpace.space.notify(new tuplespace.Cargo(), null,

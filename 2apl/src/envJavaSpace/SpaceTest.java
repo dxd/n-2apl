@@ -694,19 +694,19 @@ public class SpaceTest  extends Environment implements ExternalTool{
 			handler = new AgentHandler(this, agent);
 			space.notify(new Prohibition(agent), null,
 			        handler,
-			        3000000,
+			        Lease.FOREVER,
 			        new MarshalledObject<Object>(new String("prohibition")));
 			space.notify(new Obligation(agent), null,
 			        handler,
-			        3000000,
+			        Lease.FOREVER,
 			        new MarshalledObject<Object>(new String("obligation")));
 			space.notify(new Points(agent), null,
 			        handler,
-			        3000000,
+			        Lease.FOREVER,
 			        new MarshalledObject<Object>(new String("points")));
 			space.notify(new Reading(agent), null,
 			        handler,
-			        3000000,
+			        Lease.FOREVER,
 			        new MarshalledObject<Object>(new String("reading")));
 
 		} catch (RemoteException e) {
@@ -858,19 +858,19 @@ public class SpaceTest  extends Environment implements ExternalTool{
 			for (int i=0; i<agents.length;i++) {
 				space.notify(new Position(agents[i]), null,
 						handler,
-						3000000,
+						Lease.FOREVER,
 						new MarshalledObject(new String[]{"position",agents[i]}));
 				space.notify(new Coin(agents[i]), null,
 						handler,
-						3000000,
+						Lease.FOREVER,
 						new MarshalledObject(new String[]{"coin",agents[i]}));
 				space.notify(new Reading(agents[i]), null,
 						handler,
-						3000000,
+						Lease.FOREVER,
 						new MarshalledObject(new String[]{"reading",agents[i]}));
 				space.notify(new Points(agents[i]), null,
 						handler,
-						3000000,
+						Lease.FOREVER,
 						new MarshalledObject(new String[]{"points",agents[i]}));
 			}
 			space.notify(new Cargo(), null,
