@@ -11,8 +11,8 @@ Beliefs:
   clock(0).
   
 Goals:
-  at(2,2) :: 2000 >> 3,
-  dropLoad :: 2000 >> 3
+  at(2,2) :: 2000 >> 3
+  //dropLoad :: 2000 >> 3
  
 
 PG-rules:

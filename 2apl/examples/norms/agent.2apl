@@ -9,14 +9,15 @@ PC-rules:
 moveTo(X,Y) <- position(X2,Y2) and Y2 < Y and raise(Y2,NewY) | { 
     updatePos(X2,NewY); moveTo(X,Y)
 }
-moveTo(X,Y) <- position(X2,Y2) and X2 < X and raise(X2,NewX) | { 
-    updatePos(NewX,Y2); moveTo(X,Y)
-}
+
 moveTo(X,Y) <- position(X2,Y2) and X2 > X and lower(X2,NewX) | { 
     updatePos(NewX,Y2); moveTo(X,Y)
 }
 moveTo(X,Y) <- position(X2,Y2) and Y2 > Y and lower(Y2,NewY) | { 
     updatePos(X2,NewY); moveTo(X,Y)
+}
+moveTo(X,Y) <- position(X2,Y2) and X2 < X and raise(X2,NewX) | { 
+    updatePos(NewX,Y2); moveTo(X,Y)
 }
 moveTo(X,Y) <- position(X,Y) | { skip }
 
@@ -29,8 +30,6 @@ updatePos(NewX,NewY) <- position(X,Y) | {
     @space(write(status(position(NewX,NewY),Clock),-1),_)
 } 
 
-
-
 event(obligation(Goal,Deadline,Sanction),space) <- true | {
    adoptObligation(Goal, Deadline, Sanction)
 }
@@ -38,7 +37,6 @@ event(obligation(Goal,Deadline,Sanction),space) <- true | {
 event(prohibition(State,Sanction),space) <- true | {
     aprohibition(State,Sanction)
 }
-
 
 aprohibition(at(X,Y,_), reduce_100(_)) <- true | {
     adoptprohibition(position(X,Y) -> reduce_100)
