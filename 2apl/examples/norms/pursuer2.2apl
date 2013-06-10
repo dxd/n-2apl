@@ -30,24 +30,24 @@ at(X,Y) <- true | {
 
 makeReading <- position(X,Y) | {
 
-   readingP(X,Y); 
-    dropgoal(makeReading)
+   [readingP(X,Y); 
+    dropgoal(makeReading)]
     
 } : 1
 
 reading(X,Y) <- true | {
 
-   moveTo(X,Y); 
+   [moveTo(X,Y); 
    readingP(X,Y);
-   dropgoal(reading(X,Y))
+   dropgoal(reading(X,Y))]
     
 } : 1
 
 makeReading(X,Y) <- true | {
 
-    moveTo(X,Y);
+    [moveTo(X,Y);
    readingP(X,Y); 
-   dropgoal(makeReading(X,Y))
+   dropgoal(makeReading(X,Y))]
     
 } : 1
 
