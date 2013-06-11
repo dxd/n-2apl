@@ -21,9 +21,12 @@ moveTo(X,Y) <- position(X2,Y2) and Y2 > Y and lower(Y2,NewY) | {
 moveTo(X,Y) <- position(X,Y) | { skip }
 
 updatePos(NewX,NewY) <- position(X,Y) | {
-    B(points(Points));
+    
     @space(clock(),R);
     B(R=[actionresult(Clock)]);
+    //@space(read(points(Clock),-1),V);
+    //B(V=[actionresult(Points)]);
+    B(points(Points));
     UpdateClock(Clock);
     UpdateStatus(NewX,NewY,Points);
     @space(write(status(position(NewX,NewY),Clock),-1),_)
@@ -202,19 +205,19 @@ aprohibition(cargo(A), reduce_500(_)) <- true | {
 }
 
 
-aprohibition(reading(X,Y,_,_,_), reduce_100(_)) <- true | {
+aprohibition(makeReading(X,Y,_), reduce_100(_)) <- true | {
     adoptprohibition(reading(X,Y) -> reduce_100)
 }
-aprohibition(reading(X,Y,_,_,_), reduce_200(_)) <- true | {
+aprohibition(makeReading(X,Y,_), reduce_200(_)) <- true | {
     adoptprohibition(reading(X,Y) -> reduce_200)
 }
-aprohibition(reading(X,Y,_,_,_), reduce_300(_)) <- true | {
+aprohibition(makeReading(X,Y,_), reduce_300(_)) <- true | {
     adoptprohibition(reading(X,Y) -> reduce_300)
 }
-aprohibition(reading(X,Y,_,_,_), reduce_400(_)) <- true | {
+aprohibition(makeReading(X,Y,_), reduce_400(_)) <- true | {
     adoptprohibition(reading(X,Y) -> reduce_400)
 }
-aprohibition(reading(X,Y,_,_,_), reduce_500(_)) <- true | {
+aprohibition(makeReading(X,Y,_), reduce_500(_)) <- true | {
     adoptprohibition(reading(X,Y) -> reduce_500)
 }
 

@@ -39,35 +39,35 @@ public class NotificationHandler extends UnicastRemoteObject implements RemoteEv
                  //              anEvent.getRegistrationObject().get());
             
         	if (type[0].equals("position")) {
-            	System.out.println("position notification " + type[1]);
+            	System.out.println("game position notification " + type[1]);
             	//synchro.update.UpdatePosition((Position) synchro.jspace.readUpdate(new Position(type[1])));
             	//System.out.println("position posting");
             	r = synchro.jspace.readUpdate(new Position(type[1]), timestamps.get(pair) != null?timestamps.get(pair):new Timestamp(0),newTime);
             	synchro.postLocations(r);
             }
         	else if (type[0].equals("makeReading")) {
-            	System.out.println("reading request notification " + type[1]);
+            	System.out.println("game reading request notification " + type[1]);
             	
             	//synchro.update.ActionRequests(synchro.jspace.readReadingRequests(null));
             	r = synchro.jspace.readUpdate(new ActionRequest(type[1],"reading"), timestamps.get(pair) != null?timestamps.get(pair):new Timestamp(0),newTime);
             	synchro.getReadings(r);
             }
         	else if (type[0].equals("makeInvestigation")) {
-            	System.out.println("reading request notification " + type[1]);
+            	System.out.println("game reading request notification " + type[1]);
             	
             	//synchro.update.ActionRequests(synchro.jspace.readReadingRequests(null));
             	r = synchro.jspace.readUpdate(new ActionRequest(type[1],"investigation"), timestamps.get(pair) != null?timestamps.get(pair):new Timestamp(0),newTime);
             	synchro.getReadings(r);
             }
             else if (type[0].equals("coin")) {
-            	System.out.println("coin request notification " + type[1]);
+            	System.out.println("game coin request notification " + type[1]);
             	
             	//synchro.update.Coins(synchro.jspace.readRequests(null));
             	r = synchro.jspace.readUpdate(new Coin(type[1]), timestamps.get(pair) != null?timestamps.get(pair):new Timestamp(0),newTime);
             	synchro.postRequests(r);
             }
             else if (type[0].equals("cargo")) {
-            	System.out.println("cargo notification ");
+            	System.out.println("game cargo notification ");
             	
             	//synchro.update.Cargos(synchro.jspace.readCargos(null));
             	//synchro.postCargos();
@@ -75,7 +75,7 @@ public class NotificationHandler extends UnicastRemoteObject implements RemoteEv
             	synchro.postCargos(r);
             }
             else if (type[0].equals("points")) {
-            	System.out.println("points notification " + type[1]);
+            	System.out.println("game points notification " + type[1]);
             	
             	//synchro.update.Points(synchro.jspace.readPoints(null));
             	//synchro.postPoints();

@@ -253,7 +253,7 @@ public class Synchronization {
 		for (TimeEntry t : r)
 		{
 			ActionRequest ar = (ActionRequest)t;
-			if (ar.type == "reading") {
+			if (ar.type.equalsIgnoreCase("reading")) {
 				getReading(ar);
 			}
 			else if (ar.type == "investigation") {
@@ -263,8 +263,9 @@ public class Synchronization {
 	}
 
 	public void getReading(ActionRequest ar) {
+		System.out.println(ar);
 		LatLng latlng = Game.gridToLocation(ar.getCell());
-		ReadingResponse rr = getReading(ar.getId(), latlng);
+		ReadingResponse rr = getReading(status.getPlayerId(ar.agent), latlng);
 		
 		jspace.writeReading(new tuplespace.Reading(ar.agent, ar.cell,rr.getDistance()), Start.gs.getClock(), status);
 	}
@@ -375,7 +376,7 @@ public class Synchronization {
 			JSpace.space.notify(new tuplespace.Cargo(), null,
 					new NotificationHandler(this),
 					3000000,
-					new MarshalledObject(new String[]{"cargo"}));
+					new MarshalledObject(new String[]{"cargo","agent"}));
 		} catch (RemoteException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

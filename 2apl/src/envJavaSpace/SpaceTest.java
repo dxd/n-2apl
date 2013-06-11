@@ -438,7 +438,21 @@ public class SpaceTest  extends Environment implements ExternalTool{
 				int pointY = ((APLNum)point.getParams().get(1)).toInt();
 				c = new Cell(pointX,pointY);
 			}
+			System.out.print("from/for agent " + sAgent + "  ");
+			System.out.println(call.toString());
 			return new ActionRequest(sAgent,"reading",c); // Create Tuple
+		}
+		else if(call.getName().equals(TYPE_READING)){ // Prolog format: reading(position(X,Y))
+			Cell c = null;
+			if(call.getParams().get(0) instanceof APLFunction){ // null is APLIdent  
+				APLFunction point = (APLFunction) call.getParams().get(0); // Get the point coordinations TODO: type check the arguments
+				int pointX = ((APLNum)point.getParams().get(0)).toInt(); // Get the position
+				int pointY = ((APLNum)point.getParams().get(1)).toInt();
+				c = new Cell(pointX,pointY);
+			}
+			System.out.print("from/for agent " + sAgent + "  ");
+			System.out.println(call.toString());
+			return new Reading(sAgent,c); // Create Tuple
 		}
 		else if(call.getName().equals(TYPE_COIN)){ // Prolog format: coin(position(X,Y),Clock,Agent)
 			//System.out.println("create entry coin "+call.getParams().toString());
@@ -473,12 +487,12 @@ public class SpaceTest  extends Environment implements ExternalTool{
 		else if(call.getName().equals(TYPE_POINTS)){ //points(Agent,Now,NewHealth)
 			//System.out.println("create entry points "+call.getParams().toString());
 			
-			Integer clock = null; // if health is null (which is ident) it stays also in java null
-			if(call.getParams().get(1) instanceof APLNum) clock = ((APLNum)call.getParams().get(1)).toInt(); // The health meter
-			Integer health = null; // if health is null (which is ident) it stays also in java null
-			if(call.getParams().get(2) instanceof APLNum) health = ((APLNum)call.getParams().get(2)).toInt(); // The health meter
+			//Integer clock = null; // if health is null (which is ident) it stays also in java null
+			//if(call.getParams().get(1) instanceof APLNum) clock = ((APLNum)call.getParams().get(1)).toInt(); // The health meter
+			//Integer health = null; // if health is null (which is ident) it stays also in java null
+			//if(call.getParams().get(2) instanceof APLNum) health = ((APLNum)call.getParams().get(2)).toInt(); // The health meter
 		
-			return new Points(sAgent,clock,health); // Create Tuple
+			return new Points(sAgent); // Create Tuple
 		}
 		else if(call.getName().equals(TYPE_PROHIBITION)){ // Prolog format: status(position(1,4),30) 
 			Prohibition p = null;
@@ -533,10 +547,10 @@ public class SpaceTest  extends Environment implements ExternalTool{
 		else if(entry instanceof Reading){ // in case of tuples return reading(name,position(2,4),value,clock)
 			Reading reading = (Reading) entry;   // cast to tuple
 
-			Term posTerm = new APLFunction("position", new Term[]{new APLNum(reading.cell.x),new APLNum(reading.cell.y)}); // get position
+			//Term posTerm = new APLFunction("position", new Term[]{new APLNum(reading.cell.x),new APLNum(reading.cell.y)}); // get position
 
-			return new APLFunction("tuple", new Term[]{new APLIdent(reading.agent),posTerm,new APLNum(reading.value.intValue()),new APLNum(reading.clock)}); // construct result
-			
+			//return new APLFunction("tuple", new Term[]{new APLIdent(reading.agent),posTerm,new APLNum(reading.value.intValue()),new APLNum(reading.clock)}); // construct result
+			return new APLNum(reading.value);
 		} 
 		else if(entry instanceof Obligation){ // in case of tuples return tuple(name,position(2,4),48)
 			Obligation o = (Obligation) entry;   // cast to tuple
@@ -626,13 +640,13 @@ public class SpaceTest  extends Environment implements ExternalTool{
 	public Term read(String sAgent, APLFunction call, APLNum timeOut){
 	
 		try{ 
-			return entryToTerm(space.read(createEntry(sAgent,call), null, timeOut.toInt())); 
+			return entryToTerm(space.read(createEntry(sAgent,call), null, Lease.FOREVER)); 
 		} catch(Exception e){ e.printStackTrace(); return new APLIdent("null"); }
 	}
 	
 	public Term readIfExists(String sAgent, APLFunction call, APLNum timeOut){
 		try{ 
-			return entryToTerm(space.readIfExists(createEntry(sAgent,call), null, timeOut.toInt())); 
+			return entryToTerm(space.readIfExists(createEntry(sAgent,call), null, Lease.FOREVER)); 
 		} catch(Exception e){ e.printStackTrace(); return new APLIdent("null"); }
 	}
 	
@@ -642,7 +656,7 @@ public class SpaceTest  extends Environment implements ExternalTool{
 	
 	public Term take(String sAgent, APLFunction call, APLNum timeOut){
 		try{ 
-			Term e =  entryToTerm(space.take(createEntry(sAgent,call), null, timeOut.toInt())); 
+			Term e =  entryToTerm(space.take(createEntry(sAgent,call), null, Lease.FOREVER)); 
 			//oopl.handleEvent(ar_state_change, false); // check the norms
 			return e;
 		} catch(Exception e){ e.printStackTrace(); return new APLIdent("null"); }
@@ -650,7 +664,7 @@ public class SpaceTest  extends Environment implements ExternalTool{
 	
 	public Term takeIfExists(String sAgent, APLFunction call, APLNum timeOut){
 		try{ 
-			Term e =  entryToTerm(space.takeIfExists(createEntry(sAgent,call), null, timeOut.toInt())); 
+			Term e =  entryToTerm(space.takeIfExists(createEntry(sAgent,call), null, Lease.FOREVER)); 
 			//if(e!=null)oopl.handleEvent(ar_state_change, false); // check the norms
 			return e;
 		} catch(Exception e){ e.printStackTrace(); return new APLIdent("null"); }
@@ -704,11 +718,7 @@ public class SpaceTest  extends Environment implements ExternalTool{
 			        handler,
 			        Lease.FOREVER,
 			        new MarshalledObject<Object>(new String("points")));
-			space.notify(new Reading(agent), null,
-			        handler,
-			        Lease.FOREVER,
-			        new MarshalledObject<Object>(new String("reading")));
-
+			
 		} catch (RemoteException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

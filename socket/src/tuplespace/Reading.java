@@ -43,6 +43,11 @@ public class Reading implements TimeEntry {
 		this.agent = params[2].toString();
 	}
 	
+	public Reading(String sAgent, Cell c) {
+		this.agent = agent;
+		this.cell = cell;
+	}
+
 	public int[] toArray(DistributedOOPL oopl) {
 		int[] r = new int[21];
 		JL.addPredicate(r,0,oopl.prolog.strStorage.getInt("reading"),4, oopl); // cargo/2

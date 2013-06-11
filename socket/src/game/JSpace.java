@@ -154,6 +154,7 @@ public class JSpace {
 	
 		ArrayList<TimeEntry> t = (ArrayList<TimeEntry>) getAllFromDate(te, date,newTime);
 		System.out.println(te.toString() + " "+date.toString()+" - " + newTime.toString());
+		System.out.println("result size is " + t.size());
 		return t;
 	}
 	

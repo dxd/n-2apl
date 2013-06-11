@@ -26,7 +26,7 @@ dropLoad <- position(X,Y) | {
 
 at(X,Y) <- true | {
 
-   moveTo(X,Y); 
+   moveToTruck(X,Y); 
     dropgoal(at(X,Y))
     
 } : 1
@@ -36,6 +36,7 @@ PC-rules:
 drop(X,Y) <- true | {
     @space(clock(),R);
     B(R=[actionresult(Clock)]);
+    UpdateClock(Clock);
     UpdateCargos(X,Y);
     @space(write(cargo(position(X,Y),Clock),-1),_)
 } 
@@ -43,7 +44,25 @@ drop(X,Y) <- true | {
 drop() <- position(X,Y) | {
     @space(clock(),R);
     B(R=[actionresult(Clock)]);
+    UpdateClock(Clock);
     UpdateCargos(X,Y);
     @space(write(cargo(position(X,Y),Clock),-1),_)
 } 
 
+moveToTruck(X,Y) <- position(X2,Y2) and X2 < X and raise(X2,NewX) | { 
+    updatePos(NewX,Y2); 
+    moveToTruck(X,Y)
+}
+moveToTruck(X,Y) <- position(X2,Y2) and X2 > X and lower(X2,NewX) | { 
+    updatePos(NewX,Y2); 
+    moveToTruck(X,Y)
+}
+moveToTruck(X,Y) <- position(X2,Y2) and Y2 > Y and lower(Y2,NewY) | { 
+    updatePos(X2,NewY); 
+    moveToTruck(X,Y)
+}
+moveToTruck(X,Y) <- position(X2,Y2) and Y2 < Y and raise(Y2,NewY) | { 
+    updatePos(X2,NewY); 
+    moveToTruck(X,Y)
+}
+moveToTruck(X,Y) <- position(X,Y) | { skip }

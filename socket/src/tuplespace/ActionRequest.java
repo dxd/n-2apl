@@ -90,5 +90,11 @@ public class ActionRequest implements TimeEntry {
 		this.time = new Timestamp(new Date().getTime());
 		
 	}
+	@Override
+	public String toString() {
+		return "ActionRequest [id=" + id + ", agent=" + agent + ", type="
+				+ type + ", cell=" + cell + ", clock=" + clock + ", time="
+				+ time + "]";
+	}
 
 }
