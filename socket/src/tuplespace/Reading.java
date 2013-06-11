@@ -90,5 +90,15 @@ public class Reading implements TimeEntry {
 	public Integer getValue() {
 		return value.intValue();
 	}
+
+	@Override
+	public Integer getClock() {
+		return clock;
+	}
+
+	@Override
+	public void setClock(int clock) {
+		this.clock = clock;
+	}
 		
 }

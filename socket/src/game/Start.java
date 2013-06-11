@@ -17,7 +17,7 @@ public class Start {
 	
 	public static void main(String[] args) {
 		
-		jspace = new JSpace();
+		jspace = new JSpace(gs);
 		
 		if (jspace.error())
 			return;

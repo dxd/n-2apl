@@ -61,5 +61,14 @@ public class Obligation implements TimeEntry {
 		return this.time;
 	}
 
+	@Override
+	public Integer getClock() {
+		return clock;
+	}
+
+	@Override
+	public void setClock(int clock) {
+		this.clock = clock;
+	}
 
 }

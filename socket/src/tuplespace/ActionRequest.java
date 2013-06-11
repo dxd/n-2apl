@@ -50,13 +50,6 @@ public class ActionRequest implements TimeEntry {
 		this.type = type;
 	}
 
-	public Integer getClock() {
-		return clock;
-	}
-
-	public void setClock(Integer clock) {
-		this.clock = clock;
-	}
 
 	public Timestamp getTime() {
 		return time;
@@ -96,6 +89,15 @@ public class ActionRequest implements TimeEntry {
 		return "ActionRequest [id=" + id + ", agent=" + agent + ", type="
 				+ type + ", cell=" + cell + ", clock=" + clock + ", time="
 				+ time + "]";
+	}
+	@Override
+	public Integer getClock() {
+		return clock;
+	}
+
+	@Override
+	public void setClock(int clock) {
+		this.clock = clock;
 	}
 
 }

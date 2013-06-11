@@ -105,9 +105,6 @@ public class Position implements TimeEntry {
 		this.time = time;
 	}
 
-	public Integer getClock() {
-		return clock;
-	}
 
 	public void setClock(Integer clock) {
 		this.clock = clock;
@@ -121,6 +118,15 @@ public class Position implements TimeEntry {
 	@Override
 	public Timestamp getTime() {
 		return this.time;
+	}
+	@Override
+	public Integer getClock() {
+		return clock;
+	}
+
+	@Override
+	public void setClock(int clock) {
+		this.clock = clock;
 	}
 }
 

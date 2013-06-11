@@ -16,5 +16,7 @@ public interface TimeEntry extends Entry{
 	public void setTime();
 	public Timestamp getTime();
 	//public Term to2APLterm();
+	public Integer getClock();
+	public void setClock(int clock);
 
 }

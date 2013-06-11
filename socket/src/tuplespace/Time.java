@@ -36,4 +36,13 @@ public class Time implements TimeEntry {
 	public Timestamp getTime() {
 		return this.time;
 	}
+	@Override
+	public Integer getClock() {
+		return clock;
+	}
+
+	@Override
+	public void setClock(int clock) {
+		this.clock = clock;
+	}
 }

@@ -75,9 +75,9 @@ public class SpaceTest  extends Environment implements ExternalTool{
 		System.setSecurityManager(new RMISecurityManager());
 		LookupLocator ll = null; 
 		try { 
-			ll = new LookupLocator("jini://kafka.cs.nott.ac.uk"); 
+			//ll = new LookupLocator("jini://kafka.cs.nott.ac.uk"); 
 			//ll = new LookupLocator("jini://localhost"); 
-			//ll = new LookupLocator("jini://10.154.154.26");
+			ll = new LookupLocator("jini://10.154.154.26");
 			//ll = new LookupLocator("jini://192.168.0.5"); 
 		} catch (MalformedURLException e) { 
 			
@@ -296,6 +296,8 @@ public class SpaceTest  extends Environment implements ExternalTool{
 				TimeEntry e = createEntry(call);
 				if (e.getTime() == null)
 					e.setTime();
+				if (e.getClock() == null)
+					e.setClock(clock);
 				System.out.println("Organization writes: "+e.toString());
 				space.write(e, null, lease);
 				//System.out.println(e+"  "+lease+"   "+Lease.FOREVER);
@@ -318,6 +320,8 @@ public class SpaceTest  extends Environment implements ExternalTool{
 				TimeEntry e = createEntry(recipient, event);
 				if (e.getTime() == null)
 					e.setTime();
+				if (e.getClock() == null)
+					e.setClock(clock);
 				System.out.println("Organization notifies agent (write): "+e.toString());
 				space.write(e, null, Lease.FOREVER);
 			} catch (RemoteException e) {
@@ -680,6 +684,8 @@ public class SpaceTest  extends Environment implements ExternalTool{
 			TimeEntry e = createEntry(sAgent,call);
 			if (e.getTime() == null)
 				e.setTime();
+			if (e.getClock() == null)
+				e.setClock(clock);
 			//System.out.println("Agent writes: "+e.toString());
 			space.write(e, null, leaseVal);
 			//oopl.handleEvent(ar_state_change, false); // check the norms

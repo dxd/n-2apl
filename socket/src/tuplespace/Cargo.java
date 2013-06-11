@@ -83,12 +83,7 @@ public class Cargo implements TimeEntry {
 	public void setTime(Timestamp time) {
 		this.time = time;
 	}
-	public Integer getClock() {
-		return clock;
-	}
-	public void setClock(Integer clock) {
-		this.clock = clock;
-	}
+
 	@Override
 	public String toString() {
 		return "Cargo [id=" + id + ", cell=" + cell + ", time=" + time
@@ -99,5 +94,13 @@ public class Cargo implements TimeEntry {
 		this.time = new Timestamp(new Date().getTime());
 		
 	}
+	@Override
+	public Integer getClock() {
+		return clock;
+	}
 
+	@Override
+	public void setClock(int clock) {
+		this.clock = clock;
+	}
 }

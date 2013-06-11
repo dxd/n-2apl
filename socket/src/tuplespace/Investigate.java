@@ -71,4 +71,13 @@ public class Investigate implements TimeEntry {
 		return this.time;
 	}
 		
+	@Override
+	public Integer getClock() {
+		return clock;
+	}
+
+	@Override
+	public void setClock(int clock) {
+		this.clock = clock;
+	}
 }

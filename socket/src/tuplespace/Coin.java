@@ -100,9 +100,6 @@ public Coin(Cell cell, String agent, Integer clock) {
 		this.time = time;
 	}
 
-	public Integer getClock() {
-		return clock;
-	}
 
 	public void setClock(Integer clock) {
 		this.clock = clock;
@@ -111,5 +108,14 @@ public Coin(Cell cell, String agent, Integer clock) {
 	public void setTime() {
 		this.time = new Timestamp(new Date().getTime());
 		
+	}
+	@Override
+	public Integer getClock() {
+		return clock;
+	}
+
+	@Override
+	public void setClock(int clock) {
+		this.clock = clock;
 	}
 }

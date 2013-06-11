@@ -45,8 +45,8 @@ public class Points implements TimeEntry {
 		this.agent = params[0].toString();
 		if (params[1] != null)
 			this.clock = Integer.getInteger(params[1].toString());
-		if (params[2] != null)
-			this.value = Integer.getInteger(params[2].toString());
+		//if (params[2] != null)
+		//	this.value = Integer.getInteger(params[2].toString());
 	}
 
 	public int[] toArray(DistributedOOPL oopl) {
@@ -73,5 +73,14 @@ public class Points implements TimeEntry {
 	@Override
 	public Timestamp getTime() {
 		return this.time;
+	}
+	@Override
+	public Integer getClock() {
+		return clock;
+	}
+
+	@Override
+	public void setClock(int clock) {
+		this.clock = clock;
 	}
 }
