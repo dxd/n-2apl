@@ -1,8 +1,8 @@
 Include: agent.2apl
 
 BeliefUpdates:
-  { reading(X,Y,Old) } UpdateReadings(X,Y,Value) { not reading(X,Y,Old)}
-  { true } UpdateReadings(X,Y,Value) { reading(X,Y,Value) }
+  { reading(X,Y,Old) } UpdateReading(X,Y,Value) { not reading(X,Y,Old), reading(X,Y,Value) }
+  { not reading(X,Y,Old) } UpdateReading(X,Y,Value) { reading(X,Y,Value) }
   {position(X,Y) } UpdatePosition(X1,Y1) { not position(X,Y), position(X1,Y1) }
 
 Beliefs:   
@@ -58,5 +58,5 @@ readingP(X,Y) <- true | {
     @space(write(readingRequest(position(X,Y)),-1),Z);
     @space(read(reading(position(X,Y)),-1),V);
     B(V=[actionresult(Value)]);
-    UpdateReadings(X,Y,Value)
+    UpdateReading(X,Y,Value)
 } 

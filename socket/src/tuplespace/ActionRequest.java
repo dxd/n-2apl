@@ -18,10 +18,11 @@ public class ActionRequest implements TimeEntry {
 	public ActionRequest() {
 		
 	}
-	public ActionRequest(String agent, String type, Cell cell) {
+	public ActionRequest(String agent, String type, Cell cell, int clock) {
 		this.agent = agent;
 		this.cell = cell;
 		this.type = type;
+		this.clock = clock;
 		this.time = new Timestamp(new Date().getTime());
 	}
 	public ActionRequest(Integer clock) {

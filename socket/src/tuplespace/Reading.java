@@ -29,10 +29,12 @@ public class Reading implements TimeEntry {
 		this.value = value;
 	}
 	
-	public Reading(String agent, Cell cell, float value) {
+	public Reading(String agent, Cell cell, float value, int clock) {
 		this.agent = agent;
 		this.cell = cell;
 		this.value = value;
+		this.clock = clock;
+		this.time = new Timestamp(new Date().getTime());
 	}
 
 	public Reading(String agent) {
@@ -44,8 +46,8 @@ public class Reading implements TimeEntry {
 	}
 	
 	public Reading(String sAgent, Cell c) {
-		this.agent = agent;
-		this.cell = cell;
+		this.agent = sAgent;
+		this.cell = c;
 	}
 
 	public int[] toArray(DistributedOOPL oopl) {
@@ -83,6 +85,10 @@ public class Reading implements TimeEntry {
 	@Override
 	public Timestamp getTime() {
 		return this.time;
+	}
+
+	public Integer getValue() {
+		return value.intValue();
 	}
 		
 }

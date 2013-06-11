@@ -10,8 +10,8 @@ Beliefs:
   
 Goals:
   placeCoin(8,6,a1) :: 20000 >> 1,
-  placeCoin(16,6,a2) :: 20000 >> 2,
-  placeCoin(3,9,a3) :: 20000 >> 3
+  placeCoin(16,16,a2) :: 20000 >> 2,
+  placeCoin(2,2,a3) :: 20000 >> 3
  
 
 PG-rules:

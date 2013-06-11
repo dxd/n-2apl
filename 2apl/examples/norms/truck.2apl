@@ -29,7 +29,7 @@ at(X,Y) <- true | {
    moveToTruck(X,Y); 
     dropgoal(at(X,Y))
     
-} : 1
+} : 1000
 
 PC-rules:
 

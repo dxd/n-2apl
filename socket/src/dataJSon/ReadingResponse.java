@@ -3,7 +3,7 @@ package dataJSon;
 public class ReadingResponse {
 	
 	private float distance;
-	private String reading;
+	private float reading;
 	
 	public float getDistance() {
 		return distance;
@@ -11,10 +11,10 @@ public class ReadingResponse {
 	public void setDistance(float distance) {
 		this.distance = distance;
 	}
-	public String getReading() {
+	public float getReading() {
 		return reading;
 	}
-	public void setReading(String reading) {
+	public void setReading(float reading) {
 		this.reading = reading;
 	}
 	@Override

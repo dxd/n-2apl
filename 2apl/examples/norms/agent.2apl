@@ -31,7 +31,17 @@ updatePos(NewX,NewY) <- position(X,Y) | {
     UpdateStatus(NewX,NewY,Points);
     @space(write(status(position(NewX,NewY),Clock),-1),_)
 } 
-
+updateReading(NewX,NewY) <- position(X,Y) | {
+    
+    @space(clock(),R);
+    B(R=[actionresult(Clock)]);
+    //@space(read(points(Clock),-1),V);
+    //B(V=[actionresult(Points)]);
+    B(points(Points));
+    UpdateClock(Clock);
+    UpdateStatus(NewX,NewY,Points);
+    @space(write(status(position(NewX,NewY),Clock),-1),_)
+} 
 
 
 event(obligation(Goal,Deadline,Sanction),space) <- true | {

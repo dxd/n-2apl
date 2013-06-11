@@ -55,7 +55,7 @@ public class JSpace {
         System.setSecurityManager(new RMISecurityManager());
       
         try {
-            File file = new File("./log/space"+ System.currentTimeMillis() +".log");
+        	File file = new File("./log/"+ new Date(System.currentTimeMillis()) +".log");
 
             // Create file if it does not exist
             boolean success = file.createNewFile();
@@ -207,7 +207,7 @@ public class JSpace {
 		return null;
 	}
 
-	private void write(Entry data)
+	void write(Entry data)
 	{
 		//System.out.println(data.toString());
 		try {
@@ -227,13 +227,6 @@ public class JSpace {
 		write(time);	
 	}
 
-	public void writeReading(tuplespace.Reading reading, int clock, Status status) {
-		//Cell cell = Game.locationToGrid(new LatLng(reading2.getLatitude(), reading2.getLongitude()));
-		//System.out.println(cell.toString());
-		tuplespace.Reading reading2 = new tuplespace.Reading(reading.id,reading.agent, reading.cell, clock, reading.value);
-		write(reading2);
-		
-	}
 
 
 

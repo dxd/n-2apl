@@ -113,7 +113,7 @@ public class Synchronization {
 		
 	}
 
-	private void PostRequest(String url, String data, Object result){
+	private Object PostRequest(String url, String data, Object result){
 		try {
 			URL ruby = new URL(server + url);
 			
@@ -135,8 +135,9 @@ public class Synchronization {
 
     	} catch (Exception e) {
     	
-        
+         return null;
 		}
+		return result;
 	}
 	
 	
@@ -182,19 +183,27 @@ public class Synchronization {
 		updateRequests(latlng);
 		
 	}
-	private void updateRequests(LatLng loc) {
-		Generic gen = new Generic();
-		ArrayList<SimpleEntry<String, Object>> params = new ArrayList<SimpleEntry<String, Object>>();
-		params.add(new SimpleEntry<String, Object>("latitude", loc.getLatitude()));
-		params.add(new SimpleEntry<String, Object>("longitude", loc.getLongitude()));
-		
-		String url = "/game/" + gameId + "/request";
+	private void updateRequests(LatLng loc) { //GET type
 		try {
+			ArrayList<SimpleEntry<String, Object>> params = new ArrayList<SimpleEntry<String, Object>>();
+			params.add(new SimpleEntry<String, Object>("latitude", loc.getLatitude()));
+			params.add(new SimpleEntry<String, Object>("longitude", loc.getLongitude()));
 			String data = buildPostData(params);
-			PostRequest(url, data, gen);
-		} catch (UnsupportedEncodingException e) {
-			e.printStackTrace();
-		}
+    		URL ruby = new URL(server + "/game/" + gameId+ "/request?" + data); 
+    		System.out.println(ruby.toString());
+    	    
+    		Reader reader = new InputStreamReader(ruby.openStream());
+    		//BufferedReader reader = new BufferedReader(new FileReader("/Users/dxd/git/Git/socket/src/status.json"));
+    		
+    		    //Gson gson = new GsonBuilder().create();
+    		    //status = gson.fromJson(reader, Status.class);
+    		    //System.out.println(status.toString());
+    		    reader.close();
+    		
+    	} catch (MalformedURLException e) {
+    	} catch (IOException e) {
+    	}
+ 
 		
 	}
 
@@ -266,13 +275,15 @@ public class Synchronization {
 		System.out.println(ar);
 		LatLng latlng = Game.gridToLocation(ar.getCell());
 		ReadingResponse rr = getReading(status.getPlayerId(ar.agent), latlng);
-		
-		jspace.writeReading(new tuplespace.Reading(ar.agent, ar.cell,rr.getDistance()), Start.gs.getClock(), status);
+		System.out.println(rr);
+		tuplespace.Reading reading = new tuplespace.Reading(ar.agent, ar.cell,rr.getReading(),ar.clock);
+		System.out.println(reading);
+		jspace.write(reading);
 	}
 	
 	public ReadingResponse getReading(int id, LatLng loc) {
 
-		ReadingResponse result = new ReadingResponse();
+		Object result;
 		ArrayList<SimpleEntry<String, Object>> params = new ArrayList<SimpleEntry<String, Object>>();
 		params.add(new SimpleEntry<String, Object>("id", id));
 		params.add(new SimpleEntry<String, Object>("latitude", loc.getLatitude()));
@@ -281,8 +292,8 @@ public class Synchronization {
 		String url = "/game/" + gameId + "/getReading";
 		try {
 			String data = buildPostData(params);
-			PostRequest(url, data, result);
-			return result;
+			result = PostRequest(url, data, new ReadingResponse());
+			return (ReadingResponse) result;
 		} catch (UnsupportedEncodingException e) {
 			e.printStackTrace();
 		}

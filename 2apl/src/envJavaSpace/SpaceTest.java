@@ -75,9 +75,9 @@ public class SpaceTest  extends Environment implements ExternalTool{
 		System.setSecurityManager(new RMISecurityManager());
 		LookupLocator ll = null; 
 		try { 
-			//ll = new LookupLocator("jini://kafka.cs.nott.ac.uk"); 
+			ll = new LookupLocator("jini://kafka.cs.nott.ac.uk"); 
 			//ll = new LookupLocator("jini://localhost"); 
-			ll = new LookupLocator("jini://10.154.154.26");
+			//ll = new LookupLocator("jini://10.154.154.26");
 			//ll = new LookupLocator("jini://192.168.0.5"); 
 		} catch (MalformedURLException e) { 
 			
@@ -97,7 +97,7 @@ public class SpaceTest  extends Environment implements ExternalTool{
 		} 
 		
 		 try {
-	            File file = new File("./log/space"+ System.currentTimeMillis() +".log");
+	            File file = new File("./log/"+ new Date(System.currentTimeMillis()) +".log");
 
 	            // Create file if it does not exist
 	            boolean success = file.createNewFile();
@@ -438,9 +438,9 @@ public class SpaceTest  extends Environment implements ExternalTool{
 				int pointY = ((APLNum)point.getParams().get(1)).toInt();
 				c = new Cell(pointX,pointY);
 			}
-			System.out.print("from/for agent " + sAgent + "  ");
-			System.out.println(call.toString());
-			return new ActionRequest(sAgent,"reading",c); // Create Tuple
+			//System.out.print("from/for agent " + sAgent + "  ");
+			//System.out.println(call.toString());
+			return new ActionRequest(sAgent,"reading",c,clock); // Create Tuple
 		}
 		else if(call.getName().equals(TYPE_READING)){ // Prolog format: reading(position(X,Y))
 			Cell c = null;
@@ -452,6 +452,7 @@ public class SpaceTest  extends Environment implements ExternalTool{
 			}
 			System.out.print("from/for agent " + sAgent + "  ");
 			System.out.println(call.toString());
+			System.out.println(new Reading(sAgent,c));
 			return new Reading(sAgent,c); // Create Tuple
 		}
 		else if(call.getName().equals(TYPE_COIN)){ // Prolog format: coin(position(X,Y),Clock,Agent)
@@ -550,7 +551,8 @@ public class SpaceTest  extends Environment implements ExternalTool{
 			//Term posTerm = new APLFunction("position", new Term[]{new APLNum(reading.cell.x),new APLNum(reading.cell.y)}); // get position
 
 			//return new APLFunction("tuple", new Term[]{new APLIdent(reading.agent),posTerm,new APLNum(reading.value.intValue()),new APLNum(reading.clock)}); // construct result
-			return new APLNum(reading.value);
+			System.out.println("got reading: "+reading);
+			return new APLNum(reading.getValue());
 		} 
 		else if(entry instanceof Obligation){ // in case of tuples return tuple(name,position(2,4),48)
 			Obligation o = (Obligation) entry;   // cast to tuple
