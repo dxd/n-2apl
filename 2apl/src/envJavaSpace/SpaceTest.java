@@ -75,9 +75,9 @@ public class SpaceTest  extends Environment implements ExternalTool{
 		System.setSecurityManager(new RMISecurityManager());
 		LookupLocator ll = null; 
 		try { 
-			//ll = new LookupLocator("jini://kafka.cs.nott.ac.uk"); 
+			ll = new LookupLocator("jini://kafka.cs.nott.ac.uk"); 
 			//ll = new LookupLocator("jini://localhost"); 
-			ll = new LookupLocator("jini://10.154.154.26");
+			//ll = new LookupLocator("jini://10.154.154.26");
 			//ll = new LookupLocator("jini://192.168.0.5"); 
 		} catch (MalformedURLException e) { 
 			
@@ -351,7 +351,6 @@ public class SpaceTest  extends Environment implements ExternalTool{
 	public TimeEntry createEntry(int[] call) throws IllegalArgumentException, SecurityException, InstantiationException, IllegalAccessException, InvocationTargetException, ClassNotFoundException, NoSuchMethodException{ // e.g.: read(tuple(name,point(2,4),20),0)
 		//System.out.println(oopl.prolog.arStr(call));
 		return p2j.parseTerm(call, converter, oopl);
-		
 		
 	}
 	

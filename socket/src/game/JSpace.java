@@ -45,10 +45,9 @@ public class JSpace {
 	private static TransactionManager transManager;
 	//private static LeaseRenewalManager leaseRenewalManager;
 	public static String[] agents = {"a1", "a2", "a3", "t1", "c1"};
-	private GameStep gs;
+	public Integer clock = 0;
 
-	public JSpace(GameStep gs){
-		this.gs = gs;
+	public JSpace(){
 		init();
 	}
 	
@@ -81,9 +80,9 @@ public class JSpace {
 		
 		LookupLocator ll = null;
 		try {
-			//ll = new LookupLocator("jini://kafka.cs.nott.ac.uk:4160");
+			ll = new LookupLocator("jini://kafka.cs.nott.ac.uk:4160");
 			//ll = new LookupLocator("jini://10.154.219.251");
-			ll = new LookupLocator("jini://10.154.154.26");
+			//ll = new LookupLocator("jini://10.154.154.26");
 		} catch (MalformedURLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -157,7 +156,7 @@ public class JSpace {
 	
 		ArrayList<TimeEntry> t = (ArrayList<TimeEntry>) getAllFromDate(te, date,newTime);
 		System.out.println(te.toString() + " "+date.toString()+" - " + newTime.toString());
-		System.out.println("result size is " + t.size());
+		//System.out.println("result size is " + t.size());
 		return t;
 	}
 	
@@ -212,12 +211,12 @@ public class JSpace {
 
 	void write(TimeEntry e)
 	{
-		//System.out.println(data.toString());
+		System.out.println(e.toString());
 		try {
 			if (e.getTime() == null)
 				e.setTime();
 			if (e.getClock() == null)
-				e.setClock(gs.getClock());
+				e.setClock(clock);
 			Lease l = space.write(e, null, Lease.FOREVER);
 
 		} catch (RemoteException e1) {
@@ -230,6 +229,7 @@ public class JSpace {
 	}
 	
 	void writeTime(int clock) {
+		this.clock = clock;
 		Time time = new Time(clock);
 		write(time);	
 	}

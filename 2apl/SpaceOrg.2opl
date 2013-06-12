@@ -40,7 +40,7 @@ norm(
     drop_load(Thing),
     Thing, // the subject agent
     ( truck(Thing), cargo(X,Y, Time), clock(Now), Deadline is Now + 15, time_since(NewTime), NewTime > 5), // precondition
-    obligation([cargo(A,B,C)],Deadline,[reduce_100(Thing)]) // obligation format
+    obligation([cargo(NewTime)],Deadline,[reduce_100(Thing)]) // obligation format
     ).
     
 //norm(
@@ -114,7 +114,7 @@ norm(
     read_on_the_same_place(Thing),
     Thing, // the subject agent
     ( agent(Thing), reading(X,Y, Value,Thing,Time), NewTime is Time + 1), // precondition
-    prohibition([makeReading(X,Y,Thing)],[reduce_300(Thing)]) // prohibition format
+    prohibition([reading(X,Y,Thing)],[reduce_300(Thing)]) // prohibition format
     ). 
     
 //norm(
@@ -185,6 +185,14 @@ at(X,Y,Object):-
 reading(X, Y, Value, Object, Time):-
 	agent(Object),
       @external(envJavaSpace,read(reading(null,null,Object,null),0),reading(cell(X,Y),Value,Object,Time)).
+      
+reading(X, Y, Object):-
+	agent(Object),
+      @external(envJavaSpace,read(reading(null,null,Object),0),reading(cell(X,Y),Value,Object,Time)).
+      
+makeReading(X, Y):-
+	agent(Object),
+      @external(envJavaSpace,read(reading(null,null,Object),0),reading(cell(X,Y),Value,Object,Time)).
 
 investigate(X, Y, Value, Object, Time):-
 	agent(Object),
@@ -194,16 +202,27 @@ coin(X, Y, Time, Object):-
 	agent(Object),
       @external(envJavaSpace,read(coin(null,null,Object),0),coin(cell(X,Y),Time,Object)).
       
+coin(X, Y, Object):-
+     agent(Object),
+      @external(envJavaSpace,read(coin(null,null,Object),0),coin(cell(X,Y),_,Object)).
+      
 coin(X, Y, Time):-
       @external(envJavaSpace,read(coin(null,null,null),0),coin(cell(X,Y),Time,_)).
       
 coin(X, Y):-
       @external(envJavaSpace,read(coin(cell(X,Y),null,null),0),coin(cell(X,Y),_,_)).
       
-coin(Time):-
+coin(Object):-
+     agent(Object),
       @external(envJavaSpace,read(coin(null,Time,null),0),coin(cell(X,Y),_,_)).
+
+coin(Time):-
+      @external(envJavaSpace,read(coin(null,null,null),0),coin(cell(X,Y),Time,_)).
       
 cargo(X, Y, Time):-
+      @external(envJavaSpace,read(cargo(null,null),0),cargo(cell(X,Y), Time)).   
+      
+cargo(Time):-
       @external(envJavaSpace,read(cargo(null,null),0),cargo(cell(X,Y), Time)).      
 
 time_past(Time):- clock(Now), Now > Time.

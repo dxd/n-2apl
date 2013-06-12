@@ -26,11 +26,11 @@ public class Points implements TimeEntry {
 		this.value = value;
 
 	}
-	public Points(String agent, int clock) {
+	public Points(String agent, int value) {
 
 		this.agent = agent;
-		this.clock = clock;
-		this.time = new Timestamp(new Date().getTime());
+		this.value = value;
+		//this.time = new Timestamp(new Date().getTime());
 
 	}
 
@@ -45,6 +45,7 @@ public class Points implements TimeEntry {
 		this.agent = params[0].toString();
 		if (params[1] != null)
 			this.clock = Integer.getInteger(params[1].toString());
+		//System.out.println(this);
 		//if (params[2] != null)
 		//	this.value = Integer.getInteger(params[2].toString());
 	}

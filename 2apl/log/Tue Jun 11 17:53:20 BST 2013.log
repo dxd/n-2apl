@@ -1,0 +1,15 @@
+test2.
+Service Registrar: 3891c019-fa5a-46be-adb4-2276e590f28d
+Java Space found.
+No TransactionManager found.
+-------------------------last log tuples start--------------------------------
+-------------------------last log tuples end----------------------------------
+register a1
+register a2
+register a3
+register c1
+register t1
+from/for agent a3  reading(position(11, 1))
+from/for agent a2  reading(position(8, 19))
+Reading [id=null, agent=a3, cell=Cell [x=11, y=1], time=null, value=null, clock=null]
+Reading [id=null, agent=a2, cell=Cell [x=8, y=19], time=null, value=null, clock=null]

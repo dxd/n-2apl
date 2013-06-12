@@ -5,7 +5,7 @@ import java.util.Timer;
 public class Start {
 	
 
-	private static Date startTime;
+	//private static Date startTime;
 	private static int gamePace = 1000;
 	
 	private static Timer timer;
@@ -17,26 +17,29 @@ public class Start {
 	
 	public static void main(String[] args) {
 		
-		jspace = new JSpace(gs);
+		
+		jspace = new JSpace();
 		
 		if (jspace.error())
 			return;
-		
-		synchro = new Synchronization(jspace);
 		initiate();
+		
 
 
 	}
 
 	public static void initiate() {
 		
-		startTime = new Date();
+		Game.initiateGrid();
+		//startTime = new Date();
 		
 	    timer = new Timer();
+	    synchro = new Synchronization(jspace);
+		
 	    gs = new GameStep(synchro);
+	    
+	    
+	    
 	    timer.schedule(gs ,0, gamePace);
-	    
-	    Game.initiateGrid();
-	    
 	  }
 }

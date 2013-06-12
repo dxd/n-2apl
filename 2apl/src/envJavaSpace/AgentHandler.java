@@ -33,7 +33,7 @@ public class AgentHandler extends UnicastRemoteObject implements RemoteEventList
 		timestamps = new HashMap<String,Timestamp>();
     }
 
-	public synchronized void notify(RemoteEvent anEvent) {
+	public void notify(RemoteEvent anEvent) {
 		//System.out.println("agent notification "+agent+" number "+anEvent.getSequenceNumber());
         try {
         	String type = anEvent.getRegistrationObject().get().toString();

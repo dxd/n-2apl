@@ -71,8 +71,18 @@ public class Synchronization {
 		//postLocation(66, new LatLng(52.9518,-1.1860));
 		//postLocation(67, new LatLng(52.9513,-1.185));
 		//getReading(6, new LatLng(52.951623,-1.186357));
+		
+		writePoints();
 		register();
 	}
+	private void writePoints() {
+		jspace.write(new Points("a1",1000));
+		jspace.write(new Points("a2",1000));
+		jspace.write(new Points("a3",1000));
+		jspace.write(new Points("c1",1000));
+		jspace.write(new Points("t1",1000));
+	}
+
 	private void startGame() {
 		//get
     	try {
@@ -237,7 +247,7 @@ public class Synchronization {
 	
 	public void postPoint(ArrayList<TimeEntry> r) {
 		for (TimeEntry p : r) {
-			updatePoints(((Points)p).id, ((Points)p).value);
+			updatePoints((status.getPlayerId(((Points)p).agent)), ((Points)p).value);
 		}
 		
 	}

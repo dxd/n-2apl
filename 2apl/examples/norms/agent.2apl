@@ -215,19 +215,19 @@ aprohibition(cargo(A), reduce_500(_)) <- true | {
 }
 
 
-aprohibition(makeReading(X,Y,_), reduce_100(_)) <- true | {
+aprohibition(reading(X,Y,_), reduce_100(_)) <- true | {
     adoptprohibition(reading(X,Y) -> reduce_100)
 }
-aprohibition(makeReading(X,Y,_), reduce_200(_)) <- true | {
+aprohibition(reading(X,Y,_), reduce_200(_)) <- true | {
     adoptprohibition(reading(X,Y) -> reduce_200)
 }
-aprohibition(makeReading(X,Y,_), reduce_300(_)) <- true | {
+aprohibition(reading(X,Y,_), reduce_300(_)) <- true | {
     adoptprohibition(reading(X,Y) -> reduce_300)
 }
-aprohibition(makeReading(X,Y,_), reduce_400(_)) <- true | {
+aprohibition(reading(X,Y,_), reduce_400(_)) <- true | {
     adoptprohibition(reading(X,Y) -> reduce_400)
 }
-aprohibition(makeReading(X,Y,_), reduce_500(_)) <- true | {
+aprohibition(reading(X,Y,_), reduce_500(_)) <- true | {
     adoptprohibition(reading(X,Y) -> reduce_500)
 }
 
