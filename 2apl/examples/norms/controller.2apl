@@ -18,8 +18,8 @@ PG-rules:
 
 placeCoin(X,Y,Agent) <- true | {
 
-   coin(X,Y,Agent); 
-    dropgoal(placeCoin(X,Y,Agent))
+   [coin(X,Y,Agent); 
+    dropgoal(placeCoin(X,Y,Agent))]
     
 } : 1
 

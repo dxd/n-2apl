@@ -19,15 +19,15 @@ PG-rules:
 
 dropLoad <- position(X,Y) | {
 
-   drop(X,Y); 
-    dropgoal(dropLoad)
+   [drop(X,Y); 
+    dropgoal(dropLoad)]
     
 } : 1
 
 at(X,Y) <- true | {
 
-   moveToTruck(X,Y); 
-    dropgoal(at(X,Y))
+   [moveToTruck(X,Y); 
+    dropgoal(at(X,Y))]
     
 } : 1000
 

@@ -52,6 +52,8 @@ public class ApplyPGrulesResult extends DeliberationResult
 		else for( PlanSeq p : generatedPlans )
 		{ String s = "";
 		  PGrule pgrule = p.getActivationRule();
+		  if (pgrule == null)
+			  continue; //TODO is this safe??
 			SubstList<Term> theta = p.getActivationSubstitution();
 		  s += "Applied:\n" + pgrule.toString();
 			s += "\n\nwith substitution: \n" + theta.toString();

@@ -28,12 +28,12 @@ import apapl.program.Prohibitionbase;
 import apapl.program.Schedule;
 
 public class SchedulePlans implements DeliberationStep {
-	
+
 	APLModule module;
 
 	public DeliberationResult execute(APLModule module) {
+
 		
-		this.module = module;
 
 		Planbase planbase = module.getPlanbase();
 		// Planbase atomicplans = module.getAtomicPlanbase();
@@ -42,51 +42,55 @@ public class SchedulePlans implements DeliberationStep {
 		schedulePlans(planbase, prohibitions, module.getAtomic());
 		// scheduleAtomicPlans(atomicplans, prohibitions, bu);
 		//module.setNewAtomic();
-		
+
+		this.module = module;
 		return new SchedulePlansResult();
 	}
 
 	private void schedulePlans(Planbase planbase, Prohibitionbase prohibitions, PlanSeq atomic) {
 
 		ArrayList<PlanSeq> newAtomic = new ArrayList<PlanSeq>();
-		
+
 		ArrayList<PlanSeq> newNonAtomic = new ArrayList<PlanSeq>();
-		
-		planbase.sortPlans();
-		
+
+		planbase.sortPlansPriority();
+
 		for (PlanSeq ps : planbase) {
-			
+
 			//atomic
-			
+
 			ArrayList<PlanSeq> tempAtomic = new ArrayList<PlanSeq>();
 
 			if (ps.isAtomic()) {
-				
+
 				if (ps == atomic) {
-					ps.setExecStart(null);
+					if (ps.getExecStart() == null)
+						ps.setExecStart(null);
 					tempAtomic = newAtomic;
 				}
 				else {
-				Date ne = new Date();
-				
-				
-				for (PlanSeq p : newAtomic) {
-					if (p.getDeadline().getTime() <= ps.getDeadline()
-							.getTime()) {
-						tempAtomic.add(p);
-						ne = new Date(Math.max(new Date(p.getDeadline()
-								.getTime() - p.getExecStart().getTime())
-								.getTime(), ne.getTime()));
-					} else {
-						p.setExecStart(new Date(p.getExecStart().getTime()
-								+ ps.getDuration()));
-						tempAtomic.add(p);
+					Date ne = new Date();
+					tempAtomic = new ArrayList<PlanSeq>();
+
+					for (PlanSeq p : newAtomic) {
+						if (p.getDeadline().getTime() <= ps.getDeadline()
+								.getTime()) 
+						{
+							tempAtomic.add(p);
+							ne = new Date(Math.max(new Date(p.getDeadline()
+									.getTime() - p.getExecStart().getTime())
+							.getTime(), ne.getTime()));
+						} else 
+						{
+							p.setExecStart(new Date(p.getExecStart().getTime()
+									+ ps.getDuration()));
+							tempAtomic.add(p);
+						}
 					}
+
+					ps.setExecStart(ne);
 				}
 
-				ps.setExecStart(ne);
-				}
-				
 				boolean pass = true;
 
 				if (!violatesProhibitions(ps, prohibitions))
@@ -98,14 +102,14 @@ public class SchedulePlans implements DeliberationStep {
 						for (PlanSeq p2 : tempAtomic) {
 							if (!p2.equals(p1)
 									&& p2.getExecStart().getTime() <= p1
-											.getExecStart().getTime()) {
+									.getExecStart().getTime()) {
 								rt += p2.getDeadline().getTime()
 										- p2.getExecStart().getTime();
 							}
 						}
 
 						if (now.getTime() + rt <= p1.getDeadline().getTime()) {
-							//pass = false; TODO algorithm not working
+							pass = false; //TODO algorithm not working
 							break;
 						}
 					}
@@ -120,19 +124,29 @@ public class SchedulePlans implements DeliberationStep {
 					newAtomic.add(ps);
 
 
-		//non atomic
+				//non atomic
 			} else {
-					if (passNorms(ps, prohibitions)) {						
+				Date now = new Date();
+
+				if (passNorms(ps, prohibitions)) {
+					if (ps.getExecStart() != null) {
+						if (ps.getDuration() + ps.getExecStart().getTime() <= ps.getDeadline().getTime())
+							newNonAtomic.add(ps);
+					}
+					else if (ps.getDeadline() != null && now.getTime() + ps.getDuration() <= ps.getDeadline().getTime()) {						
 						ps.setExecStart(null);
 						newNonAtomic.add(ps);						
 					}
+					ps.setExecStart(null); //TODO remove
+					newNonAtomic.add(ps);	
 				}
 
 
 			}
-		
-		planbase.removePlans();
-		
+		}
+
+		//planbase.removePlans();
+
 		for (PlanSeq ps1 : newNonAtomic) {
 			planbase.addPlan(ps1);
 		}
@@ -146,8 +160,8 @@ public class SchedulePlans implements DeliberationStep {
 			planbase.addPlan(ps1);
 
 		}
-		
-		}
+
+	}
 
 
 	public String toString() {
@@ -196,11 +210,11 @@ public class SchedulePlans implements DeliberationStep {
 		}
 		return false;
 	}
-	
+
 	private boolean existIn(PlanSeq ps, Prohibition pp) throws NoRuleException {
-		
+
 		for (Plan plan : ps.getPlans())
-			{
+		{
 			//plan.evaluateArguments();
 			if (plan instanceof BeliefUpdateAction) {
 				APLFunction p = ((BeliefUpdateAction) plan).getPlan();
@@ -208,10 +222,10 @@ public class SchedulePlans implements DeliberationStep {
 				Beliefbase beliefbase = module.getBeliefbase();
 				BeliefUpdate c;
 				c = module.getBeliefUpdates().selectBeliefUpdate(p,beliefbase,theta);
-			
+
 				if (c == null)
 					continue;
-		
+
 				for (Literal l : c.getPost()) {
 					Literal lcopy = l.clone();
 					lcopy.applySubstitution(theta);

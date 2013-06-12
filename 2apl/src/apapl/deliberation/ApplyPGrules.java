@@ -32,9 +32,7 @@ public class ApplyPGrules implements DeliberationStep
 		
 		
 			
-		ArrayList<PlanSeq> ps = pgrules.generatePlans(goalbase,beliefbase,planbase);
-			
-		
+		ArrayList<PlanSeq> ps = pgrules.generatePlans(goalbase,beliefbase,planbase,false, module);
 		
 	    return( new ApplyPGrulesResult( ps ) );
 	}

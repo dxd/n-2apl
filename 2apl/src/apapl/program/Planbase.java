@@ -299,15 +299,15 @@ public class Planbase extends Base implements Iterable<PlanSeq>
         return solutions;
     }
 
-	public void sortPlans() {
+	public void sortPlansPriority() {
 		
-		//List<PlanSeq> copy = clone().plans;
+		List<PlanSeq> copy = clone().plans;
 		Collections.sort(this.plans, new Comparator<PlanSeq>(){
 	           public int compare (PlanSeq p1, PlanSeq p2){
 	               return p1.getPriority().compareTo(p2.getPriority());
 	           }
 	       });
-		//this.plans = copy;
+		this.plans = copy;
 	}
 
 	public void sortPlansDeadline() {
@@ -320,8 +320,10 @@ public class Planbase extends Base implements Iterable<PlanSeq>
 		this.plans = copy;
 	}
 
-
-	public void removePlans() {
-		plans.clear();
+	public void replacePlans(ArrayList<PlanSeq> plansFinal) {
+		plans = new ArrayList<PlanSeq>();
+		
+		for (PlanSeq p : plansFinal) 
+			plans.add(p);
 	}
 }
