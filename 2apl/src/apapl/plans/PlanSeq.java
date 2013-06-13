@@ -41,7 +41,7 @@ public class PlanSeq implements ParentPlan, Iterable<Plan>, Substitutable
 	 */
 	public PlanSeq()
 	{
-		setId(id_counter);
+		id = id_counter;
 		id_counter++;
 	}
 	
@@ -52,7 +52,7 @@ public class PlanSeq implements ParentPlan, Iterable<Plan>, Substitutable
 	 */
 	public PlanSeq(LinkedList<Plan> plans)
 	{
-		setId(id_counter);
+		id = id_counter;
 		id_counter++;
 		this.plans = plans;
 	}
@@ -144,7 +144,7 @@ public class PlanSeq implements ParentPlan, Iterable<Plan>, Substitutable
 	 */
 	public int getID()
 	{
-		return getId();
+		return id;
 	}
 	
 	/**
@@ -260,7 +260,7 @@ public class PlanSeq implements ParentPlan, Iterable<Plan>, Substitutable
 			PlanResult r = p.execute(module);
 			
 			if (r.failed()) {
-				module.notifyIEvent(getId());
+				module.notifyIEvent(getID());
 			}
 					
 			//The second part of this disjunction is to prevent the deliberation to block
