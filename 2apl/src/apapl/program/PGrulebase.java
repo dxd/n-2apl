@@ -335,15 +335,15 @@ public class PGrulebase extends Rulebase<PGrule> {
 							if (ps.getExecStart() == null) {
 								//long old = cycleExecStart.get(p.getID());
 								//if (old != null)
-								cycleExecStart.put(p.getId(), old==null?0:old + ps.getDuration());
+								cycleExecStart.put(p.getID(), old==null?0:old + ps.getDuration());
 							}
 							else
-								cycleExecStart.put(p.getId(), old==null?0:old + ps.getExecStart().getTime() + System.currentTimeMillis() + ps.getDuration());
+								cycleExecStart.put(p.getID(), old==null?0:old + ps.getExecStart().getTime() + System.currentTimeMillis() + ps.getDuration());
 							tempAtomic.add(p);
 						}
 					}
 
-					cycleExecStart.put(ps.getId(),ne);
+					cycleExecStart.put(ps.getID(),ne);
 					//ps.setExecStart(ne);
 				}
 
@@ -360,7 +360,7 @@ public class PGrulebase extends Rulebase<PGrule> {
 							break;
 						}
 						for (PlanSeq p2 : tempAtomic) {
-							if (cycleExecStart.get(p2.getId()) <= cycleExecStart.get(p1.getId())) {
+							if (cycleExecStart.get(p2.getID()) <= cycleExecStart.get(p1.getID())) {
 								if (p2.getExecStart() == null)
 									rt += p2.getDuration();
 								else
