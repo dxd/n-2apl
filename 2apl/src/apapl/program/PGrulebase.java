@@ -18,10 +18,12 @@ import apapl.data.Query;
 import apapl.program.Rule;
 import apapl.data.True;
 
+import java.sql.Timestamp;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -31,6 +33,8 @@ import javax.swing.JComponent;
 import javax.swing.JTextArea;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
+
+import com.sun.tools.javac.util.Pair;
 
 import java.awt.GridLayout;
 import java.awt.BorderLayout;
@@ -299,6 +303,8 @@ public class PGrulebase extends Rulebase<PGrule> {
 
 		ArrayList<PlanSeq> planbase = sortPlansPriority(planbasetmp);
 
+		HashMap<Integer,Long> cycleExecStart = new HashMap<Integer,Long>();
+
 		for (PlanSeq ps : planbase) {
 
 			// atomic
@@ -306,51 +312,63 @@ public class PGrulebase extends Rulebase<PGrule> {
 			ArrayList<PlanSeq> tempAtomic = new ArrayList<PlanSeq>();
 
 			if (ps.isAtomic()) {
-
+				
+				
 				if (ps == module.getAtomic()) {
 					//if (ps.getExecStart() == null)
-						ps.setExecStart(null);
+					//	ps.setExecStart(null);
+					cycleExecStart.put(ps.getID(), System.currentTimeMillis());
 					tempAtomic = newAtomic;
 				} else {
-					Date ne = new Date();
+					Long ne = System.currentTimeMillis();
 					tempAtomic = new ArrayList<PlanSeq>();
 
 					for (PlanSeq p : newAtomic) {
-						if (p.getDeadline().getTime() <= ps.getDeadline()
-								.getTime()) {
+						if (p.getDeadline().getTime() <= ps.getDeadline().getTime()) {
 							tempAtomic.add(p);
-							ne = new Date(Math.max(new Date(p.getDeadline()
-									.getTime() - p.getExecStart().getTime())
-									.getTime(), ne.getTime()));
+							if (p.getExecStart() == null)
+								ne += p.getDuration();
+							else
+								ne = Math.max(p.getExecStart().getTime() + System.currentTimeMillis() + p.getDuration(), ne);
 						} else {
-							p.setExecStart(new Date(p.getExecStart().getTime()
-									+ ps.getDuration()));
+							Long old = cycleExecStart.get(p.getID());
+							if (ps.getExecStart() == null) {
+								//long old = cycleExecStart.get(p.getID());
+								//if (old != null)
+								cycleExecStart.put(p.getId(), old==null?0:old + ps.getDuration());
+							}
+							else
+								cycleExecStart.put(p.getId(), old==null?0:old + ps.getExecStart().getTime() + System.currentTimeMillis() + ps.getDuration());
 							tempAtomic.add(p);
 						}
 					}
 
-					ps.setExecStart(ne);
+					cycleExecStart.put(ps.getId(),ne);
+					//ps.setExecStart(ne);
 				}
 
 				boolean pass = true;
 
 				if (!violatesProhibitions(ps, module)) {
 					for (PlanSeq p1 : tempAtomic) {
-						Date now = new Date();
+						//Date now = new Date();
 						long rt = 0;
 						
-						if (p1.getDuration() >= p1.getDeadline().getTime() - p1.getExecStart().getTime()) {
+						if (p1.getDeadline().getTime() < System.currentTimeMillis()) { //TODO this should not be needed
 
 							pass = false;
 							break;
 						}
 						for (PlanSeq p2 : tempAtomic) {
-							if (p2.getExecStart().getTime() <= p1.getExecStart().getTime()) {
-								rt += p2.getDuration() - p2.getExecStart().getTime();
+							if (cycleExecStart.get(p2.getId()) <= cycleExecStart.get(p1.getId())) {
+								if (p2.getExecStart() == null)
+									rt += p2.getDuration();
+								else
+									rt += p2.getDuration() - p2.getExecStart().getTime() + System.currentTimeMillis();
 							}
 						}
 
-						if (now.getTime() + rt >= p1.getDeadline().getTime()) {
+						if (System.currentTimeMillis() + rt >= p1.getDeadline().getTime()) {
 							pass = false; // TODO algorithm not working
 							break;
 						}
@@ -370,8 +388,12 @@ public class PGrulebase extends Rulebase<PGrule> {
 				if (passNorms(ps, module)) {
 					if (ps.getDeadline() == null) {
 						ps.setExecStart(null);
-						newNonAtomic.add(ps);
-					} else if (ps.getExecStart() != null) {
+						newNonAtomic.add(ps);	
+					}else if (ps.getDeadline() != null && ps.getDeadline().getTime() < now.getTime()) {
+						ps.setExecStart(null);
+						newNonAtomic.add(ps);	
+					}
+					else if (ps.getExecStart() != null) {
 						if (ps.getDuration() + ps.getExecStart().getTime() <= ps
 								.getDeadline().getTime())
 							newNonAtomic.add(ps);
@@ -398,6 +420,7 @@ public class PGrulebase extends Rulebase<PGrule> {
 		for (PlanSeq ps1 : newAtomic) {
 			if (!ps1.getProhibited() && first) {
 				module.setAtomic(ps1);
+				ps1.setExecStart(null);
 				first = false;
 			}
 			planbase.add(ps1);

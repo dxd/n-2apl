@@ -1,0 +1,144 @@
+test2.
+Service Registrar: 97502479-e0b5-4722-97d2-073f4f32200b
+Java Space found.
+TransactionManager found.
+-------------------------last log tuples start--------------------------------
+-------------------------last log tuples end----------------------------------
+register a1
+register a2
+register a3
+register c1
+register t1
+from/for agent a3  from/for agent a2  reading(position(11, 1))
+reading(position(8, 19))
+Reading [id=null, agent=a2, cell=Cell [x=8, y=19], time=null, value=null, clock=null]
+Reading [id=null, agent=a3, cell=Cell [x=11, y=1], time=null, value=null, clock=null]
+org coin notification
+org position notification
+Organization notifies agent (write): Obligation [agent=a1, obligation=[makeReading(8, 6)], sanction=[reduce_400(a1)], deadline=50, time=2013-06-12 16:21:22.41, clock=0]
+agent obligation notification a1 number 1
+Obligation [agent=a1, obligation=null, sanction=null, deadline=null, time=null, clock=null] 1970-01-01 01:00:00.0 - 2013-06-12 16:21:22.416
+Event sent to agent      a1 obligation(makeReading(8, 6), 50, reduce_400(a1))
+org coin notification
+Event processed adoptObligation(makeReading(8, 6), 50, reduce_400(a1))
+Organization notifies agent (write): Obligation [agent=a2, obligation=[makeReading(8, 6)], sanction=[reduce_400(a2)], deadline=50, time=2013-06-12 16:21:23.67, clock=0]
+agent obligation notification a2 number 1
+Organization notifies agent (write): Obligation [agent=a2, obligation=[makeReading(16, 16)], sanction=[reduce_400(a2)], deadline=50, time=2013-06-12 16:21:23.883, clock=0]
+org coin notification
+Obligation [agent=a2, obligation=null, sanction=null, deadline=null, time=null, clock=null] 1970-01-01 01:00:00.0 - 2013-06-12 16:21:23.675
+Event sent to agent      a2 obligation(makeReading(8, 6), 50, reduce_400(a2))
+agent obligation notification a2 number 2
+Organization notifies agent (write): Obligation [agent=a2, obligation=[makeReading(2, 2)], sanction=[reduce_400(a2)], deadline=50, time=2013-06-12 16:21:24.099, clock=0]
+Obligation [agent=a2, obligation=null, sanction=null, deadline=null, time=null, clock=null] 2013-06-12 16:21:23.675 - 2013-06-12 16:21:24.094
+Event sent to agent      a2 obligation(makeReading(16, 16), 50, reduce_400(a2))
+agent obligation notification a2 number 3
+Organization notifies agent (write): Obligation [agent=a3, obligation=[makeReading(8, 6)], sanction=[reduce_400(a3)], deadline=50, time=2013-06-12 16:21:24.545, clock=0]
+agent obligation notification a3 number 1
+Obligation [agent=a2, obligation=null, sanction=null, deadline=null, time=null, clock=null] 2013-06-12 16:21:24.094 - 2013-06-12 16:21:24.347
+Event sent to agent      a2 obligation(makeReading(2, 2), 50, reduce_400(a2))
+Organization notifies agent (write): Obligation [agent=a3, obligation=[makeReading(16, 16)], sanction=[reduce_400(a3)], deadline=50, time=2013-06-12 16:21:24.766, clock=0]
+Obligation [agent=a3, obligation=null, sanction=null, deadline=null, time=null, clock=null] 1970-01-01 01:00:00.0 - 2013-06-12 16:21:24.56
+Event sent to agent      a3 obligation(makeReading(8, 6), 50, reduce_400(a3))
+agent obligation notification a3 number 2
+Organization notifies agent (write): Obligation [agent=a3, obligation=[makeReading(2, 2)], sanction=[reduce_400(a3)], deadline=50, time=2013-06-12 16:21:24.98, clock=0]
+Organization notifies agent (write): Prohibition [agent=t1, prohibition=[at(5, 5, t1)], sanction=[reduce_300(t1)], clock=0, time=2013-06-12 16:21:24.982]
+Organization notifies agent (write): Prohibition [agent=t1, prohibition=[at(5, 6, t1)], sanction=[reduce_300(t1)], clock=0, time=2013-06-12 16:21:24.988]
+agent prohibition notification t1 number 1
+Organization notifies agent (write): Prohibition [agent=t1, prohibition=[at(6, 5, t1)], sanction=[reduce_300(t1)], clock=0, time=2013-06-12 16:21:24.99]
+Organization notifies agent (write): Prohibition [agent=t1, prohibition=[at(6, 6, t1)], sanction=[reduce_300(t1)], clock=0, time=2013-06-12 16:21:24.992]
+Obligation [agent=a3, obligation=null, sanction=null, deadline=null, time=null, clock=null] 2013-06-12 16:21:24.56 - 2013-06-12 16:21:24.975
+Event sent to agent      a3 obligation(makeReading(16, 16), 50, reduce_400(a3))
+agent obligation notification a3 number 3
+Prohibition [agent=t1, prohibition=null, sanction=null, clock=null, time=null] 1970-01-01 01:00:00.0 - 2013-06-12 16:21:24.99
+Event sent to agent      t1 prohibition(at(5, 5, t1), reduce_300(t1))
+Event sent to agent      t1 prohibition(at(5, 6, t1), reduce_300(t1))
+agent prohibition notification t1 number 4
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(5, 5, a1)], sanction=[reduce_300(c1)], clock=0, time=2013-06-12 16:21:25.216]
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(5, 6, a1)], sanction=[reduce_300(c1)], clock=0, time=2013-06-12 16:21:25.218]
+Event processed aprohibition(at(5, 5, t1), reduce_300(t1))
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(6, 5, a1)], sanction=[reduce_300(c1)], clock=0, time=2013-06-12 16:21:25.225]
+Event processed aprohibition(at(5, 6, t1), reduce_300(t1))
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(6, 6, a1)], sanction=[reduce_300(c1)], clock=0, time=2013-06-12 16:21:25.232]
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(5, 5, a2)], sanction=[reduce_300(c1)], clock=0, time=2013-06-12 16:21:25.233]
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(5, 6, a2)], sanction=[reduce_300(c1)], clock=0, time=2013-06-12 16:21:25.236]
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(6, 5, a2)], sanction=[reduce_300(c1)], clock=0, time=2013-06-12 16:21:25.24]
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(6, 6, a2)], sanction=[reduce_300(c1)], clock=0, time=2013-06-12 16:21:25.243]
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(5, 5, a3)], sanction=[reduce_300(c1)], clock=0, time=2013-06-12 16:21:25.251]
+agent prohibition notification c1 number 5
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(5, 6, a3)], sanction=[reduce_300(c1)], clock=0, time=2013-06-12 16:21:25.255]
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(6, 5, a3)], sanction=[reduce_300(c1)], clock=0, time=2013-06-12 16:21:25.26]
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(6, 6, a3)], sanction=[reduce_300(c1)], clock=0, time=2013-06-12 16:21:25.262]
+Obligation [agent=a3, obligation=null, sanction=null, deadline=null, time=null, clock=null] 2013-06-12 16:21:24.975 - 2013-06-12 16:21:25.202
+Event sent to agent      a3 obligation(makeReading(2, 2), 50, reduce_400(a3))
+Prohibition [agent=t1, prohibition=null, sanction=null, clock=null, time=null] 2013-06-12 16:21:24.99 - 2013-06-12 16:21:25.214
+Event sent to agent      t1 prohibition(at(6, 6, t1), reduce_300(t1))
+Event processed aprohibition(at(6, 6, t1), reduce_300(t1))
+Prohibition [agent=c1, prohibition=null, sanction=null, clock=null, time=null] 1970-01-01 01:00:00.0 - 2013-06-12 16:21:25.255
+Event sent to agent      c1 prohibition(coin(5, 5, a1), reduce_300(c1))
+Event sent to agent      c1 prohibition(coin(5, 6, a1), reduce_300(c1))
+Event sent to agent      c1 prohibition(coin(6, 5, a1), reduce_300(c1))
+Event sent to agent      c1 prohibition(coin(6, 6, a1), reduce_300(c1))
+Event sent to agent      c1 prohibition(coin(5, 5, a2), reduce_300(c1))
+Event sent to agent      c1 prohibition(coin(5, 6, a2), reduce_300(c1))
+Event sent to agent      c1 prohibition(coin(6, 5, a2), reduce_300(c1))
+Event sent to agent      c1 prohibition(coin(6, 6, a2), reduce_300(c1))
+Event sent to agent      c1 prohibition(coin(5, 5, a3), reduce_300(c1))
+agent prohibition notification c1 number 12
+Event processed aprohibition(coin(5, 5, a1), reduce_300(c1))
+Event processed aprohibition(coin(5, 6, a1), reduce_300(c1))
+Event processed aprohibition(coin(6, 5, a1), reduce_300(c1))
+Event processed aprohibition(coin(6, 6, a1), reduce_300(c1))
+Event processed aprohibition(coin(5, 5, a2), reduce_300(c1))
+Event processed aprohibition(coin(5, 6, a2), reduce_300(c1))
+Event processed aprohibition(coin(6, 5, a2), reduce_300(c1))
+Event processed aprohibition(coin(6, 6, a2), reduce_300(c1))
+Event processed aprohibition(coin(5, 5, a3), reduce_300(c1))
+Prohibition [agent=c1, prohibition=null, sanction=null, clock=null, time=null] 2013-06-12 16:21:25.255 - 2013-06-12 16:21:25.512
+Event sent to agent      c1 prohibition(coin(6, 5, a3), reduce_300(c1))
+Event sent to agent      c1 prohibition(coin(6, 6, a3), reduce_300(c1))
+Event processed aprohibition(coin(6, 5, a3), reduce_300(c1))
+Event processed aprohibition(coin(6, 6, a3), reduce_300(c1))
+Organization notifies agent (write): Prohibition [agent=a1, prohibition=[at(5, 5, a1)], sanction=[reduce_300(a1)], clock=0, time=2013-06-12 16:21:26.04]
+Organization notifies agent (write): Prohibition [agent=a1, prohibition=[at(5, 6, a1)], sanction=[reduce_300(a1)], clock=0, time=2013-06-12 16:21:26.042]
+Organization notifies agent (write): Prohibition [agent=a1, prohibition=[at(6, 5, a1)], sanction=[reduce_300(a1)], clock=0, time=2013-06-12 16:21:26.044]
+agent prohibition notification a1 number 1
+Organization notifies agent (write): Prohibition [agent=a1, prohibition=[at(6, 6, a1)], sanction=[reduce_300(a1)], clock=0, time=2013-06-12 16:21:26.048]
+Organization notifies agent (write): Prohibition [agent=a2, prohibition=[at(5, 5, a2)], sanction=[reduce_300(a2)], clock=0, time=2013-06-12 16:21:26.051]
+Organization notifies agent (write): Prohibition [agent=a2, prohibition=[at(5, 6, a2)], sanction=[reduce_300(a2)], clock=0, time=2013-06-12 16:21:26.053]
+Organization notifies agent (write): Prohibition [agent=a2, prohibition=[at(6, 5, a2)], sanction=[reduce_300(a2)], clock=0, time=2013-06-12 16:21:26.057]
+Organization notifies agent (write): Prohibition [agent=a2, prohibition=[at(6, 6, a2)], sanction=[reduce_300(a2)], clock=0, time=2013-06-12 16:21:26.066]
+agent prohibition notification a2 number 3
+Organization notifies agent (write): Prohibition [agent=a3, prohibition=[at(5, 5, a3)], sanction=[reduce_300(a3)], clock=0, time=2013-06-12 16:21:26.079]
+Organization notifies agent (write): Prohibition [agent=a3, prohibition=[at(5, 6, a3)], sanction=[reduce_300(a3)], clock=0, time=2013-06-12 16:21:26.081]
+Organization notifies agent (write): Prohibition [agent=a3, prohibition=[at(6, 5, a3)], sanction=[reduce_300(a3)], clock=0, time=2013-06-12 16:21:26.083]
+Organization notifies agent (write): Prohibition [agent=a3, prohibition=[at(6, 6, a3)], sanction=[reduce_300(a3)], clock=0, time=2013-06-12 16:21:26.09]
+agent prohibition notification a3 number 4
+Prohibition [agent=a1, prohibition=null, sanction=null, clock=null, time=null] 1970-01-01 01:00:00.0 - 2013-06-12 16:21:26.047
+Event sent to agent      a1 prohibition(at(5, 5, a1), reduce_300(a1))
+Event sent to agent      a1 prohibition(at(5, 6, a1), reduce_300(a1))
+Event sent to agent      a1 prohibition(at(6, 5, a1), reduce_300(a1))
+agent prohibition notification a1 number 4
+Prohibition [agent=a2, prohibition=null, sanction=null, clock=null, time=null] 1970-01-01 01:00:00.0 - 2013-06-12 16:21:26.068
+Event sent to agent      a2 prohibition(at(5, 5, a2), reduce_300(a2))
+Event sent to agent      a2 prohibition(at(5, 6, a2), reduce_300(a2))
+Event sent to agent      a2 prohibition(at(6, 5, a2), reduce_300(a2))
+Event sent to agent      a2 prohibition(at(6, 6, a2), reduce_300(a2))
+agent prohibition notification a2 number 4
+Prohibition [agent=a3, prohibition=null, sanction=null, clock=null, time=null] 1970-01-01 01:00:00.0 - 2013-06-12 16:21:26.104
+Event sent to agent      a3 prohibition(at(5, 5, a3), reduce_300(a3))
+Event sent to agent      a3 prohibition(at(5, 6, a3), reduce_300(a3))
+Event sent to agent      a3 prohibition(at(6, 5, a3), reduce_300(a3))
+Event sent to agent      a3 prohibition(at(6, 6, a3), reduce_300(a3))
+from/for agent a1  reading(position(5, 5))
+Reading [id=null, agent=a1, cell=Cell [x=5, y=5], time=null, value=null, clock=null]
+Prohibition [agent=a1, prohibition=null, sanction=null, clock=null, time=null] 2013-06-12 16:21:26.047 - 2013-06-12 16:21:26.296
+Event sent to agent      a1 prohibition(at(6, 6, a1), reduce_300(a1))
+Prohibition [agent=a2, prohibition=null, sanction=null, clock=null, time=null] 2013-06-12 16:21:26.068 - 2013-06-12 16:21:26.306
+Organization notifies agent (write): Obligation [agent=a1, obligation=[makeReading(16, 16)], sanction=[reduce_400(a1)], deadline=50, time=2013-06-12 16:21:39.84, clock=0]
+agent obligation notification a1 number 2
+Organization notifies agent (write): Obligation [agent=a1, obligation=[makeReading(2, 2)], sanction=[reduce_400(a1)], deadline=50, time=2013-06-12 16:21:40.054, clock=0]
+Obligation [agent=a1, obligation=null, sanction=null, deadline=null, time=null, clock=null] 2013-06-12 16:21:22.416 - 2013-06-12 16:21:39.851
+Event sent to agent      a1 obligation(makeReading(16, 16), 50, reduce_400(a1))
+agent obligation notification a1 number 3
+Obligation [agent=a1, obligation=null, sanction=null, deadline=null, time=null, clock=null] 2013-06-12 16:21:39.851 - 2013-06-12 16:21:40.262
+Event sent to agent      a1 obligation(makeReading(2, 2), 50, reduce_400(a1))

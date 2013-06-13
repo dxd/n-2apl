@@ -34,7 +34,7 @@ reading(X,Y) <- true | {
    readingP(X,Y);
    dropgoal(reading(X,Y))]
     
-} : 100
+} : 10000
 
 makeReading <- position(X,Y) | {
 
